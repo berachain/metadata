@@ -146,6 +146,16 @@
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/berachain/metadata/refs/heads/main/src/assets/tokens/0x6ff4d64976428025cdcc3354ef53b5d19637481e.jpg",
       "tags": []
+    },
+    {
+      "chainId": 80094,
+      "address": "0x2dB7B6bB48FBa5B1c0BaEb5af266b13a5D482ac6",
+      "symbol": "$HA3", 
+      "name": "HA3",
+      "decimals": 18,
+      "logoURI": "https://app.bearcage.xyz/external-assets/token-images/oZY3KcXirZ12zmbua6l6d.jpg",
+      "tags": []
     }
+
   ]
 }

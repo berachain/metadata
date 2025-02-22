@@ -274,7 +274,7 @@
       "twitter": "https://x.com/@kysenpool"
     },
     {
-      "id": "0xb77084d2b92baa3e01ec5ce57fbd529d3c8e60941c637bdc7c85d9ca2cc56545c3cbea86879dcbe9402f8a55d0284e7b",
+      "id": "0xa0c673180d97213c1c35fe3bf4e684dd3534baab235a106d1f71b9c8a37e4d37a056d47546964fd075501dff7f76aeaf",
       "logoURI": "https://res.cloudinary.com/duv0g402y/raw/upload/src/assets/thj.jpg",
       "name": "The Honey Jar",
       "description": "THJ is the Berachain-native creative venture studio. We're the creators of Honeycomb, Henlo, ApDAO, and more.",
@@ -336,6 +336,14 @@
       "description": "Luganodes is a Swiss-operated, non-custodial, institutional staking provider with $3Bn+ in assets, supporting 50+ PoS networks.",
       "website": "https://luganodes.com",
       "twitter": "https://x.com/luganodes"
+    },
+    {
+      "id": "0xb77084d2b92baa3e01ec5ce57fbd529d3c8e60941c637bdc7c85d9ca2cc56545c3cbea86879dcbe9402f8a55d0284e7b",
+      "logoURI": "https://cdn.discordapp.com/attachments/1330919758706638848/1342692350991925381/IMG_2537.png?ex=67ba8f32&is=67b93db2&hm=e1095260a666d13a366e9f149d29792bd9ae168049af3dbb9c6d471382c40971&",
+      "name": "The Empty Jar",
+      "description": "The Empty Jar is used for THJ internal and experimental projects. Do not expect this validator to offer competitive incentives.",
+      "website": "https://www.0xhoneyjar.xyz/",
+      "twitter": "https://twitter.com/0xhoneyjar"
     }
   ]
 }

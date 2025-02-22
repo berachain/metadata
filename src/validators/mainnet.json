@@ -67,9 +67,9 @@
     },
     {
       "id": "0x98111a6ee569f1be005551d8c76e042aabcb5bf4c491d177445a2b5fb30dedc7bf6db39e387831c6739bde4129c6ada5",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1738876217/src/validators/mainnet/s9hb3vmvp1cx0ctg0p6n.png",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/raw/upload/src/assets/StakeLab.png",
       "name": "StakeLab",
-      "description": "Staking and relaying Hub for Cosmos ecosystem",
+      "description": "Grow your assets - app.stakelab.zone/stake/berachain",
       "website": "https://www.stakelab.zone",
       "twitter": "https://x.com/StakeLab"
     },
@@ -336,6 +336,14 @@
       "description": "Luganodes is a Swiss-operated, non-custodial, institutional staking provider with $3Bn+ in assets, supporting 50+ PoS networks.",
       "website": "https://luganodes.com",
       "twitter": "https://x.com/luganodes"
+    },
+    {
+      "id": "0x88be126bfda4eee190e6c01a224272ed706424851e203791c7279aeecb6b503059901db35b1821f1efe4e6b445f5cc9f",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/raw/upload/src/assets/StakeLab.png",
+      "name": "Infrared by StakeLab",
+      "description": "Grow your assets - app.stakelab.zone/stake/berachain",
+      "website": "https://www.stakelab.zone",
+      "twitter": "https://x.com/StakeLab"
     }
   ]
 }

@@ -339,10 +339,10 @@
     },
     {
       "id": "0x88be126bfda4eee190e6c01a224272ed706424851e203791c7279aeecb6b503059901db35b1821f1efe4e6b445f5cc9f",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/raw/upload/src/assets/StakeLab.png",
+      "logoURI": "https://raw.githubusercontent.com/berachain/metadata/refs/heads/main/src/assets/validators/infrared-by-stakelab.png",
       "name": "Infrared by StakeLab",
       "description": "Grow your assets - app.stakelab.zone/stake/berachain",
-      "website": "https://www.stakelab.zone",
+      "website": "https://stakelab.zone",
       "twitter": "https://x.com/StakeLab"
     },
     {

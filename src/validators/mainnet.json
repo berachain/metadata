@@ -368,6 +368,14 @@
       "description": "Validator for the girlies",
       "website": "https://x.com/berabaddies",
       "twitter": "https://x.com/berabaddies"
-    }    
+    },
+    {
+      "id": "0x96652bba2f2f3b6b4fcfdfe9847f6a5604965d0ebac37c1f0c3774da0866140ab69734feec0eb0761f8e08d809c9e12b",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/raw/upload/src/assets/snzpool.png",
+      "name": "SNZPool",
+      "description": "SNZPool is a professional technology service provider for PoS Nodes",
+      "website": "https://snzholding.com",
+      "twitter": "https://x.com/snzholding"
+    }
   ]
 }

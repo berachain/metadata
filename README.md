@@ -2,9 +2,9 @@
 
 This repository contains the default lists for Berachain's interfaces, including:
 
-- [tokens](#adding-a-token)
-- [vaults](#adding-a-vault)
-- [validators](#adding-a-validator)
+- [tokens](https://github.com/berachain/metadata/blob/main/schemas/tokens.schema.json)
+- [vaults](https://github.com/berachain/metadata/blob/main/schemas/vaults.schema.json)
+- [validators](https://github.com/berachain/metadata/blob/main/schemas/validators.schema.json)
 
 ## Quick Start
 

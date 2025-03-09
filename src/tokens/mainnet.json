@@ -168,11 +168,29 @@
     {
       "chainId": 80094,
       "address": "0x6B26f778bfae56CFb4Bf9b62c678d9D40e725227",
-      "symbol": "BITCOIN", 
+      "symbol": "BITCOIN",
       "name": "HarryPotterObamaSonic10Inu",
       "decimals": 8,
       "logoURI": "https://raw.githubusercontent.com/berachain/metadata/refs/heads/main/src/assets/tokens/0x6B26f778bfae56CFb4Bf9b62c678d9D40e725227.png",
       "tags": []
+    },
+    {
+      "chainId": 80094,
+      "address": "0x2492D0006411Af6C8bbb1c8afc1B0197350a79e9",
+      "symbol": "USR",
+      "name": "Resolv USD",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/40008/small/USR_LOGO.png",
+      "tags": ["stablecoin", "Resolv"]
+    },
+    {
+      "chainId": 80094,
+      "address": "0x35E5dB674D8e93a03d814FA0ADa70731efe8a4b9",
+      "symbol": "RLP",
+      "name": "Resolv Liquidity Provider Token",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/40017/standard/orangeLogo..png",
+      "tags": ["Resolv"]
     }
   ]
 }

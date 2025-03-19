@@ -393,6 +393,14 @@
       "description": "P2P.org is a leading non-custodial institutional staking provider. Stake with us for a secure, reliable and simple service.",
       "website": "https://www.p2p.org",
       "twitter": "https://x.com/P2Pvalidator"
+    },
+    {
+      "id": "0x86888df491e8ccdc5bb940b9dda51fa7449518593820c9e4e9033a7b87f5e9f8debbba6a4f68218711896906ad40ce71",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/raw/upload/src/assets/nil.png",
+      "name": "Infrared by Cephalopod Equipment",
+      "description": "Cephalopod Equipment - infrastructure for decentralized intelligence.",
+      "website": "",
+      "twitter": ""
     }
   ]
 }

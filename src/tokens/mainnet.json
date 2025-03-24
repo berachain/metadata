@@ -396,6 +396,18 @@
       "extensions": {
         "coingeckoId": "nectar"
       }
+    },
+    {
+      "chainId": 80094,
+      "address": "0xD77552D3849ab4D8C3b189A9582d0ba4C1F4f912",
+      "name": "Wrapped gBERA",
+      "symbol": "wgBERA",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/berachain/metadata/refs/heads/main/src/assets/tokens/0xD77552D3849ab4D8C3b189A9582d0ba4C1F4f912.png",
+      "tags": [],
+      "extensions": {
+        "coingeckoId": "wrapped-gbera"
+      }
     }
   ]
 }

@@ -57,7 +57,8 @@
       "name": "NECT | wgBERA",
       "logoURI": "https://raw.githubusercontent.com/berachain/metadata/refs/heads/main/src/assets/tokens/0xE416C064946112c1626D6700D1081a750B1B1Dd7.png",
       "protocol": "Smilee",
-      "url": "https://app.smilee.finance/gbera"
+      "url": "https://app.smilee.finance/gbera",
+      "description": "The wgBERA-NECT pool includes the official LST from Smilee Finance and the NECT stablecoin issued by Beraborrow."
     }
   ]
 }

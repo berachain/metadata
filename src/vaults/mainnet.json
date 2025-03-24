@@ -253,15 +253,6 @@
       "owner": "Dinero"
     },
     {
-      "stakingTokenAddress": "0x567f32E86BE3e3963CdBc1887b5043B701f113d9",
-      "vaultAddress": "0x1fe3c13b009ecfce196e480180db5f8990fff5fe",
-      "name": "Smilee - wgBERA | wBERA",
-      "protocol": "BurrBear",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1742842322/reward-vaults/icons/0b572386-f6b6-45a8-8511-1e5c6c9daa29.png",
-      "url": "https://app.burrbear.io/#/berachain/pool/0x567f32e86be3e3963cdbc1887b5043b701f113d9000000000000000000000006",
-      "owner": "Smilee"
-    },
-    {
       "stakingTokenAddress": "0xE3EeB9e48934634d8B5B39A0d15DD89eE0F969C4",
       "vaultAddress": "0xa2c5adB20A446Fa71A1762002E3C9B4Dd37DBAf4",
       "name": "Infrared - WBERA-iBERA",
@@ -287,15 +278,6 @@
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1742842357/reward-vaults/icons/16da1375-0e9f-4c7c-9034-0a8184bdbe57.png",
       "url": "https://app.kodiak.finance/#/liquidity/pools/0x93A913351CaE2D8C82C4b85f699726947eB76d32?chain=berachain_mainnet",
       "owner": "Ramen Finance"
-    },
-    {
-      "stakingTokenAddress": "0xE416C064946112c1626D6700D1081a750B1B1Dd7",
-      "vaultAddress": "0x4974ee5f484a3c05f181aeb380cd7c411dd79c0e",
-      "name": "Smilee - wgBERA | NECT",
-      "protocol": "BurrBear",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1742842322/reward-vaults/icons/0b572386-f6b6-45a8-8511-1e5c6c9daa29.png",
-      "url": "https://app.burrbear.io/#/berachain/pool/0xe416c064946112c1626d6700d1081a750b1b1dd7000200000000000000000008",
-      "owner": "Smilee"
     },
     {
       "stakingTokenAddress": "0x0FD67ac75F9DF51f5d81F582417B318F44b45f5c",

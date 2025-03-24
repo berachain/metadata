@@ -59,6 +59,15 @@
       "protocol": "Smilee",
       "url": "https://app.burrbear.io/#/berachain/pool/0xe416c064946112c1626d6700d1081a750b1b1dd7000200000000000000000008",
       "description": "The wgBERA-NECT pool includes the official LST from Smilee Finance and the NECT stablecoin issued by Beraborrow."
+    },
+    {
+      "stakingTokenAddress": "0x567f32E86BE3e3963CdBc1887b5043B701f113d9",
+      "vaultAddress": "0x1Fe3C13B009eCfCe196E480180Db5f8990FFf5Fe",
+      "name": "WBERA | wgBERA",
+      "logoURI": "https://raw.githubusercontent.com/berachain/metadata/refs/heads/main/src/assets/tokens/0x567f32E86BE3e3963CdBc1887b5043B701f113d9.png",
+      "protocol": "Smilee",
+      "url": "https://app.burrbear.io/#/berachain/pool/0x567f32e86be3e3963cdbc1887b5043b701f113d9000000000000000000000006",
+      "description": "The stable pool wgBERA-BERA, including the official Liquid Staking Token from Smilee Finance."
     }
   ]
 }

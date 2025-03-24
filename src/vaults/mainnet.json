@@ -7,6 +7,12 @@
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1738378765/dapps/hub/hoymyj8bfl3xfczeioch.png",
       "url": "https://hub.berachain.com",
       "description": "Swap a variety of tokens effortlessly on our decentralized platform. Provide liquidity to pools and earn BGT rewards."
+    },
+    {
+      "name": "Smilee",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1739223283/validators/icons/vpvgcwpww2rifhogektb.jpg",
+      "url": "https://app.smilee.finance/gbera",
+      "description": "Tap into the best of Proof of Liquidity with gBERA, a low-IQ staking solution that abstracts PoL complexities through a single Liquid Staking Token that plays the game for you."
     }
   ],
   "vaults": [

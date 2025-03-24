@@ -175,7 +175,7 @@
       "symbol": "AZT",
       "name": "AZEx Token",
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/berachain/metadata/refs/heads/main/src/assets/tokens/0xDAd7898717AdE066E1114E6bdbFaFd8A6F378B7b.png",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1742832647/src/tokens/mainnet/k4g9i4kz5igywhv5zmpq.png",
       "tags": []
     },
     {
@@ -184,7 +184,7 @@
       "symbol": "ARTIO",
       "name": "Artio",
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/berachain/metadata/refs/heads/main/src/assets/tokens/0x6ff4d64976428025cdcc3354ef53b5d19637481e.jpg",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1742832647/src/tokens/mainnet/gpc5hdwqthlitsuj9ine.jpg",
       "tags": []
     },
     {
@@ -193,7 +193,7 @@
       "symbol": "LBGT",
       "name": "Liquid BGT",
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/berachain/metadata/refs/heads/main/src/assets/tokens/0xBaadCC2962417C01Af99fb2B7C75706B9bd6Babe.png",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_lfill,g_xy_center,w_200/v1742834369/src/tokens/mainnet/qyuam7lm5qsuevo7mm5b.png",
       "tags": []
     },
     {
@@ -202,7 +202,7 @@
       "symbol": "stBGT",
       "name": "stBGT",
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/berachain/metadata/refs/heads/main/src/assets/tokens/0x2CeC7f1ac87F5345ced3D6c74BBB61bfAE231Ffb.png",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1742833549/src/tokens/mainnet/gsk8f6aagm7pudpvj0zp.png",
       "tags": []
     },
     {
@@ -211,7 +211,7 @@
       "symbol": "BITCOIN",
       "name": "HarryPotterObamaSonic10Inu",
       "decimals": 8,
-      "logoURI": "https://raw.githubusercontent.com/berachain/metadata/refs/heads/main/src/assets/tokens/0x6B26f778bfae56CFb4Bf9b62c678d9D40e725227.png",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1742834240/src/tokens/mainnet/stgf8st6pfjy6wsdxtrz.png",
       "tags": [],
       "extensions": {
         "coingeckoId": "harrypotterobamasonic10in"

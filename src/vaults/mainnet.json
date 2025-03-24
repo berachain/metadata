@@ -10,7 +10,7 @@
     },
     {
       "name": "Kodiak",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1739223283/validators/icons/vpvgcwpww2rifhogektb.jpg",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1742841699/reward-vaults/icons/81d1ee15-aead-4395-be9b-cf9e52a704f0.png",
       "url": "https://app.kodiak.finance/",
       "description": "Kodiak is a decentralized exchange for the Berachain ecosystem."
     },
@@ -383,7 +383,7 @@
       "vaultAddress": "0xaa9c3d4ac242ab6eb9790861e1b4d6fbd6619cf4",
       "name": "Renzo - ezETH | wETH",
       "protocol": "Kodiak",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1742842580/reward-vaults/icons/99999999-9999-9999-9999-999999999999.png",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1742838273/Ecosystem/yqimvlhemawtveif7cbz.png",
       "url": "https://app.kodiak.finance/#/liquidity/pools/0x5fadc07d47d3dc1e81932eafbe39fdef9ba11865?farm=0xaa9c3d4ac242ab6eb9790861e1b4d6fbd6619cf4&chain=berachain_mainnet",
       "owner": "Renzo"
     },
@@ -392,7 +392,7 @@
       "vaultAddress": "0x31a484f7e09513ae9f481eaf8eeea76153184c44",
       "name": "NOME - USDbr | HONEY",
       "protocol": "Kodiak",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1742842580/reward-vaults/icons/99999999-9999-9999-9999-999999999999.png",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1742838273/Ecosystem/ksxg4louivbp0bjpzlus.png",
       "url": "https://app.kodiak.finance/#/liquidity/pools/0x28a54EaeEc63fBb1175d13466a9ada5f3175D577?chain=berachain_mainnet",
       "owner": "NOME"
     }

@@ -50,6 +50,14 @@
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1738378469/reward-vaults/icons/soy9mfpovb1odtby9p02.png",
       "protocol": "HUB",
       "url": "https://hub.berachain.com/pools/0x2c4a603a2aa5596287a06886862dc29d56dbc354000200000000000000000002/details/"
+    },
+    {
+      "stakingTokenAddress": "0xE416C064946112c1626D6700D1081a750B1B1Dd7",
+      "vaultAddress": "0x4974Ee5f484a3c05F181Aeb380cd7C411dd79c0E",
+      "name": "NECT | wgBERA",
+      "logoURI": "https://raw.githubusercontent.com/berachain/metadata/refs/heads/main/src/assets/tokens/0xE416C064946112c1626D6700D1081a750B1B1Dd7.png",
+      "protocol": "Burrbear",
+      "url": "https://app.burrbear.io/#/berachain/pool/0xe416c064946112c1626d6700d1081a750b1b1dd7000200000000000000000008"
     }
   ]
 }

@@ -591,6 +591,17 @@
       "extensions": {
         "coingeckoId": "ramen"
       }
+    },
+    {
+      "chainId": 80094,
+      "address": "0x08a38caa631de329ff2dad1656ce789f31af3142",
+      "name": "YEET",
+      "symbol": "YEET",
+      "decimals": 18,
+      "logoURI": "https://coin-images.coingecko.com/coins/images/54416/large/IMG_7050.PNG?1739556073",
+      "extensions": {
+        "coingeckoId": "yeet"
+      }
     }
   ]
 }

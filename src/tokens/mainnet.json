@@ -80,7 +80,7 @@
       "symbol": "USDC.e",
       "name": "Bridged USDC (Stargate)",
       "decimals": 6,
-      "logoURI": "https://assets.coingecko.com/coins/images/6319/small/USD_Coin_icon.png?1547042389",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/6319/large/usdc.png?1696506694",
       "tags": ["stablecoin", "featured"],
       "extensions": {
         "coingeckoId": "usd-coin",
@@ -93,7 +93,7 @@
       "symbol": "USDT0",
       "name": "Tether USD Coin",
       "decimals": 6,
-      "logoURI": "https://assets.coingecko.com/coins/images/325/small/Tether.png?1696501661",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/325/large/Tether.png?1696501661",
       "tags": ["stablecoin", "featured"],
       "extensions": {
         "coingeckoId": "tether",
@@ -223,7 +223,7 @@
       "symbol": "USR",
       "name": "Resolv USD",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/40008/small/USR_LOGO.png",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/40008/large/USR_LOGO.png?1725222638",
       "tags": ["stablecoin"],
       "extensions": {
         "coingeckoId": "resolv-usr"
@@ -235,7 +235,7 @@
       "symbol": "RLP",
       "name": "Resolv Liquidity Provider Token",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/40017/standard/orangeLogo..png",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/40017/large/orangeLogo..png?1725344586",
       "tags": [],
       "extensions": {
         "coingeckoId": "resolv-rlp"

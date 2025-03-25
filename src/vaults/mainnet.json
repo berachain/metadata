@@ -136,9 +136,9 @@
       "stakingTokenAddress": "0x03bCcF796cDef61064c4a2EffdD21f1AC8C29E92",
       "vaultAddress": "0xedD27cE3793d655E3d15E29e297F4848De1EF092",
       "name": "Dinero - WETH | beraETH",
-      "protocol": "HUB",
+      "protocol": "Kodiak",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1742838274/Ecosystem/xhwgcvjmurj009s7csvt.png",
-      "url": "https://hub.berachain.com/pools/0x2a3b9e75c387b476ca2444d79e0752857968a01b0002000000000000000000b4/details/",
+      "url": "https://app.kodiak.finance/#/liquidity/pools/0x03bccf796cdef61064c4a2effdd21f1ac8c29e92?chain=berachain_mainnet",
       "owner": "Dinero"
     },
     {
@@ -244,9 +244,9 @@
       "stakingTokenAddress": "0x258d8933B625566fBe057874121783a2808aDafA",
       "vaultAddress": "0x1932d24df32ec4cFDecA7824F36fd06c1458434C",
       "name": "Dinero - WETH | beraETH",
-      "protocol": "Kodiak",
+      "protocol": "HUB",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1742838274/Ecosystem/xhwgcvjmurj009s7csvt.png",
-      "url": "https://app.kodiak.finance/#/liquidity/pools/0x03bccf796cdef61064c4a2effdd21f1ac8c29e92?chain=berachain_mainnet",
+      "url": "https://hub.berachain.com/pools/0x258d8933b625566fbe057874121783a2808adafa0000000000000000000000c1/details/",
       "owner": "Dinero"
     },
     {

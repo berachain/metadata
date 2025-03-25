@@ -569,6 +569,17 @@
       "extensions": {
         "coingeckoId": "henlo-3"
       }
+    },
+    {
+      "chainId": 80094,
+      "address": "0xb749584f9fc418cf905d54f462fdbfdc7462011b",
+      "name": "bm",
+      "symbol": "bm",
+      "decimals": 18,
+      "logoURI": "https://coin-images.coingecko.com/coins/images/54413/large/photo_2025-02-13_05.15.34.jpeg?1739554671",
+      "extensions": {
+        "coingeckoId": "bm"
+      }
     }
   ]
 }

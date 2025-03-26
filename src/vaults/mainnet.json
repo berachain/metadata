@@ -401,6 +401,15 @@
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1742838273/Ecosystem/ksxg4louivbp0bjpzlus.png",
       "url": "https://app.kodiak.finance/#/liquidity/pools/0x28a54EaeEc63fBb1175d13466a9ada5f3175D577?chain=berachain_mainnet",
       "owner": "NOME"
+    },
+    {
+      "stakingTokenAddress": "0xc227C8639A41db8393DD1B4EAc41464a62D64Fb4",
+      "vaultAddress": "0xde9d49a63fbb7c7d211b26a7d0dabdf8e0d4b4fe",
+      "name": "Olympus - OHM | BERA",
+      "protocol": "Kodiak",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1742844655/reward-vaults/icons/fzhm2cubp35ezzfa1uhq.png",
+      "url": "https://app.kodiak.finance/#/liquidity/pools/0xc227c8639a41db8393dd1b4eac41464a62d64fb4?farm=0x3c8e4d4324f7ab2e3238c23a2838a762ecb7051d&chain=berachain_mainnet",
+      "owner": "Olympus"
     }
   ]
 }

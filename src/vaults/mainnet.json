@@ -47,7 +47,7 @@
       "protocol": "HUB",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1738733620/reward-vaults/icons/c2q60zif1cetllqip0a6.png",
       "url": "https://hub.berachain.com/pools/0xde04c469ad658163e2a5e860a03a86b52f6fa8c8000000000000000000000000/details/",
-      "description": "Acquired by depositing liquidity into the BYUSD / HONEY Pool ",
+      "description": "Acquired by depositing liquidity into the BYUSD | HONEY Pool on Hub",
       "owner": "Foundation"
     },
     {
@@ -57,6 +57,7 @@
       "protocol": "HUB",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1738733618/reward-vaults/icons/cmiqewcekww0ckhqoe9d.png",
       "url": "https://hub.berachain.com/pools/0xdd70a5ef7d8cfe5c5134b5f9874b09fb5ce812b4000200000000000000000003/details/",
+      "description": "Acquired by depositing liquidity into the WETH | WBERA Pool on Hub",
       "owner": "Foundation"
     },
     {
@@ -66,6 +67,7 @@
       "protocol": "HUB",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1738378469/reward-vaults/icons/xqepqh4lifyybbt27f20.png",
       "url": "https://hub.berachain.com/pools/0x38fdd999fe8783037db1bbfe465759e312f2d809000200000000000000000004/details/",
+      "description": "Acquired by depositing liquidity into the WBTC | WBERA Pool on Hub",
       "owner": "Foundation"
     },
     {
@@ -75,32 +77,35 @@
       "protocol": "HUB",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1738378469/reward-vaults/icons/oqmqj7c4707nobigirw5.png",
       "url": "https://hub.berachain.com/pools/0xf961a8f6d8c69e7321e78d254ecafbcc3a637621000000000000000000000001/details/",
+      "description": "Acquired by depositing liquidity into the USDC.e | HONEY Pool on Hub",
       "owner": "Foundation"
     },
     {
       "stakingTokenAddress": "0x2c4a603a2aa5596287a06886862dc29d56dbc354",
       "vaultAddress": "0xc2baa8443cda8ebe51a640905a8e6bc4e1f9872c",
       "name": "WBERA | HONEY",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1738378469/reward-vaults/icons/soy9mfpovb1odtby9p02.png",
       "protocol": "HUB",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1738378469/reward-vaults/icons/soy9mfpovb1odtby9p02.png",
       "url": "https://hub.berachain.com/pools/0x2c4a603a2aa5596287a06886862dc29d56dbc354000200000000000000000002/details/",
+      "description": "Acquired by depositing liquidity into the WBERA | HONEY Pool on Hub",
       "owner": "Foundation"
     },
     {
       "stakingTokenAddress": "0xE416C064946112c1626D6700D1081a750B1B1Dd7",
       "vaultAddress": "0x4974Ee5f484a3c05F181Aeb380cd7C411dd79c0E",
       "name": "Smilee - NECT | wgBERA",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1742854063/reward-vaults/icons/jc7moazw8aeobb4sxbcz.png",
       "protocol": "BurrBear",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1742854063/reward-vaults/icons/jc7moazw8aeobb4sxbcz.png",
       "url": "https://app.burrbear.io/#/berachain/pool/0xe416c064946112c1626d6700d1081a750b1b1dd7000200000000000000000008",
+      "description": "Acquired by depositing liquidity into the Smilee - NECT | wgBERA Pool on BurrBear",
       "owner": "Smilee"
     },
     {
       "stakingTokenAddress": "0x567f32E86BE3e3963CdBc1887b5043B701f113d9",
       "vaultAddress": "0x1Fe3C13B009eCfCe196E480180Db5f8990FFf5Fe",
       "name": "Smilee - WBERA | wgBERA",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1742854062/reward-vaults/icons/j4vgbhb7ixjmvywzstfa.png",
       "protocol": "BurrBear",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1742854062/reward-vaults/icons/j4vgbhb7ixjmvywzstfa.png",
       "url": "https://app.burrbear.io/#/berachain/pool/0x567f32e86be3e3963cdbc1887b5043b701f113d9000000000000000000000006",
       "description": "The stable pool wgBERA-BERA, including the official Liquid Staking Token from Smilee Finance.",
       "owner": "Smilee"
@@ -112,6 +117,7 @@
       "protocol": "HUB",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1742841457/reward-vaults/icons/decd0d82-b563-4f82-b9da-8b2f9e9a8101.png",
       "url": "https://hub.berachain.com/pools/0x62c030b29a6fef1b32677499e4a1f1852a8808c00000000000000000000000c6/details/",
+      "description": "Acquired by depositing liquidity into the Infrared - WBERA | iBERA Pool on Hub",
       "owner": "Infrared Finance"
     },
     {
@@ -121,6 +127,7 @@
       "protocol": "HUB",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1742841479/reward-vaults/icons/1c01b24a-0ff1-41c0-b16d-5b4fd5cd1958.png",
       "url": "https://hub.berachain.com/pools/0xb66d97c1de2bc2b61eef8ef9c761a87521df207d00020000000000000000005d/details/",
+      "description": "Acquired by depositing liquidity into the Stride - stBGT | WBERA Pool on Hub",
       "owner": "Stride"
     },
     {
@@ -130,6 +137,7 @@
       "protocol": "HUB",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1742838274/Ecosystem/xhwgcvjmurj009s7csvt.png",
       "url": "https://hub.berachain.com/pools/0x2461e93d5963c2bb69de499676763e67a63c7ba50002000000000000000000c2/details/",
+      "description": "Acquired by depositing liquidity into the Dinero - DINERO | WBERA Pool on Hub",
       "owner": "Dinero"
     },
     {
@@ -139,6 +147,7 @@
       "protocol": "Kodiak",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1742838274/Ecosystem/xhwgcvjmurj009s7csvt.png",
       "url": "https://app.kodiak.finance/#/liquidity/pools/0x03bccf796cdef61064c4a2effdd21f1ac8c29e92?chain=berachain_mainnet",
+      "description": "Acquired by depositing liquidity into the Dinero - WETH | beraETH Pool on Kodiak",
       "owner": "Dinero"
     },
     {
@@ -148,6 +157,7 @@
       "protocol": "HUB",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1742841502/reward-vaults/icons/92c4c740-339b-46ff-ae37-5b8a74010819.png",
       "url": "https://hub.berachain.com/pools/0x705fc16ba5a1eb67051934f2fb17eacae660f6c70002000000000000000000d5/details/",
+      "description": "Acquired by depositing liquidity into the BeraPaw - WBERA | LBGT Pool on Hub",
       "owner": "BeraPaw"
     },
     {
@@ -157,6 +167,7 @@
       "protocol": "Kodiak",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1742841518/reward-vaults/icons/840ba0be-550d-40d1-a04e-24f78afae1ea.png",
       "url": "https://app.kodiak.finance/#/liquidity/pools/0xec8ba456b4e009408d0776cde8b91f8717d13fa1?farm=0x0710abffb1a54211a5e88d18bf9854cba86d0819&chain=berachain_mainnet",
+      "description": "Acquired by depositing liquidity into the Yeet - YEET | WBERA Pool on Kodiak",
       "owner": "Yeet"
     },
     {
@@ -166,6 +177,7 @@
       "protocol": "Kodiak",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1742838273/Ecosystem/xw3dv15b4lzrlntdlkj1.png",
       "url": "https://v3.info.kodiak.finance/berachain_mainnet#/berachain_mainnet/pools/0x37640ccf25e5f189c3d8c1a188d28d09953fd612",
+      "description": "Acquired by depositing liquidity into the Beramonium - BERA | BERAMO Pool on Kodiak",
       "owner": "Beramonium"
     },
     {
@@ -175,6 +187,7 @@
       "protocol": "Kodiak",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1742841539/reward-vaults/icons/76d98bae-608c-4e57-95eb-f8691a8d2cee.png",
       "url": "https://app.kodiak.finance/#/liquidity/pools/0x7fd165b73775884a38aa8f2b384a53a3ca7400e6?farm=0x34852c863d266100f573d4d1fd1d0cfe20602da0&chain=berachain_mainnet",
+      "description": "Acquired by depositing liquidity into the Reservoir rUSD | HONEY Pool on Kodiak",
       "owner": "Reservoir"
     },
     {
@@ -184,6 +197,7 @@
       "protocol": "Kodiak",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1742844655/reward-vaults/icons/fzhm2cubp35ezzfa1uhq.png",
       "url": "https://app.kodiak.finance/#/liquidity/pools/0x98bdeede9a45c28d229285d9d6e9139e9f505391?farm=0x815596fa7c4d983d1ca5304e5b48978424c1b448&chain=berachain_mainnet",
+      "description": "Acquired by depositing liquidity into the Olympus - OHM | HONEY Pool on Kodiak",
       "owner": "Olympus"
     },
     {
@@ -202,6 +216,7 @@
       "protocol": "Kodiak",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1742841699/reward-vaults/icons/81d1ee15-aead-4395-be9b-cf9e52a704f0.png",
       "url": "https://app.kodiak.finance/#/liquidity/pools/0x4a254B11810B8EBb63C5468E438FC561Cb1bB1da?chain=berachain_mainnet",
+      "description": "Acquired by depositing liquidity into the Kodiak - WBERA | HONEY Pool on Kodiak",
       "owner": "Kodiak"
     },
     {
@@ -211,6 +226,7 @@
       "protocol": "Kodiak",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1742841699/reward-vaults/icons/81d1ee15-aead-4395-be9b-cf9e52a704f0.png",
       "url": "https://app.kodiak.finance/#/liquidity/pools/0x9659dc8c1565E0bd82627267e3b4eEd1a377ebE6?chain=berachain_mainnet",
+      "description": "Acquired by depositing liquidity into the Kodiak - WETH | WBERA Pool on Kodiak",
       "owner": "Kodiak"
     },
     {
@@ -220,6 +236,7 @@
       "protocol": "Kodiak",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1742841699/reward-vaults/icons/81d1ee15-aead-4395-be9b-cf9e52a704f0.png",
       "url": "https://app.kodiak.finance/#/liquidity/pools/0xF06EA29FCF4765200742d29E685973a1870EaC98?chain=berachain_mainnet",
+      "description": "Acquired by depositing liquidity into the Kodiak - WBTC | WBERA Pool on Kodiak",
       "owner": "Kodiak"
     },
     {
@@ -229,6 +246,7 @@
       "protocol": "Kodiak",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1742853978/reward-vaults/icons/byhm8z0lnhtwktwisaas.png",
       "url": "https://app.kodiak.finance/#/liquidity/pools/0xdcA120bd3A13250B67f6FAA5c29c1F38eC6EBeCE?chain=berachain_mainnet",
+      "description": "Acquired by depositing liquidity into the Holdstation - HOLD | WBERA Pool on Kodiak",
       "owner": "Holdstation"
     },
     {
@@ -238,6 +256,7 @@
       "protocol": "Bulla Exchange",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1742842241/reward-vaults/icons/1dd1de90-7d16-412b-8682-41d573d64d0a.png",
       "url": "https://www.bulla.exchange/pools/0x01ad86d9946c04917970578ff50f6ae4822214da",
+      "description": "Acquired by depositing liquidity into the Bulla - BERA | iBGT Pool on Bulla Exchange",
       "owner": "Bulla Exchange"
     },
     {
@@ -247,6 +266,7 @@
       "protocol": "HUB",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1742838274/Ecosystem/xhwgcvjmurj009s7csvt.png",
       "url": "https://hub.berachain.com/pools/0x258d8933b625566fbe057874121783a2808adafa0000000000000000000000c1/details/",
+      "description": "Acquired by depositing liquidity into the Dinero - WETH | beraETH Pool on Hub",
       "owner": "Dinero"
     },
     {
@@ -256,6 +276,7 @@
       "protocol": "Kodiak",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1742838274/Ecosystem/xhwgcvjmurj009s7csvt.png",
       "url": "https://app.kodiak.finance/#/liquidity/pools/0x57161d6272f47cd48ba165646c802f001040c2e0?farm=0x19ecf480652a7de3a60dd7fd7012daed6c79e3e9&chain=berachain_mainnet",
+      "description": "Acquired by depositing liquidity into the Dinero - STONE | beraETH Pool on Kodiak",
       "owner": "Dinero"
     },
     {
@@ -265,6 +286,7 @@
       "protocol": "Kodiak",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1742841457/reward-vaults/icons/decd0d82-b563-4f82-b9da-8b2f9e9a8101.png",
       "url": "https://app.kodiak.finance/#/liquidity/pools/0xE3EeB9e48934634d8B5B39A0d15DD89eE0F969C4?chain=berachain_mainnet",
+      "description": "Acquired by depositing liquidity into the Infrared - WBERA-iBERA Pool on Kodiak",
       "owner": "Infrared Finance"
     },
     {
@@ -274,6 +296,7 @@
       "protocol": "Kodiak",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1742841457/reward-vaults/icons/decd0d82-b563-4f82-b9da-8b2f9e9a8101.png",
       "url": "https://app.kodiak.finance/#/liquidity/pools/0x564f011D557aAd1cA09BFC956Eb8a17C35d490e0?chain=berachain_mainnet",
+      "description": "Acquired by depositing liquidity into the Infrared - WBERA-iBGT Pool on Kodiak",
       "owner": "Infrared Finance"
     },
     {
@@ -283,6 +306,7 @@
       "protocol": "Kodiak",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1742842357/reward-vaults/icons/16da1375-0e9f-4c7c-9034-0a8184bdbe57.png",
       "url": "https://app.kodiak.finance/#/liquidity/pools/0x93A913351CaE2D8C82C4b85f699726947eB76d32?chain=berachain_mainnet",
+      "description": "Acquired by depositing liquidity into the Ramen - RAMEN | BERA Pool on Kodiak",
       "owner": "Ramen Finance"
     },
     {
@@ -292,6 +316,7 @@
       "protocol": "Kodiak",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1742838273/Ecosystem/hbt1hvsanbb0mgddvnjb.png",
       "url": "https://app.kodiak.finance/#/liquidity/pools/0x0FD67ac75F9DF51f5d81F582417B318F44b45f5c?chain=berachain_mainnet",
+      "description": "Acquired by depositing liquidity into the BM - WBERA | BM Pool on Kodiak",
       "owner": "BM"
     },
     {
@@ -301,6 +326,7 @@
       "protocol": "Kodiak",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1742842382/reward-vaults/icons/314c3712-9449-4bcb-8923-da054c96a2f4.png",
       "url": "https://app.kodiak.finance/#/liquidity/pools/0xEf8C3239E0D8Be9d58f145E18F5909Ddad681365?chain=berachain_mainnet",
+      "description": "Acquired by depositing liquidity into the NAV - NAV | BERA Pool on Kodiak",
       "owner": "Kodiak"
     },
     {
@@ -310,6 +336,7 @@
       "protocol": "Kodiak",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1742842397/reward-vaults/icons/06281214-e6a0-4f83-87af-9d227b2bdede.png",
       "url": "https://app.kodiak.finance/#/liquidity/pools/0x97431f104be73fc0e6fc731ce84486da05c48871?farm=0xcd1982b07adfa787a88dc1157b9fa3221d25fcaf&chain=berachain_mainnet",
+      "description": "Acquired by depositing liquidity into the StakeStone - WETH | STONE Pool on Kodiak",
       "owner": "StakeStone"
     },
     {
@@ -319,6 +346,7 @@
       "protocol": "Kodiak",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1742841479/reward-vaults/icons/1c01b24a-0ff1-41c0-b16d-5b4fd5cd1958.png",
       "url": "https://app.kodiak.finance/#/liquidity/pools/0x8b161685135e9fbc5475169e1addc0f2c4b7c343?chain=berachain_mainnet",
+      "description": "Acquired by depositing liquidity into the Stride - stBGT | BERA Pool on Kodiak",
       "owner": "Stride"
     },
     {
@@ -328,6 +356,7 @@
       "protocol": "Kodiak",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1742842438/reward-vaults/icons/c1ee4ab9-d1cf-4850-a9a4-c73d13749afd.png",
       "url": "https://app.kodiak.finance/#/liquidity/pools/0x3879451f4f69f0c2d37cad45319cff2e7d29c596?farm=0x11fadf69a02340a676b4bd2a27ffd952094fae99&chain=berachain_mainnet",
+      "description": "Acquired by depositing liquidity into the SolvProtocol - SolvBTC | WBTC Pool on Kodiak",
       "owner": "Solv Protocol"
     },
     {
@@ -337,6 +366,7 @@
       "protocol": "Kodiak",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1742842694/reward-vaults/icons/2b72ffe3-0566-4188-aeb0-516c87b504c9.png",
       "url": "https://v2.info.kodiak.finance/pair/0xac1d44f0284634eb04ffa56c76d47e839224b46f?chain=berachain_mainnet",
+      "description": "Acquired by depositing liquidity into the Beraplug - PLUG | WBERA Pool on Kodiak",
       "owner": "Beraplug"
     },
     {
@@ -346,6 +376,7 @@
       "protocol": "Kodiak",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1742842438/reward-vaults/icons/c1ee4ab9-d1cf-4850-a9a4-c73d13749afd.png",
       "url": "https://app.kodiak.finance/#/liquidity/pools/0x43e487126c4f37d1915cf02a90b5c5295afb1790?farm=0x3fc5cb0290c82680afe9ef8cdde5468d74c85705&chain=berachain_mainnet",
+      "description": "Acquired by depositing liquidity into the SolvProtocol - SolvBTC.BBN | SolvBTC Pool on Kodiak",
       "owner": "Solv Protocol"
     },
     {
@@ -355,6 +386,7 @@
       "protocol": "Kodiak",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1742842539/reward-vaults/icons/df7a2ce9-3ff4-4c7c-9645-c9df78fd8a78.png",
       "url": "https://app.kodiak.finance/#/liquidity/pools/0xb67d60fc02e0870eddca24d4fa8ea516c890152b?farm=0x8ee2627aff73e285f1a83b6e8bb7e9945f404a1b&chain=berachain_mainnet",
+      "description": "Acquired by depositing liquidity into the Bedrock - WBTC | uniBTC Pool on Kodiak",
       "owner": "Bedrock"
     },
     {
@@ -364,6 +396,7 @@
       "protocol": "Kodiak",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1742838273/Ecosystem/rg1yb9jyfthwpg4prrln.avif",
       "url": "https://app.kodiak.finance/#/liquidity/pools/0x7cebcc76a2faecc0ae378b340815fcbb71ec1fe0?farm=0xc196d595dece185ea39f8e1c3ce07a274ac31985&chain=berachain_mainnet",
+      "description": "Acquired by depositing liquidity into the Avalon Labs - USDa | sUSDa Pool on Kodiak",
       "owner": "Avalon Labs"
     },
     {
@@ -373,6 +406,7 @@
       "protocol": "Kodiak",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1742838273/Ecosystem/i4paodhr59anubt8rvlj.png",
       "url": "https://app.kodiak.finance/#/liquidity/pools/0x2CaFe99dB26Cf86Ae8587F5934830d25aD5C3Cb3?chain=berachain_mainnet",
+      "description": "Acquired by depositing liquidity into the HPOS10I - WBERA | BITCOIN Pool on Kodiak",
       "owner": "HarryPotterObamaSonic10inu ($BITCOIN)"
     },
     {
@@ -382,6 +416,7 @@
       "protocol": "Bulla Exchange",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1742842241/reward-vaults/icons/1dd1de90-7d16-412b-8682-41d573d64d0a.png",
       "url": "https://www.bulla.exchange/pools/0x901c19842e400c6a0c214dc0960f84fcfd4ee3d0",
+      "description": "Acquired by depositing liquidity into the Bulla - BERA | HONEY Pool on Bulla Exchange",
       "owner": "Bulla Exchange"
     },
     {
@@ -391,6 +426,7 @@
       "protocol": "Kodiak",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1742838273/Ecosystem/yqimvlhemawtveif7cbz.png",
       "url": "https://app.kodiak.finance/#/liquidity/pools/0x5fadc07d47d3dc1e81932eafbe39fdef9ba11865?farm=0xaa9c3d4ac242ab6eb9790861e1b4d6fbd6619cf4&chain=berachain_mainnet",
+      "description": "Acquired by depositing liquidity into the Renzo - ezETH | wETH Pool on Kodiak",
       "owner": "Renzo"
     },
     {
@@ -400,6 +436,7 @@
       "protocol": "Kodiak",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1742838273/Ecosystem/ksxg4louivbp0bjpzlus.png",
       "url": "https://app.kodiak.finance/#/liquidity/pools/0x28a54EaeEc63fBb1175d13466a9ada5f3175D577?chain=berachain_mainnet",
+      "description": "Acquired by depositing liquidity into the NOME - USDbr | HONEY Pool on Kodiak",
       "owner": "NOME"
     },
     {
@@ -409,6 +446,7 @@
       "protocol": "Kodiak",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1742844655/reward-vaults/icons/fzhm2cubp35ezzfa1uhq.png",
       "url": "https://app.kodiak.finance/#/liquidity/pools/0xc227c8639a41db8393dd1b4eac41464a62d64fb4?farm=0x3c8e4d4324f7ab2e3238c23a2838a762ecb7051d&chain=berachain_mainnet",
+      "description": "Acquired by depositing liquidity into the Olympus - OHM | BERA Pool on Kodiak",
       "owner": "Olympus"
     }
   ]

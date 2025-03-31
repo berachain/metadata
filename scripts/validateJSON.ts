@@ -2,16 +2,16 @@ import fs from "node:fs";
 import Ajv from "ajv";
 import addFormats from "ajv-formats";
 
-import tokenSchemas from "../schemas/tokens.schema.json" with { type: "json" };
-import validatorSchemas from "../schemas/validators.schema.json" with {
-  type: "json",
-};
-import vaultSchemas from "../schemas/vaults.schema.json" with { type: "json" };
 import type {
   DataValidateFunction,
   ErrorObject,
   ValidateFunction,
 } from "ajv/dist/types";
+import tokenSchemas from "../schemas/tokens.schema.json" with { type: "json" };
+import validatorSchemas from "../schemas/validators.schema.json" with {
+  type: "json",
+};
+import vaultSchemas from "../schemas/vaults.schema.json" with { type: "json" };
 
 const ajv = new Ajv({
   validateSchema: false,

@@ -6,7 +6,7 @@ import path from "node:path";
 // Config
 // ================================================================
 const METADATA_FOLDER = "src";
-const FOLDER_PATH = path.join(METADATA_FOLDER, "assets");
+const ASSET_PATH = path.join(METADATA_FOLDER, "assets");
 const METADATA_FOLDER_EXCLUDED = ["assets"];
 
 // Functions
@@ -78,7 +78,7 @@ const validateAssetsImages = () => {
         const ext = path.extname(entry.name).toLowerCase();
         if (ext === ".png" || ext === ".jpg" || ext === ".jpeg") {
           const dimensions = getImageDimensions(fullPath);
-          const relativePath = path.relative(FOLDER_PATH, fullPath);
+          const relativePath = path.relative(ASSET_PATH, fullPath);
 
           // Validate file names
           if (relativePath.includes("tokens")) {
@@ -152,7 +152,7 @@ const validateAssetsImages = () => {
   };
 
   // Start processing from root folder
-  processDirectory(FOLDER_PATH);
+  processDirectory(ASSET_PATH);
 
   if (errors.length > 0) {
     console.error(`${errors.length} Errors found in assets folder:`);
@@ -166,11 +166,11 @@ const validateAssetsImages = () => {
  * Checks all images in the metadata folder for valid dimensions
  */
 const validateMetadataImages = () => {
-  const errors: string[] = [];
+  const warnings: string[] = [];
 
   // Get all the folder in the src folder excludingt the 'METADATA_FOLDER_EXCLUDES' folder
   const folders = fs
-    .readdirSync(path.join(__dirname, `../${METADATA_FOLDER}`), {
+    .readdirSync(METADATA_FOLDER, {
       withFileTypes: true,
     })
     .filter(
@@ -187,17 +187,14 @@ const validateMetadataImages = () => {
     };
   } = {};
   for (const folder of folders) {
-    fs.readdirSync(path.join(__dirname, `../${METADATA_FOLDER}/${folder}`), {
+    fs.readdirSync(path.join(METADATA_FOLDER, folder), {
       withFileTypes: true,
     })
       .filter((entry) => entry.isFile() && entry.name.endsWith(".json"))
       .map((entry) => {
         const file = `${folder}/${entry.name}`;
         const content = JSON.parse(
-          fs.readFileSync(
-            path.join(__dirname, `../${METADATA_FOLDER}/${file}`),
-            "utf8",
-          ),
+          fs.readFileSync(path.join(METADATA_FOLDER, file), "utf8"),
         )?.[folder];
 
         if (!jsonMetadata[folder]) {
@@ -214,75 +211,41 @@ const validateMetadataImages = () => {
   }
 
   // Validate all images in the assets folder from metadata
-  // biome-ignore lint/complexity/noForEach: <explanation>
-  Object.keys(jsonMetadata).forEach((key) => {
-    if (key === "tokens") {
+  for (const key of Object.keys(jsonMetadata)) {
+    for (const file of Object.keys(jsonMetadata[key])) {
       // biome-ignore lint/complexity/noForEach: <explanation>
-      Object.keys(jsonMetadata[key]).forEach((file) => {
-        // biome-ignore lint/complexity/noForEach: <explanation>
-        jsonMetadata[key][file].forEach((token) => {
-          const tokenFilePath = path.join(
-            __dirname,
-            `../${METADATA_FOLDER}/assets/tokens/${token.address}`,
+      jsonMetadata[key][file].forEach((item) => {
+        let id: string;
+
+        if (key === "tokens") {
+          id = item.address;
+        } else if (key === "validators") {
+          id = item.id;
+        } else if (key === "vaults") {
+          id = item.stakingTokenAddress;
+        } else {
+          throw new Error(`Invalid key: ${key}`);
+        }
+
+        const filePath = path.join(ASSET_PATH, key, id);
+
+        if (
+          !fs.existsSync(`${filePath}.png`) &&
+          !fs.existsSync(`${filePath}.jpg`) &&
+          !fs.existsSync(`${filePath}.jpeg`)
+        ) {
+          warnings.push(
+            `${id}:\nIcon file not found in assets/${key} folder for ${item.name} (${id})!`,
           );
-          if (
-            !fs.existsSync(`${tokenFilePath}.png`) &&
-            !fs.existsSync(`${tokenFilePath}.jpg`) &&
-            !fs.existsSync(`${tokenFilePath}.jpeg`)
-          ) {
-            errors.push(
-              `${token.address}:\nToken file not found in assets/tokens folder!`,
-            );
-          }
-        });
-      });
-    } else if (key === "validators") {
-      // biome-ignore lint/complexity/noForEach: <explanation>
-      Object.keys(jsonMetadata[key]).forEach((file) => {
-        // biome-ignore lint/complexity/noForEach: <explanation>
-        jsonMetadata[key][file].forEach((validator) => {
-          const validatorFilePath = path.join(
-            __dirname,
-            `../${METADATA_FOLDER}/assets/validators/${validator.id}`,
-          );
-          if (
-            !fs.existsSync(`${validatorFilePath}.png`) &&
-            !fs.existsSync(`${validatorFilePath}.jpg`) &&
-            !fs.existsSync(`${validatorFilePath}.jpeg`)
-          ) {
-            errors.push(
-              `${validator.id}:\nValidator file not found in assets/validators folder!`,
-            );
-          }
-        });
-      });
-    } else if (key === "vaults") {
-      // biome-ignore lint/complexity/noForEach: <explanation>
-      Object.keys(jsonMetadata[key]).forEach((file) => {
-        // biome-ignore lint/complexity/noForEach: <explanation>
-        jsonMetadata[key][file].forEach((vault) => {
-          const vaultFilePath = path.join(
-            __dirname,
-            `../${METADATA_FOLDER}/assets/tokens/${vault.stakingTokenAddress}`,
-          );
-          if (
-            !fs.existsSync(`${vaultFilePath}.png`) &&
-            !fs.existsSync(`${vaultFilePath}.jpg`) &&
-            !fs.existsSync(`${vaultFilePath}.jpeg`)
-          ) {
-            errors.push(
-              `${vault.stakingTokenAddress}:\nVault file not found in assets/tokens folder!`,
-            );
-          }
-        });
+        }
       });
     }
-  });
+  }
 
-  if (errors.length > 0) {
-    console.warn(`${errors.length} Errors found in metadata:`);
+  if (warnings.length > 0) {
+    console.warn(`${warnings.length} Errors found in metadata:`);
     // biome-ignore lint/complexity/noForEach: <explanation>
-    errors.forEach((error) => console.warn("\x1b[33m%s\x1b[0m", error));
+    warnings.forEach((error) => console.warn("\x1b[33m%s\x1b[0m", error));
   }
 };
 

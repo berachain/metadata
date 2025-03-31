@@ -6,8 +6,8 @@ import {
   isAddressEqual,
   zeroAddress,
 } from "viem";
-import { clients, getMetadataInFolder } from "./_utils";
 import { REWARD_VAULT_FACTORIES } from "./_constants";
+import { clients, getMetadataInFolder } from "./_utils";
 
 const vaultsMetadataFiles = getMetadataInFolder("vaults");
 

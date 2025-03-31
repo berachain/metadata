@@ -1,11 +1,11 @@
 import fs from "node:fs";
 import path from "node:path";
 import type tokensType from "../src/tokens/mainnet.json";
-import type vaultsType from "../src/vaults/mainnet.json";
 import type validatorsType from "../src/validators/mainnet.json";
+import type vaultsType from "../src/vaults/mainnet.json";
 
+import { http, type PublicClient, createPublicClient } from "viem";
 import { berachain, berachainBepolia } from "viem/chains";
-import { createPublicClient, http, type PublicClient } from "viem";
 import { VALID_CHAIN_NAMES, type ValidChainName } from "./_constants";
 
 const mainnetClient = createPublicClient({

@@ -458,6 +458,136 @@
       "url": "https://app.burrbear.io/#/berachain/pool/0xd10e65a5f8ca6f835f2b1832e37cf150fb955f23000000000000000000000004",
       "description": "Acquired by depositing liquidity into the NECT | USDC.e | HONEY Pool on BurrBear",
       "owner": "BurrBear"
+    },
+    {
+      "stakingTokenAddress": "0xD10E65A5F8cA6f835F2B1832e37cF150fb955f23",
+      "vaultAddress": "0x436022b9f853bd6cbc168b45fbf12ffa50b6f79c",
+      "protocol": "Beraborrow",
+      "name": "Beraborrow | NECT - HONEY - USDC",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1743439949/Ecosystem/nyhzxfy3gy2ul3cj2krd.jpg",
+      "url": "https://app.burrbear.io/#/berachain/pool/0xd10e65a5f8ca6f835f2b1832e37cf150fb955f23000000000000000000000004",
+      "Description": "Deposit on a tri-pool on burrbear",
+      "owner": "BurrBear"
+    },
+    {
+      "stakingTokenAddress": "0x597877Ccf65be938BD214C4c46907669e3E62128",
+      "vaultAddress": "0x1161e6a6600C08c21cFF7Ac689e781b41Db56d85",
+      "protocol": "Beraborrow",
+      "name": "Beraborrow | sNECT",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1743439915/Ecosystem/rdytvpkfv2ltq61wvzfm.png",
+      "url": "https://app.beraborrow.com/pool/deposit",
+      "Description": "Deposit Nect on Beraborrow",
+      "owner": "Beraborrow"
+    },
+    {
+      "stakingTokenAddress": "0x26bBc26415c6316890565f5f73017F85EE70B60c",
+      "vaultAddress": "0x347106734E7b129DDe92333A0007d64a4B08E266",
+      "protocol": "D8X",
+      "name": "D8X | Honey - NECT",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1743440075/Ecosystem/xhcj8oiiomdufbffdb8z.jpg",
+      "owner": "D8X"
+    },
+    {
+      "stakingTokenAddress": "0xbac7DC9Cc4142580Ac968f65eFc673183a226cdF",
+      "vaultAddress": "0x127696D2e3A4eA1F4eed1AFeF608e8901cbE8965",
+      "protocol": "LODE",
+      "name": "LXP Token Vault",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1743440474/Ecosystem/uo0mqxbdcikylk4tfzqz.jpg",
+      "owner": "LODE"
+    },
+    {
+      "stakingTokenAddress": "0x273c832797Bfda1C0826a786670D041282Bd6aFc",
+      "vaultAddress": "0x5540e29749f6c8f5dcf49fcc17c67e97a8e7335b",
+      "protocol": "Kuma",
+      "name": "Kuma Reward Token / $KRT",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1743439915/Ecosystem/js7qhxjwasbphfcadu33.jpg",
+      "owner": "Kuma"
+    },
+    {
+      "stakingTokenAddress": "0x561fd767EEC89CFd94048DF7C5402C7194eF4580",
+      "vaultAddress": "0x212a9b9B9cC7a935E15F4370F29705236eF709dD",
+      "protocol": "bro.trade",
+      "name": "Bro | Token Staking",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1743439915/Ecosystem/ofoqus2thfujyppvzvoi.jpg",
+      "url": "https://app.bro.trade/markets",
+      "owner": "bro.trade"
+    },
+    {
+      "stakingTokenAddress": "0xc227C8639A41db8393DD1B4EAc41464a62D64Fb4",
+      "vaultAddress": "0xde9D49A63FBb7C7D211B26A7d0DabDF8e0D4b4Fe",
+      "protocol": "Kodiak",
+      "name": "Olympus | OHM - WBERA",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1742844655/reward-vaults/icons/fzhm2cubp35ezzfa1uhq.png",
+      "url": "https://app.kodiak.finance/#/liquidity/pools/0xc227c8639a41db8393dd1b4eac41464a62d64fb4?farm=0xde9d49a63fbb7c7d211b26a7d0dabdf8e0d4b4fe&chain=berachain_mainnet",
+      "description": "Acquired by depositing liquidity into the Olympus | OHM - WBERA Pool on Kodiak",
+      "owner": "Olympus"
+    },
+    {
+      "stakingTokenAddress": "0xd9a747880393f7c33cEf1aea36909b36d421F7E5",
+      "vaultAddress": "0xf10f34547f4b8659058f10d29759a89eb790aa80",
+      "protocol": "Kodiak",
+      "name": "BakerDAO | BREAD - OHM",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1743439915/Ecosystem/xscap8skmlpgjer4lm8p.png",
+      "url": "https://app.kodiak.finance/#/liquidity/pools/0xd9a747880393f7c33cef1aea36909b36d421f7e5?farm=0xc080b212caaa1ebbccde1434d6efe6359eda2084&chain=berachain_mainnet",
+      "Description": "Acquired by depositing liquidity into the BakerDAO | BREAD - OHM",
+      "owner": "BakerDAO"
+    },
+    {
+      "stakingTokenAddress": "0xC95AB9Eff8fB48760703c74416764B8f898AFa1b",
+      "vaultAddress": "0x4eA84882228a5C881675151E951235e45256a484",
+      "protocol": "Wasabi Protocol",
+      "name": "Spicy | WBERA",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1743439916/Ecosystem/yqtvtn5sjnitmxcoipvz.png",
+      "url": "https://app.wasabi.xyz/earn?vault=sWBERA&network=berachain",
+      "owner": "Wasabi"
+    },
+    {
+      "stakingTokenAddress": "0xEC06041013b3a97c58b9ab61eAE9079Bc594EdA3",
+      "vaultAddress": "0xaf0C4454bb84C64B5c6ef9292B1527C5dFD2F8B7",
+      "protocol": "Wasabee & Aquabera",
+      "name": "Wasabee | wETH - wBERA",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1743439915/Ecosystem/f96p3ree68xtrpf5r32d.png",
+      "url": "https://wasabee.xyz/pool/create/0x2f6f07cdcf3588944bf4c42ac74ff24bf56e7590/0x6969696969696969696969696969696969696969",
+      "owner": "Wasabee"
+    },
+    {
+      "stakingTokenAddress": "0xd538b6aeF78E4bDDe4FD4576E9E3A403704602bc",
+      "vaultAddress": "0xfdDD0A98E6A3e447fE80ace97497B305A87FF716",
+      "protocol": "Euler",
+      "name": "Euler | eHONEY-1",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1743440011/Ecosystem/skjtjry5qprlpqouvalp.png",
+      "url": "https://app.euler.finance/vault/0xd538b6aeF78E4bDDe4FD4576E9E3A403704602bc?network=berachain",
+      "Description": "Deposit Honey on Euler",
+      "owner": "Euler"
+    },
+    {
+      "stakingTokenAddress": "0x89FD57175EcEEC45992e07c206e5A864Fa6aF433",
+      "vaultAddress": "0x31678555425C773c93F8DC6c1297eB224456B0B0",
+      "protocol": "Euler",
+      "name": "Euler | eHONEY-2",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1743440011/Ecosystem/skjtjry5qprlpqouvalp.png",
+      "url": "https://app.euler.finance/vault/0x89FD57175EcEEC45992e07c206e5A864Fa6aF433?network=berachain",
+      "Description": "Deposit Honey on Euler",
+      "owner": "Euler"
+    },
+    {
+      "stakingTokenAddress": "0x027DcAfB223f69d41Bd413C50854017718419585",
+      "vaultAddress": "0x4426220787Fb7C195677BC1753C14E84f9a7692C",
+      "protocol": "Euler",
+      "name": "Euler | eHONEY-3",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1743440011/Ecosystem/skjtjry5qprlpqouvalp.png",
+      "url": "https://app.euler.finance/vault/0x027DcAfB223f69d41Bd413C50854017718419585?network=berachain",
+      "Description": "Deposit Honey on Euler",
+      "owner": "Euler"
+    },
+    {
+      "stakingTokenAddress": "0xe454C546C8F3875e928910Abc653De5f8c432F11",
+      "vaultAddress": "0xDf5C6c28479e21C5F36cEB0C44Ae15975dE844ba",
+      "protocol": "Kodiak",
+      "name": "BeraXBT | BIXBT - WBERA",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1743440075/Ecosystem/xhcj8oiiomdufbffdb8z.jpg",
+      "url": "https://app.kodiak.finance/#/liquidity/pools/0xe454C546C8F3875e928910Abc653De5f8c432F11#/swap?chain=berachain_mainnet",
+      "owner": "BeraXBT"
     }
   ]
 }

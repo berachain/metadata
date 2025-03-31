@@ -7,6 +7,11 @@ import validatorSchemas from "../schemas/validators.schema.json" with {
 	type: "json",
 };
 import vaultSchemas from "../schemas/vaults.schema.json" with { type: "json" };
+import type {
+	DataValidateFunction,
+	ErrorObject,
+	ValidateFunction,
+} from "ajv/dist/types";
 
 const ajv = new Ajv({
 	validateSchema: false,
@@ -15,16 +20,17 @@ const ajv = new Ajv({
 
 addFormats(ajv);
 
-const errors: [string, Error][] = [];
+const errors: [string, null | ErrorObject[]][] = [];
 
-function validate(schema, file) {
+function validate(schema: ValidateFunction, file) {
 	try {
 		const data = JSON.parse(fs.readFileSync(file, { encoding: "utf-8" }));
 
 		const valid = schema(data);
 
 		if (!valid) {
-			errors.push([file, valid.errors]);
+			console.error("VALIDATION ERROR:", schema.errors);
+			errors.push([file, schema.errors ?? null]);
 		}
 	} catch (error) {
 		errors.push([file, error]);
@@ -53,7 +59,11 @@ if (errors.length > 0) {
 	console.error(`${errors.length} errors found in the JSON files:\n\n`);
 	for (const error of errors) {
 		console.error("Error in file", error[0]);
-		console.error(error[1].message);
+
+		for (const err of error[1] ?? []) {
+			console.error(err.instancePath, err.message);
+		}
+
 		console.log("\n");
 	}
 	process.exit(1);

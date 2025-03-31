@@ -656,6 +656,17 @@
       "extensions": {
         "coingeckoId": "equilibria-finance"
       }
+    },
+    {
+      "chainId": 80094,
+      "address": "0x30c8cf6b46aa4df3f9fbc2857aca92f10a6cad7f",
+      "decimals": 18,
+      "logoURI": "https://cdn.jsdelivr.net/gh/unified-defi/equalizer-tokens@latest/sonic/tokens/0x30c8cf6b46aa4df3f9fbc2857aca92f10a6cad7f.png",
+      "symbol": "ELITE",
+      "name": "Eliteness.Network",
+      "tags": [],
+      "extensions": {
+      }
     }
   ]
 }

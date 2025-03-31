@@ -90,7 +90,7 @@
     {
       "chainId": 80094,
       "address": "0x779Ded0c9e1022225f8E0630b35a9b54bE713736",
-      "symbol": "USDT0",
+      "symbol": "USD₮0",
       "name": "Tether USD Coin",
       "decimals": 6,
       "logoURI": "https://coin-images.coingecko.com/coins/images/325/large/Tether.png?1696501661",
@@ -153,7 +153,7 @@
     },
     {
       "chainId": 80094,
-      "address": "0x6d4223dae2a8744a85a6d44e97f3f61679f87ee6",
+      "address": "0x6d4223DAE2a8744a85a6d44e97f3F61679f87ee6",
       "decimals": 18,
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1739455325/tokens/luha7bssovccqq4jigdh.png",
       "symbol": "USDbr",
@@ -174,7 +174,7 @@
     },
     {
       "chainId": 80094,
-      "address": "0xfaf4c16847bd0ebac546c49a9c9c6b81abd4b08c",
+      "address": "0xFaF4c16847bD0ebaC546C49a9C9c6b81abd4b08C",
       "decimals": 18,
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1739455320/tokens/yxqyrtpt4x6ldudyxktd.png",
       "symbol": "NOME",
@@ -192,7 +192,7 @@
     },
     {
       "chainId": 80094,
-      "address": "0x6ff4d64976428025cdcc3354ef53b5d19637481e",
+      "address": "0x6FF4D64976428025Cdcc3354EF53b5D19637481e",
       "symbol": "ARTIO",
       "name": "Artio",
       "decimals": 18,
@@ -560,7 +560,7 @@
     },
     {
       "chainId": 80094,
-      "address": "0x18878df23e2a36f81e820e4b47b4a40576d3159c",
+      "address": "0x18878Df23e2a36f81e820e4b47b4A40576D3159C",
       "name": "Olympus",
       "symbol": "OHM",
       "decimals": 9,
@@ -572,7 +572,7 @@
     },
     {
       "chainId": 80094,
-      "address": "0x09d9420332bff75522a45fcff4855f82a0a3ff50",
+      "address": "0x09D9420332bff75522a45FcFf4855F82a0a3ff50",
       "name": "Dinero OFT",
       "symbol": "DINERO",
       "decimals": 18,
@@ -583,7 +583,7 @@
     },
     {
       "chainId": 80094,
-      "address": "0xb2f776e9c1c926c4b2e54182fac058da9af0b6a5",
+      "address": "0xb2F776e9c1C926C4b2e54182Fac058dA9Af0B6A5",
       "name": "henlo",
       "symbol": "HENLO",
       "decimals": 18,
@@ -594,7 +594,7 @@
     },
     {
       "chainId": 80094,
-      "address": "0xb749584f9fc418cf905d54f462fdbfdc7462011b",
+      "address": "0xb749584F9fC418Cf905d54f462fdbFdC7462011b",
       "name": "bm",
       "symbol": "bm",
       "decimals": 18,
@@ -605,7 +605,7 @@
     },
     {
       "chainId": 80094,
-      "address": "0xb8b1af593dc37b33a2c87c8db1c9051fc32858b7",
+      "address": "0xb8B1Af593Dc37B33a2c87C8Db1c9051FC32858B7",
       "name": "Ramen Token",
       "symbol": "RAMEN",
       "decimals": 18,
@@ -616,7 +616,7 @@
     },
     {
       "chainId": 80094,
-      "address": "0x08a38caa631de329ff2dad1656ce789f31af3142",
+      "address": "0x08A38Caa631DE329FF2DAD1656CE789F31AF3142",
       "name": "YEET",
       "symbol": "YEET",
       "decimals": 18,
@@ -627,7 +627,7 @@
     },
     {
       "chainId": 80094,
-      "address": "0xf9ee98099f5078078bb8e17e6b4a4f95137e2037",
+      "address": "0xF9ee98099F5078078Bb8e17E6b4a4F95137E2037",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/30645/large/QLLK8pmR_400x400.jpg",
       "symbol": "EQB",

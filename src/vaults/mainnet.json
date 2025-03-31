@@ -95,7 +95,7 @@
   ],
   "vaults": [
     {
-      "stakingTokenAddress": "0xde04c469ad658163e2a5e860a03a86b52f6fa8c8",
+      "stakingTokenAddress": "0xdE04c469Ad658163e2a5E860a03A86B52f6FA8C8",
       "vaultAddress": "0x6649bc987a7c0fb0199c523de1b1b330cd0457a8",
       "name": "BYUSD | HONEY",
       "protocol": "HUB",
@@ -105,7 +105,7 @@
       "owner": "Foundation"
     },
     {
-      "stakingTokenAddress": "0xdd70a5ef7d8cfe5c5134b5f9874b09fb5ce812b4",
+      "stakingTokenAddress": "0xDd70A5eF7d8CfE5C5134b5f9874b09Fb5Ce812b4",
       "vaultAddress": "0x17376ad6167a5592fbeaa42e6068c132474a513d",
       "name": "WETH | WBERA",
       "protocol": "HUB",
@@ -115,7 +115,7 @@
       "owner": "Foundation"
     },
     {
-      "stakingTokenAddress": "0x38fdd999fe8783037db1bbfe465759e312f2d809",
+      "stakingTokenAddress": "0x38fdD999Fe8783037dB1bBFE465759e312f2d809",
       "vaultAddress": "0x086f82fa0ca310cc835a9db4f53697687ef149c7",
       "name": "WBTC | WBERA",
       "protocol": "HUB",
@@ -125,7 +125,7 @@
       "owner": "Foundation"
     },
     {
-      "stakingTokenAddress": "0xf961a8f6d8c69e7321e78d254ecafbcc3a637621",
+      "stakingTokenAddress": "0xF961a8f6d8c69E7321e78d254ecAfBcc3A637621",
       "vaultAddress": "0xf99be47baf0c22b7eb5eac42c8d91b9942dc7e84",
       "name": "USDC.e | HONEY",
       "protocol": "HUB",
@@ -135,7 +135,7 @@
       "owner": "Foundation"
     },
     {
-      "stakingTokenAddress": "0x2c4a603a2aa5596287a06886862dc29d56dbc354",
+      "stakingTokenAddress": "0x2c4a603A2aA5596287A06886862dc29d56DbC354",
       "vaultAddress": "0xc2baa8443cda8ebe51a640905a8e6bc4e1f9872c",
       "name": "WBERA | HONEY",
       "protocol": "HUB",
@@ -484,7 +484,7 @@
       "owner": "Renzo"
     },
     {
-      "stakingTokenAddress": "0x28a54eaeec63fbb1175d13466a9ada5f3175d577",
+      "stakingTokenAddress": "0x28a54EaeEc63fBb1175d13466a9ada5f3175D577",
       "vaultAddress": "0x31a484f7e09513ae9f481eaf8eeea76153184c44",
       "name": "NOME - USDbr | HONEY",
       "protocol": "Kodiak",
@@ -504,7 +504,7 @@
       "owner": "Olympus"
     },
     {
-      "stakingTokenAddress": "0xd10e65a5f8ca6f835f2b1832e37cf150fb955f23",
+      "stakingTokenAddress": "0xD10E65A5F8cA6f835F2B1832e37cF150fb955f23",
       "vaultAddress": "0x436022b9f853bd6cbc168b45fbf12ffa50b6f79c",
       "name": "BurrBear - NECT | USDC.e | HONEY",
       "protocol": "BurrBear",

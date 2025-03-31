@@ -110,6 +110,13 @@ for (const vaultMetadata of vaultsMetadataFiles) {
         args: [stakingTokenAddress],
       });
 
+      if (onChainVault === zeroAddress) {
+        errors.push(
+          `${errorPrefix} no vault found for provided staking token ${vault.stakingTokenAddress} on ${vault.name}`,
+        );
+        return;
+      }
+
       if (!isAddressEqual(onChainVault, vault.vaultAddress)) {
         errors.push(
           `${errorPrefix} vault address for token ${vault.name} is wrongly formatted. Should be ${onChainVault}`,

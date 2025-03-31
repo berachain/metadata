@@ -1,13 +1,13 @@
 {
-	"$schema": "../../schemas/vaults.schema.json",
-	"name": "Berachain Bepolia Reward Vault List",
-	"protocols": [
-		{
-			"name": "HUB",
-			"logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1738378765/dapps/hub/hoymyj8bfl3xfczeioch.png",
-			"url": "https://bepolia.hub.berachain.com",
-			"description": "Swap a variety of tokens effortlessly on our decentralized platform. Provide liquidity to pools and earn BGT rewards."
-		}
-	],
-	"vaults": []
+  "$schema": "../../schemas/vaults.schema.json",
+  "name": "Berachain Bepolia Reward Vault List",
+  "protocols": [
+    {
+      "name": "HUB",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1738378765/dapps/hub/hoymyj8bfl3xfczeioch.png",
+      "url": "https://bepolia.hub.berachain.com",
+      "description": "Swap a variety of tokens effortlessly on our decentralized platform. Provide liquidity to pools and earn BGT rewards."
+    }
+  ],
+  "vaults": []
 }

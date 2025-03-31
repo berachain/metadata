@@ -1,82 +1,82 @@
 {
-	"$schema": "http://json-schema.org/draft-07/schema#",
-	"type": "object",
-	"properties": {
-		"$schema": {
-			"type": "string",
-			"pattern": "^\\.\\./.+\\.schema\\.json$"
-		},
-		"name": {
-			"type": "string",
-			"minLength": 1
-		},
-		"protocols": {
-			"type": "array",
-			"items": {
-				"type": "object",
-				"properties": {
-					"name": {
-						"type": "string",
-						"minLength": 1
-					},
-					"logoURI": {
-						"type": "string",
-						"pattern": "^(https://raw.githubusercontent.com/berachain/metadata/[^\\s]+|https://(assets|coin-images).coingecko.com/[^\\s]+|https://res.cloudinary.com/duv0g402y/[^\\s]+)$"
-					},
-					"url": {
-						"type": "string",
-						"pattern": "^(https://[^\\s]+)$"
-					},
-					"description": {
-						"type": "string"
-					}
-				},
-				"required": ["name", "url", "description", "logoURI"]
-			}
-		},
-		"vaults": {
-			"type": "array",
-			"items": {
-				"type": "object",
-				"properties": {
-					"stakingTokenAddress": {
-						"type": "string",
-						"pattern": "^0x[a-fA-F0-9]{40}$"
-					},
-					"vaultAddress": {
-						"type": "string",
-						"pattern": "^0x[a-fA-F0-9]{40}$"
-					},
-					"name": {
-						"type": "string",
-						"minLength": 1
-					},
-					"protocol": {
-						"type": "string",
-						"minLength": 1
-					},
-					"logoURI": {
-						"type": "string",
-						"pattern": "^(https://raw.githubusercontent.com/berachain/metadata/[^\\s]+|https://(assets|coin-images).coingecko.com/[^\\s]+|https://res.cloudinary.com/duv0g402y/[^\\s]+)$"
-					},
-					"url": {
-						"type": "string",
-						"pattern": "^(https://[^\\s]+)$"
-					},
-					"description": {
-						"type": "string"
-					}
-				},
-				"required": [
-					"stakingTokenAddress",
-					"vaultAddress",
-					"name",
-					"protocol",
-					"url"
-				]
-			}
-		}
-	},
-	"additionalProperties": false,
-	"required": ["name", "protocols", "vaults", "$schema"]
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "$schema": {
+      "type": "string",
+      "pattern": "^\\.\\./.+\\.schema\\.json$"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "protocols": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "logoURI": {
+            "type": "string",
+            "pattern": "^(https://raw.githubusercontent.com/berachain/metadata/[^\\s]+|https://(assets|coin-images).coingecko.com/[^\\s]+|https://res.cloudinary.com/duv0g402y/[^\\s]+)$"
+          },
+          "url": {
+            "type": "string",
+            "pattern": "^(https://[^\\s]+)$"
+          },
+          "description": {
+            "type": "string"
+          }
+        },
+        "required": ["name", "url", "description", "logoURI"]
+      }
+    },
+    "vaults": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "stakingTokenAddress": {
+            "type": "string",
+            "pattern": "^0x[a-fA-F0-9]{40}$"
+          },
+          "vaultAddress": {
+            "type": "string",
+            "pattern": "^0x[a-fA-F0-9]{40}$"
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "protocol": {
+            "type": "string",
+            "minLength": 1
+          },
+          "logoURI": {
+            "type": "string",
+            "pattern": "^(https://raw.githubusercontent.com/berachain/metadata/[^\\s]+|https://(assets|coin-images).coingecko.com/[^\\s]+|https://res.cloudinary.com/duv0g402y/[^\\s]+)$"
+          },
+          "url": {
+            "type": "string",
+            "pattern": "^(https://[^\\s]+)$"
+          },
+          "description": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "stakingTokenAddress",
+          "vaultAddress",
+          "name",
+          "protocol",
+          "url"
+        ]
+      }
+    }
+  },
+  "additionalProperties": false,
+  "required": ["name", "protocols", "vaults", "$schema"]
 }

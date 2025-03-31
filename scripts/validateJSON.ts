@@ -29,7 +29,6 @@ function validate(schema: ValidateFunction, file) {
     const valid = schema(data);
 
     if (!valid) {
-      console.error("VALIDATION ERROR:", schema.errors);
       errors.push([file, schema.errors ?? null]);
     }
   } catch (error) {

@@ -12,8 +12,8 @@ importers:
         specifier: 1.9.4
         version: 1.9.4
       '@types/node':
-        specifier: ^22.13.13
-        version: 22.13.14
+        specifier: 22.13.13
+        version: 22.13.13
       ajv:
         specifier: 8.17.1
         version: 8.17.1
@@ -21,7 +21,7 @@ importers:
         specifier: ^3.0.1
         version: 3.0.1(ajv@8.17.1)
       tsx:
-        specifier: ^4.19.3
+        specifier: 4.19.3
         version: 4.19.3
 
 packages:
@@ -229,8 +229,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@types/node@22.13.14':
-    resolution: {integrity: sha512-Zs/Ollc1SJ8nKUAgc7ivOEdIBM8JAKgrqqUYi2J997JuKO7/tpQC+WCetQ1sypiKCQWHdvdg9wBNpUPEWZae7w==}
+  '@types/node@22.13.13':
+    resolution: {integrity: sha512-ClsL5nMwKaBRwPcCvH8E7+nU4GxHVx1axNvMZTFHMEfNI7oahimt26P5zjVCRrjiIWj6YFXfE1v3dEp94wLcGQ==}
 
   ajv-formats@3.0.1:
     resolution: {integrity: sha512-8iUql50EUR+uUcdRQ3HDqa6EVyo3docL8g5WJ3FNcWmu62IbkGUue/pEyLBW8VGKKucTPgqeks4fIU1DA4yowQ==}
@@ -392,7 +392,7 @@ snapshots:
   '@esbuild/win32-x64@0.25.2':
     optional: true
 
-  '@types/node@22.13.14':
+  '@types/node@22.13.13':
     dependencies:
       undici-types: 6.20.0
 

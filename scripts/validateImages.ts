@@ -9,8 +9,6 @@ const METADATA_FOLDER = "src";
 const FOLDER_PATH = path.join(METADATA_FOLDER, "assets");
 const METADATA_FOLDER_EXCLUDED = ["assets"];
 
-console.log("FOLDER PATH", FOLDER_PATH);
-
 // Functions
 // ================================================================
 /**

@@ -37,6 +37,12 @@
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1742842241/reward-vaults/icons/1dd1de90-7d16-412b-8682-41d573d64d0a.png",
       "url": "https://www.bulla.exchange/",
       "description": ""
+    },
+    {
+      "name": "D8X",
+      "logoURI": "https://raw.githubusercontent.com/berachain/metadata/main/src/assets/tokens/0x26bbc26415c6316890565f5f73017f85ee70b60c.png",
+      "url": "https://www.d8x.exchange/",
+      "description": "D8X powers leveraged trading for the Berachain Ecosystem on DEXs like MadHoney.fi"
     }
   ],
   "vaults": [
@@ -458,6 +464,16 @@
       "url": "https://app.burrbear.io/#/berachain/pool/0xd10e65a5f8ca6f835f2b1832e37cf150fb955f23000000000000000000000004",
       "description": "Acquired by depositing liquidity into the NECT | USDC.e | HONEY Pool on BurrBear",
       "owner": "BurrBear"
+    },
+    {
+      "stakingTokenAddress": "0x26bbc26415c6316890565f5f73017f85ee70b60c",
+      "vaultAddress": "0x347106734e7b129dde92333a0007d64a4b08e266",
+      "name": "D8X - NECT | HONEY",
+      "protocol": "D8X",
+      "logoURI": "https://raw.githubusercontent.com/berachain/metadata/main/src/assets/tokens/0x26bbc26415c6316890565f5f73017f85ee70b60c.png",
+      "url": "https://app.madhoney.fi/vault",
+      "description": "Acquired by depositing liquidity into the NECT | HONEY Pool on a D8X powered DEX like MadHoney.fi",
+      "owner": "D8X"
     }
   ]
 }

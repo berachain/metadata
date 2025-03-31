@@ -29,4 +29,4 @@ jobs:
         pnpm validate
 
     - name: Check formatting
-      run: pnpm format --check
+      run: pnpm check

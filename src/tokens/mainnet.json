@@ -550,7 +550,7 @@
       "decimals": 18,
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1743021263/tokens/vtfyhwt1bjcygv4uhwvh.png",
       "extensions": {
-        "coingeckoId": "ethena-usde",
+        "coingeckoId": "ethena-usde"
         "pythPriceId": "0x6ec879b1e9963de5ee97e9c8710b742d6228252a5e2ca12d4ae81d7fe5ee8c5d"
       }
     },
@@ -661,7 +661,7 @@
       "chainId": 80094,
       "address": "0x30c8cf6b46aa4df3f9fbc2857aca92f10a6cad7f",
       "decimals": 18,
-      "logoURI": "https://cdn.jsdelivr.net/gh/unified-defi/equalizer-tokens@latest/sonic/tokens/0x30c8cf6b46aa4df3f9fbc2857aca92f10a6cad7f.png",
+      "logoURI": "https://raw.githubusercontent.com/berachain/metadata/main/src/assets/tokens/0x30c8cf6b46aa4df3f9fbc2857aca92f10a6cad7f.png",
       "symbol": "ELITE",
       "name": "Eliteness.Network",
       "tags": [],

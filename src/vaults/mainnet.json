@@ -37,6 +37,12 @@
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1742842241/reward-vaults/icons/1dd1de90-7d16-412b-8682-41d573d64d0a.png",
       "url": "https://www.bulla.exchange/",
       "description": ""
+    },
+    {
+      "url": "https://app.bro.trade",
+      "name": "bro.trade",
+      "description": "bro.trade is a community-driven, decentralized cryptocurrency trading platform specializing in perpetual futures (perps).",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1743448666/reward-vaults/icons/pxfsjxx3qu4rzyqlk9vr.jpg"
     }
   ],
   "vaults": [
@@ -478,30 +484,6 @@
       "url": "https://app.beraborrow.com/pool/deposit",
       "Description": "Deposit Nect on Beraborrow",
       "owner": "Beraborrow"
-    },
-    {
-      "stakingTokenAddress": "0x26bBc26415c6316890565f5f73017F85EE70B60c",
-      "vaultAddress": "0x347106734E7b129DDe92333A0007d64a4B08E266",
-      "protocol": "D8X",
-      "name": "D8X | Honey - NECT",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1743440075/Ecosystem/xhcj8oiiomdufbffdb8z.jpg",
-      "owner": "D8X"
-    },
-    {
-      "stakingTokenAddress": "0xbac7DC9Cc4142580Ac968f65eFc673183a226cdF",
-      "vaultAddress": "0x127696D2e3A4eA1F4eed1AFeF608e8901cbE8965",
-      "protocol": "LODE",
-      "name": "LXP Token Vault",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1743440474/Ecosystem/uo0mqxbdcikylk4tfzqz.jpg",
-      "owner": "LODE"
-    },
-    {
-      "stakingTokenAddress": "0x273c832797Bfda1C0826a786670D041282Bd6aFc",
-      "vaultAddress": "0x5540e29749f6c8f5dcf49fcc17c67e97a8e7335b",
-      "protocol": "Kuma",
-      "name": "Kuma Reward Token / $KRT",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1743439915/Ecosystem/js7qhxjwasbphfcadu33.jpg",
-      "owner": "Kuma"
     },
     {
       "stakingTokenAddress": "0x561fd767EEC89CFd94048DF7C5402C7194eF4580",

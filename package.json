@@ -1,41 +1,29 @@
 {
-  "name": "berachain-metadata",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "preinstall": "npx only-allow pnpm",
-    "format": "biome format --write \"(src|schemas)/**/*.json\"",
-    "validate:tokens": "ajv validate -s schemas/tokens.schema.json -d src/tokens/**/*.json",
-    "validate:validators": "ajv validate -s schemas/validators.schema.json -d src/validators/**/*.json",
-    "validate:vaults": "ajv validate -s schemas/vaults.schema.json -d src/vaults/**/*.json",
-    "validate:images": "tsx scripts/validateImages.ts",
-    "validate:json": "tsx scripts/validateJSON.ts",
-    "validate": "pnpm run validate:tokens && pnpm run validate:validators && pnpm run validate:vaults && pnpm run validate:images && pnpm run validate:json",
-    "lint": "biome lint .",
-    "check": "biome check ."
-  },
-  "keywords": [
-    "berachain",
-    "metadata",
-    "tokens",
-    "validators",
-    "vaults"
-  ],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "ajv-cli": "^5.0.0"
-  },
-  "devDependencies": {
-    "@types/node": "^22.13.13",
-    "ajv-cli": "^5.0.0",
-    "biome": "^0.3.3",
-    "prettier": "^3.2.5",
-    "tsx": "^4.19.3"
-  },
-  "engines": {
-    "node": ">=20"
-  },
-  "packageManager": "pnpm@8.15.0"
+	"name": "berachain-metadata",
+	"version": "1.0.0",
+	"description": "",
+	"scripts": {
+		"preinstall": "npx only-allow pnpm",
+		"format": "biome format --write",
+		"validate:images": "tsx scripts/validateImages.ts",
+		"validate:json": "tsx scripts/validateJSON.ts",
+		"validate": "pnpm run validate:json && pnpm run validate:images",
+		"lint": "biome lint .",
+		"check": "biome check ."
+	},
+	"keywords": ["berachain", "metadata", "tokens", "validators", "vaults"],
+	"author": "",
+	"license": "ISC",
+	"type": "module",
+	"devDependencies": {
+		"@types/node": "^22.13.13",
+		"@biomejs/biome": "1.9.4",
+		"ajv": "8.17.1",
+		"ajv-formats": "^3.0.1",
+		"tsx": "^4.19.3"
+	},
+	"engines": {
+		"node": "22"
+	},
+	"packageManager": "pnpm@9.15.9+sha512.68046141893c66fad01c079231128e9afb89ef87e2691d69e4d40eee228988295fd4682181bae55b58418c3a253bde65a505ec7c5f9403ece5cc3cd37dcf2531"
 }

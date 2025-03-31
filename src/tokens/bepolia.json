@@ -1,130 +1,130 @@
 {
-  "$schema": "../../schemas/tokens.schema.json",
-  "name": "Berachain Bepolia Token List",
-  "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1739450224/foundation/oe6damqveywiebwxeelf.png",
-  "tags": {
-    "stablecoin": {
-      "name": "Stablecoin",
-      "description": "Tokens that are fixed to an external asset, e.g. the US dollar"
-    },
-    "featured": {
-      "name": "Featured",
-      "description": "Tokens that are featured"
-    }
-  },
-  "tokens": [
-    {
-      "chainId": 80069,
-      "address": "0x6969696969696969696969696969696969696969",
-      "symbol": "WBERA",
-      "name": "Wrapped Berachain Token",
-      "decimals": 18,
-      "logoURI": "https://res.cloudinary.com/duv0g402y/raw/upload/v1717773645/src/assets/wbera.png",
-      "tags": ["featured"],
-      "extensions": {
-        "coingeckoId": "berachain-bera",
-        "pythPriceId": "0x962088abcfdbdb6e30db2e340c8cf887d9efb311b1f2f17b155a63dbb6d40265"
-      }
-    },
-    {
-      "chainId": 80069,
-      "address": "0x0000000000000000000000000000000000000000",
-      "symbol": "BERA",
-      "name": "Berachain Token",
-      "decimals": 18,
-      "logoURI": "https://res.cloudinary.com/duv0g402y/raw/upload/v1717773645/src/assets/bera.png",
-      "tags": ["featured"],
-      "extensions": {
-        "coingeckoId": "berachain-bera",
-        "pythPriceId": "0x962088abcfdbdb6e30db2e340c8cf887d9efb311b1f2f17b155a63dbb6d40265"
-      }
-    },
-    {
-      "chainId": 80069,
-      "address": "0x656b95E550C07a9ffe548bd4085c72418Ceb1dba",
-      "symbol": "BGT",
-      "name": "Bera Governance Token",
-      "decimals": 18,
-      "logoURI": "https://res.cloudinary.com/duv0g402y/raw/upload/v1717773645/src/assets/bgt.png",
-      "tags": ["featured"]
-    },
-    {
-      "chainId": 80069,
-      "address": "0xFCBD14DC51f0A4d49d5E53C2E0950e0bC26d0Dce",
-      "symbol": "HONEY",
-      "name": "Honey",
-      "decimals": 18,
-      "logoURI": "https://res.cloudinary.com/duv0g402y/raw/upload/v1717773645/src/assets/honey.png",
-      "tags": ["stablecoin", "featured"],
-      "extensions": {
-        "pythPriceId": "0xf67b033925d73d43ba4401e00308d9b0f26ab4fbd1250e8b5407b9eaade7e1f4"
-      }
-    },
-    {
-      "chainId": 80069,
-      "address": "0xC8d68e161227b180c5046E706E0A6d8ab78D83C5",
-      "symbol": "bbINC1",
-      "name": "bbINC1",
-      "decimals": 18,
-      "tags": [],
-      "extensions": {
-        "pythPriceId": "0xeaa020c61cc479712813461ce153894a96a6c00b21ed0cfc2798d1f9a9e9c94a"
-      }
-    },
-    {
-      "chainId": 80069,
-      "address": "0xA36E29dd481f80F331931f1944E5Aa743e074c85",
-      "symbol": "bbINC2",
-      "name": "bbINC2",
-      "decimals": 18,
-      "tags": [],
-      "extensions": {
-        "pythPriceId": "0xeaa020c61cc479712813461ce153894a96a6c00b21ed0cfc2798d1f9a9e9c94a"
-      }
-    },
-    {
-      "chainId": 80069,
-      "address": "0xf0063bac3Bd6a88049dDE2422365aaFd87D49054",
-      "symbol": "bbINC3",
-      "name": "bbINC3",
-      "decimals": 18,
-      "tags": [],
-      "extensions": {
-        "pythPriceId": "0xeaa020c61cc479712813461ce153894a96a6c00b21ed0cfc2798d1f9a9e9c94a"
-      }
-    },
-    {
-      "chainId": 80069,
-      "address": "0x1DB94dA7E7Af8529878053559552CFA8797f447B",
-      "symbol": "bbINC4",
-      "name": "bbINC4",
-      "decimals": 18,
-      "tags": [],
-      "extensions": {
-        "pythPriceId": "0xeaa020c61cc479712813461ce153894a96a6c00b21ed0cfc2798d1f9a9e9c94a"
-      }
-    },
-    {
-      "chainId": 80069,
-      "address": "0xF93CD4C23398A827B70A5994C21C5e8023394dad",
-      "symbol": "bbINC5",
-      "name": "bbINC5",
-      "decimals": 18,
-      "tags": [],
-      "extensions": {
-        "pythPriceId": "0xeaa020c61cc479712813461ce153894a96a6c00b21ed0cfc2798d1f9a9e9c94a"
-      }
-    },
-    {
-      "chainId": 80069,
-      "address": "0xFDD764D4Afd1F378B1bA1E56f477C4C4585B15D8",
-      "symbol": "bbINC6",
-      "name": "bbINC6",
-      "decimals": 18,
-      "tags": [],
-      "extensions": {
-        "pythPriceId": "0xeaa020c61cc479712813461ce153894a96a6c00b21ed0cfc2798d1f9a9e9c94a"
-      }
-    }
-  ]
+	"$schema": "../../schemas/tokens.schema.json",
+	"name": "Berachain Bepolia Token List",
+	"logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1739450224/foundation/oe6damqveywiebwxeelf.png",
+	"tags": {
+		"stablecoin": {
+			"name": "Stablecoin",
+			"description": "Tokens that are fixed to an external asset, e.g. the US dollar"
+		},
+		"featured": {
+			"name": "Featured",
+			"description": "Tokens that are featured"
+		}
+	},
+	"tokens": [
+		{
+			"chainId": 80069,
+			"address": "0x6969696969696969696969696969696969696969",
+			"symbol": "WBERA",
+			"name": "Wrapped Berachain Token",
+			"decimals": 18,
+			"logoURI": "https://res.cloudinary.com/duv0g402y/raw/upload/v1717773645/src/assets/wbera.png",
+			"tags": ["featured"],
+			"extensions": {
+				"coingeckoId": "berachain-bera",
+				"pythPriceId": "0x962088abcfdbdb6e30db2e340c8cf887d9efb311b1f2f17b155a63dbb6d40265"
+			}
+		},
+		{
+			"chainId": 80069,
+			"address": "0x0000000000000000000000000000000000000000",
+			"symbol": "BERA",
+			"name": "Berachain Token",
+			"decimals": 18,
+			"logoURI": "https://res.cloudinary.com/duv0g402y/raw/upload/v1717773645/src/assets/bera.png",
+			"tags": ["featured"],
+			"extensions": {
+				"coingeckoId": "berachain-bera",
+				"pythPriceId": "0x962088abcfdbdb6e30db2e340c8cf887d9efb311b1f2f17b155a63dbb6d40265"
+			}
+		},
+		{
+			"chainId": 80069,
+			"address": "0x656b95E550C07a9ffe548bd4085c72418Ceb1dba",
+			"symbol": "BGT",
+			"name": "Bera Governance Token",
+			"decimals": 18,
+			"logoURI": "https://res.cloudinary.com/duv0g402y/raw/upload/v1717773645/src/assets/bgt.png",
+			"tags": ["featured"]
+		},
+		{
+			"chainId": 80069,
+			"address": "0xFCBD14DC51f0A4d49d5E53C2E0950e0bC26d0Dce",
+			"symbol": "HONEY",
+			"name": "Honey",
+			"decimals": 18,
+			"logoURI": "https://res.cloudinary.com/duv0g402y/raw/upload/v1717773645/src/assets/honey.png",
+			"tags": ["stablecoin", "featured"],
+			"extensions": {
+				"pythPriceId": "0xf67b033925d73d43ba4401e00308d9b0f26ab4fbd1250e8b5407b9eaade7e1f4"
+			}
+		},
+		{
+			"chainId": 80069,
+			"address": "0xC8d68e161227b180c5046E706E0A6d8ab78D83C5",
+			"symbol": "bbINC1",
+			"name": "bbINC1",
+			"decimals": 18,
+			"tags": [],
+			"extensions": {
+				"pythPriceId": "0xeaa020c61cc479712813461ce153894a96a6c00b21ed0cfc2798d1f9a9e9c94a"
+			}
+		},
+		{
+			"chainId": 80069,
+			"address": "0xA36E29dd481f80F331931f1944E5Aa743e074c85",
+			"symbol": "bbINC2",
+			"name": "bbINC2",
+			"decimals": 18,
+			"tags": [],
+			"extensions": {
+				"pythPriceId": "0xeaa020c61cc479712813461ce153894a96a6c00b21ed0cfc2798d1f9a9e9c94a"
+			}
+		},
+		{
+			"chainId": 80069,
+			"address": "0xf0063bac3Bd6a88049dDE2422365aaFd87D49054",
+			"symbol": "bbINC3",
+			"name": "bbINC3",
+			"decimals": 18,
+			"tags": [],
+			"extensions": {
+				"pythPriceId": "0xeaa020c61cc479712813461ce153894a96a6c00b21ed0cfc2798d1f9a9e9c94a"
+			}
+		},
+		{
+			"chainId": 80069,
+			"address": "0x1DB94dA7E7Af8529878053559552CFA8797f447B",
+			"symbol": "bbINC4",
+			"name": "bbINC4",
+			"decimals": 18,
+			"tags": [],
+			"extensions": {
+				"pythPriceId": "0xeaa020c61cc479712813461ce153894a96a6c00b21ed0cfc2798d1f9a9e9c94a"
+			}
+		},
+		{
+			"chainId": 80069,
+			"address": "0xF93CD4C23398A827B70A5994C21C5e8023394dad",
+			"symbol": "bbINC5",
+			"name": "bbINC5",
+			"decimals": 18,
+			"tags": [],
+			"extensions": {
+				"pythPriceId": "0xeaa020c61cc479712813461ce153894a96a6c00b21ed0cfc2798d1f9a9e9c94a"
+			}
+		},
+		{
+			"chainId": 80069,
+			"address": "0xFDD764D4Afd1F378B1bA1E56f477C4C4585B15D8",
+			"symbol": "bbINC6",
+			"name": "bbINC6",
+			"decimals": 18,
+			"tags": [],
+			"extensions": {
+				"pythPriceId": "0xeaa020c61cc479712813461ce153894a96a6c00b21ed0cfc2798d1f9a9e9c94a"
+			}
+		}
+	]
 }

@@ -1,77 +1,77 @@
 {
-  "$schema": "http://json-schema.org/draft-07/schema#",
-  "type": "object",
-  "properties": {
-    "$schema": {
-      "type": "string",
-      "pattern": "^\\.\\./.+\\.schema\\.json$"
-    },
-    "name": {
-      "type": "string",
-      "minLength": 1
-    },
-    "logoURI": {
-      "type": "string",
-      "pattern": "^(https://raw.githubusercontent.com/berachain/metadata/[^\\s]+|https://(assets|coin-images).coingecko.com/[^\\s]+|https://res.cloudinary.com/duv0g402y/[^\\s]+)$"
-    },
-    "tags": {
-      "type": "object",
-      "additionalProperties": {
-        "type": "object",
-        "properties": {
-          "name": {
-            "type": "string",
-            "minLength": 1
-          },
-          "description": {
-            "type": "string",
-            "minLength": 1
-          }
-        },
-        "required": ["name", "description"],
-        "additionalProperties": false
-      }
-    },
-    "tokens": {
-      "type": "array",
-      "items": {
-        "type": "object",
-        "properties": {
-          "address": {
-            "type": "string",
-            "pattern": "^0x[a-fA-F0-9]{40}$"
-          },
-          "chainId": {
-            "type": "integer"
-          },
-          "name": {
-            "type": "string"
-          },
-          "symbol": {
-            "type": "string"
-          },
-          "decimals": {
-            "type": "integer"
-          },
-          "logoURI": {
-            "type": "string",
-            "pattern": "^(https://raw.githubusercontent.com/berachain/metadata/[^\\s]+|https://(assets|coin-images).coingecko.com/[^\\s]+|https://res.cloudinary.com/duv0g402y/[^\\s]+)$"
-          },
-          "base64": {
-            "type": "string"
-          },
-          "tags": {
-            "type": "array",
-            "items": {
-              "type": "string"
-            }
-          }
-        },
-        "required": ["address", "chainId", "name", "symbol", "decimals"]
-      },
-      "minItems": 1
-    }
-  },
-  "required": ["name", "logoURI", "tags", "tokens", "$schema"],
-  "additionalProperties": false
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"type": "object",
+	"properties": {
+		"$schema": {
+			"type": "string",
+			"pattern": "^\\.\\./.+\\.schema\\.json$"
+		},
+		"name": {
+			"type": "string",
+			"minLength": 1
+		},
+		"logoURI": {
+			"type": "string",
+			"pattern": "^(https://raw.githubusercontent.com/berachain/metadata/[^\\s]+|https://(assets|coin-images).coingecko.com/[^\\s]+|https://res.cloudinary.com/duv0g402y/[^\\s]+)$"
+		},
+		"tags": {
+			"type": "object",
+			"additionalProperties": {
+				"type": "object",
+				"properties": {
+					"name": {
+						"type": "string",
+						"minLength": 1
+					},
+					"description": {
+						"type": "string",
+						"minLength": 1
+					}
+				},
+				"required": ["name", "description"],
+				"additionalProperties": false
+			}
+		},
+		"tokens": {
+			"type": "array",
+			"items": {
+				"type": "object",
+				"properties": {
+					"address": {
+						"type": "string",
+						"pattern": "^0x[a-fA-F0-9]{40}$"
+					},
+					"chainId": {
+						"type": "integer"
+					},
+					"name": {
+						"type": "string"
+					},
+					"symbol": {
+						"type": "string"
+					},
+					"decimals": {
+						"type": "integer"
+					},
+					"logoURI": {
+						"type": "string",
+						"pattern": "^(https://raw.githubusercontent.com/berachain/metadata/[^\\s]+|https://(assets|coin-images).coingecko.com/[^\\s]+|https://res.cloudinary.com/duv0g402y/[^\\s]+)$"
+					},
+					"base64": {
+						"type": "string"
+					},
+					"tags": {
+						"type": "array",
+						"items": {
+							"type": "string"
+						}
+					}
+				},
+				"required": ["address", "chainId", "name", "symbol", "decimals"]
+			},
+			"minItems": 1
+		}
+	},
+	"required": ["name", "logoURI", "tags", "tokens", "$schema"],
+	"additionalProperties": false
 }

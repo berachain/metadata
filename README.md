@@ -18,7 +18,7 @@ pnpm validate;
 
 - [`src/tokens/`](/src/tokens): Token lists for different networks
 - [`src/vaults/`](/src/vaults/): Vault lists for different networks - Please note this is only for Whitelisted Vaults that are passed through governance
-- [`src/validators/](/src//validators/)`: Validator lists for different networks
+- [`src/validators/`](/src//validators/): Validator lists for different networks
 - [`src/assets/`](/src/assets/): Image assets for tokens, vaults, and validators
 
 ## Contributing

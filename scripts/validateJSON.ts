@@ -1,73 +1,58 @@
-// Imports
-// ================================================================
-import fs from 'fs';
-import path from 'path';
+import fs from "node:fs";
+import Ajv from "ajv";
+import addFormats from "ajv-formats";
 
-// Config
-// ================================================================
-const METADATA_FOLDER = 'src';
-const FOLDER_PATH = path.join(__dirname, `../${METADATA_FOLDER}`);
-const METADATA_FOLDER_EXCLUDED = ['assets'];
-
-// Functions
-// ================================================================
-/**
- * Checks if a string is a valid JSON
- * @param jsonString - The string to check
- * @returns True if the string is a valid JSON, false otherwise
- */
-const isValidJSON = (jsonString: string) => {
-  try {
-      JSON.parse(jsonString);
-      return true;
-  } catch (e) {
-      return false;
-  }
+import tokenSchemas from "../schemas/tokens.schema.json" with { type: "json" };
+import validatorSchemas from "../schemas/validators.schema.json" with {
+	type: "json",
 };
+import vaultSchemas from "../schemas/vaults.schema.json" with { type: "json" };
 
-/**
- * Checks all images in the metadata folder for valid dimensions
- */
-const validateJSONFiles = () => {
-  let errors: string[] = [];
+const ajv = new Ajv({
+	validateSchema: false,
+	allErrors: true,
+}); // options can be passed, e.g. {allErrors: true}
 
-  // Get all the folder in the src folder excludingt the 'METADATA_FOLDER_EXCLUDES' folder
-  const folders = fs.readdirSync(path.join(__dirname, `../${METADATA_FOLDER}`), { withFileTypes: true })
-    .filter(entry => entry.isDirectory() && !METADATA_FOLDER_EXCLUDED.includes(entry.name))
-    .map(entry => entry.name);
+addFormats(ajv);
 
-  // Get all json file in all folders
-  let jsonMetadata: {
-    [key: string]: {
-      [key: string]: any
-    }
-  } = {};
-  for (const folder of folders) { 
-    const files = fs.readdirSync(path.join(__dirname, `../${METADATA_FOLDER}/${folder}`), { withFileTypes: true })
-      .filter(entry => entry.isFile() && entry.name.endsWith('.json'))
-      .map(entry => {
-        const file = `${folder}/${entry.name}`;
+const errors: [string, Error][] = [];
 
-        // Validate JSON file
-        const jsonString = fs.readFileSync(path.join(__dirname, `../${METADATA_FOLDER}/${file}`), 'utf8');
-        if (!isValidJSON(jsonString)) {
-          errors.push(`Invalid JSON file: ${file}`);
-        }
+function validate(schema, file) {
+	try {
+		const data = JSON.parse(fs.readFileSync(file, { encoding: "utf-8" }));
+		const valid = schema(data);
+		if (!valid) {
+			errors.push([file, schema.errors]);
+		}
+	} catch (error) {
+		errors.push([file, error]);
+	}
+}
 
-        return {
-          folder,
-          file,
-        };
-      });
-  }
+const validateValidator = ajv.compile(validatorSchemas);
 
-  if (errors.length > 0) {
-    console.warn(`${errors.length} Errors found in metadata:`);
-    errors.forEach(error => console.warn('\x1b[33m%s\x1b[0m', error));
-    process.exit(1);
-  }
-};
+for (const file of fs.globSync("src/validators/*.json")) {
+	validate(validateValidator, file);
+}
 
-// Initialize
-// ================================================================
-validateJSONFiles();
+const validateToken = ajv.compile(tokenSchemas);
+
+for (const file of fs.globSync("src/tokens/*.json")) {
+	validate(validateToken, file);
+}
+
+const validateVault = ajv.compile(vaultSchemas);
+
+for (const file of fs.globSync("src/vaults/*.json")) {
+	validate(validateVault, file);
+}
+
+if (errors.length > 0) {
+	console.error(`${errors.length} errors found in the JSON files:\n\n`);
+	for (const error of errors) {
+		console.error("Error in file", error[0]);
+		console.error(error[1].message);
+		console.log("\n");
+	}
+	process.exit(1);
+}

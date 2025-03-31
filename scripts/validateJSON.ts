@@ -19,11 +19,18 @@ const errors: [string, Error][] = [];
 
 function validate(schema, file) {
 	try {
+		console.group("VALIDATING FILE:", file);
 		const data = JSON.parse(fs.readFileSync(file, { encoding: "utf-8" }));
+
+		console.log("DATA:", data);
+
 		const valid = schema(data);
+
+		console.log("VALID:", valid);
 		if (!valid) {
-			errors.push([file, schema.errors]);
+			errors.push([file, valid.errors]);
 		}
+		console.groupEnd();
 	} catch (error) {
 		errors.push([file, error]);
 	}

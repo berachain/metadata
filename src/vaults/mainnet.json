@@ -45,10 +45,10 @@
       "description": "Wasabi is a spot leverage DEX that allows you to long, short, swap, and earn on your favorite tokens."
     },
     {
-      "name": "Kuma",
-      "logoURI": "https://raw.githubusercontent.com/berachain/metadata/refs/heads/main/src/assets/tokens/0x273c832797Bfda1C0826a786670D041282Bd6aFc.png",
-      "url": "https://kuma.bid",
-      "description": "Kuma is a layer 2 perpetual futures DEX powered by Berachain’s Proof-of-Liquidity."
+      "name": "bro.trade",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1743448666/reward-vaults/icons/pxfsjxx3qu4rzyqlk9vr.jpg",
+      "url": "https://app.bro.trade",
+      "description": "bro.trade is a community-driven, decentralized cryptocurrency trading platform specializing in perpetual futures (perps)."
     }
   ],
   "vaults": [
@@ -492,14 +492,14 @@
       "owner": "Wasabi"
     },
     {
-      "stakingTokenAddress": "0x273c832797Bfda1C0826a786670D041282Bd6aFc",
-      "vaultAddress": "0x5540e29749f6c8f5dcf49fcc17c67e97a8e7335b",
-      "name": "Kuma - Trade Rewards",
-      "protocol": "Kuma",
-      "logoURI": "https://raw.githubusercontent.com/berachain/metadata/refs/heads/main/src/assets/tokens/0x273c832797Bfda1C0826a786670D041282Bd6aFc.png",
-      "url": "https://exchange.kuma.bid/rewards/taker",
-      "description": "Earned by trading on the Kuma Perps DEX",
-      "owner": "Kuma"
+      "stakingTokenAddress": "0x561fd767eec89cfd94048df7c5402c7194ef4580",
+      "vaultAddress": "0x212a9b9b9cc7a935e15f4370f29705236ef709dd",
+      "name": "bro.trade - Staking Token",
+      "protocol": "bro.trade",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1743448666/reward-vaults/icons/pxfsjxx3qu4rzyqlk9vr.jpg",
+      "url": "https://app.bro.trade",
+      "description": "Acquired by trading on bro.trade",
+      "owner": "bro.trade"
     }
   ]
 }

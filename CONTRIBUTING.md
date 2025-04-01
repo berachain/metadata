@@ -54,7 +54,8 @@ src/assets/tokens/0x688e72142674041f8f6Af4c808a4045cA1D6aC82.png
   "name": "WBERA | HONEY",
   "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1738378469/reward-vaults/icons/soy9mfpovb1odtby9p02.png",
   "protocol": "HUB",
-  "url": "https://hub.berachain.com/pools/0x2c4a603a2aa5596287a06886862dc29d56dbc354000200000000000000000002/details/"
+  "url": "https://hub.berachain.com/pools/0x2c4a603a2aa5596287a06886862dc29d56dbc354000200000000000000000002/details/",
+  "description": "Acquired by depositing liquidity into the [WBERA | HONEY Pool](https://hub.berachain.com/pools/0x2c4a603a2aa5596287a06886862dc29d56dbc354000200000000000000000002/details/) on Hub"
 }
 ```
 
@@ -73,6 +74,25 @@ src/assets/tokens/0x2c4a603a2aa5596287a06886862dc29d56dbc354.png
 - `logoURI`: Path to vault icon
 - `protocol`: Protocol name
 - `url`: Hub URL for the vault
+- `description`: A small text about how to get the staking token, more details in the section below
+
+
+#### Vault Description
+
+The description field is optional but can be added to provide information about how to get the LP token. 
+
+![Vault description](README/vault-description.png)
+
+
+It can be a plain string but it also supports MarkDown syntax. Allowed tags are links, italic and bold.
+
+For instance, 
+
+> `Acquired by _depositing liquidity_ into the [WBERA | HONEY Pool](https://hub.berachain.com/pools/0x2c4a603a2aa5596287a06886862dc29d56dbc354000200000000000000000002/details/) on **Hub**` 
+
+will be displayed as
+
+> Acquired by _depositing liquidity_ into the [WBERA | HONEY Pool](https://hub.berachain.com/pools/0x2c4a603a2aa5596287a06886862dc29d56dbc354000200000000000000000002/details/) on **Hub**
 
 ### Adding a Validator
 

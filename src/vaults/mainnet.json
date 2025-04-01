@@ -37,6 +37,12 @@
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1742842241/reward-vaults/icons/1dd1de90-7d16-412b-8682-41d573d64d0a.png",
       "url": "https://www.bulla.exchange/",
       "description": ""
+    },
+    {
+      "name": "Wasabi",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1743451813/protocols/o2jkgouehmjdptfcswp6.png",
+      "url": "https://wasabi.xyz/",
+      "description": "Wasabi is a spot leverage DEX that allows you to long, short, swap, and earn on your favorite tokens."
     }
   ],
   "vaults": [
@@ -448,6 +454,36 @@
       "url": "https://app.kodiak.finance/#/liquidity/pools/0xc227c8639a41db8393dd1b4eac41464a62d64fb4?farm=0x3c8e4d4324f7ab2e3238c23a2838a762ecb7051d&chain=berachain_mainnet",
       "description": "Acquired by depositing liquidity into the Olympus - OHM | wBERA Pool on Kodiak",
       "owner": "Olympus"
+    },
+    {
+      "stakingTokenAddress": "0xd10e65a5f8ca6f835f2b1832e37cf150fb955f23",
+      "vaultAddress": "0x436022b9f853bd6cbc168b45fbf12ffa50b6f79c",
+      "name": "BurrBear - NECT | USDC.e | HONEY",
+      "protocol": "BurrBear",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1743429746/tokens/ejojqpuicz5nvimiyjzq.png",
+      "url": "https://app.burrbear.io/#/berachain/pool/0xd10e65a5f8ca6f835f2b1832e37cf150fb955f23000000000000000000000004",
+      "description": "Acquired by depositing liquidity into the NECT | USDC.e | HONEY Pool on BurrBear",
+      "owner": "BurrBear"
+    },
+    {
+      "stakingTokenAddress": "0xc95ab9eff8fb48760703c74416764b8f898afa1b",
+      "vaultAddress": "0x4eA84882228a5C881675151E951235e45256a484",
+      "name": "Wasabi - sWBERA",
+      "protocol": "Wasabi",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1743451864/tokens/oahudbpuy2h7mooma5wv.png",
+      "url": "https://app.wasabi.xyz/earn?vault=sWBERA&network=berachain",
+      "description": "Acquired by depositing BERA into the sWBERA Vault on Wasabi",
+      "owner": "Wasabi"
+    },
+    {
+      "stakingTokenAddress": "0xd948212f077e552533158becbc1882c1b19c40fe",
+      "vaultAddress": "0x49FCaA48e59e3d634Ae6c6953cc30ce953Dfba2c",
+      "name": "Wasabi - sHONEY",
+      "protocol": "Wasabi",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1743451885/tokens/lynhonn8pp4yeglgjth4.png",
+      "url": "https://app.wasabi.xyz/earn?vault=sHONEY&network=berachain",
+      "description": "Acquired by depositing BERA into the sWBERA Vault on Wasabi",
+      "owner": "Wasabi"
     }
   ]
 }

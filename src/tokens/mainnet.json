@@ -692,6 +692,16 @@
       "decimals": 18,
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1743513356/tokens/wu5gnzwstmazfyvxydea.png",
       "tags": ["memecoin"]
+    },
+    { 
+      "chainId": 80094,
+      "address": "0x30C8Cf6B46AA4DF3F9fbC2857aca92F10a6cAd7f",
+      "name": "Eliteness.Network",
+      "symbol": "ELITE",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/berachain/metadata/main/src/assets/tokens/0x30C8Cf6B46AA4DF3F9fbC2857aca92F10a6cAd7f.png",
+      "tags": [],
+      "extensions": { 	}
     }
   ]
 }

@@ -516,6 +516,15 @@
       "url": "https://app.madhoney.fi/vault",
       "description": "Acquired by depositing liquidity into the NECT | HONEY Pool on a D8X powered DEX like MadHoney.fi",
       "owner": "D8X"
+    },
+    {
+      "stakingTokenAddress": "0x3b8B155E3C44f07f6EAd507570f4047C8B450A7F",
+      "vaultAddress": "0xd62Af49eaB059144461E8D12CA1320A67d24A22A",
+      "name": "IVLP",
+      "logoURI": "https://raw.githubusercontent.com/berachain/metadata/refs/heads/main/src/assets/tokens/0x3b8B155E3C44f07f6EAd507570f4047C8B450A7F.png",
+      "protocol": "IVX Finance",
+      "url": "https://ivx.fi",
+      "description": "IVLP is the liquidity token for IVX's 0dte options AMM. Acquired by depositing liquidity into IVLP on IVX."
     }
   ]
 }

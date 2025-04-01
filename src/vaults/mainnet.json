@@ -85,6 +85,12 @@
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1743513356/tokens/wu5gnzwstmazfyvxydea.png",
       "url": "https://beratardio.xyz",
       "description": "Extra retarded (maybe sentient) bear smoking weed & buzzing off Mad Honey. First memecoin to graduate from @KodiakFi's Panda Factory."
+    },
+    {
+      "name": "IVLP",
+      "logoURI": "https://raw.githubusercontent.com/berachain/metadata/refs/heads/main/src/assets/tokens/0x3b8B155E3C44f07f6EAd507570f4047C8B450A7F.png",
+      "url": "https://ivx.fi",
+      "description": "IVLP is the liquidity token for IVX's 0dte options AMM. Acquired by depositing liquidity into IVLP on IVX."
     }
   ],
   "vaults": [
@@ -636,6 +642,15 @@
       "url": "https://app.beraborrow.com/pool/deposit",
       "description": "Acquired by depositing NECT into the Liquid Stability Pool on Beraborrow",
       "owner": "Beraborrow"
+    },
+    {
+      "stakingTokenAddress": "0x3b8B155E3C44f07f6EAd507570f4047C8B450A7F",
+      "vaultAddress": "0xd62Af49eaB059144461E8D12CA1320A67d24A22A",
+      "name": "IVLP",
+      "logoURI": "https://raw.githubusercontent.com/berachain/metadata/refs/heads/main/src/assets/tokens/0x3b8B155E3C44f07f6EAd507570f4047C8B450A7F.png",
+      "protocol": "IVX Finance",
+      "url": "https://ivx.fi",
+      "description": "IVLP is the liquidity token for IVX's 0dte options AMM. Acquired by depositing liquidity into IVLP on IVX."
     }
   ]
 }

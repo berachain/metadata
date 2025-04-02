@@ -7,7 +7,7 @@ import {
   zeroAddress,
 } from "viem";
 import { REWARD_VAULT_FACTORIES } from "./_constants";
-import { clients, getMetadataInFolder } from "./_utils";
+import { clients, formatAnnotation, getMetadataInFolder } from "./_utils";
 
 const vaultsMetadataFiles = getMetadataInFolder("vaults");
 
@@ -50,11 +50,9 @@ const ALLOWED_NAME_AND_SYMBOL_PATCHES: Address[] = [
   "0xFDD764D4Afd1F378B1bA1E56f477C4C4585B15D8",
 ];
 
-for (const vaultMetadata of vaultsMetadataFiles) {
+for (const { rawContent, path, ...vaultMetadata } of vaultsMetadataFiles) {
   await Promise.all(
     vaultMetadata.content.vaults.map(async (vault, idx) => {
-      const errorPrefix = `vaults/${vaultMetadata.chain}/${idx}:`;
-
       if (vault.vaultAddress === zeroAddress) {
         // Bera Token can't be read on-chain
         return;
@@ -62,7 +60,12 @@ for (const vaultMetadata of vaultsMetadataFiles) {
 
       if (!isAddress(vault.stakingTokenAddress)) {
         errors.push(
-          `${errorPrefix} staking token ${vault.stakingTokenAddress} is not a valid address`,
+          formatAnnotation({
+            rawContent,
+            xPath: `/vaults/${idx}/stakingTokenAddress`,
+            message: `${vault.name} staking token is not a valid address`,
+            file: path,
+          }),
         );
         return;
       }
@@ -71,14 +74,24 @@ for (const vaultMetadata of vaultsMetadataFiles) {
 
       if (stakingTokenAddress !== vault.stakingTokenAddress) {
         errors.push(
-          `${errorPrefix} staking token ${vault.stakingTokenAddress} is wrongly formatted. Should be ${stakingTokenAddress}`,
+          formatAnnotation({
+            rawContent,
+            xPath: `/vaults/${idx}/stakingTokenAddress`,
+            message: `${vault.name} staking token is wrongly formatted. Should be ${stakingTokenAddress}`,
+            file: path,
+          }),
         );
         return;
       }
 
       if (!isAddress(vault.vaultAddress)) {
         errors.push(
-          `${errorPrefix} vault address ${vault.vaultAddress} is not a valid address`,
+          formatAnnotation({
+            rawContent,
+            xPath: `/vaults/${idx}/vaultAddress`,
+            message: `${vault.name} vault address is not a valid address`,
+            file: path,
+          }),
         );
         return;
       }
@@ -112,14 +125,36 @@ for (const vaultMetadata of vaultsMetadataFiles) {
 
       if (onChainVault === zeroAddress) {
         errors.push(
-          `${errorPrefix} no vault found for provided staking token ${vault.stakingTokenAddress} on ${vault.name}`,
+          formatAnnotation({
+            rawContent,
+            xPath: `/vaults/${idx}/vaultAddress`,
+            message: ` ${vault.name} staking token has no vault deployed on chain.`,
+            file: path,
+          }),
         );
         return;
       }
 
       if (!isAddressEqual(onChainVault, vault.vaultAddress)) {
         errors.push(
-          `${errorPrefix} vault address for token ${vault.name} is wrongly formatted. Should be ${onChainVault}`,
+          formatAnnotation({
+            rawContent,
+            xPath: `/vaults/${idx}/vaultAddress`,
+            message: `${vault.name} vault address does not match on-chain address for the staking token. Should be ${onChainVault}`,
+            file: path,
+          }),
+        );
+        return;
+      }
+
+      if (onChainVault !== vault.vaultAddress) {
+        errors.push(
+          formatAnnotation({
+            rawContent,
+            xPath: `/vaults/${idx}/vaultAddress`,
+            message: `${vault.name} vault address is wrongly formatted. Should be ${onChainVault}`,
+            file: path,
+          }),
         );
       }
     }),
@@ -128,12 +163,11 @@ for (const vaultMetadata of vaultsMetadataFiles) {
 
 const tokenMetadataFiles = getMetadataInFolder("tokens");
 
-for (const tokenMetadata of tokenMetadataFiles) {
+for (const { rawContent, path, ...tokenMetadata } of tokenMetadataFiles) {
   const publicClient = clients[tokenMetadata.chain];
 
   await Promise.all(
     tokenMetadata.content.tokens.map(async (token, idx) => {
-      const errorPrefix = `tokens/${idx}:`;
       const tokenAddress = token.address;
 
       if (tokenAddress === zeroAddress) {
@@ -142,7 +176,12 @@ for (const tokenMetadata of tokenMetadataFiles) {
 
       if (!isAddress(tokenAddress)) {
         errors.push(
-          `${errorPrefix} token ${tokenAddress} for ${tokenMetadata.chain} is not a valid address`,
+          formatAnnotation({
+            rawContent,
+            xPath: `/tokens/${idx}/address`,
+            message: `${token.name} address is not a valid address`,
+            file: path,
+          }),
         );
         return;
       }
@@ -151,7 +190,12 @@ for (const tokenMetadata of tokenMetadataFiles) {
 
       if (formattedTokenAddress !== tokenAddress) {
         errors.push(
-          `${errorPrefix} token ${tokenAddress} for ${tokenMetadata.chain} is wrongly formatted. Should be ${formattedTokenAddress}`,
+          formatAnnotation({
+            rawContent,
+            xPath: `/tokens/${idx}/address`,
+            message: `${token.name} address is wrongly formatted. Should be ${formattedTokenAddress}`,
+            file: path,
+          }),
         );
         return;
       }
@@ -182,7 +226,12 @@ for (const tokenMetadata of tokenMetadataFiles) {
         !ALLOWED_NAME_AND_SYMBOL_PATCHES.includes(tokenAddress)
       ) {
         errors.push(
-          `${errorPrefix} token ${tokenAddress} on ${tokenMetadata.chain} has different name. Should be ${onChainName} is ${token.name}`,
+          formatAnnotation({
+            rawContent,
+            xPath: `/tokens/${idx}/name`,
+            message: `Token ${token.name} has different name on ${tokenMetadata.chain} . Should be ${onChainName} is ${token.name}`,
+            file: path,
+          }),
         );
       }
 
@@ -191,13 +240,23 @@ for (const tokenMetadata of tokenMetadataFiles) {
         !ALLOWED_NAME_AND_SYMBOL_PATCHES.includes(tokenAddress)
       ) {
         errors.push(
-          `${errorPrefix} token ${tokenAddress} on ${tokenMetadata.chain} has different symbol. Should be ${onChainSymbol} is ${token.symbol}`,
+          formatAnnotation({
+            rawContent,
+            xPath: `/tokens/${idx}/symbol`,
+            message: `Token ${token.name} has different symbol on ${tokenMetadata.chain}. Should be ${onChainSymbol}`,
+            file: path,
+          }),
         );
       }
 
       if (onChainDecimals !== token.decimals) {
         errors.push(
-          `${errorPrefix} token ${tokenAddress} on ${tokenMetadata.chain} has different decimals. Should be ${onChainDecimals} is ${token.decimals}`,
+          formatAnnotation({
+            rawContent,
+            xPath: `/tokens/${idx}/decimals`,
+            message: `Token ${token.name}  has different decimals on ${tokenMetadata.chain}. Should be ${onChainDecimals}`,
+            file: path,
+          }),
         );
       }
     }),
@@ -207,7 +266,7 @@ for (const tokenMetadata of tokenMetadataFiles) {
 if (errors.length > 0) {
   console.log("Errors found:");
   for (const error of errors) {
-    console.error(error);
+    console.error("\x1b[31m%s\x1b[0m", "Error", error);
   }
 
   process.exit(1);

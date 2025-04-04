@@ -1,10 +1,31 @@
-name: Validate CI
+name: Validate
 
 on:
   pull_request:
 
 jobs:
-  validate:
+  schema:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version-file: '.nvmrc'
+
+    - name: Setup pnpm
+      uses: pnpm/action-setup@v2
+
+    - name: Install dependencies
+      run: pnpm install 
+      
+    - name: Validate JSON files
+      run: |
+        pnpm validate:json
+
+  format:
     runs-on: ubuntu-latest
 
     steps:
@@ -24,9 +45,52 @@ jobs:
     - name: Lint Check
       run: pnpm lint
       
-    - name: Validate JSON files
-      run: |
-        pnpm validate
+    - name: Lint Check
+      run: pnpm check 
 
-    - name: Check formatting
-      run: pnpm check
+  data-consistency:
+    needs: schema
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version-file: '.nvmrc'
+
+    - name: Setup pnpm
+      uses: pnpm/action-setup@v2
+
+    - name: Install dependencies
+      run: pnpm install
+      
+    - name: Validate consistency with on-chain data
+      run: |
+        pnpm validate:data
+
+  images:
+    needs: schema
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version-file: '.nvmrc'
+
+    - name: Setup pnpm
+      uses: pnpm/action-setup@v2
+
+    - name: Install dependencies
+      run: pnpm install
+
+    - name: Lint Check
+      run: pnpm lint
+      
+    - name: Validate images
+      run: |
+        pnpm validate:images 

@@ -576,7 +576,7 @@
     {
       "stakingTokenAddress": "0x561fd767eec89cfd94048df7c5402c7194ef4580",
       "vaultAddress": "0x212a9b9b9cc7a935e15f4370f29705236ef709dd",
-      "name": "bro.trade - Staking Token",
+      "name": "bro.trade - Trading Rewards",
       "protocol": "bro.trade",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1743448666/reward-vaults/icons/pxfsjxx3qu4rzyqlk9vr.jpg",
       "url": "https://app.bro.trade",

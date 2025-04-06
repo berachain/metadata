@@ -441,6 +441,14 @@
       "description": "Bare-metal, non-custodial, institutional infrastructure operator for PoS blockchains. This validator node is operated in cooperation with Hack VC and Infrared Finance.",
       "website": "https://www.rockawayx.com",
       "twitter": "https://x.com/Rockaway_X"
+    },
+    {
+      "id": "0x967fb9134794ac697aadf15782b6f03da5494a094eb588045ac209bc80315d3c33b4cbf78db90400428c92011d6fde58",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1743772244/validators/twbqhha3sct4rnonrouk.png",
+      "name": "Infrared by Kingnodes 👑",
+      "description": "Enterprise web3 infrastructure provider. TG: t.me/kingnodes",
+      "website": "https://kingnodes.com",
+      "twitter": "https://x.com/kingnodes"
     }
   ]
 }

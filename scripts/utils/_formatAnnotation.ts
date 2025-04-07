@@ -56,7 +56,6 @@ export function formatAnnotation({
         startLine: line,
         startColumn: col,
       });
-      // return `::${level} file=${file},line=${line},col=${col}::${message}`;
     } else {
       return `${file}:${line}:${col} ${message}`;
     }

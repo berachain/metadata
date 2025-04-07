@@ -8,8 +8,10 @@ import type validatorsType from "../../src/validators/mainnet.json";
 import type vaultsType from "../../src/vaults/mainnet.json";
 import { isValidChainName } from "./_isValidChainName";
 /**
- * Parses all JSON files in the `src/{folder}` directory.
- * @returns
+ * Reads and parses metadata files from a specified folder
+ * @param folder - The folder to read from ('validators', 'tokens', or 'vaults')
+ * @returns Array of parsed metadata objects with chain, content, raw content, and file path
+ * @throws Error if folder doesn't exist or contains invalid files
  */
 export function getMetadataInFolder<
   T extends "validators" | "tokens" | "vaults",

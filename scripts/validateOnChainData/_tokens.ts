@@ -7,9 +7,9 @@ import {
   zeroAddress,
 } from "viem";
 
+import { CASE_SENSITIVE_ADDRESSES } from "../_constants";
 import { clients, formatAnnotation } from "../utils";
 import { ALLOWED_NAME_AND_SYMBOL_PATCHES } from "./_allowedTokenPatches";
-import { CASE_SENSITIVE_ADDRESSES } from "../_constants";
 
 export async function validateTokens(errors: string[], file) {
   const { rawContent, path, ...tokenMetadata } = file;

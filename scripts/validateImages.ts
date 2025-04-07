@@ -6,7 +6,7 @@ import path from "node:path";
 // Config
 // ================================================================
 const METADATA_FOLDER = "src";
-const ASSET_PATH = path.join(process.argv[2] ?? "", METADATA_FOLDER, "assets");
+ const ASSET_PATH = path.join(process.argv[2] ?? "", METADATA_FOLDER, "assets");
 const METADATA_FOLDER_EXCLUDED = ["assets"];
 
 // Functions

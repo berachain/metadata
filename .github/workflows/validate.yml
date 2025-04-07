@@ -1,14 +1,66 @@
-name: Validate CI
+name: Validate
 
 on:
-  pull_request:
+  pull_request_target:
 
 jobs:
-  validate:
+  schema:
     runs-on: ubuntu-latest
 
     steps:
     - uses: actions/checkout@v4
+    - uses: actions/checkout@v4
+      with:
+        repository: ${{ github.event.pull_request.head.repo.full_name }}
+        ref: ${{ github.event.pull_request.head.ref }}
+        path: ./head
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version-file: '.nvmrc'
+
+    - name: Setup pnpm
+      uses: pnpm/action-setup@v2
+
+    - name: Install dependencies
+      run: pnpm install 
+      
+    - name: Validate JSON files
+      run: |
+        pnpm validate:json head
+
+  format:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+      with:
+        repository: ${{ github.event.pull_request.head.repo.full_name }}
+        ref: ${{ github.event.pull_request.head.ref }}
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version-file: '.nvmrc'
+
+    - name: Setup pnpm
+      uses: pnpm/action-setup@v2
+
+    - name: Lint Check
+      run: pnpx @biomejs/biome ci
+
+  data-consistency:
+    needs: schema
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+    - uses: actions/checkout@v4
+      with:
+        repository: ${{ github.event.pull_request.head.repo.full_name }}
+        ref: ${{ github.event.pull_request.head.ref }}
+        path: ./head
 
     - name: Setup Node.js
       uses: actions/setup-node@v4
@@ -20,13 +72,33 @@ jobs:
 
     - name: Install dependencies
       run: pnpm install
-
-    - name: Lint Check
-      run: pnpm lint
       
-    - name: Validate JSON files
-      run: |
-        pnpm validate
+    - name: Validate consistency with on-chain data
+      run: pnpm validate:data head
 
-    - name: Check formatting
-      run: pnpm check
+  images:
+    needs: schema
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+    - uses: actions/checkout@v4
+      with:
+        repository: ${{ github.event.pull_request.head.repo.full_name }}
+        ref: ${{ github.event.pull_request.head.ref }}
+        path: ./head
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version-file: '.nvmrc'
+
+    - name: Setup pnpm
+      uses: pnpm/action-setup@v2
+
+    - name: Install dependencies
+      run: pnpm install
+      
+    - name: Validate images
+      run: |
+        pnpm validate:images head

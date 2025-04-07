@@ -27,9 +27,12 @@ export function formatAnnotation({
   file: string;
   level?: "error" | "warning";
 }): string {
-  // Rimuove il BOM se presente
-  const contentWithoutBOM = rawContent.replace(/^\uFEFF/, "");
-  // Normalizza i caratteri di fine riga a '\n'
+  // Removes the BOM header if present
+  const contentWithoutBOM = rawContent.replace(
+    /^(\uFEFF|\uFEFF\n|\uFEFF\r\n)/,
+    "",
+  );
+  // Normalizes line endings to '\n'
   const normalizedContent = contentWithoutBOM.replace(/\r\n/g, "\n");
 
   const tree = parseTree(normalizedContent);

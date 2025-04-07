@@ -115,16 +115,6 @@
       "owner": "Foundation"
     },
     {
-      "stakingTokenAddress": "0x086f82fa0cA310Cc835a9DB4f53697687ef149c7",
-      "vaultAddress": "0x086f82fa0cA310Cc835a9DB4f53697687ef149c7",
-      "name": "WBTC | WBERA",
-      "protocol": "HUB",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1738378469/reward-vaults/icons/xqepqh4lifyybbt27f20.png",
-      "url": "https://hub.berachain.com/pools/0x38fdd999fe8783037db1bbfe465759e312f2d809000200000000000000000004/details/",
-      "description": "Acquired by depositing liquidity into the WBTC | WBERA Pool on Hub",
-      "owner": "Foundation"
-    },
-    {
       "stakingTokenAddress": "0xF961a8f6d8c69E7321e78d254ecAfBcc3A637621",
       "vaultAddress": "0xF99be47baf0c22B7eB5EAC42c8D91b9942Dc7e84",
       "name": "USDC.e | HONEY",
@@ -132,6 +122,16 @@
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1738378469/reward-vaults/icons/oqmqj7c4707nobigirw5.png",
       "url": "https://hub.berachain.com/pools/0xf961a8f6d8c69e7321e78d254ecafbcc3a637621000000000000000000000001/details/",
       "description": "Acquired by depositing liquidity into the USDC.e | HONEY Pool on Hub",
+      "owner": "Foundation"
+    },
+    {
+      "stakingTokenAddress": "0x086f82fa0cA310Cc835a9DB4f53697687ef149c7",
+      "vaultAddress": "0x086f82fa0cA310Cc835a9DB4f53697687ef149c7",
+      "name": "WBTC | WBERA",
+      "protocol": "HUB",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1738378469/reward-vaults/icons/xqepqh4lifyybbt27f20.png",
+      "url": "https://hub.berachain.com/pools/0x38fdd999fe8783037db1bbfe465759e312f2d809000200000000000000000004/details/",
+      "description": "Acquired by depositing liquidity into the WBTC | WBERA Pool on Hub",
       "owner": "Foundation"
     },
     {

@@ -2,11 +2,8 @@ import fs from "node:fs";
 import Ajv from "ajv";
 import addFormats from "ajv-formats";
 
-import type {
-  DataValidateFunction,
-  ErrorObject,
-  ValidateFunction,
-} from "ajv/dist/types";
+import path from "node:path";
+import type { ErrorObject, ValidateFunction } from "ajv/dist/types";
 import tokenSchemas from "../schemas/tokens.schema.json" with { type: "json" };
 import validatorSchemas from "../schemas/validators.schema.json" with {
   type: "json",
@@ -38,19 +35,27 @@ function validate(schema: ValidateFunction, file) {
 
 const validateValidator = ajv.compile(validatorSchemas);
 
-for (const file of fs.globSync("src/validators/*.json")) {
+const inputFolder = process.argv[2];
+
+for (const file of fs.globSync(
+  path.join(inputFolder ?? "", "src/validators/*.json"),
+)) {
   validate(validateValidator, file);
 }
 
 const validateToken = ajv.compile(tokenSchemas);
 
-for (const file of fs.globSync("src/tokens/*.json")) {
+for (const file of fs.globSync(
+  path.join(inputFolder ?? "", "src/tokens/*.json"),
+)) {
   validate(validateToken, file);
 }
 
 const validateVault = ajv.compile(vaultSchemas);
 
-for (const file of fs.globSync("src/vaults/*.json")) {
+for (const file of fs.globSync(
+  path.join(inputFolder ?? "", "src/vaults/*.json"),
+)) {
   validate(validateVault, file);
 }
 

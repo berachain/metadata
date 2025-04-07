@@ -48,7 +48,8 @@ export function formatAnnotation({
 
     if (process.env.CI || process.env.GITHUB_ACTIONS) {
       core[level](message, {
-        file,
+        // This is needed to make it work with the checkout action
+        file: file.replace(process.argv[2], ""),
         startLine: line,
         startColumn: col,
       });

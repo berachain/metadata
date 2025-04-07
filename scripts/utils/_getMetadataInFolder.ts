@@ -28,7 +28,7 @@ export function getMetadataInFolder<
   rawContent: string;
   path: string;
 }[] {
-  const folderPath = path.join("src", folder);
+  const folderPath = path.join(process.argv[2] ?? "", "src", folder);
 
   return fs.readdirSync(folderPath).map((file) => {
     const chain = file.split(".json")[0];

@@ -449,6 +449,14 @@
       "description": "Enterprise web3 infrastructure provider. TG: t.me/kingnodes",
       "website": "https://kingnodes.com",
       "twitter": "https://x.com/kingnodes"
+    },
+    {
+      "id": "0xaddc88b5a74211b80ed2b8c5169b85380b7428a8b0a3381a4470d52203eb230f136b423370308783082866f716b06651",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1743533918/validators/mcusroc1wjdbi8wjqybc.png",
+      "name": "Infrared by Nodeinfra",
+      "description": "Korean validator focused on reliability and security",
+      "website": "https://nodeinfra.com",
+      "twitter": "https://x.com/nodeinfra"
     }
   ]
 }

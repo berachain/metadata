@@ -1,6 +1,5 @@
 {
-  "$schema": "../../schemas/vaults.schema.json",
-  "name": "Berachain Mainnet Default Reward Vault List",
+  "$schema": "../../schemas/vaults.schema.json", "name": "Berachain Mainnet Default Reward Vault List",
   "protocols": [
     {
       "name": "HUB",
@@ -652,6 +651,26 @@
       "url": "https://ivx.fi",
       "description": "IVLP is the liquidity token for IVX's 0dte options AMM. Acquired by depositing liquidity into IVLP on IVX.",
       "owner": "IVX Finance"
+    },
+    {
+      "stakingTokenAddress": "0xfC4994e0A4780ba7536d7e79611468B6bde14CaE",
+      "vaultAddress": "0x8Aa4a546D6437067faB027904EAC0b7c78857737",
+      "name": "Ether.fi - WBTC | eBTC",
+      "logoURI": "src/tokens/assets/0xfC4994e0A4780ba7536d7e79611468B6bde14CaE.png",
+      "protocol": "Kodiak",
+      "url": "https://app.kodiak.finance/#/liquidity/pools/0xfc4994e0a4780ba7536d7e79611468b6bde14cae?chain=berachain_mainnet",
+      "description": "Acquired by depositing liquidity into the Ether.fi - WBTC | eBTC Pool on Kodiak",
+      "owner": "Ether.fi"
+    },
+    {
+      "stakingTokenAddress": "0xA0cAbFc04Fc420b3d31BA431d18eB5bD33B3f334",
+      "vaultAddress": "0x77304193647B9DC09338b5976ad4C674B350FA30",
+      "name": "Ether.fi - WETH | weETH",
+      "logoURI": "src/tokens/assets/0xA0cAbFc04Fc420b3d31BA431d18eB5bD33B3f334.png",
+      "protocol": "Kodiak",
+      "url": "https://app.kodiak.finance/#/liquidity/pools/0xa0cabfc04fc420b3d31ba431d18eb5bd33b3f334?chain=berachain_mainnet",
+      "description": "Acquired by depositing liquidity into the Ether.fi - WETH | weETH Pool on Kodiak",
+      "owner": "Ether.fi"
     }
   ]
 }

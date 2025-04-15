@@ -574,7 +574,7 @@
       "owner": "D8X"
     },
     {
-      "stakingTokenAddress": "0x561fd767EEC89CFd94048DF7C5402C7194eF4580",
+      "stakingTokenAddress": "0x561fd767eec89cfd94048df7c5402c7194ef4580",
       "vaultAddress": "0x212a9b9b9cc7a935e15f4370f29705236ef709dd",
       "name": "bro.trade - Trading Rewards",
       "protocol": "bro.trade",

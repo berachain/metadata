@@ -157,6 +157,16 @@
       "owner": "Foundation"
     },
     {
+      "stakingTokenAddress": "0xd6620e78b89e8fdb5dfa675d55001c7fad424bdc",
+      "vaultAddress": "0x284f8d4b98fed32f154911102053a0c1ab621fc0",
+      "name": "Kodiak - POLLEN | WBERA",
+      "protocol": "Kodiak",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1742841699/reward-vaults/icons/81d1ee15-aead-4395-be9b-cf9e52a704f0.png",
+      "url": "https://app.kodiak.finance/#/liquidity/pools/0xd6620e78b89e8fdb5dfa675d55001c7fad424bdc?farm=0x284f8d4b98fed32f154911102053a0c1ab621fc0&chain=berachain_mainnet",
+      "description": "Acquired by depositing liquidity into the Kodiak - POLLEN | WBERA Pool on Kodiak",
+      "owner": "Kodiak"
+    },
+    {
       "stakingTokenAddress": "0xE416C064946112c1626D6700D1081a750B1B1Dd7",
       "vaultAddress": "0x4974Ee5f484a3c05F181Aeb380cd7C411dd79c0E",
       "name": "Smilee - NECT | wgBERA",

@@ -606,6 +606,26 @@
       "owner": "Wasabee"
     },
     {
+      "stakingTokenAddress": "0xac04b1AbADF214B57f7Ade1DD905AB7aCac23a6b",
+      "vaultAddress": "0x6Eb9bC8d1d8D6e94238c2D4f756F25A27FB34268",
+      "name": "Wasabee - wgBERA | WBERA",
+      "protocol": "Wasabee",
+      "logoURI": "https://raw.githubusercontent.com/berachain/metadata/main/src/assets/tokens/0xac04b1AbADF214B57f7Ade1DD905AB7aCac23a6b.png",
+      "url": "https://wasabee.honeypotfinance.xyz/vault/0xac04b1AbADF214B57f7Ade1DD905AB7aCac23a6b",
+      "description": "Acquired by depositing liquidity into the wgBERA | WBERA Pool on Wasabee",
+      "owner": "Wasabee"
+    },
+    {
+      "stakingTokenAddress": "0xE57D868d244d2Cf2E9679eaBa2A3048E58674565",
+      "vaultAddress": "0x5aB58FD0c6e74ae10A74a5FD43E5B6D26e46a18f",
+      "name": "Wasabee - iBERA | WBERA",
+      "protocol": "Wasabee",
+      "logoURI": "https://raw.githubusercontent.com/berachain/metadata/main/src/assets/tokens/0xE57D868d244d2Cf2E9679eaBa2A3048E58674565.png",
+      "url": "https://wasabee.honeypotfinance.xyz/vault/0xE57D868d244d2Cf2E9679eaBa2A3048E58674565",
+      "description": "Acquired by depositing liquidity into the iBERA | WBERA Pool on Wasabee",
+      "owner": "Wasabee"
+    },
+    {
       "stakingTokenAddress": "0xd538b6aeF78E4bDDe4FD4576E9E3A403704602bc",
       "vaultAddress": "0xfdDD0A98E6A3e447fE80ace97497B305A87FF716",
       "name": "Euler - EVK Vault eHONEY-1",

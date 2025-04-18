@@ -7,7 +7,8 @@
     "format": "biome format --write",
     "validate:images": "tsx scripts/validateImages.ts",
     "validate:json": "tsx scripts/validateJSON.ts",
-    "validate": "pnpm run validate:json && pnpm run validate:images",
+    "validate:data": "tsx scripts/validateOnChainData/main.ts",
+    "validate": "pnpm run validate:json && pnpm run validate:images && pnpm run validate:data",
     "lint": "biome lint .",
     "check": "biome check ."
   },
@@ -16,14 +17,19 @@
   "license": "ISC",
   "type": "module",
   "devDependencies": {
-    "@types/node": "22.13.13",
     "@biomejs/biome": "1.9.4",
+    "@types/node": "22.13.13",
     "ajv": "8.17.1",
     "ajv-formats": "^3.0.1",
-    "tsx": "4.19.3"
+    "tsx": "4.19.3",
+    "viem": "^2.24.2"
   },
   "engines": {
     "node": "22"
   },
-  "packageManager": "pnpm@9.15.9+sha512.68046141893c66fad01c079231128e9afb89ef87e2691d69e4d40eee228988295fd4682181bae55b58418c3a253bde65a505ec7c5f9403ece5cc3cd37dcf2531"
+  "packageManager": "pnpm@9.15.9+sha512.68046141893c66fad01c079231128e9afb89ef87e2691d69e4d40eee228988295fd4682181bae55b58418c3a253bde65a505ec7c5f9403ece5cc3cd37dcf2531",
+  "dependencies": {
+    "@actions/core": "^1.11.1",
+    "jsonc-parser": "^3.3.1"
+  }
 }

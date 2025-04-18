@@ -21,8 +21,8 @@
     {
       "id": "0xa232a81b5e834b817db01d85ee13e36552b48413626287de511b6c89b7b8ff4a448e865713fd21c98f1467a58fe6efe5",
       "logoURI": "https://res.cloudinary.com/duv0g402y/raw/upload/src/assets/stakeus.png",
-      "name": "StakeUs (lowest commission)",
-      "description": "Highest APR and Best Reward Pools, TRUST US STAKE US",
+      "name": "StakeUs",
+      "description": "Experimenting with Boost APR and Reward Pools",
       "website": "https://stakeus.xyz",
       "twitter": "https://www.twitter.com/StakeusXyz"
     },
@@ -449,6 +449,14 @@
       "description": "Enterprise web3 infrastructure provider. TG: t.me/kingnodes",
       "website": "https://kingnodes.com",
       "twitter": "https://x.com/kingnodes"
+    },
+    {
+      "id": "0xaddc88b5a74211b80ed2b8c5169b85380b7428a8b0a3381a4470d52203eb230f136b423370308783082866f716b06651",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1743533918/validators/mcusroc1wjdbi8wjqybc.png",
+      "name": "Infrared by Nodeinfra",
+      "description": "Korean validator focused on reliability and security",
+      "website": "https://nodeinfra.com",
+      "twitter": "https://x.com/nodeinfra"
     },
     {
       "id": "0x8e98ca2aaa76909360e4b1cf2e87ed2839222ab37495b067b3257cef256dbeabeca55ec72465d0fb2321a9b73f495e0f",

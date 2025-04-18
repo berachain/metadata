@@ -27,6 +27,12 @@
       "description": ""
     },
     {
+      "name": "Dolomite",
+      "logoURI": "https://raw.githubusercontent.com/berachain/metadata/refs/heads/main/src/assets/tokens/0x0F81001eF0A83ecCE5ccebf63EB302c70a39a654.png",
+      "url": "https://dolomite.io/",
+      "description": "Dolomite is a decentralized money market protocol."
+    },
+    {
       "name": "Beraborrow",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1743510826/protocols/d6pf9wceogciddpbgkpy.png",
       "url": "https://app.beraborrow.com/",

@@ -725,6 +725,42 @@
       "extensions": {
         "coingeckoId": "bedrock"
       }
+    },
+    {
+      "chainId": 80094,
+      "address": "0xAa97D791Afc02AF30cf0B046172bb05b3c306517",
+      "name": "Dolomite: WBERA",
+      "symbol": "dWBERA",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/berachain/metadata/refs/heads/main/src/assets/tokens/0xAa97D791Afc02AF30cf0B046172bb05b3c306517.png",
+      "tags": []
+    },
+    {
+      "chainId": 80094,
+      "address": "0x3000C6BF0AAEb813e252B584c4D9a82f99e7a71D",
+      "name": "Dolomite: rUSD",
+      "symbol": "drUSD",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/berachain/metadata/refs/heads/main/src/assets/tokens/0x3000C6BF0AAEb813e252B584c4D9a82f99e7a71D.png",
+      "tags": []
+    },
+    {
+      "chainId": 80094,
+      "address": "0x7f2B60fDff1494A0E3e060532c9980d7fad0404B",
+      "name": "Dolomite: HONEY",
+      "symbol": "dHONEY",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/berachain/metadata/refs/heads/main/src/assets/tokens/0x7f2B60fDff1494A0E3e060532c9980d7fad0404B.png",
+      "tags": []
+    },
+    {
+      "chainId": 80094,
+      "address": "0x0F81001eF0A83ecCE5ccebf63EB302c70a39a654",
+      "name": "Dolomite",
+      "symbol": "DOLO",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/berachain/metadata/refs/heads/main/src/assets/tokens/0x0F81001eF0A83ecCE5ccebf63EB302c70a39a654.png",
+      "tags": []
     }
   ]
 }

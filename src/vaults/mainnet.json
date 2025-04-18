@@ -104,6 +104,12 @@
       "url": "https://www.wizzwoods.com",
       "description": "1st pixel farm game integrates interchain capabilities with a SocialFi twist."
     }
+    {
+      "name": "D2 Finance",
+      "logoURI": "https://res.cloudinary.com/di4vqf7wv/image/upload/v1744937550/D2_Token_Logo_o2jj24.png",
+      "url": "https://d2.finance/strategies",
+      "description": "D2 Finance is a multi-strategy fund delivering tokenized derivatives strategies and derivatives trading, in a 100% on-chain solution"
+    },
   ],
   "vaults": [
     {
@@ -824,6 +830,26 @@
       "url": "https://app.aquabera.com/vault/0x04fD6a7B02E2e48caedaD7135420604de5f834f8",
       "description": "Acquired by depositing liquidity into the Aquabera - WBERA-HENLO Pool on Kodiak.",
       "owner": "HENLO"
+    }
+    {
+      "stakingTokenAddress": "0x36B933554782b108Bb9962ac00C498aCBceb706D",
+      "vaultAddress": "0xf53ee7a9ddbcd27f2a50c45f4e7a8e8b0eec043f",
+      "name": "HyperBera.USDC",
+      "logoURI": "https://res.cloudinary.com/di4vqf7wv/image/upload/v1744937768/HyperBERA_USDC_ejxecm.png",
+      "protocol": "D2 Finance",
+      "url": "https://d2.finance/strategies/HyperBera.USDC?chainId=80094&tab=1",
+      "description": "Acquired by depositing USDC.e into the D2 Finance HyperBera.USDC vault strategy (during funding periods)",
+      "owner": "D2 Finance"
+    }
+    {
+      "stakingTokenAddress": "0xbE75c8A7E58C7901D2e128dc8d3b6DE2481F1F79",
+      "vaultAddress": "0x70c359D85611E9a755997Cc59281EF5EDB04cf1b",
+      "name": "dgnBeraland",
+      "logoURI": "https://res.cloudinary.com/di4vqf7wv/image/upload/v1744937768/dgnBeraland_logo_dqetum.png",
+      "protocol": "D2 Finance",
+      "url": "https://d2.finance/strategies/dgnBeraland?chainId=80094&tab=2",
+      "description": "Acquired by depositing USDC.e into the D2 Finance dgnBeraland vault strategy (during funding periods)",
+      "owner": "D2 Finance"
     }
   ]
 }

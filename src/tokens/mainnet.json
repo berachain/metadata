@@ -701,7 +701,7 @@
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/berachain/metadata/main/src/assets/tokens/0x30C8Cf6B46AA4DF3F9fbC2857aca92F10a6cAd7f.png",
       "tags": [],
-      "extensions": { 	},
+      "extensions": { 	}
     },
     {
       "chainId": 80094,

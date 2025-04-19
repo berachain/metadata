@@ -587,7 +587,7 @@
     },
     {
       "stakingTokenAddress": "0x561fd767EEC89CFd94048DF7C5402C7194eF4580",
-      "vaultAddress": "0x212a9b9b9cc7a935e15f4370f29705236ef709dd",
+      "vaultAddress": "0x212a9b9B9cC7a935E15F4370F29705236eF709dD",
       "name": "bro.trade - Trading Rewards",
       "protocol": "bro.trade",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1743448666/reward-vaults/icons/pxfsjxx3qu4rzyqlk9vr.jpg",
@@ -677,7 +677,7 @@
     },
     {
       "stakingTokenAddress": "0x9B155cF7a4E5911AC35AB2173D0f58e1d39570Fd",
-      "vaultAddress": "0x124ca134dd2cd67362e259fb33a2c762d8baf961",
+      "vaultAddress": "0x124ca134dd2CD67362E259fb33A2c762d8BAF961",
       "name": "Kodiak Island OOGA-WBERA-1%",
       "protocol": "Kodiak",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1744728609/tokens/sea9bvshsrz8su6omcpl.png",
@@ -716,22 +716,22 @@
       "owner": "Ether.fi"
     },
     {
-      "stakingTokenAddress": "0x54c603173ca92a42b81f8838d705fd3e0f98d5d4",
-      "vaultAddress": "0x359424085d84c490a7b276e4bc72cef90a04068b",
+      "stakingTokenAddress": "0x54c603173CA92A42B81f8838d705fd3E0f98D5D4",
+      "vaultAddress": "0x359424085D84c490a7B276E4bC72ceF90a04068B",
       "name": "BakerDAO - BREAD | LBGT",
       "protocol": "Kodiak",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1743511182/tokens/uy0260lxub5dn38een6a.png",
-      "url": "https://app.kodiak.finance/#/liquidity/pools/0x54c603173ca92a42b81f8838d705fd3e0f98d5d4?farm=0x359424085d84c490a7b276e4bc72cef90a04068b&chain=berachain_mainnet",
+      "url": "https://app.kodiak.finance/#/liquidity/pools/0x54c603173CA92A42B81f8838d705fd3E0f98D5D4?farm=0x359424085d84c490a7b276e4bc72cef90a04068b&chain=berachain_mainnet",
       "description": "Acquired by depositing liquidity into the BREAD | LBGT Pool on Kodiak Finance",
       "owner": "BakerDAO"
     },
     {
-      "stakingTokenAddress": "0x1b7b061091bd2c900723107889fe44f825d6c921",
-      "vaultAddress": "0xec54b5d168e7128bc1f06d12ef0e5ab6f4c59ed9",
+      "stakingTokenAddress": "0x1b7B061091BD2C900723107889Fe44F825d6C921",
+      "vaultAddress": "0xEC54b5D168e7128bC1f06d12ef0e5aB6F4c59ed9",
       "name": "Wizzwoods - WIZZ | WBERA",
       "protocol": "HUB",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1744809769/vaults/xoeztwkfwreatd1zfjco.png",
-      "url": "https://hub.berachain.com/pools/0x1b7b061091bd2c900723107889fe44f825d6c92100020000000000000000010c/details/",
+      "url": "https://hub.berachain.com/pools/0x1b7B061091BD2C900723107889Fe44F825d6C92100020000000000000000010c/details/",
       "description": "Acquired by depositing liquidity into the Wizzwoods - WIZZ|WBERA Pool on Hub",
       "owner": "Wizzwoods"
     },
@@ -747,7 +747,7 @@
     },
     {
       "stakingTokenAddress": "0x396A3D0B799B1a0B1EaA17e75B4DEa412400860b",
-      "vaultAddress": "0x5ecefd0f14b0085d5ec3600fd1a97fa1366f97d9",
+      "vaultAddress": "0x5Ecefd0F14b0085d5ec3600Fd1A97fA1366F97D9",
       "name": "webera-vault-ibera",
       "protocol": "WeBera",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1744810404/tokens/g6rpupgxgkouozck7bqa.png",
@@ -756,17 +756,17 @@
       "owner": "WeBera"
     },
     {
-      "stakingTokenAddress": "0x56449b16ff2b1e5ee61f532ceffda8f408f718a1",
-      "vaultAddress": "0xed0fb3170390ef82e13102f36fa7fd5047722890",
+      "stakingTokenAddress": "0x56449b16ff2b1E5EE61F532ceFFDa8F408f718a1",
+      "vaultAddress": "0xED0fb3170390EF82E13102F36fA7FD5047722890",
       "name": "Bedrock - BR | WBERA",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1744808447/tokens/fudxzeljryceklkujvuw.png",
       "protocol": "Kodiak",
-      "url": "https://app.kodiak.finance/#/liquidity/pools/0x56449b16ff2b1e5ee61f532ceffda8f408f718a1?farm=0xed0fb3170390ef82e13102f36fa7fd5047722890&chain=berachain_mainnet",
+      "url": "https://app.kodiak.finance/#/liquidity/pools/0x56449b16ff2b1E5EE61F532ceFFDa8F408f718a1?farm=0xed0fb3170390ef82e13102f36fa7fd5047722890&chain=berachain_mainnet",
       "description": "Acquired by depositing liquidity into the Bedrock - BR | WBERA Pool on Kodiak",
       "owner": "Bedrock"
     },
     {
-      "stakingTokenAddress": "0xc857f2ba47b0560e0b8fcd4dd82b943b5ee88d2b",
+      "stakingTokenAddress": "0xC857F2bA47B0560E0B8fCd4Dd82b943B5ee88d2b",
       "vaultAddress": "0x8412561FADDD6C85F5a17e07E0F29428B813E69B",
       "name": "Henlo - Henlocker100M",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1744809287/vaults/jtwci2jihaa3qsken4st.png",
@@ -806,7 +806,7 @@
       "owner": "HENLO"
     },
     {
-      "stakingTokenAddress": "0xFb32f8c7D363790A6CCd89f8D20047612aba633B",
+      "stakingTokenAddress": "0xFb32f8c7D363790A6CCd89f8d20047612aba633B",
       "vaultAddress": "0xA6A3E6fb89FA4C6554e82D05b449639EeBfc564f",
       "name": "Henlo - Henlocker1B",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1744809364/vaults/kxovurpaj05qh1nqnsuq.png",
@@ -816,7 +816,7 @@
       "owner": "HENLO"
     },
     {
-      "stakingTokenAddress": "0x04fd6a7b02e2e48caedad7135420604de5f834f8",
+      "stakingTokenAddress": "0x04fD6a7B02E2e48caedaD7135420604de5f834f8",
       "vaultAddress": "0x16e8031814E58F581C8a1d6e087458b5110879Fa",
       "name": "HENLO - WBERA | HENLO ",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1744809255/vaults/zb9g0azdtve8difxpfb7.png",

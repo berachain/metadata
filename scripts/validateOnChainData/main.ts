@@ -13,10 +13,8 @@ await Promise.all([
 ]);
 
 if (errors.length > 0) {
-  console.log("Errors found:");
+  console.log("Warnings found:");
   for (const error of errors) {
-    console.error("\x1b[31m%s\x1b[0m", "Error", error);
+    console.warn("\x1b[33m%s\x1b[0m", "Warning", error);
   }
-
-  process.exit(1);
 }

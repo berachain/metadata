@@ -453,8 +453,8 @@
     {
       "chainId": 80094,
       "address": "0xCC0966D8418d412c599A6421b760a847eB169A8c",
-      "name": "SolvBTC Babylon",
-      "symbol": "SolvBTC.BBN",
+      "name": "xSolvBTC",
+      "symbol": "xSolvBTC",
       "decimals": 18,
       "logoURI": "https://coin-images.coingecko.com/coins/images/39384/large/unnamed.png?1721961640",
       "extensions": {
@@ -716,7 +716,7 @@
     },
     {
       "chainId": 80094,
-      "address": "0xd352dc6e5f0c45e2f2b38eb5565eb286a1ea4087",
+      "address": "0xd352dc6e5F0c45E2F2b38eb5565EB286A1ea4087",
       "name": "Bedrock",
       "symbol": "BR",
       "decimals": 18,

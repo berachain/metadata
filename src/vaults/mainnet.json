@@ -103,6 +103,12 @@
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1744809769/vaults/xoeztwkfwreatd1zfjco.png",
       "url": "https://www.wizzwoods.com",
       "description": "1st pixel farm game integrates interchain capabilities with a SocialFi twist."
+    },
+    {
+      "name": "MANNY TEST protocol",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1745227574/protocols/MANNY%20TEST%20protocol.png",
+      "url": "https://so22222mething.com",
+      "description": "Hello description"
     }
   ],
   "vaults": [
@@ -824,6 +830,16 @@
       "url": "https://app.aquabera.com/vault/0x04fD6a7B02E2e48caedaD7135420604de5f834f8",
       "description": "Acquired by depositing liquidity into the Aquabera - WBERA-HENLO Pool on Kodiak.",
       "owner": "HENLO"
+    },
+    {
+      "stakingTokenAddress": "0xD6620E78B89E8fdB5dFA675D55001C7FaD424bDc",
+      "vaultAddress": "0x284f8d4b98fed32f154911102053a0c1ab621fc0",
+      "name": "Kodiak - POLLEN | WBERA",
+      "protocol": "Beraborrow",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1745227576/vaults/0x284f8d4b98fed32f154911102053a0c1ab621fc0.png",
+      "url": "https://testmannywebsite.com",
+      "description": "Acquired by depositing liquidity into the Kodiak - POLLEN | WBERA Pool on Kodiak",
+      "owner": "MANNY TEST protocol"
     }
   ]
 }

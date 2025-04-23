@@ -20,7 +20,9 @@
       "name": "Berachain Token",
       "decimals": 18,
       "logoURI": "https://res.cloudinary.com/duv0g402y/raw/upload/v1717773645/src/assets/bera.png",
-      "tags": ["featured"],
+      "tags": [
+        "featured"
+      ],
       "extensions": {
         "coingeckoId": "berachain-bera",
         "pythPriceId": "0x962088abcfdbdb6e30db2e340c8cf887d9efb311b1f2f17b155a63dbb6d40265"
@@ -33,7 +35,9 @@
       "name": "Wrapped Berachain Token",
       "decimals": 18,
       "logoURI": "https://res.cloudinary.com/duv0g402y/raw/upload/v1717773645/src/assets/wbera.png",
-      "tags": ["featured"],
+      "tags": [
+        "featured"
+      ],
       "extensions": {
         "coingeckoId": "berachain-bera",
         "pythPriceId": "0x962088abcfdbdb6e30db2e340c8cf887d9efb311b1f2f17b155a63dbb6d40265"
@@ -46,7 +50,9 @@
       "name": "Bera Governance Token",
       "decimals": 18,
       "logoURI": "https://res.cloudinary.com/duv0g402y/raw/upload/v1717773645/src/assets/bgt.png",
-      "tags": ["featured"]
+      "tags": [
+        "featured"
+      ]
     },
     {
       "chainId": 80094,
@@ -55,7 +61,10 @@
       "name": "Honey",
       "decimals": 18,
       "logoURI": "https://res.cloudinary.com/duv0g402y/raw/upload/v1717773645/src/assets/honey.png",
-      "tags": ["stablecoin", "featured"],
+      "tags": [
+        "stablecoin",
+        "featured"
+      ],
       "extensions": {
         "coingeckoId": "honey-3",
         "pythPriceId": "0xf67b033925d73d43ba4401e00308d9b0f26ab4fbd1250e8b5407b9eaade7e1f4"
@@ -68,7 +77,10 @@
       "name": "BYUSD",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1738732576/tokens/y6wa21vehnappbe2cruf.png",
       "decimals": 6,
-      "tags": ["stablecoin", "featured"],
+      "tags": [
+        "stablecoin",
+        "featured"
+      ],
       "extensions": {
         "coingeckoId": "paypal-usd",
         "pythPriceId": "0xc1da1b73d7f01e7ddd54b3766cf7fcd644395ad14f70aa706ec5384c59e76692"
@@ -81,7 +93,10 @@
       "name": "Bridged USDC (Stargate)",
       "decimals": 6,
       "logoURI": "https://coin-images.coingecko.com/coins/images/6319/large/usdc.png?1696506694",
-      "tags": ["stablecoin", "featured"],
+      "tags": [
+        "stablecoin",
+        "featured"
+      ],
       "extensions": {
         "coingeckoId": "usd-coin",
         "pythPriceId": "0xeaa020c61cc479712813461ce153894a96a6c00b21ed0cfc2798d1f9a9e9c94a"
@@ -94,7 +109,10 @@
       "name": "Tether USD Coin",
       "decimals": 6,
       "logoURI": "https://coin-images.coingecko.com/coins/images/325/large/Tether.png?1696501661",
-      "tags": ["stablecoin", "featured"],
+      "tags": [
+        "stablecoin",
+        "featured"
+      ],
       "extensions": {
         "coingeckoId": "tether",
         "pythPriceId": "0x2b89b9dc8fdf9f34709a5b106b472f0f39bb6ca9ce04b0fd7f2e971688e2e53b"
@@ -107,7 +125,10 @@
       "name": "WBTC",
       "decimals": 8,
       "logoURI": "https://res.cloudinary.com/duv0g402y/raw/upload/v1717773645/src/assets/btc.png",
-      "tags": ["featured", "deposit"],
+      "tags": [
+        "featured",
+        "deposit"
+      ],
       "extensions": {
         "coingeckoId": "wrapped-bitcoin",
         "pythPriceId": "0xc9d8b075a5c69303365ae23633d4e085199bf5c520a3b90fed1322a0342ffc33"
@@ -120,7 +141,10 @@
       "name": "WETH",
       "decimals": 18,
       "logoURI": "https://res.cloudinary.com/duv0g402y/raw/upload/v1717773645/src/assets/eth.png",
-      "tags": ["featured", "deposit"],
+      "tags": [
+        "featured",
+        "deposit"
+      ],
       "extensions": {
         "coingeckoId": "weth",
         "pythPriceId": "0x9d4294bbcd1174d6f2003ec365831e64cc31d9f6f15a2b85399db8d5000960f6"
@@ -236,7 +260,9 @@
       "name": "Resolv USD",
       "decimals": 18,
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1743020794/tokens/c1lf9aq8svu5yvm0qusc.png",
-      "tags": ["stablecoin"],
+      "tags": [
+        "stablecoin"
+      ],
       "extensions": {
         "coingeckoId": "resolv-usr"
       }
@@ -404,7 +430,9 @@
       "symbol": "NECT",
       "decimals": 18,
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1743447620/tokens/zxgqjxi7do2qaq3heeee.png",
-      "tags": ["stablecoin"],
+      "tags": [
+        "stablecoin"
+      ],
       "extensions": {
         "coingeckoId": "nectar"
       }
@@ -691,7 +719,9 @@
       "symbol": "BERATARDIO",
       "decimals": 18,
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1743513356/tokens/wu5gnzwstmazfyvxydea.png",
-      "tags": ["memecoin"]
+      "tags": [
+        "memecoin"
+      ]
     },
     {
       "chainId": 80094,
@@ -769,6 +799,15 @@
       "symbol": "KODI WBERA-POLLEN",
       "decimals": 18,
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1745344462/tokens/0xD6620E78B89E8fdB5dFA675D55001C7FaD424bDc.png",
+      "tags": []
+    },
+    {
+      "chainId": 80094,
+      "address": "0x36B933554782b108Bb9962ac00C498aCBceb706D",
+      "name": "HyperBERA.USDC",
+      "symbol": "HyperBERA.USDC",
+      "decimals": 6,
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1745410951/MANNYTEST_tokens/0x36B933554782b108Bb9962ac00C498aCBceb706D.png",
       "tags": []
     }
   ]

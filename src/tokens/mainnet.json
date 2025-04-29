@@ -815,6 +815,18 @@
       "decimals": 18,
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1745684188/tokens/0xaD445256Ff81171043A5e7Cd8831e4371B000176.png",
       "tags": []
+    },
+    {
+      "chainId": 80094,
+      "address": "0x93919784C523f39CACaa98Ee0a9d96c3F32b593e",
+      "name": "brBTC",
+      "symbol": "brBTC",
+      "decimals": 8,
+      "logoURI": "https://res.cloudinary.com/dhltujx2f/image/upload/v1745907464/brBTC_vziiuf.png",
+      "tags": [],
+      "extensions": {
+        "coingeckoId": "bedrock-btc"
+      }
     }
   ]
 }

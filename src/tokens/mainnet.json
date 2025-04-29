@@ -815,6 +815,24 @@
       "decimals": 18,
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1745684188/tokens/0xaD445256Ff81171043A5e7Cd8831e4371B000176.png",
       "tags": []
+    },
+    {
+      "chainId": 80094,
+      "address": "0x7e768f47dfDD5DAe874Aac233f1Bc5817137E453",
+      "symbol": "yBGT",
+      "name": "Bearn BGT",
+      "logoURI": "https://raw.githubusercontent.com/berachain/metadata/refs/heads/main/src/assets/tokens/0x7e768f47dfDD5DAe874Aac233f1Bc5817137E453.jpg",
+      "decimals": 18,
+      "tags": []
+    },
+    {
+      "chainId": 80094,
+      "address": "0x982940eBfC5caa2F5b5a82AAc2Dfa99F18BB7dA4",
+      "symbol": "yBERA",
+      "name": "Bearn BERA",
+      "logoURI": "https://raw.githubusercontent.com/berachain/metadata/refs/heads/main/src/assets/tokens/0x982940eBfC5caa2F5b5a82AAc2Dfa99F18BB7dA4.png",
+      "decimals": 18,
+      "tags": []
     }
   ]
 }

@@ -922,6 +922,16 @@
       "url": "https://app.dolomite.io/",
       "description": "Acquire dwBERA by supplying BERA  on Dolomite.io",
       "owner": "Dolomite"
+    },
+    {
+      "stakingTokenAddress": "0x1ac0E38eE5f66F6fa46E1644BB6B73bEe598b953",
+      "vaultAddress": "0x6b9ae55362e65e2a615681824a6334cc3f29e658",
+      "name": "Bedrock - brBTC | uniBTC",
+      "protocol": "Kodiak",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1742842539/reward-vaults/icons/df7a2ce9-3ff4-4c7c-9645-c9df78fd8a78.png",
+      "url": "https://hub.berachain.com/vaults/0x6b9ae55362e65e2a615681824a6334cc3f29e658/",
+      "description": "Acquired by depositing liquidity into the Bedrock - brBTC | uniBTC Pool on Kodiak",
+      "owner": "Bedrock"
     }
   ]
 }

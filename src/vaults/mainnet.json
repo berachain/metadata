@@ -1210,6 +1210,16 @@
       "url": "https://hub.berachain.com/vaults/0x0308f87226efacc51983bea842be57dc45de772c/",
       "description": "Acquired by depositing liquidity into the Kodiak - WBTC | WETH Island on Kodiak",
       "owner": "Kodiak"
+    },
+    {
+      "stakingTokenAddress": "0xAc8a437d1e6905E419431662AEAd90fB04ac3008",
+      "vaultAddress": "0x9BC3D407D930910a7aF515D473Ce9633624C1574",
+      "name": "BurrBear - BURR | wgBERA",
+      "protocol": "BurrBear",
+      "logoURI": "https://raw.githubusercontent.com/berachain/metadata/refs/heads/main/src/assets/vaults/0x9BC3D407D930910a7aF515D473Ce9633624C1574.png",
+      "url": "https://app.burrbear.io/#/berachain/pool/0xac8a437d1e6905e419431662aead90fb04ac300800020000000000000000000f",
+      "description": "Acquired by depositing liquidity into the BURR | wgBERA Pool on BurrBear",
+      "owner": "BurrBear"
     }
   ]
 }

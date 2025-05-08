@@ -899,6 +899,15 @@
       "extensions": {
         "coingeckoId": "burr-governance-token"
       }
+    },
+    {
+      "chainId": 80094,
+      "address": "0x804CF700De1e18f2411Bd05aad5fa10d60e1900f",
+      "symbol": "aSUGAR",
+      "name": "aSugar Token",
+      "logoURI": "https://assets.beraji.com/images/tokens/0x804CF700De1e18f2411Bd05aad5fa10d60e1900f.png",
+      "decimals": 18,
+      "tags": []
     }
   ]
 }

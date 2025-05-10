@@ -457,6 +457,14 @@
       "description": "Korean validator focused on reliability and security",
       "website": "https://nodeinfra.com",
       "twitter": "https://x.com/nodeinfra"
+    },
+    {
+      "id": "0xab2f79eeae163596276d5a56e52be4796df33377b157531a839a0174a68ca36e245bee122c4b5364176cf25ec2e0e8fc",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1746468250/src/validators/mainnet/yrpayrtojyuturstrskz.png",
+      "name": "Infrared by DeSpread",
+      "description": "Korean Beras are coming. DeSpread provides a data-driven growth strategy for expanding into APAC regions.",
+      "website": "https://despread.io",
+      "twitter": "https://x.com/DeSpreadLabs"
     }
   ]
 }

@@ -457,6 +457,14 @@
       "description": "Korean validator focused on reliability and security",
       "website": "https://nodeinfra.com",
       "twitter": "https://x.com/nodeinfra"
+    },
+    {
+      "id": "0xb47bc1b35cd4c66f563f3f36285ab49747dde1469cf9972e21da45677aabde4c20d55a24bf7faa6791511a5ba3c8d415",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1745951325/src/validators/mainnet/x6fqpceegxahuc98skcw.png",
+      "name": "DeFimans Co., Ltd",
+      "description": "A web3 professional firm ready to assist you from the get-go. DeFimans is a web3 consulting firm based in Japan with crypto-native members with DeFi and TradFi backgrounds. Our core strength lies in three areas. First is client connection with domestic/global web3 players; we have very close connections to some of Japan's biggest entertainment and finance companies, top-tier DeFi projects, and startups. Next, Unparalleled insight into the Japanese web3 space. Based on our connections and experience in this unique market, we can provide crucial information and networking to assist global projects looking to GTM in Japan or vice versa. Lastly, the highest concentration of DeFi and tokenomics expertise in Japan. We advise tokenomics and capital policy for global DeFi projects and web3 projects of the biggest Japanese companies in the finance and entertainment sectors.",
+      "website": "https://defimans.com/en/",
+      "twitter": "https://x.com/DeFimans"
     }
   ]
 }

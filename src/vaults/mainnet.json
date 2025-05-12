@@ -1346,12 +1346,12 @@
     {
       "stakingTokenAddress": "0x53f786662FF5fbeC135f913ab93C6B3366e90a46",
       "vaultAddress": "0x1cc12219dada26bd8bb6831b6c3063de17f9d399",
-      "name": "50aSUGAR-50HONEY-WEIGHTED",
-      "protocol": "Kodiak",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746534876/tokens/default.png",
-      "url": "https://app.kodiak.finance/",
-      "description": "Acquired by depositing liquidity into the 50aSUGAR-50HONEY-WEIGHTED Pool on Kodiak",
-      "owner": "Kodiak"
+      "name": "Jiko - ASUGAR | HONEY",
+      "protocol": "Hub",
+      "logoURI": "https://raw.githubusercontent.com/berachain/metadata/refs/heads/main/src/assets/vaults/0x53f786662FF5fbeC135f913ab93C6B3366e90a46.png",
+      "url": "https://hub.berachain.com/pools/0x53f786662ff5fbec135f913ab93c6b3366e90a4600020000000000000000014e/details/",
+      "description": "Acquired by depositing liquidity into the Jiko - ASUGAR | HONEY Pool on Hub",
+      "owner": "Jiko"
     },
     {
       "stakingTokenAddress": "0xd6eb8ae479EdF452d264493708c85AA798CCCdFd",

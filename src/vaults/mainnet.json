@@ -758,7 +758,7 @@
       "vaultAddress": "0x58c2eE02ec4eAc887FEEd112cccE28ae9602fe64",
       "name": "Euler - EVK Vault eHONEY-2",
       "protocol": "Euler",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1743533423/tokens/yrqz3lw0epqgdflcmhyg.png",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1743533444/tokens/m989y6nbek5eajnczkik.png",
       "url": "https://app.euler.finance/vault/0x89FD57175EcEEC45992e07c206e5A864Fa6aF433?network=berachain",
       "description": "Acquired by depositing HONEY into the Re7 Labs HONEY Vault on Euler",
       "owner": "Euler"
@@ -768,7 +768,7 @@
       "vaultAddress": "0xab1eCd0d1B6730C059A686115741CB131f804368",
       "name": "Euler - EVK Vault eHONEY-3",
       "protocol": "Euler",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1743533444/tokens/m989y6nbek5eajnczkik.png",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1743533423/tokens/yrqz3lw0epqgdflcmhyg.png",
       "url": "https://app.euler.finance/vault/0x027DcAfB223f69d41Bd413C50854017718419585?network=berachain",
       "description": "Acquired by depositing HONEY into the Tulipa Hive HONEY Vault on Euler",
       "owner": "Euler"

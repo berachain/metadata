@@ -78,7 +78,7 @@
       "name": "Kuma",
       "logoURI": "https://raw.githubusercontent.com/berachain/metadata/refs/heads/main/src/assets/tokens/0x273c832797Bfda1C0826a786670D041282Bd6aFc.png",
       "url": "https://kuma.bid",
-      "description": "Kuma is a layer 2 perpetual futures DEX powered by Berachain’s Proof-of-Liquidity."
+      "description": "Kuma is a layer 2 perpetual futures DEX powered by Berachain's Proof-of-Liquidity."
     },
     {
       "name": "D8X",
@@ -168,7 +168,7 @@
       "name": "BeraPaw",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746111634/protocols/berapaw.png",
       "url": "https://www.berapaw.com/",
-      "description": "BeraPaw is an innovative liquid staking protocol that converts Berachain’s native token into a more versatile and liquid asset, providing users with a seamless and hassle-free experience."
+      "description": "BeraPaw is an innovative liquid staking protocol that converts Berachain's native token into a more versatile and liquid asset, providing users with a seamless and hassle-free experience."
     },
     {
       "name": "SX Bet",
@@ -181,6 +181,12 @@
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746534876/tokens/default.png",
       "url": "https://www.ether.fi",
       "description": "Save, grow, spend."
+    },
+    {
+      "name": "Solv Protocol",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1747147250/protocols/Solv%20Protocol.png",
+      "url": "https://solv.finance/",
+      "description": "Solv Protocol is a platform that offers a comprehensive set of financial services for Bitcoin holders, including lending, liquid staking, yield generation, and fund management. Powered by a large on-chain Bitcoin reserve, Solv unlocks the potential of Bitcoin's $1 trillion market."
     }
   ],
   "vaults": [
@@ -536,11 +542,11 @@
     {
       "stakingTokenAddress": "0x3879451f4f69F0c2d37CaD45319cFf2E7d29C596",
       "vaultAddress": "0x11Fadf69a02340A676B4BD2A27FFd952094faE99",
-      "name": "SolvProtocol - SolvBTC | WBTC",
+      "name": "Solv - SolvBTC | WBTC",
       "protocol": "Kodiak",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1742842438/reward-vaults/icons/c1ee4ab9-d1cf-4850-a9a4-c73d13749afd.png",
       "url": "https://app.kodiak.finance/#/liquidity/pools/0x3879451f4f69f0c2d37cad45319cff2e7d29c596?farm=0x11fadf69a02340a676b4bd2a27ffd952094fae99&chain=berachain_mainnet",
-      "description": "Acquired by depositing liquidity into the SolvProtocol - SolvBTC | WBTC Pool on Kodiak",
+      "description": "Acquired by depositing liquidity into the Solv - SolvBTC | WBTC Pool on Kodiak",
       "owner": "Solv Protocol"
     },
     {
@@ -556,11 +562,11 @@
     {
       "stakingTokenAddress": "0x43E487126c4F37D1915cF02a90B5C5295AFb1790",
       "vaultAddress": "0x3fc5cB0290C82680Afe9EF8CddE5468d74C85705",
-      "name": "SolvProtocol - SolvBTC.BBN | SolvBTC",
+      "name": "Solv - xSolvBTC/SolvBTC",
       "protocol": "Kodiak",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1742842438/reward-vaults/icons/c1ee4ab9-d1cf-4850-a9a4-c73d13749afd.png",
       "url": "https://app.kodiak.finance/#/liquidity/pools/0x43e487126c4f37d1915cf02a90b5c5295afb1790?farm=0x3fc5cb0290c82680afe9ef8cdde5468d74c85705&chain=berachain_mainnet",
-      "description": "Acquired by depositing liquidity into the SolvProtocol - SolvBTC.BBN | SolvBTC Pool on Kodiak",
+      "description": "Acquired by depositing liquidity into the Solv - xSolvBTC/SolvBTC Pool on Kodiak",
       "owner": "Solv Protocol"
     },
     {
@@ -1070,7 +1076,7 @@
       "protocol": "Concrete",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746472446/vaults/concrete_stables.png",
       "url": "https://app.concrete.xyz/vault/0xe96E0D5DdA2e24050F43AF92EbB3293f6e605C9a",
-      "description": "Acquired by depositing USDT0 into Concrete’s Berachain Stables vault",
+      "description": "Acquired by depositing USDT0 into Concrete's Berachain Stables vault",
       "owner": "Concrete"
     },
     {
@@ -1080,7 +1086,7 @@
       "protocol": "Concrete",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746472446/vaults/concrete_stables.png",
       "url": "https://app.concrete.xyz/vault/0x585934AfBf1FA9f563b80283F8B916Dd8F66a9b6",
-      "description": "Acquired by depositing USDe into Concrete’s Berachain Stables vault",
+      "description": "Acquired by depositing USDe into Concrete's Berachain Stables vault",
       "owner": "Concrete"
     },
     {
@@ -1090,7 +1096,7 @@
       "protocol": "Concrete",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746472446/vaults/concrete_stables.png",
       "url": "https://app.concrete.xyz/vault/0xc3cac88fd629652BBe0C3454D5d3049368A73849",
-      "description": "Acquired by depositing USDC.e into Concrete’s Berachain Stables vault",
+      "description": "Acquired by depositing USDC.e into Concrete's Berachain Stables vault",
       "owner": "Concrete"
     },
     {
@@ -1100,7 +1106,7 @@
       "protocol": "Concrete",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746472446/vaults/concrete_stables.png",
       "url": "https://app.concrete.xyz/vault/0x81235952ad93987F74e074994Def2a7e1D6F1Fb0",
-      "description": "Acquired by depositing HONEY into Concrete’s Berachain Stables vault",
+      "description": "Acquired by depositing HONEY into Concrete's Berachain Stables vault",
       "owner": "Concrete"
     },
     {
@@ -1110,7 +1116,7 @@
       "protocol": "Concrete ",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746472446/vaults/concrete_stables.png",
       "url": "https://app.concrete.xyz/vault/0xd08E3652e6b29EBdD58fe93B422513862FB49899",
-      "description": "Acquired by depositing sUSDe into Concrete’s Berachain Stables vault",
+      "description": "Acquired by depositing sUSDe into Concrete's Berachain Stables vault",
       "owner": "Concrete "
     },
     {
@@ -1120,7 +1126,7 @@
       "protocol": "Concrete",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746472446/vaults/concrete_ethereum.png",
       "url": "https://app.concrete.xyz/vault/0x8d3e53f5521927E5c78D42B4f9e08ae8DF91B772",
-      "description": "Acquired by depositing WETH into Concrete’s Berachain Ethereum vault",
+      "description": "Acquired by depositing WETH into Concrete's Berachain Ethereum vault",
       "owner": "Concrete"
     },
     {
@@ -1130,7 +1136,7 @@
       "protocol": "Concrete",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746472446/vaults/concrete_ethereum.png",
       "url": "https://app.concrete.xyz/vault/0x49BEE393825BBAC404fEfE6E24f34854f30905D2",
-      "description": "Acquired by depositing BeraETH into Concrete’s Berachain Ethereum vault",
+      "description": "Acquired by depositing BeraETH into Concrete's Berachain Ethereum vault",
       "owner": "Concrete"
     },
     {
@@ -1140,7 +1146,7 @@
       "protocol": "Concrete",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746472445/vaults/concrete_btc.png",
       "url": "https://app.concrete.xyz/vault/0xB6E3C1154e07f8a3dc04a9a28648C7AA30511120",
-      "description": "Acquired by depositing LBTC into Concrete’s Berachain Bitcoin vault",
+      "description": "Acquired by depositing LBTC into Concrete's Berachain Bitcoin vault",
       "owner": "Concrete"
     },
     {
@@ -1150,7 +1156,7 @@
       "protocol": "Concrete",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746472445/vaults/concrete_btc.png",
       "url": "https://app.concrete.xyz/vault/0x335e7b56054F830883D1509AFDce58DedceFb29C",
-      "description": "Acquired by depositing WBTC into Concrete’s Berachain Bitcoin vault",
+      "description": "Acquired by depositing WBTC into Concrete's Berachain Bitcoin vault",
       "owner": "Concrete"
     },
     {
@@ -1160,7 +1166,7 @@
       "protocol": "Concrete",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746472445/vaults/concrete_btc.png",
       "url": "https://app.concrete.xyz/vault/0x068D072d1ee7647B9d649a7C2046166Aa81af3D3",
-      "description": "Acquired by depositing uniBTC into Concrete’s Berachain Bitcoin vault",
+      "description": "Acquired by depositing uniBTC into Concrete's Berachain Bitcoin vault",
       "owner": "Concrete"
     },
     {
@@ -1170,7 +1176,7 @@
       "protocol": "Concrete",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746472445/vaults/concrete_btc.png",
       "url": "https://app.concrete.xyz/vault/0x127BF6361ff7495F2A69d83d9Ad2092D3dfEE7Ab",
-      "description": "Acquired by depositing FTBC into Concrete’s Berachain Bitcoin vault",
+      "description": "Acquired by depositing FTBC into Concrete's Berachain Bitcoin vault",
       "owner": "Concrete"
     },
     {
@@ -1180,7 +1186,7 @@
       "protocol": "Concrete",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746472445/vaults/concrete_bera.png",
       "url": "https://app.concrete.xyz/vault/0xEC577E989c02b294D5b8f4324224a5B63F5beef7",
-      "description": "Acquired by depositing BERA or WBERA into Concrete’s Berachain Bera vault",
+      "description": "Acquired by depositing BERA or WBERA into Concrete's Berachain Bera vault",
       "owner": "Concrete"
     },
     {
@@ -1190,7 +1196,7 @@
       "protocol": "Concrete",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746472445/vaults/concrete_berabaddies.png",
       "url": "https://app.concrete.xyz/vault/0xe49Ff31B2B3Fd346b0d1832d9fE224ee0d1c1F9e",
-      "description": "Acquired by depositing HONEY into Concrete’s Berabaddies Earn Vault",
+      "description": "Acquired by depositing HONEY into Concrete's Berabaddies Earn Vault",
       "owner": "Concrete"
     },
     {
@@ -1200,7 +1206,7 @@
       "protocol": "Concrete",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746472445/vaults/concrete_berabaddies.png",
       "url": "https://app.concrete.xyz/vault/0xA15E1De8a220Ca9C63DB4E8a1E9043fb953B3713",
-      "description": "Acquired by depositing BERA or WBERA into Concrete’s Berabaddies Earn Vault",
+      "description": "Acquired by depositing BERA or WBERA into Concrete's Berabaddies Earn Vault",
       "owner": "Concrete"
     },
     {
@@ -1362,6 +1368,16 @@
       "url": "https://app.dolomite.io/balances",
       "description": "Acquired by depositing uniBTC into Dolomite",
       "owner": "Bedrock"
+    },
+    {
+      "stakingTokenAddress": "0x0F6f337B09cb5131cF0ce9df3Beb295b8e728F3B",
+      "vaultAddress": "0x9a5620309c20b8beca1d59c6def1e73ac6cba45d",
+      "name": "Solv - SolvBTC.BERA",
+      "protocol": "Solv Protocol",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1747326914/vaults/0x9a5620309c20b8beca1d59c6def1e73ac6cba45d.png",
+      "url": "https://app.solv.finance/bera?network=bera",
+      "description": "Token can be minted/burned by providing or withdrawing liquidity into the vault",
+      "owner": "Solv Protocol"
     }
   ]
 }

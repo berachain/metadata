@@ -78,7 +78,7 @@
       "name": "Kuma",
       "logoURI": "https://raw.githubusercontent.com/berachain/metadata/refs/heads/main/src/assets/tokens/0x273c832797Bfda1C0826a786670D041282Bd6aFc.png",
       "url": "https://kuma.bid",
-      "description": "Kuma is a layer 2 perpetual futures DEX powered by Berachain’s Proof-of-Liquidity."
+      "description": "Kuma is a layer 2 perpetual futures DEX powered by Berachain's Proof-of-Liquidity."
     },
     {
       "name": "D8X",
@@ -168,7 +168,7 @@
       "name": "BeraPaw",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746111634/protocols/berapaw.png",
       "url": "https://www.berapaw.com/",
-      "description": "BeraPaw is an innovative liquid staking protocol that converts Berachain’s native token into a more versatile and liquid asset, providing users with a seamless and hassle-free experience."
+      "description": "BeraPaw is an innovative liquid staking protocol that converts Berachain's native token into a more versatile and liquid asset, providing users with a seamless and hassle-free experience."
     },
     {
       "name": "SX Bet",
@@ -181,6 +181,12 @@
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746534876/tokens/default.png",
       "url": "https://www.ether.fi",
       "description": "Save, grow, spend."
+    },
+    {
+      "name": "HoneyFun AI",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1747165159/tokens/0x217B9476Ecd8783C59ED0ed64C359B8F2b9cCd3a.png",
+      "url": "https://app.honey.fun/",
+      "description": "We're bringing virtuals to Berachain. Create your memecoin/AI Agent in few clicks."
     }
   ],
   "vaults": [
@@ -1070,7 +1076,7 @@
       "protocol": "Concrete",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746472446/vaults/concrete_stables.png",
       "url": "https://app.concrete.xyz/vault/0xe96E0D5DdA2e24050F43AF92EbB3293f6e605C9a",
-      "description": "Acquired by depositing USDT0 into Concrete’s Berachain Stables vault",
+      "description": "Acquired by depositing USDT0 into Concrete's Berachain Stables vault",
       "owner": "Concrete"
     },
     {
@@ -1080,7 +1086,7 @@
       "protocol": "Concrete",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746472446/vaults/concrete_stables.png",
       "url": "https://app.concrete.xyz/vault/0x585934AfBf1FA9f563b80283F8B916Dd8F66a9b6",
-      "description": "Acquired by depositing USDe into Concrete’s Berachain Stables vault",
+      "description": "Acquired by depositing USDe into Concrete's Berachain Stables vault",
       "owner": "Concrete"
     },
     {
@@ -1090,7 +1096,7 @@
       "protocol": "Concrete",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746472446/vaults/concrete_stables.png",
       "url": "https://app.concrete.xyz/vault/0xc3cac88fd629652BBe0C3454D5d3049368A73849",
-      "description": "Acquired by depositing USDC.e into Concrete’s Berachain Stables vault",
+      "description": "Acquired by depositing USDC.e into Concrete's Berachain Stables vault",
       "owner": "Concrete"
     },
     {
@@ -1100,7 +1106,7 @@
       "protocol": "Concrete",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746472446/vaults/concrete_stables.png",
       "url": "https://app.concrete.xyz/vault/0x81235952ad93987F74e074994Def2a7e1D6F1Fb0",
-      "description": "Acquired by depositing HONEY into Concrete’s Berachain Stables vault",
+      "description": "Acquired by depositing HONEY into Concrete's Berachain Stables vault",
       "owner": "Concrete"
     },
     {
@@ -1110,7 +1116,7 @@
       "protocol": "Concrete ",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746472446/vaults/concrete_stables.png",
       "url": "https://app.concrete.xyz/vault/0xd08E3652e6b29EBdD58fe93B422513862FB49899",
-      "description": "Acquired by depositing sUSDe into Concrete’s Berachain Stables vault",
+      "description": "Acquired by depositing sUSDe into Concrete's Berachain Stables vault",
       "owner": "Concrete "
     },
     {
@@ -1120,7 +1126,7 @@
       "protocol": "Concrete",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746472446/vaults/concrete_ethereum.png",
       "url": "https://app.concrete.xyz/vault/0x8d3e53f5521927E5c78D42B4f9e08ae8DF91B772",
-      "description": "Acquired by depositing WETH into Concrete’s Berachain Ethereum vault",
+      "description": "Acquired by depositing WETH into Concrete's Berachain Ethereum vault",
       "owner": "Concrete"
     },
     {
@@ -1130,7 +1136,7 @@
       "protocol": "Concrete",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746472446/vaults/concrete_ethereum.png",
       "url": "https://app.concrete.xyz/vault/0x49BEE393825BBAC404fEfE6E24f34854f30905D2",
-      "description": "Acquired by depositing BeraETH into Concrete’s Berachain Ethereum vault",
+      "description": "Acquired by depositing BeraETH into Concrete's Berachain Ethereum vault",
       "owner": "Concrete"
     },
     {
@@ -1140,7 +1146,7 @@
       "protocol": "Concrete",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746472445/vaults/concrete_btc.png",
       "url": "https://app.concrete.xyz/vault/0xB6E3C1154e07f8a3dc04a9a28648C7AA30511120",
-      "description": "Acquired by depositing LBTC into Concrete’s Berachain Bitcoin vault",
+      "description": "Acquired by depositing LBTC into Concrete's Berachain Bitcoin vault",
       "owner": "Concrete"
     },
     {
@@ -1150,7 +1156,7 @@
       "protocol": "Concrete",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746472445/vaults/concrete_btc.png",
       "url": "https://app.concrete.xyz/vault/0x335e7b56054F830883D1509AFDce58DedceFb29C",
-      "description": "Acquired by depositing WBTC into Concrete’s Berachain Bitcoin vault",
+      "description": "Acquired by depositing WBTC into Concrete's Berachain Bitcoin vault",
       "owner": "Concrete"
     },
     {
@@ -1160,7 +1166,7 @@
       "protocol": "Concrete",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746472445/vaults/concrete_btc.png",
       "url": "https://app.concrete.xyz/vault/0x068D072d1ee7647B9d649a7C2046166Aa81af3D3",
-      "description": "Acquired by depositing uniBTC into Concrete’s Berachain Bitcoin vault",
+      "description": "Acquired by depositing uniBTC into Concrete's Berachain Bitcoin vault",
       "owner": "Concrete"
     },
     {
@@ -1170,7 +1176,7 @@
       "protocol": "Concrete",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746472445/vaults/concrete_btc.png",
       "url": "https://app.concrete.xyz/vault/0x127BF6361ff7495F2A69d83d9Ad2092D3dfEE7Ab",
-      "description": "Acquired by depositing FTBC into Concrete’s Berachain Bitcoin vault",
+      "description": "Acquired by depositing FTBC into Concrete's Berachain Bitcoin vault",
       "owner": "Concrete"
     },
     {
@@ -1180,7 +1186,7 @@
       "protocol": "Concrete",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746472445/vaults/concrete_bera.png",
       "url": "https://app.concrete.xyz/vault/0xEC577E989c02b294D5b8f4324224a5B63F5beef7",
-      "description": "Acquired by depositing BERA or WBERA into Concrete’s Berachain Bera vault",
+      "description": "Acquired by depositing BERA or WBERA into Concrete's Berachain Bera vault",
       "owner": "Concrete"
     },
     {
@@ -1190,7 +1196,7 @@
       "protocol": "Concrete",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746472445/vaults/concrete_berabaddies.png",
       "url": "https://app.concrete.xyz/vault/0xe49Ff31B2B3Fd346b0d1832d9fE224ee0d1c1F9e",
-      "description": "Acquired by depositing HONEY into Concrete’s Berabaddies Earn Vault",
+      "description": "Acquired by depositing HONEY into Concrete's Berabaddies Earn Vault",
       "owner": "Concrete"
     },
     {
@@ -1200,7 +1206,7 @@
       "protocol": "Concrete",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746472445/vaults/concrete_berabaddies.png",
       "url": "https://app.concrete.xyz/vault/0xA15E1De8a220Ca9C63DB4E8a1E9043fb953B3713",
-      "description": "Acquired by depositing BERA or WBERA into Concrete’s Berabaddies Earn Vault",
+      "description": "Acquired by depositing BERA or WBERA into Concrete's Berabaddies Earn Vault",
       "owner": "Concrete"
     },
     {
@@ -1362,6 +1368,16 @@
       "url": "https://app.dolomite.io/balances",
       "description": "Acquired by depositing uniBTC into Dolomite",
       "owner": "Bedrock"
+    },
+    {
+      "stakingTokenAddress": "0x217B9476Ecd8783C59ED0ed64C359B8F2b9cCd3a",
+      "vaultAddress": "0x217B9476Ecd8783C59ED0ed64C359B8F2b9cCd3a",
+      "name": "HoneyFun AI",
+      "protocol": "HoneyFun AI",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1747165159/tokens/0x217B9476Ecd8783C59ED0ed64C359B8F2b9cCd3a.png",
+      "url": "https://app.honey.fun/",
+      "description": "We're bringing virtuals to Berachain. Create your memecoin/AI Agent in few clicks.",
+      "owner": "HoneyFun AI"
     }
   ]
 }

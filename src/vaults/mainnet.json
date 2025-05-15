@@ -4,27 +4,57 @@
   "protocols": [
     {
       "name": "HUB",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1738378765/dapps/hub/hoymyj8bfl3xfczeioch.png",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1745505341/protocols/berachainhub.png",
       "url": "https://hub.berachain.com",
       "description": "Swap a variety of tokens effortlessly on our decentralized platform. Provide liquidity to pools and earn BGT rewards."
     },
     {
+      "name": "Concrete",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746315599/protocols/Concrete.png",
+      "url": "https://app.concrete.xyz",
+      "description": "Concrete is the DeFi Liquidity Metalayer"
+    },
+    {
+      "name": "WeBera",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746540470/protocols/apc2lm6dzmxjj9o8pjio.png",
+      "url": "https://webera.finance/",
+      "description": "WeBera is a permissionless yield abstraction layer designed to simplify participation in DeFi on the Berachain ecosystem."
+    },
+    {
       "name": "BurrBear",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1742848966/reward-vaults/icons/daaf3ed9-9779-4854-bc99-6ad21ff42852.png",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1745505613/protocols/burrbear.png",
       "url": "https://app.burrbear.io/",
       "description": ""
     },
     {
       "name": "Kodiak",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1742841699/reward-vaults/icons/81d1ee15-aead-4395-be9b-cf9e52a704f0.png",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1745504629/protocols/kodiak.png",
       "url": "https://app.kodiak.finance/",
       "description": "Kodiak is a decentralized exchange for the Berachain ecosystem."
     },
     {
       "name": "Infrared Finance",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1742841457/reward-vaults/icons/decd0d82-b563-4f82-b9da-8b2f9e9a8101.png",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1745504839/protocols/infrared.png",
       "url": "https://infrared.finance/",
       "description": ""
+    },
+    {
+      "name": "Dolomite",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1745319674/protocols/dolomite.jpg",
+      "url": "https://dolomite.io/",
+      "description": "Dolomite is a decentralized money market protocol."
+    },
+    {
+      "name": "D2 Finance",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1745430644/protocols/d2finance.png",
+      "url": "https://d2.finance/strategies",
+      "description": "D2 Finance is a multi-strategy fund delivering tokenized derivatives strategies and derivatives trading, in a 100% on-chain solution."
+    },
+    {
+      "name": "Beraborrow",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1745505738/protocols/beraborrow.png",
+      "url": "https://app.beraborrow.com/",
+      "description": "Beraborrow unlocks instant liquidity against Berachain assets through the first PoL powered stablecoin, Nectar"
     },
     {
       "name": "Beradrome",
@@ -37,12 +67,132 @@
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1742842241/reward-vaults/icons/1dd1de90-7d16-412b-8682-41d573d64d0a.png",
       "url": "https://www.bulla.exchange/",
       "description": ""
+    },
+    {
+      "name": "Wasabi",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1743451813/protocols/o2jkgouehmjdptfcswp6.png",
+      "url": "https://wasabi.xyz/",
+      "description": "Wasabi is a spot leverage DEX that allows you to long, short, swap, and earn on your favorite tokens."
+    },
+    {
+      "name": "Kuma",
+      "logoURI": "https://raw.githubusercontent.com/berachain/metadata/refs/heads/main/src/assets/tokens/0x273c832797Bfda1C0826a786670D041282Bd6aFc.png",
+      "url": "https://kuma.bid",
+      "description": "Kuma is a layer 2 perpetual futures DEX powered by Berachain's Proof-of-Liquidity."
+    },
+    {
+      "name": "D8X",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1743510327/tokens/rvut4vnjcic8k9f5oaty.png",
+      "url": "https://www.d8x.exchange/",
+      "description": "D8X powers leveraged trading for the Berachain Ecosystem on DEXs like MadHoney.fi"
+    },
+    {
+      "name": "bro.trade",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1743448666/reward-vaults/icons/pxfsjxx3qu4rzyqlk9vr.jpg",
+      "url": "https://app.bro.trade",
+      "description": "bro.trade is a community-driven, decentralized cryptocurrency trading platform specializing in perpetual futures (perps)."
+    },
+    {
+      "name": "Wasabee",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1745502280/protocols/wasabee.png",
+      "url": "https://wasabee.xyz/",
+      "description": "Wasabee is a meme DEX for the Berachain ecosystem"
+    },
+    {
+      "name": "Euler",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746536668/protocols/orp4ms1wqluh2zkxa1yl.png",
+      "url": "https://euler.finance/",
+      "description": "Euler is a decentralized lending protocol."
+    },
+    {
+      "name": "Beratardio",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1743513356/tokens/wu5gnzwstmazfyvxydea.png",
+      "url": "https://beratardio.xyz",
+      "description": "Extra retarded (maybe sentient) bear smoking weed & buzzing off Mad Honey. First memecoin to graduate from @KodiakFi's Panda Factory."
+    },
+    {
+      "name": "IVX Finance",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1743538082/protocols/awmnyxwgvfitzn4vfpai.png",
+      "url": "https://ivx.fi",
+      "description": "IVX is a liquid options AMM built on top of Berachain network that allow users to trade zero days to expiry option contracts over a variety of assets."
+    },
+    {
+      "name": "Lode Trade",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1744806398/tokens/xqq0lntwsthjkfzskg9q.png",
+      "url": "https://lode.trade",
+      "description": "LODE is a decentralized trading platform that aggregates liquidity from both centralized and decentralized exchanges, offering deep liquidity, minimal slippage, and innovative risk management."
+    },
+    {
+      "name": "Wizzwoods",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1744809769/vaults/xoeztwkfwreatd1zfjco.png",
+      "url": "https://www.wizzwoods.com",
+      "description": "1st pixel farm game integrates interchain capabilities with a SocialFi twist."
+    },
+    {
+      "name": "OpenState",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1745684774/protocols/openstate.png",
+      "url": "https://openstate.com/?chain=berachain",
+      "description": "Openstate enables scalable yield infrastructure. Earn top yields and enjoy instant liquidity for BGT and more - all on Openstate."
+    },
+    {
+      "name": "Bearn",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1745934109/protocols/Bearn.png",
+      "url": "https://bearn.sucks/",
+      "description": "BGT liquid locker and autocompounder"
+    },
+    {
+      "name": "Bedrock",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1745989729/protocols/Bedrock.png",
+      "url": "https://www.bedrock.technology/",
+      "description": "Bedrock is the first multi-asset liquid restaking protocol, pioneering Bitcoin staking with uniBTC."
+    },
+    {
+      "name": "ZeroLend",
+      "logoURI": "https://assets.coingecko.com/coins/images/37375/standard/image.png?1714884543",
+      "url": "https://zerolend.xyz",
+      "description": "ZeroLend is lending platform to lend/borrow medium and long-tail assets."
+    },
+    {
+      "name": "GetRichQuick",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746108622/protocols/GetRichQuick.png",
+      "url": "https://www.grq.institute/",
+      "description": "A parody-powered financial experiment designed for degens, dreamers, and anyone who's ever ignored a \"DYOR\" warning."
+    },
+    {
+      "name": "BULL ISH",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746109953/protocols/bullish.jpg",
+      "url": "https://game.bullas.xyz/",
+      "description": "Bull Ish is a Proof of Liquidity game where users spend BERA to 'spank a bera,' placing them in a queue to earn BGT while depositing the square root of their spank power into the Berachain vault."
+    },
+    {
+      "name": "BeraPaw",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746111634/protocols/berapaw.png",
+      "url": "https://www.berapaw.com/",
+      "description": "BeraPaw is an innovative liquid staking protocol that converts Berachain's native token into a more versatile and liquid asset, providing users with a seamless and hassle-free experience."
+    },
+    {
+      "name": "SX Bet",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746467048/vaults/vsig2fewygwoxlvccbzd.png",
+      "url": "https://bera.bet/",
+      "description": "On-chain sports betting exchange"
+    },
+    {
+      "name": "Ether.fi",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746534876/tokens/default.png",
+      "url": "https://www.ether.fi",
+      "description": "Save, grow, spend."
+    },
+    {
+      "name": "HoneyFun AI",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1747165159/tokens/0x217B9476Ecd8783C59ED0ed64C359B8F2b9cCd3a.png",
+      "url": "https://app.honey.fun/",
+      "description": "We're bringing virtuals to Berachain. Create your memecoin/AI Agent in few clicks."
     }
   ],
   "vaults": [
     {
-      "stakingTokenAddress": "0xde04c469ad658163e2a5e860a03a86b52f6fa8c8",
-      "vaultAddress": "0x6649bc987a7c0fb0199c523de1b1b330cd0457a8",
+      "stakingTokenAddress": "0xdE04c469Ad658163e2a5E860a03A86B52f6FA8C8",
+      "vaultAddress": "0x6649Bc987a7c0fB0199c523de1b1b330cd0457A8",
       "name": "BYUSD | HONEY",
       "protocol": "HUB",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1738733620/reward-vaults/icons/c2q60zif1cetllqip0a6.png",
@@ -51,8 +201,8 @@
       "owner": "Foundation"
     },
     {
-      "stakingTokenAddress": "0xdd70a5ef7d8cfe5c5134b5f9874b09fb5ce812b4",
-      "vaultAddress": "0x17376ad6167a5592fbeaa42e6068c132474a513d",
+      "stakingTokenAddress": "0xDd70A5eF7d8CfE5C5134b5f9874b09Fb5Ce812b4",
+      "vaultAddress": "0x17376aD6167a5592FbEAA42e6068c132474a513d",
       "name": "WETH | WBERA",
       "protocol": "HUB",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1738733618/reward-vaults/icons/cmiqewcekww0ckhqoe9d.png",
@@ -61,8 +211,8 @@
       "owner": "Foundation"
     },
     {
-      "stakingTokenAddress": "0x38fdd999fe8783037db1bbfe465759e312f2d809",
-      "vaultAddress": "0x086f82fa0ca310cc835a9db4f53697687ef149c7",
+      "stakingTokenAddress": "0x38fdD999Fe8783037dB1bBFE465759e312f2d809",
+      "vaultAddress": "0x086f82fa0cA310Cc835a9DB4f53697687ef149c7",
       "name": "WBTC | WBERA",
       "protocol": "HUB",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1738378469/reward-vaults/icons/xqepqh4lifyybbt27f20.png",
@@ -71,8 +221,8 @@
       "owner": "Foundation"
     },
     {
-      "stakingTokenAddress": "0xf961a8f6d8c69e7321e78d254ecafbcc3a637621",
-      "vaultAddress": "0xf99be47baf0c22b7eb5eac42c8d91b9942dc7e84",
+      "stakingTokenAddress": "0xF961a8f6d8c69E7321e78d254ecAfBcc3A637621",
+      "vaultAddress": "0xF99be47baf0c22B7eB5EAC42c8D91b9942Dc7e84",
       "name": "USDC.e | HONEY",
       "protocol": "HUB",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1738378469/reward-vaults/icons/oqmqj7c4707nobigirw5.png",
@@ -81,8 +231,8 @@
       "owner": "Foundation"
     },
     {
-      "stakingTokenAddress": "0x2c4a603a2aa5596287a06886862dc29d56dbc354",
-      "vaultAddress": "0xc2baa8443cda8ebe51a640905a8e6bc4e1f9872c",
+      "stakingTokenAddress": "0x2c4a603A2aA5596287A06886862dc29d56DbC354",
+      "vaultAddress": "0xC2BaA8443cDA8EBE51a640905A8E6bc4e1f9872c",
       "name": "WBERA | HONEY",
       "protocol": "HUB",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1738378469/reward-vaults/icons/soy9mfpovb1odtby9p02.png",
@@ -98,6 +248,16 @@
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1742854063/reward-vaults/icons/jc7moazw8aeobb4sxbcz.png",
       "url": "https://app.burrbear.io/#/berachain/pool/0xe416c064946112c1626d6700d1081a750b1b1dd7000200000000000000000008",
       "description": "Acquired by depositing liquidity into the Smilee - NECT | wgBERA Pool on BurrBear",
+      "owner": "Smilee"
+    },
+    {
+      "stakingTokenAddress": "0x88c983bf3d4A9Adcee14e1b4f1C446c4C5853EA3",
+      "vaultAddress": "0x25AceC3A1766A0d02d7C8E22f48533D32D7b311b",
+      "name": "Smilee - iBERA | wgBERA",
+      "protocol": "Smilee",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746537459/vaults/cmjqyekbneijzmqwftq9.png",
+      "url": "https://app.kodiak.finance/#/liquidity/pools/0x88c983bf3d4a9adcee14e1b4f1c446c4c5853ea3?farm=0x25acec3a1766a0d02d7c8e22f48533d32d7b311b&chain=berachain_mainnet",
+      "description": "Obtain the LP tokens by staking your BERA in Infrared and Smilee.",
       "owner": "Smilee"
     },
     {
@@ -132,6 +292,16 @@
     },
     {
       "stakingTokenAddress": "0x2461e93D5963C2bB69de499676763E67A63c7Ba5",
+      "vaultAddress": "0xf3BDf754B4691286090090D601f77384dA9FB721",
+      "name": "WBERA - LOCKS Beradrome Kodiak V2 LP",
+      "protocol": "Beradrome",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746541685/vaults/wy69tcudpjlzyktsqgeg.png",
+      "url": "https://app.kodiak.finance/#/liquidity/v2/add/0x6969696969696969696969696969696969696969/0xb7e448e5677d212b8c8da7d6312e8afc49800466?chain=berachain_mainnet",
+      "description": "Acquired by depositing liquidity into the WBERA - LOCKS Kodiak pool and staking the LP token on Beradrome.",
+      "owner": "Goldilocks DAO"
+    },
+    {
+      "stakingTokenAddress": "0x2461e93D5963C2bB69de499676763E67A63c7Ba5",
       "vaultAddress": "0xCB522875373c5DB79F4B0816B381b4461d07B1af",
       "name": "Dinero - DINERO | WBERA",
       "protocol": "HUB",
@@ -152,7 +322,7 @@
     },
     {
       "stakingTokenAddress": "0x705Fc16BA5A1EB67051934F2Fb17EacaE660F6c7",
-      "vaultAddress": "0xe8ed00b1b142e8d84ef773c4fccaa18682d5a401",
+      "vaultAddress": "0xE8ED00B1B142E8D84eF773C4FCcaA18682d5a401",
       "name": "BeraPaw - WBERA | LBGT",
       "protocol": "HUB",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1742841502/reward-vaults/icons/92c4c740-339b-46ff-ae37-5b8a74010819.png",
@@ -162,7 +332,7 @@
     },
     {
       "stakingTokenAddress": "0xEc8BA456b4e009408d0776cdE8B91f8717D13Fa1",
-      "vaultAddress": "0x0710abffb1a54211a5e88d18bf9854cba86d0819",
+      "vaultAddress": "0x0710ABFfB1A54211a5e88d18Bf9854Cba86d0819",
       "name": "Yeet - YEET | WBERA",
       "protocol": "Kodiak",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1742841518/reward-vaults/icons/840ba0be-550d-40d1-a04e-24f78afae1ea.png",
@@ -172,13 +342,33 @@
     },
     {
       "stakingTokenAddress": "0xf9845a03F7e6b06645A03a28b943C8A4B5fE7BCC",
-      "vaultAddress": "0x4796039d56892a324585d77a76059b1cd2b9d02a",
+      "vaultAddress": "0x4796039d56892A324585d77A76059b1cD2b9D02a",
       "name": "Beramonium - BERA | BERAMO",
       "protocol": "Kodiak",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1742838273/Ecosystem/xw3dv15b4lzrlntdlkj1.png",
       "url": "https://v3.info.kodiak.finance/berachain_mainnet#/berachain_mainnet/pools/0x37640ccf25e5f189c3d8c1a188d28d09953fd612",
       "description": "Acquired by depositing liquidity into the Beramonium - BERA | BERAMO Pool on Kodiak",
       "owner": "Beramonium"
+    },
+    {
+      "stakingTokenAddress": "0x3000C6BF0AAEb813e252B584c4D9a82f99e7a71D",
+      "vaultAddress": "0x9136df2daabe52a97340cce8c53d4c1314d52c18",
+      "name": "Reservoir | Dolomite - drUSD",
+      "protocol": "Dolomite",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746464620/vaults/pprfrluikvd2qto1xxsn.png",
+      "url": "https://app.dolomite.io/balances",
+      "description": "Acquired by depositing rUSD into Dolomite",
+      "owner": "Dolomite"
+    },
+    {
+      "stakingTokenAddress": "0x1fb6c1aDE4F9083b2EA42ED3fa9342e41788D4b5",
+      "vaultAddress": "0xc6De36eceD67db9c17919708865b3eE94a7D987C",
+      "name": "Reservoir | Tether - rUSD-USD₮0",
+      "protocol": "Kodiak",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746463825/vaults/ges0oa4ecsereold7wx5.png",
+      "url": "https://app.kodiak.finance/#/liquidity/pools/0x1fb6c1ade4f9083b2ea42ed3fa9342e41788d4b5?chain=berachain_mainnet",
+      "description": "Acquired by depositing rUSD and USDT0 in the LP on Kodiak",
+      "owner": "Reservoir"
     },
     {
       "stakingTokenAddress": "0x7fd165B73775884a38AA8f2B384A53A3Ca7400E6",
@@ -211,7 +401,7 @@
     },
     {
       "stakingTokenAddress": "0x4a254B11810B8EBb63C5468E438FC561Cb1bB1da",
-      "vaultAddress": "0x45325df4a6a6ebd268f4693474aaaa1f3f0ce8ca",
+      "vaultAddress": "0x45325Df4A6A6ebD268f4693474AaAa1f3f0ce8Ca",
       "name": "Kodiak - WBERA | HONEY",
       "protocol": "Kodiak",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1742841699/reward-vaults/icons/81d1ee15-aead-4395-be9b-cf9e52a704f0.png",
@@ -221,7 +411,7 @@
     },
     {
       "stakingTokenAddress": "0x9659dc8c1565E0bd82627267e3b4eEd1a377ebE6",
-      "vaultAddress": "0xfb657cd154e661ddf3e229529d92545640b19292",
+      "vaultAddress": "0xFB657cd154E661dDF3E229529D92545640b19292",
       "name": "Kodiak - WETH | WBERA",
       "protocol": "Kodiak",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1742841699/reward-vaults/icons/81d1ee15-aead-4395-be9b-cf9e52a704f0.png",
@@ -231,7 +421,7 @@
     },
     {
       "stakingTokenAddress": "0xF06EA29FCF4765200742d29E685973a1870EaC98",
-      "vaultAddress": "0xeec2ad7bb37374229860265e644f4e2693b23fdd",
+      "vaultAddress": "0xeec2AD7bb37374229860265e644F4E2693b23fdd",
       "name": "Kodiak - WBTC | WBERA",
       "protocol": "Kodiak",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1742841699/reward-vaults/icons/81d1ee15-aead-4395-be9b-cf9e52a704f0.png",
@@ -241,7 +431,7 @@
     },
     {
       "stakingTokenAddress": "0xdcA120bd3A13250B67f6FAA5c29c1F38eC6EBeCE",
-      "vaultAddress": "0x4551c0e216f59cc081b6610637668b770ffdf843",
+      "vaultAddress": "0x4551C0e216f59cC081B6610637668b770FFdf843",
       "name": "Holdstation - HOLD | WBERA",
       "protocol": "Kodiak",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1742853978/reward-vaults/icons/byhm8z0lnhtwktwisaas.png",
@@ -311,7 +501,7 @@
     },
     {
       "stakingTokenAddress": "0x0FD67ac75F9DF51f5d81F582417B318F44b45f5c",
-      "vaultAddress": "0x193ff57dc9efa1dec154946c10332ba31c8e72b2",
+      "vaultAddress": "0x193fF57dc9EFA1DeC154946c10332bA31C8e72b2",
       "name": "BM - WBERA | BM",
       "protocol": "Kodiak",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1742838273/Ecosystem/hbt1hvsanbb0mgddvnjb.png",
@@ -331,7 +521,7 @@
     },
     {
       "stakingTokenAddress": "0x97431F104be73FC0e6fc731cE84486DA05C48871",
-      "vaultAddress": "0xcd1982b07adfa787a88dc1157b9fa3221d25fcaf",
+      "vaultAddress": "0xcD1982B07ADFa787a88Dc1157b9fa3221d25fcaF",
       "name": "StakeStone - WETH | STONE",
       "protocol": "Kodiak",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1742842397/reward-vaults/icons/06281214-e6a0-4f83-87af-9d227b2bdede.png",
@@ -351,7 +541,7 @@
     },
     {
       "stakingTokenAddress": "0x3879451f4f69F0c2d37CaD45319cFf2E7d29C596",
-      "vaultAddress": "0x11fadf69a02340a676b4bd2a27ffd952094fae99",
+      "vaultAddress": "0x11Fadf69a02340A676B4BD2A27FFd952094faE99",
       "name": "SolvProtocol - SolvBTC | WBTC",
       "protocol": "Kodiak",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1742842438/reward-vaults/icons/c1ee4ab9-d1cf-4850-a9a4-c73d13749afd.png",
@@ -371,7 +561,7 @@
     },
     {
       "stakingTokenAddress": "0x43E487126c4F37D1915cF02a90B5C5295AFb1790",
-      "vaultAddress": "0x3fc5cb0290c82680afe9ef8cdde5468d74c85705",
+      "vaultAddress": "0x3fc5cB0290C82680Afe9EF8CddE5468d74C85705",
       "name": "SolvProtocol - SolvBTC.BBN | SolvBTC",
       "protocol": "Kodiak",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1742842438/reward-vaults/icons/c1ee4ab9-d1cf-4850-a9a4-c73d13749afd.png",
@@ -381,7 +571,7 @@
     },
     {
       "stakingTokenAddress": "0xB67D60fc02E0870EdDca24D4fa8eA516c890152b",
-      "vaultAddress": "0x8ee2627aff73e285f1a83b6e8bb7e9945f404a1b",
+      "vaultAddress": "0x8Ee2627aFF73e285f1A83b6E8bB7E9945f404A1B",
       "name": "Bedrock - WBTC | uniBTC",
       "protocol": "Kodiak",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1742842539/reward-vaults/icons/df7a2ce9-3ff4-4c7c-9645-c9df78fd8a78.png",
@@ -391,7 +581,7 @@
     },
     {
       "stakingTokenAddress": "0x7CeBCc76A2faecC0aE378b340815fcbb71eC1Fe0",
-      "vaultAddress": "0xc196d595dece185ea39f8e1c3ce07a274ac31985",
+      "vaultAddress": "0xc196D595DECE185Ea39f8e1C3cE07a274aC31985",
       "name": "Avalon Labs - USDa | sUSDa",
       "protocol": "Kodiak",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1742838273/Ecosystem/rg1yb9jyfthwpg4prrln.avif",
@@ -421,7 +611,7 @@
     },
     {
       "stakingTokenAddress": "0x5fADc07d47D3dC1e81932eaFBE39fdEF9ba11865",
-      "vaultAddress": "0xaa9c3d4ac242ab6eb9790861e1b4d6fbd6619cf4",
+      "vaultAddress": "0xaa9C3d4aC242ab6eB9790861e1B4D6Fbd6619cf4",
       "name": "Renzo - ezETH | wETH",
       "protocol": "Kodiak",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1742838273/Ecosystem/yqimvlhemawtveif7cbz.png",
@@ -430,8 +620,8 @@
       "owner": "Renzo"
     },
     {
-      "stakingTokenAddress": "0x28a54eaeec63fbb1175d13466a9ada5f3175d577",
-      "vaultAddress": "0x31a484f7e09513ae9f481eaf8eeea76153184c44",
+      "stakingTokenAddress": "0x28a54EaeEc63fBb1175d13466a9ada5f3175D577",
+      "vaultAddress": "0x31A484F7E09513AE9f481eaf8eeEA76153184c44",
       "name": "NOME - USDbr | HONEY",
       "protocol": "Kodiak",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1742838273/Ecosystem/ksxg4louivbp0bjpzlus.png",
@@ -441,13 +631,753 @@
     },
     {
       "stakingTokenAddress": "0xc227C8639A41db8393DD1B4EAc41464a62D64Fb4",
-      "vaultAddress": "0xde9d49a63fbb7c7d211b26a7d0dabdf8e0d4b4fe",
+      "vaultAddress": "0xde9D49A63FBb7C7D211B26A7d0DabDF8e0D4b4Fe",
       "name": "Olympus - OHM | wBERA",
       "protocol": "Kodiak",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1742844655/reward-vaults/icons/fzhm2cubp35ezzfa1uhq.png",
       "url": "https://app.kodiak.finance/#/liquidity/pools/0xc227c8639a41db8393dd1b4eac41464a62d64fb4?farm=0x3c8e4d4324f7ab2e3238c23a2838a762ecb7051d&chain=berachain_mainnet",
       "description": "Acquired by depositing liquidity into the Olympus - OHM | wBERA Pool on Kodiak",
       "owner": "Olympus"
+    },
+    {
+      "stakingTokenAddress": "0xD10E65A5F8cA6f835F2B1832e37cF150fb955f23",
+      "vaultAddress": "0x436022B9f853bd6cbC168B45fbf12ffa50b6F79c",
+      "name": "BurrBear - NECT | USDC.e | HONEY",
+      "protocol": "BurrBear",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1743429746/tokens/ejojqpuicz5nvimiyjzq.png",
+      "url": "https://app.burrbear.io/#/berachain/pool/0xd10e65a5f8ca6f835f2b1832e37cf150fb955f23000000000000000000000004",
+      "description": "Acquired by depositing liquidity into the NECT | USDC.e | HONEY Pool on BurrBear",
+      "owner": "BurrBear"
+    },
+    {
+      "stakingTokenAddress": "0xC95AB9Eff8fB48760703c74416764B8f898AFa1b",
+      "vaultAddress": "0x4eA84882228a5C881675151E951235e45256a484",
+      "name": "Wasabi - sWBERA",
+      "protocol": "Wasabi",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1744807971/tokens/mdn89ghh64yzy53lutpo.png",
+      "url": "https://app.wasabi.xyz/earn?vault=sWBERA&network=berachain",
+      "description": "Acquired by depositing BERA into the sWBERA Vault on Wasabi",
+      "owner": "Wasabi"
+    },
+    {
+      "stakingTokenAddress": "0xd948212F077e552533158bECbC1882c1b19c40FE",
+      "vaultAddress": "0x49FCaA48e59e3d634Ae6c6953cc30ce953Dfba2c",
+      "name": "Wasabi - sHONEY",
+      "protocol": "Wasabi",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1744808007/tokens/pbcs6nvxdggvydhrczyo.png",
+      "url": "https://app.wasabi.xyz/earn?vault=sHONEY&network=berachain",
+      "description": "Acquired by depositing BERA into the sWBERA Vault on Wasabi",
+      "owner": "Wasabi"
+    },
+    {
+      "stakingTokenAddress": "0xe454C546C8F3875e928910Abc653De5f8c432F11",
+      "vaultAddress": "0xDf5C6c28479e21C5F36cEB0C44Ae15975dE844ba",
+      "name": "BeraXBT - BIXBT | WBERA",
+      "protocol": "Kodiak",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1743429746/tokens/0x147c9A7F5265D7cA9a671C3817b212a0cF88856e.png",
+      "url": "https://app.kodiak.finance/#/liquidity/v2/add/ETH/0x147c9A7F5265D7cA9a671C3817b212a0cF88856e?chain=berachain_mainnet",
+      "description": "virtual, analytical consciousness bringing deep analysis to berachain",
+      "owner": "BeraXBT"
+    },
+    {
+      "stakingTokenAddress": "0x273c832797Bfda1C0826a786670D041282Bd6aFc",
+      "vaultAddress": "0x5540E29749F6C8f5DcF49fcC17c67E97A8e7335b",
+      "name": "Kuma - Trade Rewards",
+      "protocol": "Kuma",
+      "logoURI": "https://raw.githubusercontent.com/berachain/metadata/refs/heads/main/src/assets/tokens/0x273c832797Bfda1C0826a786670D041282Bd6aFc.png",
+      "url": "https://exchange.kuma.bid/rewards/taker",
+      "description": "Earned by trading on the Kuma Perps DEX",
+      "owner": "Kuma"
+    },
+    {
+      "stakingTokenAddress": "0xd9a747880393f7c33cEf1aea36909b36d421F7E5",
+      "vaultAddress": "0xf10f34547f4b8659058F10D29759a89Eb790aA80",
+      "name": "BakerDAO - BREAD | OHM",
+      "protocol": "Kodiak",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1743511182/tokens/uy0260lxub5dn38een6a.png",
+      "url": "https://app.kodiak.finance/#/liquidity/pools/0xd9a747880393f7c33cef1aea36909b36d421f7e5?farm=0xc080b212caaa1ebbccde1434d6efe6359eda2084&chain=berachain_mainnet",
+      "description": "Acquired by depositing liquidity into the BREAD | OHM Pool on Kodiak Finance",
+      "owner": "BakerDAO"
+    },
+    {
+      "stakingTokenAddress": "0x26bBc26415c6316890565f5f73017F85EE70B60c",
+      "vaultAddress": "0x347106734E7b129DDe92333A0007d64a4B08E266",
+      "name": "D8X - NECT | HONEY",
+      "protocol": "D8X",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1743510327/tokens/rvut4vnjcic8k9f5oaty.png",
+      "url": "https://app.madhoney.fi/vault",
+      "description": "Acquired by depositing liquidity into the NECT | HONEY Pool on a D8X powered DEX like MadHoney.fi",
+      "owner": "D8X"
+    },
+    {
+      "stakingTokenAddress": "0x561fd767EEC89CFd94048DF7C5402C7194eF4580",
+      "vaultAddress": "0x212a9b9B9cC7a935E15F4370F29705236eF709dD",
+      "name": "bro.trade - Trading Rewards",
+      "protocol": "bro.trade",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1743448666/reward-vaults/icons/pxfsjxx3qu4rzyqlk9vr.jpg",
+      "url": "https://app.bro.trade",
+      "description": "Acquired by trading on bro.trade",
+      "owner": "bro.trade"
+    },
+    {
+      "stakingTokenAddress": "0xEC06041013b3a97c58b9ab61eAE9079Bc594EdA3",
+      "vaultAddress": "0xaf0C4454bb84C64B5c6ef9292B1527C5dFD2F8B7",
+      "name": "Wasabee - WETH | WBERA",
+      "protocol": "Wasabee",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1743534776/tokens/nee2adg8gdaatapv9scu.png",
+      "url": "https://wasabee.honeypotfinance.xyz/vault/0xec06041013b3a97c58b9ab61eae9079bc594eda3",
+      "description": "Acquired by depositing liquidity into the WETH | WBERA Pool on Wasabee",
+      "owner": "Wasabee"
+    },
+    {
+      "stakingTokenAddress": "0xac04b1AbADF214B57f7Ade1DD905AB7aCac23a6b",
+      "vaultAddress": "0x6Eb9bC8d1d8D6e94238c2D4f756F25A27FB34268",
+      "name": "Wasabee - wgBERA | WBERA",
+      "protocol": "Wasabee",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1745502515/vaults/0x6Eb9bC8d1d8D6e94238c2D4f756F25A27FB34268.png",
+      "url": "https://wasabee.honeypotfinance.xyz/vault/0xac04b1AbADF214B57f7Ade1DD905AB7aCac23a6b",
+      "description": "Acquired by depositing liquidity into the wgBERA | WBERA Pool on Wasabee",
+      "owner": "Wasabee"
+    },
+    {
+      "stakingTokenAddress": "0xE57D868d244d2Cf2E9679eaBa2A3048E58674565",
+      "vaultAddress": "0x5aB58FD0c6e74ae10A74a5FD43E5B6D26e46a18f",
+      "name": "Wasabee - iBERA | WBERA",
+      "protocol": "Wasabee",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1745502515/vaults/0x5aB58FD0c6e74ae10A74a5FD43E5B6D26e46a18f.png",
+      "url": "https://wasabee.honeypotfinance.xyz/vault/0xE57D868d244d2Cf2E9679eaBa2A3048E58674565",
+      "description": "Acquired by depositing liquidity into the iBERA | WBERA Pool on Wasabee",
+      "owner": "Wasabee"
+    },
+    {
+      "stakingTokenAddress": "0x7cEC734717d8C45a02A1218934B6AacEF00C392a",
+      "vaultAddress": "0x826e962E4216BFF7bAA8bEd30e498a7B84bA6ABA",
+      "name": "Euler - EVK Vault eHONEY-1",
+      "protocol": "Euler",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1743533405/tokens/dnhhcqnluuosehi0sriv.png",
+      "url": "https://app.euler.finance/vault/0xd538b6aeF78E4bDDe4FD4576E9E3A403704602bc?network=berachain",
+      "description": "Acquired by depositing HONEY into the MEV Capital Berchain Cluster HONEY Vault on Euler",
+      "owner": "Euler"
+    },
+    {
+      "stakingTokenAddress": "0x4d89c3854a46Ffe46244dC30bF28B9b2ef7f800b",
+      "vaultAddress": "0x58c2eE02ec4eAc887FEEd112cccE28ae9602fe64",
+      "name": "Euler - EVK Vault eHONEY-2",
+      "protocol": "Euler",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1743533423/tokens/yrqz3lw0epqgdflcmhyg.png",
+      "url": "https://app.euler.finance/vault/0x89FD57175EcEEC45992e07c206e5A864Fa6aF433?network=berachain",
+      "description": "Acquired by depositing HONEY into the Re7 Labs HONEY Vault on Euler",
+      "owner": "Euler"
+    },
+    {
+      "stakingTokenAddress": "0xAf3Ab50BdAeA7aCfa07FAd209bbAd504F28c8BCF",
+      "vaultAddress": "0xab1eCd0d1B6730C059A686115741CB131f804368",
+      "name": "Euler - EVK Vault eHONEY-3",
+      "protocol": "Euler",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1743533444/tokens/m989y6nbek5eajnczkik.png",
+      "url": "https://app.euler.finance/vault/0x027DcAfB223f69d41Bd413C50854017718419585?network=berachain",
+      "description": "Acquired by depositing HONEY into the Tulipa Hive HONEY Vault on Euler",
+      "owner": "Euler"
+    },
+    {
+      "stakingTokenAddress": "0xa2a3170f94b55c835f8483Bc2486D41Ff0c90F28",
+      "vaultAddress": "0x46accbeE0248A94527c65Cb8EEF916a7e74f6D66",
+      "name": "Beratardio - BERATARDIO | WBERA",
+      "protocol": "Kodiak",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1743513356/tokens/wu5gnzwstmazfyvxydea.png",
+      "url": "https://app.kodiak.finance/#/liquidity/pools/0xa2a3170f94b55c835f8483Bc2486D41Ff0c90F28?chain=berachain_mainnet",
+      "description": "Acquired by depositing liquidity into the Beratardio - BERATARDIO | WBERA pool on Kodiak v2",
+      "owner": "Beratardio"
+    },
+    {
+      "stakingTokenAddress": "0x597877Ccf65be938BD214C4c46907669e3E62128",
+      "vaultAddress": "0x1161e6a6600C08c21cFF7Ac689e781b41Db56d85",
+      "name": "sNECT",
+      "protocol": "Beraborrow",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1743510678/tokens/pnjzpr95iabxbm3x4eql.png",
+      "url": "https://app.beraborrow.com/pool/deposit",
+      "description": "Acquired by depositing NECT into the Liquid Stability Pool on Beraborrow",
+      "owner": "Beraborrow"
+    },
+    {
+      "stakingTokenAddress": "0x3b8B155E3C44f07f6EAd507570f4047C8B450A7F",
+      "vaultAddress": "0xd62Af49eaB059144461E8D12CA1320A67d24A22A",
+      "name": "IVLP",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1743537789/tokens/gljjwxv5zw5a86lhkwjj.png",
+      "protocol": "IVX Finance",
+      "url": "https://ivx.fi",
+      "description": "IVLP is the liquidity token for IVX's 0dte options AMM. Acquired by depositing liquidity into IVLP on IVX.",
+      "owner": "IVX Finance"
+    },
+    {
+      "stakingTokenAddress": "0x337eF1eB6c8BBeD571170Fc2b468608ab9e2Aac8",
+      "vaultAddress": "0x9d65dA133391b2c055509d049C835A821d84e922",
+      "name": "LBGT | WBERA KODIAK ISLAND",
+      "protocol": "Kodiak",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1744727470/tokens/yabdvrhsxkiu4cgrhatt.png",
+      "url": "https://app.kodiak.finance/#/liquidity/pools/0x337ef1eb6c8bbed571170fc2b468608ab9e2aac8?chain=berachain_mainnet",
+      "description": "Acquired by depositing liquidity into the LBGT | WBERA Pool on Kodiak",
+      "owner": "BeraPaw"
+    },
+    {
+      "stakingTokenAddress": "0x9B155cF7a4E5911AC35AB2173D0f58e1d39570Fd",
+      "vaultAddress": "0x124ca134dd2CD67362E259fb33A2c762d8BAF961",
+      "name": "Kodiak Island OOGA-WBERA-1%",
+      "protocol": "Kodiak",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1744728609/tokens/sea9bvshsrz8su6omcpl.png",
+      "url": "https://app.kodiak.finance/#/liquidity/pools/0x9b155cf7a4e5911ac35ab2173d0f58e1d39570fd?chain=berachain_mainnet",
+      "description": "Acquired by depositing liquidity into the OOGA | WBERA Island Pool on Kodiak",
+      "owner": "Ooga Booga"
+    },
+    {
+      "stakingTokenAddress": "0xbac7DC9Cc4142580Ac968f65eFc673183a226cdF",
+      "vaultAddress": "0x127696D2e3A4eA1F4eed1AFeF608e8901cbE8965",
+      "name": "LXP Rewards Vault",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1744806398/tokens/xqq0lntwsthjkfzskg9q.png",
+      "protocol": "LODE TRADE",
+      "url": "https://hub.berachain.com/vaults/0x127696d2e3a4ea1f4eed1afef608e8901cbe8965/",
+      "description": "LXP is acquired by using LODE (i.e. trading and completing quest campaigns). LXP is a proxy for trading rebates and rewards, it does not have liquidity nor is intended to be traded. LXP must be claimed and staked in our rewards vault (https://hub.berachain.com/vaults/0x127696d2e3a4ea1f4eed1afef608e8901cbe8965/) to be eligible for rewards. Please review our full proposal here: https://hub.forum.berachain.com/t/request-for-lxp-reward-vault-lode/316.",
+      "owner": "LODE TRADE"
+    },
+    {
+      "stakingTokenAddress": "0xfC4994e0A4780ba7536d7e79611468B6bde14CaE",
+      "vaultAddress": "0x8Aa4a546D6437067faB027904EAC0b7c78857737",
+      "name": "Ether.fi - WBTC | eBTC",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1744807465/tokens/jd0vkuqzcfnthdvnyq2o.png",
+      "protocol": "Kodiak",
+      "url": "https://app.kodiak.finance/#/liquidity/pools/0xfc4994e0a4780ba7536d7e79611468b6bde14cae?chain=berachain_mainnet",
+      "description": "Acquired by depositing liquidity into the Ether.fi - WBTC | eBTC Pool on Kodiak",
+      "owner": "Ether.fi"
+    },
+    {
+      "stakingTokenAddress": "0xA0cAbFc04Fc420b3d31BA431d18eB5bD33B3f334",
+      "vaultAddress": "0x77304193647B9DC09338b5976ad4C674B350FA30",
+      "name": "Ether.fi - WETH | weETH",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1744807509/tokens/xva0mbjtpl2k8qgvixmi.png",
+      "protocol": "Kodiak",
+      "url": "https://app.kodiak.finance/#/liquidity/pools/0xa0cabfc04fc420b3d31ba431d18eb5bd33b3f334?chain=berachain_mainnet",
+      "description": "Acquired by depositing liquidity into the Ether.fi - WETH | weETH Pool on Kodiak",
+      "owner": "Ether.fi"
+    },
+    {
+      "stakingTokenAddress": "0x54c603173CA92A42B81f8838d705fd3E0f98D5D4",
+      "vaultAddress": "0x359424085D84c490a7B276E4bC72ceF90a04068B",
+      "name": "BakerDAO - BREAD | LBGT",
+      "protocol": "Kodiak",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1743511182/tokens/uy0260lxub5dn38een6a.png",
+      "url": "https://app.kodiak.finance/#/liquidity/pools/0x54c603173CA92A42B81f8838d705fd3E0f98D5D4?farm=0x359424085d84c490a7b276e4bc72cef90a04068b&chain=berachain_mainnet",
+      "description": "Acquired by depositing liquidity into the BREAD | LBGT Pool on Kodiak Finance",
+      "owner": "BakerDAO"
+    },
+    {
+      "stakingTokenAddress": "0x1b7B061091BD2C900723107889Fe44F825d6C921",
+      "vaultAddress": "0xEC54b5D168e7128bC1f06d12ef0e5aB6F4c59ed9",
+      "name": "Wizzwoods - WIZZ | WBERA",
+      "protocol": "HUB",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1744809769/vaults/xoeztwkfwreatd1zfjco.png",
+      "url": "https://hub.berachain.com/pools/0x1b7B061091BD2C900723107889Fe44F825d6C92100020000000000000000010c/details/",
+      "description": "Acquired by depositing liquidity into the Wizzwoods - WIZZ|WBERA Pool on Hub",
+      "owner": "Wizzwoods"
+    },
+    {
+      "stakingTokenAddress": "0x55a050f76541C2554e9dfA3A0b4e665914bF92EA",
+      "vaultAddress": "0x5e747644Dd7A3e58485DB8E836cA7654242dAe2a",
+      "name": "webera-vault-wbera",
+      "protocol": "WeBera",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1744810383/tokens/pnaomiavy5eu8outmnol.png",
+      "url": "https://app.webera.finance/vault?token=bera&type=lst",
+      "description": "$weWBERA is acquired by depositing $BERA into the BERA Vault on WeBera Finance",
+      "owner": "WeBera"
+    },
+    {
+      "stakingTokenAddress": "0x396A3D0B799B1a0B1EaA17e75B4DEa412400860b",
+      "vaultAddress": "0x5Ecefd0F14b0085d5ec3600Fd1A97fA1366F97D9",
+      "name": "webera-vault-ibera",
+      "protocol": "WeBera",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1744810404/tokens/g6rpupgxgkouozck7bqa.png",
+      "url": "https://app.webera.finance/vault?token=ibera&type=bera-lst",
+      "description": "$weiBERA is acquired by depositing $IBERA into the IBERA Vault on WeBera Finance",
+      "owner": "WeBera"
+    },
+    {
+      "stakingTokenAddress": "0x56449b16ff2b1E5EE61F532ceFFDa8F408f718a1",
+      "vaultAddress": "0xED0fb3170390EF82E13102F36fA7FD5047722890",
+      "name": "Bedrock - BR | WBERA",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1744808447/tokens/fudxzeljryceklkujvuw.png",
+      "protocol": "Kodiak",
+      "url": "https://app.kodiak.finance/#/liquidity/pools/0x56449b16ff2b1E5EE61F532ceFFDa8F408f718a1?farm=0xed0fb3170390ef82e13102f36fa7fd5047722890&chain=berachain_mainnet",
+      "description": "Acquired by depositing liquidity into the Bedrock - BR | WBERA Pool on Kodiak",
+      "owner": "Bedrock"
+    },
+    {
+      "stakingTokenAddress": "0xC857F2bA47B0560E0B8fCd4Dd82b943B5ee88d2b",
+      "vaultAddress": "0x8412561FADDD6C85F5a17e07E0F29428B813E69B",
+      "name": "Henlo - Henlocker100M",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1744809287/vaults/jtwci2jihaa3qsken4st.png",
+      "protocol": "Beradrome",
+      "url": "https://app.henlo.com/lock",
+      "description": "Acquired by price-locking tokens into a henlocker and staking on Henlo or Beradrome.",
+      "owner": "HENLO"
+    },
+    {
+      "stakingTokenAddress": "0x94CA1028eE60E5B28CdA22c0e7b6743017a9B7b6",
+      "vaultAddress": "0xA713816E8d190EFdf35d66b723eb63f8c8c4d5D2",
+      "name": "Henlo - Henlocker330M",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1744809304/vaults/skd0lvbdpgl8sekmsal6.png",
+      "protocol": "Beradrome",
+      "url": "https://app.henlo.com/lock",
+      "description": "Acquired by price-locking tokens into a henlocker and staking on Henlo or Beradrome.",
+      "owner": "HENLO"
+    },
+    {
+      "stakingTokenAddress": "0x94b12404D6163c3E49ED876fb25034A946A40Dd8",
+      "vaultAddress": "0x15970fcf2dbb9FfCC4e2f79c3Fd777B871540D5b",
+      "name": "Henlo - Henlocker420M",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1744809324/vaults/axl1mvuynagmkd2ijf3d.png",
+      "protocol": "Beradrome",
+      "url": "https://app.henlo.com/lock",
+      "description": "Acquired by price-locking tokens into a henlocker and staking on Henlo or Beradrome.",
+      "owner": "HENLO"
+    },
+    {
+      "stakingTokenAddress": "0x872130cED110e2a4325693C0802B6A0112B3615B",
+      "vaultAddress": "0x610b6A27A3A83Cea0574C5001F30d9EEA3699b1a",
+      "name": "Henlo - Henlocker690M",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1744809339/vaults/h1eelb9pk0lfajxqdjg7.png",
+      "protocol": "Beradrome",
+      "url": "https://app.henlo.com/lock",
+      "description": "Acquired by price-locking tokens into a henlocker and staking on Henlo or Beradrome.",
+      "owner": "HENLO"
+    },
+    {
+      "stakingTokenAddress": "0xFb32f8c7D363790A6CCd89f8d20047612aba633B",
+      "vaultAddress": "0xA6A3E6fb89FA4C6554e82D05b449639EeBfc564f",
+      "name": "Henlo - Henlocker1B",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1744809364/vaults/kxovurpaj05qh1nqnsuq.png",
+      "protocol": "Beradrome",
+      "url": "https://app.henlo.com/lock",
+      "description": "Acquired by price-locking tokens into a henlocker and staking on Henlo or Beradrome.",
+      "owner": "HENLO"
+    },
+    {
+      "stakingTokenAddress": "0x36b933554782b108bb9962ac00c498acbceb706d",
+      "vaultAddress": "0xf53ee7a9ddbcd27f2a50c45f4e7a8e8b0eec043f",
+      "name": "HyperBera.USDC",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1745430686/vaults/d18ofokdlnmjbwcpyhfn.png",
+      "protocol": "D2 Finance",
+      "url": "https://d2.finance/strategies/HyperBera.USDC?chainId=80094&tab=1",
+      "description": "Acquired by deposited USDC.e into the HyperBera.USDC strategy vault on D2 Finance (during funding periods).",
+      "owner": "D2 Finance"
+    },
+    {
+      "stakingTokenAddress": "0xbe75c8a7e58c7901d2e128dc8d3b6de2481f1f79",
+      "vaultAddress": "0x70c359d85611e9a755997cc59281ef5edb04cf1b",
+      "name": "dgnBeraland",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1745430537/vaults/p0nih8r2zehi946dab98.png",
+      "protocol": "D2 Finance",
+      "url": "https://d2.finance/strategies/dgnBeraland?chainId=80094&tab=2",
+      "description": "Acquired by deposited USDC.e into the dgnBeraland strategy vault on D2 Finance (during funding periods).",
+      "owner": "D2 Finance"
+    },
+    {
+      "stakingTokenAddress": "0x04fD6a7B02E2e48caedaD7135420604de5f834f8",
+      "vaultAddress": "0x16e8031814E58F581C8a1d6e087458b5110879Fa",
+      "name": "HENLO - WBERA | HENLO ",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1744809255/vaults/zb9g0azdtve8difxpfb7.png",
+      "protocol": "Aquabera",
+      "url": "https://app.aquabera.com/vault/0x04fD6a7B02E2e48caedaD7135420604de5f834f8",
+      "description": "Acquired by depositing liquidity into the Aquabera - WBERA-HENLO Pool on Kodiak.",
+      "owner": "HENLO"
+    },
+    {
+      "stakingTokenAddress": "0xD6620E78B89E8fdB5dFA675D55001C7FaD424bDc",
+      "vaultAddress": "0x284f8d4b98fed32f154911102053a0c1ab621fc0",
+      "name": "POLLEN | WBERA Kodiak Island",
+      "protocol": "Kodiak",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1745344460/vaults/0x284f8d4b98fed32f154911102053a0c1ab621fc0.png",
+      "url": "https://app.kodiak.finance/#/liquidity/pools/0xd6620e78b89e8fdb5dfa675d55001c7fad424bdc?farm=0x284f8d4b98fed32f154911102053a0c1ab621fc0&chain=berachain_mainnet",
+      "description": "Acquired by depositing liquidity into  the POLLEN | WBERA Island on Kodiak",
+      "owner": "Beraborrow"
+    },
+    {
+      "stakingTokenAddress": "0xaD445256Ff81171043A5e7Cd8831e4371B000176",
+      "vaultAddress": "0x15f1156f56a06af851cbdc0aceb0780bbcb913c4",
+      "name": "Kodiak - OpenState - osBGT/iBERA",
+      "protocol": "Kodiak",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1745684185/vaults/0x15f1156f56a06af851cbdc0aceb0780bbcb913c4.png",
+      "url": "https://app.kodiak.finance/#/liquidity/pools/0xad445256ff81171043a5e7cd8831e4371b000176?farm=0x15f1156f56a06af851cbdc0aceb0780bbcb913c4&chain=berachain_mainnet",
+      "description": "Acquired by staking KODI iBERA-osBGT LP Token from Kodiak",
+      "owner": "OpenState"
+    },
+    {
+      "stakingTokenAddress": "0x7f2B60fDff1494A0E3e060532c9980d7fad0404B",
+      "vaultAddress": "0x0ec12590CBb9280ab22b81F62be587c5200A9711",
+      "name": "Dolomite - dHONEY",
+      "protocol": "Dolomite",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1745684794/vaults/0x0ec12590CBb9280ab22b81F62be587c5200A9711.png",
+      "url": "https://app.dolomite.io/",
+      "description": "Acquire dHONEY by supplying HONEY on Dolomite.io",
+      "owner": "Dolomite"
+    },
+    {
+      "stakingTokenAddress": "0xAa97D791Afc02AF30cf0B046172bb05b3c306517",
+      "vaultAddress": "0x3d0D211365C8a483394426DAcd5A73b0154FEEDB",
+      "name": "Dolomite - dWBERA",
+      "protocol": "Dolomite",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1745684642/vaults/0x3d0D211365C8a483394426DAcd5A73b0154FEEDB.png",
+      "url": "https://app.dolomite.io/",
+      "description": "Acquire dwBERA by supplying BERA  on Dolomite.io",
+      "owner": "Dolomite"
+    },
+    {
+      "stakingTokenAddress": "0x5347e5133b22A680Ee94b7e62803E848F8d8C92e",
+      "vaultAddress": "0xbD3d6db7b600B18252e2D5d21f29C5E61e1e3f05",
+      "name": "BEARN - yBGT | yBERA",
+      "protocol": "Kodiak",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1745934110/vaults/0xbD3d6db7b600B18252e2D5d21f29C5E61e1e3f05.jpg",
+      "url": "https://app.kodiak.finance/#/liquidity/pools/0x5347e5133b22A680Ee94b7e62803E848F8d8C92e?chain=berachain_mainnet",
+      "description": "Deposit liquidity into the Kodiak yBGT/yBERA pool",
+      "owner": "Bearn"
+    },
+    {
+      "stakingTokenAddress": "0x1ac0E38eE5f66F6fa46E1644BB6B73bEe598b953",
+      "vaultAddress": "0x6b9ae55362e65e2a615681824a6334cc3f29e658",
+      "name": "Bedrock - brBTC | uniBTC",
+      "protocol": "Kodiak",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1745989730/vaults/0x6b9ae55362e65e2a615681824a6334cc3f29e658.png",
+      "url": "https://app.kodiak.finance/#/liquidity/pools/0x1ac0e38ee5f66f6fa46e1644bb6b73bee598b953?farm=0x6b9ae55362e65e2a615681824a6334cc3f29e658&chain=berachain_mainnet",
+      "description": "Acquired by depositing liquidity into the Bedrock - brBTC | uniBTC Pool on Kodiak",
+      "owner": "Bedrock"
+    },
+    {
+      "stakingTokenAddress": "0x112b77a77753b092306b1c04bd70215fed4e00a1",
+      "vaultAddress": "0xe4c24b1da97325b183df8e4e489d54d2f6e15d58",
+      "name": "NECT - Euler",
+      "protocol": "Euler",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1743510678/tokens/pnjzpr95iabxbm3x4eql.png",
+      "url": "https://app.euler.finance/vault/0x112B77A77753b092306b1c04Bd70215FeD4e00a1?network=berachain",
+      "description": "Acquire eNECT-1 by supplying NECT on the ZeroLend market on Euler",
+      "owner": "ZeroLend"
+    },
+    {
+      "stakingTokenAddress": "0x68Cac522833F38E088EEC5e356956C02F0268063",
+      "vaultAddress": "0xa7782ff04de0e7f7084eedb364f485efed3fcc49",
+      "name": "GRQ-WBERA",
+      "protocol": "Kodiak",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746108623/vaults/0xa7782ff04de0e7f7084eedb364f485efed3fcc49.jpg",
+      "url": "https://app.kodiak.finance/#/liquidity/v2/add/ETH/0xcA9088895e3390E503cac9ae95abaccdba20822e?chain=berachain_mainnet",
+      "description": "Stake GRQ-WBERA LP on our platform to earn sGRQ and BGT rewards.",
+      "owner": "GetRichQuick"
+    },
+    {
+      "stakingTokenAddress": "0xe96E0D5DdA2e24050F43AF92EbB3293f6e605C9a",
+      "vaultAddress": "0x52fe4126d6991d1095369dfe1a8ca17fd1aa401b",
+      "name": "Concrete - USDT",
+      "protocol": "Concrete",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746472446/vaults/concrete_stables.png",
+      "url": "https://app.concrete.xyz/vault/0xe96E0D5DdA2e24050F43AF92EbB3293f6e605C9a",
+      "description": "Acquired by depositing USDT0 into Concrete's Berachain Stables vault",
+      "owner": "Concrete"
+    },
+    {
+      "stakingTokenAddress": "0x585934AfBf1FA9f563b80283F8B916Dd8F66a9b6",
+      "vaultAddress": "0x9a4CCbbA792ea0f64D62f15416517fcd9ce30283",
+      "name": "Concrete - USDe",
+      "protocol": "Concrete",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746472446/vaults/concrete_stables.png",
+      "url": "https://app.concrete.xyz/vault/0x585934AfBf1FA9f563b80283F8B916Dd8F66a9b6",
+      "description": "Acquired by depositing USDe into Concrete's Berachain Stables vault",
+      "owner": "Concrete"
+    },
+    {
+      "stakingTokenAddress": "0xc3cac88fd629652BBe0C3454D5d3049368A73849",
+      "vaultAddress": "0xd5e8006cb675d6556915e92c6253e5a9b9df5431",
+      "name": "Concrete - USDC",
+      "protocol": "Concrete",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746472446/vaults/concrete_stables.png",
+      "url": "https://app.concrete.xyz/vault/0xc3cac88fd629652BBe0C3454D5d3049368A73849",
+      "description": "Acquired by depositing USDC.e into Concrete's Berachain Stables vault",
+      "owner": "Concrete"
+    },
+    {
+      "stakingTokenAddress": "0x81235952ad93987F74e074994Def2a7e1D6F1Fb0",
+      "vaultAddress": "0x41abc5119830bedf86a3c587f50db41400ffee96",
+      "name": "Concrete - HONEY",
+      "protocol": "Concrete",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746472446/vaults/concrete_stables.png",
+      "url": "https://app.concrete.xyz/vault/0x81235952ad93987F74e074994Def2a7e1D6F1Fb0",
+      "description": "Acquired by depositing HONEY into Concrete's Berachain Stables vault",
+      "owner": "Concrete"
+    },
+    {
+      "stakingTokenAddress": "0xd08E3652e6b29EBdD58fe93B422513862FB49899",
+      "vaultAddress": "0xffb155ef53cb08a0722c9eeeea5cb362d77ba125",
+      "name": "Concrete - sUSDe",
+      "protocol": "Concrete ",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746472446/vaults/concrete_stables.png",
+      "url": "https://app.concrete.xyz/vault/0xd08E3652e6b29EBdD58fe93B422513862FB49899",
+      "description": "Acquired by depositing sUSDe into Concrete's Berachain Stables vault",
+      "owner": "Concrete "
+    },
+    {
+      "stakingTokenAddress": "0x8d3e53f5521927E5c78D42B4f9e08ae8DF91B772",
+      "vaultAddress": "0x238cb854d644cb9b7a08e65eb803bffc05cfb834",
+      "name": "Concrete - WETH",
+      "protocol": "Concrete",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746472446/vaults/concrete_ethereum.png",
+      "url": "https://app.concrete.xyz/vault/0x8d3e53f5521927E5c78D42B4f9e08ae8DF91B772",
+      "description": "Acquired by depositing WETH into Concrete's Berachain Ethereum vault",
+      "owner": "Concrete"
+    },
+    {
+      "stakingTokenAddress": "0x49BEE393825BBAC404fEfE6E24f34854f30905D2",
+      "vaultAddress": "0xf59e889f55777cd5a8dddca918500c5d062c8a57",
+      "name": "Concrete - BeraETH",
+      "protocol": "Concrete",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746472446/vaults/concrete_ethereum.png",
+      "url": "https://app.concrete.xyz/vault/0x49BEE393825BBAC404fEfE6E24f34854f30905D2",
+      "description": "Acquired by depositing BeraETH into Concrete's Berachain Ethereum vault",
+      "owner": "Concrete"
+    },
+    {
+      "stakingTokenAddress": "0xB6E3C1154e07f8a3dc04a9a28648C7AA30511120",
+      "vaultAddress": "0x894d3d9d4542a307a3c76c82695bf5581fcc1383",
+      "name": "Concrete - LBTC",
+      "protocol": "Concrete",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746472445/vaults/concrete_btc.png",
+      "url": "https://app.concrete.xyz/vault/0xB6E3C1154e07f8a3dc04a9a28648C7AA30511120",
+      "description": "Acquired by depositing LBTC into Concrete's Berachain Bitcoin vault",
+      "owner": "Concrete"
+    },
+    {
+      "stakingTokenAddress": "0x335e7b56054F830883D1509AFDce58DedceFb29C",
+      "vaultAddress": "0x4132997563d7621644a13a2dfeb925df527455d6",
+      "name": "Concrete - WBTC",
+      "protocol": "Concrete",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746472445/vaults/concrete_btc.png",
+      "url": "https://app.concrete.xyz/vault/0x335e7b56054F830883D1509AFDce58DedceFb29C",
+      "description": "Acquired by depositing WBTC into Concrete's Berachain Bitcoin vault",
+      "owner": "Concrete"
+    },
+    {
+      "stakingTokenAddress": "0x068D072d1ee7647B9d649a7C2046166Aa81af3D3",
+      "vaultAddress": "0xDd31Db00885C948F1A30Ce28678dF8Ad63B15bB6",
+      "name": "Concrete - uniBTC",
+      "protocol": "Concrete",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746472445/vaults/concrete_btc.png",
+      "url": "https://app.concrete.xyz/vault/0x068D072d1ee7647B9d649a7C2046166Aa81af3D3",
+      "description": "Acquired by depositing uniBTC into Concrete's Berachain Bitcoin vault",
+      "owner": "Concrete"
+    },
+    {
+      "stakingTokenAddress": "0x127BF6361ff7495F2A69d83d9Ad2092D3dfEE7Ab",
+      "vaultAddress": "0x040f89fcbae6ce2b3fbe47fc84b1248c91d716c2",
+      "name": "Concrete - FBTC",
+      "protocol": "Concrete",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746472445/vaults/concrete_btc.png",
+      "url": "https://app.concrete.xyz/vault/0x127BF6361ff7495F2A69d83d9Ad2092D3dfEE7Ab",
+      "description": "Acquired by depositing FTBC into Concrete's Berachain Bitcoin vault",
+      "owner": "Concrete"
+    },
+    {
+      "stakingTokenAddress": "0xEC577E989c02b294D5b8f4324224a5B63F5beef7",
+      "vaultAddress": "0xea31ae7f4b4205badba164b1469e8f71de9ea867",
+      "name": "Concrete - BERA",
+      "protocol": "Concrete",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746472445/vaults/concrete_bera.png",
+      "url": "https://app.concrete.xyz/vault/0xEC577E989c02b294D5b8f4324224a5B63F5beef7",
+      "description": "Acquired by depositing BERA or WBERA into Concrete's Berachain Bera vault",
+      "owner": "Concrete"
+    },
+    {
+      "stakingTokenAddress": "0xe49Ff31B2B3Fd346b0d1832d9fE224ee0d1c1F9e",
+      "vaultAddress": "0x310532d9d047c5972cd60852c1a4b675edc55fad",
+      "name": "Concrete x Berabaddies - HONEY",
+      "protocol": "Concrete",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746472445/vaults/concrete_berabaddies.png",
+      "url": "https://app.concrete.xyz/vault/0xe49Ff31B2B3Fd346b0d1832d9fE224ee0d1c1F9e",
+      "description": "Acquired by depositing HONEY into Concrete's Berabaddies Earn Vault",
+      "owner": "Concrete"
+    },
+    {
+      "stakingTokenAddress": "0xA15E1De8a220Ca9C63DB4E8a1E9043fb953B3713",
+      "vaultAddress": "0x6e0a95f6ac86ead002d58c83fc1b5a712ee9be7c",
+      "name": "Concrete x Berabaddies - BERA",
+      "protocol": "Concrete",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746472445/vaults/concrete_berabaddies.png",
+      "url": "https://app.concrete.xyz/vault/0xA15E1De8a220Ca9C63DB4E8a1E9043fb953B3713",
+      "description": "Acquired by depositing BERA or WBERA into Concrete's Berabaddies Earn Vault",
+      "owner": "Concrete"
+    },
+    {
+      "stakingTokenAddress": "0xdDD3Ea5De9c70973E224D938B8f392EC4CC0171C",
+      "vaultAddress": "0x7E6E4DacFF9aB49804667e1d7B76E921a8fbBE44",
+      "name": "Bull Ish V2",
+      "protocol": "BULL ISH",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746110086/vaults/0x7E6E4DacFF9aB49804667e1d7B76E921a8fbBE44.png",
+      "url": "https://game.bullas.xyz/",
+      "description": "Deposit liquidity into the Kodiak yBGT/yBERA pool",
+      "owner": "BULL ISH"
+    },
+    {
+      "stakingTokenAddress": "0xe87E5456Cc78578D1FcD95048FA639e5e32eE63A",
+      "vaultAddress": "0xd1dCa482d1AF3C2e23749a965Db3A74c4E29B928",
+      "name": "SX Bet - Bera Betting Rewards",
+      "protocol": "SX Bet",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746467048/vaults/vsig2fewygwoxlvccbzd.png",
+      "url": "https://www.bera.bet/",
+      "description": "Bet on SX Bet (bera.bet) and earn SXBRT",
+      "owner": "SX Bet"
+    },
+    {
+      "stakingTokenAddress": "0xf6b16E73d3b0e2784AAe8C4cd06099BE65d092Bf",
+      "vaultAddress": "0x9Df027Ed06635ecDfe811009f2291d347eA90357",
+      "name": "Kodiak - WBTC | HONEY",
+      "protocol": "Kodiak",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746488545/vaults/upc8cajystcwryckwhnt.jpg",
+      "url": "https://hub.berachain.com/vaults/0x9df027ed06635ecdfe811009f2291d347ea90357/",
+      "description": "Acquired by depositing liquidity into the Kodiak - WBTC | HONEY Island on Kodiak",
+      "owner": "Kodiak"
+    },
+    {
+      "stakingTokenAddress": "0x58FDB6EEbf7df7Ce4137994436fb0e629Bb84b84",
+      "vaultAddress": "0x0308f87226efaCC51983bEa842Be57Dc45dE772c",
+      "name": "Kodiak - WBTC | WETH",
+      "protocol": "Kodiak",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746489354/vaults/uhozqpke4jhxf8z5akhl.jpg",
+      "url": "https://hub.berachain.com/vaults/0x0308f87226efacc51983bea842be57dc45de772c/",
+      "description": "Acquired by depositing liquidity into the Kodiak - WBTC | WETH Island on Kodiak",
+      "owner": "Kodiak"
+    },
+    {
+      "stakingTokenAddress": "0xAc8a437d1e6905E419431662AEAd90fB04ac3008",
+      "vaultAddress": "0x9BC3D407D930910a7aF515D473Ce9633624C1574",
+      "name": "BurrBear - BURR | wgBERA",
+      "protocol": "BurrBear",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746534606/vaults/0x9BC3D407D930910a7aF515D473Ce9633624C1574.jpg",
+      "url": "https://app.burrbear.io/#/berachain/pool/0xac8a437d1e6905e419431662aead90fb04ac300800020000000000000000000f",
+      "description": "Acquired by depositing liquidity into the BURR | wgBERA Pool on BurrBear",
+      "owner": "BurrBear"
+    },
+    {
+      "stakingTokenAddress": "0x46fcd35431f5B371224ACC2e2E91732867B1A77e",
+      "vaultAddress": "0x063df07b032e838de70165cdc39587a21910786e",
+      "name": "Ether.fi - primeLiquidBeraBTC",
+      "protocol": "Ether.fi",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746534876/tokens/default.png",
+      "url": "https://app.ether.fi/liquid/bera-btc",
+      "description": "Ether.fi - primeLiquidBeraBTC",
+      "owner": "Ether.fi"
+    },
+    {
+      "stakingTokenAddress": "0xB83742330443f7413DBD2aBdfc046dB0474a944e",
+      "vaultAddress": "0xaab94d5178350b10fd772bed446ddee43eaeba46",
+      "name": "Ether.fi - primeLiquidBeraETH",
+      "protocol": "Ether.fi",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746534876/tokens/default.png",
+      "url": "https://app.ether.fi/liquid/bera-eth",
+      "description": "Ether.fi - primeLiquidBeraETH",
+      "owner": "Ether.fi"
+    },
+    {
+      "stakingTokenAddress": "0x24afcEB372b755F4953e738d6b38E9e4646D9F57",
+      "vaultAddress": "0x199f156bba61496401dc2a009b5f69eb9a7e6f21",
+      "name": "KODI iBERA-iBGT",
+      "protocol": "Kodiak",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746544756/vaults/f9cj6ke0qszjyljy324v.png",
+      "url": "https://app.kodiak.finance/#/liquidity/pools/0x24afceb372b755f4953e738d6b38e9e4646d9f57?farm=0x199f156bba61496401dc2a009b5f69eb9a7e6f21&chain=berachain_mainnet",
+      "description": "Acquired by depositing liquidity into the iBERA-iBGT Pool on Kodiak",
+      "owner": "Infrared"
+    },
+    {
+      "stakingTokenAddress": "0xf6c6Be0FF6d6F70A04dBE4F1aDE62cB23053Bd95",
+      "vaultAddress": "0xc6506d205c92f9acd69779ed0c547557f3ad4607",
+      "name": "KODI WETH-HONEY",
+      "protocol": "Kodiak",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746534876/tokens/default.png",
+      "url": "https://app.kodiak.finance/#/liquidity/pools/0xf6c6be0ff6d6f70a04dbe4f1ade62cb23053bd95?farm=0xc6506d205c92f9acd69779ed0c547557f3ad4607&chain=berachain_mainnet",
+      "description": "Acquired by depositing liquidity into the WETH-HONEY Pool on Kodiak",
+      "owner": "Kodiak"
+    },
+    {
+      "stakingTokenAddress": "0x88c983bf3d4A9Adcee14e1b4f1C446c4C5853EA3",
+      "vaultAddress": "0x25acec3a1766a0d02d7c8e22f48533d32d7b311b",
+      "name": "KODI iBERA-wgBERA",
+      "protocol": "Kodiak",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746537459/vaults/cmjqyekbneijzmqwftq9.png",
+      "url": "https://app.kodiak.finance/#/liquidity/pools/0x88c983bf3d4a9adcee14e1b4f1c446c4c5853ea3?farm=0x25acec3a1766a0d02d7c8e22f48533d32d7b311b&chain=berachain_mainnet",
+      "description": "Acquired by depositing liquidity into the iBERA-wgBERA Pool on Kodiak",
+      "owner": "Smilee"
+    },
+    {
+      "stakingTokenAddress": "0x36FA291f4A4Ae41e4be2a979136EBd7eb97950E7",
+      "vaultAddress": "0xf3bdf754b4691286090090d601f77384da9fb721",
+      "name": "Beradrome Kodiak WBERA-LOCKS-V2",
+      "protocol": "Kodiak",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746541685/vaults/wy69tcudpjlzyktsqgeg.png",
+      "url": "https://www.beradrome.com/farms/0x74A38Bfeedd95f65cbBF72eEDf01EAC77778bcF9",
+      "description": "Beradrome Kodiak WBERA-LOCKS-V2",
+      "owner": "Beradrome"
+    },
+    {
+      "stakingTokenAddress": "0xd6eb8ae479EdF452d264493708c85AA798CCCdFd",
+      "vaultAddress": "0xc70e2af5eede9431536314bbbdf884e20179e3b7",
+      "name": "duniBTC",
+      "protocol": "Hub",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746534876/tokens/default.png",
+      "url": "https://hub.berachain.com/vaults/0xc70e2af5eede9431536314bbbdf884e20179e3b7/",
+      "description": "duniBTC",
+      "owner": "duniBTC"
+    },
+    {
+      "stakingTokenAddress": "0x2BDB8C39A3808eB9A03dE69925b6b158A57c57e6",
+      "vaultAddress": "0x6135e9e556b7aaaf66d2d6e8e47b96e2de6b602f",
+      "name": "KODI WBERA-AVL",
+      "protocol": "Kodiak",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746534876/tokens/default.png",
+      "url": "https://app.kodiak.finance/#/liquidity/pools/0x2bdb8c39a3808eb9a03de69925b6b158a57c57e6?farm=0x6135e9e556b7aaaf66d2d6e8e47b96e2de6b602f&chain=berachain_mainnet",
+      "description": "Acquired by depositing liquidity into the WBERA-AVL Pool on Kodiak",
+      "owner": "Avalon"
+    },
+    {
+      "stakingTokenAddress": "0x5e4Fe86C4f6fB2203fbFb77FD6eC3Cb300B639AA",
+      "vaultAddress": "0x2461040526130a0ea1a0ed44b9c9d3331f3897ff",
+      "name": "KODI DOLO-WBERA",
+      "protocol": "Kodiak",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746544756/vaults/p6lxbzhntjy3ijnmrvhb.jpg",
+      "url": "https://app.kodiak.finance/#/liquidity/pools/0x5e4fe86c4f6fb2203fbfb77fd6ec3cb300b639aa?farm=0x2461040526130a0ea1a0ed44b9c9d3331f3897ff&chain=berachain_mainnet",
+      "description": "Acquired by depositing liquidity into the DOLO-WBERA Pool on Kodiak",
+      "owner": "Dolomite"
+    },
+    {
+      "stakingTokenAddress": "0x53f786662FF5fbeC135f913ab93C6B3366e90a46",
+      "vaultAddress": "0x1cc12219dada26bd8bb6831b6c3063de17f9d399",
+      "name": "50aSUGAR-50HONEY-WEIGHTED",
+      "protocol": "Kodiak",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746534876/tokens/default.png",
+      "url": "https://app.kodiak.finance/",
+      "description": "Acquired by depositing liquidity into the 50aSUGAR-50HONEY-WEIGHTED Pool on Kodiak",
+      "owner": "Kodiak"
+    },
+    {
+      "stakingTokenAddress": "0xd6eb8ae479EdF452d264493708c85AA798CCCdFd",
+      "vaultAddress": "0xc70e2af5eeDE9431536314bBbDF884e20179E3B7",
+      "name": "Bedrock | Dolomite - duniBTC",
+      "protocol": "Dolomite",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746505860/vaults/0xc70e2af5eeDE9431536314bBbDF884e20179E3B7.png",
+      "url": "https://app.dolomite.io/balances",
+      "description": "Acquired by depositing uniBTC into Dolomite",
+      "owner": "Bedrock"
+    },
+    {
+      "stakingTokenAddress": "0x217B9476Ecd8783C59ED0ed64C359B8F2b9cCd3a",
+      "vaultAddress": "0x9a60189fc1372fab170fe642d162fc972b6ac31b",
+      "name": "HoneyFun AI - AIBERA | WBERA",
+      "protocol": "HoneyFun AI",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1747165159/tokens/0x217B9476Ecd8783C59ED0ed64C359B8F2b9cCd3a.png",
+      "url": "https://v3.info.kodiak.finance/#/berachain_mainnet/pools/0x6ff710767d7aa77f9d0a83d6b14086834570f30d",
+      "description": "Acquired by depositing liquidity into the AIBERA | WBERA Pool on Kodiak",
+      "owner": "HoneyFun AI"
     }
   ]
 }

@@ -1385,10 +1385,10 @@
     },
     {
       "stakingTokenAddress": "0x718E92b415b8C59797801fc8B132339483349d28",
-      "vaultAddress": "0x718E92b415b8C59797801fc8B132339483349d28",
+      "vaultAddress": "0x8bdB29E48874A96123CfC79a8F1d2672f0CB6295",
       "name": "BurrBear - NECT | COIN",
       "protocol": "BurrBear",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746534606/vaults/0x718E92b415b8C59797801fc8B132339483349d28.jpg",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746534606/vaults/0x8bdB29E48874A96123CfC79a8F1d2672f0CB6295.jpg",
       "url": "https://app.burrbear.io/#/berachain/pool/0x718e92b415b8c59797801fc8b132339483349d2800020000000000000000001a",
       "description": "Acquired by depositing liquidity into the NECT | COIN Pool on BurrBear",
       "owner": "BurrBear"
@@ -1398,7 +1398,7 @@
       "vaultAddress": "0x7686449526A1b3d63105d379f60360D1D5a604b9",
       "name": "BurrBear - NECT | iCOIN",
       "protocol": "BurrBear",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746534606/vaults/0x2395483d2F96A26aFc80E7cc3454Ea59311cEf08.jpg",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746534606/vaults/0x7686449526A1b3d63105d379f60360D1D5a604b9.jpg",
       "url": "https://app.burrbear.io/#/berachain/pool/0x2395483d2f96a26afc80e7cc3454ea59311cef0800020000000000000000001b",
       "description": "Acquired by depositing liquidity into the NECT | iCOIN Pool on BurrBear",
       "owner": "BurrBear"
@@ -1408,7 +1408,7 @@
       "vaultAddress": "0x0377b0D9c7851fF807cB2488986F862ddBF4e97f",
       "name": "BurrBear - NECT | NVDA",
       "protocol": "BurrBear",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746534606/vaults/0x8213bB9C018edC0295b177278aeAA1a704f123ab.jpg",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746534606/vaults/0x0377b0D9c7851fF807cB2488986F862ddBF4e97f.jpg",
       "url": "https://app.burrbear.io/#/berachain/pool/0x8213bb9c018edc0295b177278aeaa1a704f123ab000200000000000000000018",
       "description": "Acquired by depositing liquidity into the NECT | NVDA Pool on BurrBear",
       "owner": "BurrBear"
@@ -1418,7 +1418,7 @@
       "vaultAddress": "0xBF1DE39e1FA3AE820b0961F33F87B037221F095e",
       "name": "BurrBear - NECT | iNVDA",
       "protocol": "BurrBear",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746534606/vaults/0x10990Bf8C7cbC045eD482ED83Dc44cbCdA23ca23.jpg",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746534606/vaults/0xBF1DE39e1FA3AE820b0961F33F87B037221F095e.jpg",
       "url": "https://app.burrbear.io/#/berachain/pool/0x10990bf8c7cbc045ed482ed83dc44cbcda23ca23000200000000000000000019",
       "description": "Acquired by depositing liquidity into the NECT | iNVDA Pool on BurrBear",
       "owner": "BurrBear"

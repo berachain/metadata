@@ -542,31 +542,21 @@
     {
       "stakingTokenAddress": "0x3879451f4f69F0c2d37CaD45319cFf2E7d29C596",
       "vaultAddress": "0x11Fadf69a02340A676B4BD2A27FFd952094faE99",
-      "name": "Solv - SolvBTC | WBTC",
+      "name": "SolvProtocol - SolvBTC | WBTC",
       "protocol": "Kodiak",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1742842438/reward-vaults/icons/c1ee4ab9-d1cf-4850-a9a4-c73d13749afd.png",
       "url": "https://app.kodiak.finance/#/liquidity/pools/0x3879451f4f69f0c2d37cad45319cff2e7d29c596?farm=0x11fadf69a02340a676b4bd2a27ffd952094fae99&chain=berachain_mainnet",
-      "description": "Acquired by depositing liquidity into the Solv - SolvBTC | WBTC Pool on Kodiak",
+      "description": "Acquired by depositing liquidity into the SolvProtocol - SolvBTC | WBTC Pool on Kodiak",
       "owner": "Solv Protocol"
-    },
-    {
-      "stakingTokenAddress": "0xE8b92cd9771ebaad873A8E1b1B55404aECfDBc9d",
-      "vaultAddress": "0xA6cAB22B1b64532aF6779d7227983D1Be1Bd317E",
-      "name": "Beraplug - PLUG | WBERA",
-      "protocol": "Kodiak",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1743022530/tokens/hcvy0j5uaoeornxzhbft.png",
-      "url": "https://v2.info.kodiak.finance/pair/0xac1d44f0284634eb04ffa56c76d47e839224b46f?chain=berachain_mainnet",
-      "description": "Acquired by depositing liquidity into the Beraplug - PLUG | WBERA Pool on Kodiak",
-      "owner": "Beraplug"
     },
     {
       "stakingTokenAddress": "0x43E487126c4F37D1915cF02a90B5C5295AFb1790",
       "vaultAddress": "0x3fc5cB0290C82680Afe9EF8CddE5468d74C85705",
-      "name": "Solv - xSolvBTC/SolvBTC",
+      "name": "SolvProtocol - SolvBTC.BBN | SolvBTC",
       "protocol": "Kodiak",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1742842438/reward-vaults/icons/c1ee4ab9-d1cf-4850-a9a4-c73d13749afd.png",
       "url": "https://app.kodiak.finance/#/liquidity/pools/0x43e487126c4f37d1915cf02a90b5c5295afb1790?farm=0x3fc5cb0290c82680afe9ef8cdde5468d74c85705&chain=berachain_mainnet",
-      "description": "Acquired by depositing liquidity into the Solv - xSolvBTC/SolvBTC Pool on Kodiak",
+      "description": "Acquired by depositing liquidity into the SolvProtocol - SolvBTC.BBN | SolvBTC Pool on Kodiak",
       "owner": "Solv Protocol"
     },
     {
@@ -1370,14 +1360,24 @@
       "owner": "Bedrock"
     },
     {
-      "stakingTokenAddress": "0x0F6f337B09cb5131cF0ce9df3Beb295b8e728F3B",
-      "vaultAddress": "0x9a5620309c20b8beca1d59c6def1e73ac6cba45d",
-      "name": "Solv - SolvBTC.BERA",
-      "protocol": "Solv Protocol",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1747326914/vaults/0x9a5620309c20b8beca1d59c6def1e73ac6cba45d.png",
-      "url": "https://app.solv.finance/bera?network=bera",
-      "description": "Token can be minted/burned by providing or withdrawing liquidity into the vault",
-      "owner": "Solv Protocol"
+      "stakingTokenAddress": "0x8EF48ae9DF6165acc9754297BF28F5877c229C03",
+      "vaultAddress": "0xf02d129C35F3b4BE77C15449e95000BAa13B85a0",
+      "name": "NECT | USD₮0 - Kodiak Island",
+      "protocol": "Kodiak",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1747123983/vaults/0xf02d129C35F3b4BE77C15449e95000BAa13B85a0.jpg",
+      "url": "https://app.kodiak.finance/#/liquidity/pools/0x8ef48ae9df6165acc9754297bf28f5877c229c03?farm=0x284f8d4b98fed32f154911102053a0c1ab621fc0&chain=berachain_mainnet",
+      "description": "Acquired by providing liquidity into the NECT | USD₮0 - Island on Kodiak",
+      "owner": "Beraborrow"
+    },
+    {
+      "stakingTokenAddress": "0x9f6cf7aCb2F16f7d906EeeCB0a6020a5Cf91A41d",
+      "vaultAddress": "0x29af240276168330c3c266112d7ffdc1fd3c764d",
+      "name": "LAIR | BERA - Kodiak",
+      "protocol": "Kodiak",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746534876/tokens/default.png",
+      "url": "https://app.kodiak.finance/#/liquidity/pools/0x9f6cf7acb2f16f7d906eeecb0a6020a5cf91a41d",
+      "description": "Acquired by depositing liquidity into LAIR | BERA pool on Kodiak",
+      "owner": "Lair"
     }
   ]
 }

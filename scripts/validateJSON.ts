@@ -22,7 +22,53 @@ const addressMap = new Map<string, string[]>();
 const nameMap = new Map<string, string[]>();
 
 function checkDuplicates(data: any, file: string, type: 'token' | 'validator' | 'vault') {
-  const address = data.address?.toLowerCase();
+  // Handle mainnet.json files
+  if (data.tokens || data.vaults || data.validators) {
+    const items = data.tokens || data.vaults || data.validators;
+    const addressMap = new Map<string, { name: string, index: number }>();
+    const nameMap = new Map<string, { name: string, index: number }>();
+
+    items.forEach((item: any, idx: number) => {
+      const address = item.address?.toLowerCase() || item.vaultAddress?.toLowerCase();
+      const name = item.name?.toLowerCase();
+
+      if (address) {
+        if (addressMap.has(address)) {
+          const existing = addressMap.get(address)!;
+          errors.push([file, [{
+            instancePath: `/${type}s/${idx}/address`,
+            message: `Duplicate address found. ${item.name} shares the same address as ${existing.name} (index ${existing.index})`,
+            keyword: 'duplicate',
+            schemaPath: '#/properties/address',
+            params: { duplicate: address },
+            severity: 'error'
+          } as ErrorObject]]);
+        } else {
+          addressMap.set(address, { name: item.name, index: idx });
+        }
+      }
+
+      if (name) {
+        if (nameMap.has(name)) {
+          const existing = nameMap.get(name)!;
+          errors.push([file, [{
+            instancePath: `/${type}s/${idx}/name`,
+            message: `Duplicate name found. ${item.name} shares the same name as ${existing.name} (index ${existing.index})`,
+            keyword: 'duplicate',
+            schemaPath: '#/properties/name',
+            params: { duplicate: name },
+            severity: 'error'
+          } as ErrorObject]]);
+        } else {
+          nameMap.set(name, { name: item.name, index: idx });
+        }
+      }
+    });
+    return;
+  }
+
+  // Handle individual JSON files
+  const address = data.address?.toLowerCase() || data.vaultAddress?.toLowerCase();
   const name = data.name?.toLowerCase();
 
   if (address) {

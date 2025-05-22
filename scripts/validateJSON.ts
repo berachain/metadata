@@ -23,47 +23,93 @@ const nameMap = new Map<string, string[]>();
 
 function checkDuplicates(data: any, file: string, type: 'token' | 'validator' | 'vault') {
   // Handle mainnet.json files
-  if (data.tokens || data.vaults || data.validators) {
+  if (data.tokens || data.vaults || data.validators || data.protocols) {
+    // Check protocols array if it exists
+    if (data.protocols) {
+      const protocolNames = new Map<string, { name: string, index: number }>();
+      const protocolUrls = new Map<string, { name: string, index: number }>();
+
+      data.protocols.forEach((protocol: any, idx: number) => {
+        const name = protocol.name?.toLowerCase();
+        const url = protocol.url?.toLowerCase();
+
+        if (name) {
+          if (protocolNames.has(name)) {
+            const existing = protocolNames.get(name)!;
+            errors.push([file, [{
+              instancePath: `/protocols/${idx}/name`,
+              message: `[${file}] Duplicate protocol name found. ${protocol.name} shares the same name as ${existing.name} (index ${existing.index})`,
+              keyword: 'duplicate',
+              schemaPath: '#/properties/name',
+              params: { duplicate: name },
+              severity: 'error'
+            } as ErrorObject]]);
+          } else {
+            protocolNames.set(name, { name: protocol.name, index: idx });
+          }
+        }
+
+        if (url) {
+          if (protocolUrls.has(url)) {
+            const existing = protocolUrls.get(url)!;
+            errors.push([file, [{
+              instancePath: `/protocols/${idx}/url`,
+              message: `[${file}] Duplicate protocol URL found. ${protocol.name} shares the same URL as ${existing.name} (index ${existing.index})`,
+              keyword: 'duplicate',
+              schemaPath: '#/properties/url',
+              params: { duplicate: url },
+              severity: 'error'
+            } as ErrorObject]]);
+          } else {
+            protocolUrls.set(url, { name: protocol.name, index: idx });
+          }
+        }
+      });
+    }
+
+    // Check tokens/vaults/validators array
     const items = data.tokens || data.vaults || data.validators;
-    const addressMap = new Map<string, { name: string, index: number }>();
-    const nameMap = new Map<string, { name: string, index: number }>();
+    if (items) {
+      const addressMap = new Map<string, { name: string, index: number }>();
+      const nameMap = new Map<string, { name: string, index: number }>();
 
-    items.forEach((item: any, idx: number) => {
-      const address = item.address?.toLowerCase() || item.vaultAddress?.toLowerCase();
-      const name = item.name?.toLowerCase();
+      items.forEach((item: any, idx: number) => {
+        const address = item.address?.toLowerCase() || item.vaultAddress?.toLowerCase();
+        const name = item.name?.toLowerCase();
 
-      if (address) {
-        if (addressMap.has(address)) {
-          const existing = addressMap.get(address)!;
-          errors.push([file, [{
-            instancePath: `/${type}s/${idx}/address`,
-            message: `Duplicate address found. ${item.name} shares the same address as ${existing.name} (index ${existing.index})`,
-            keyword: 'duplicate',
-            schemaPath: '#/properties/address',
-            params: { duplicate: address },
-            severity: 'error'
-          } as ErrorObject]]);
-        } else {
-          addressMap.set(address, { name: item.name, index: idx });
+        if (address) {
+          if (addressMap.has(address)) {
+            const existing = addressMap.get(address)!;
+            errors.push([file, [{
+              instancePath: `/${type}s/${idx}/address`,
+              message: `[${file}] Duplicate address found. ${item.name} shares the same address as ${existing.name} (index ${existing.index})`,
+              keyword: 'duplicate',
+              schemaPath: '#/properties/address',
+              params: { duplicate: address },
+              severity: 'error'
+            } as ErrorObject]]);
+          } else {
+            addressMap.set(address, { name: item.name, index: idx });
+          }
         }
-      }
 
-      if (name) {
-        if (nameMap.has(name)) {
-          const existing = nameMap.get(name)!;
-          errors.push([file, [{
-            instancePath: `/${type}s/${idx}/name`,
-            message: `Duplicate name found. ${item.name} shares the same name as ${existing.name} (index ${existing.index})`,
-            keyword: 'duplicate',
-            schemaPath: '#/properties/name',
-            params: { duplicate: name },
-            severity: 'error'
-          } as ErrorObject]]);
-        } else {
-          nameMap.set(name, { name: item.name, index: idx });
+        if (name) {
+          if (nameMap.has(name)) {
+            const existing = nameMap.get(name)!;
+            errors.push([file, [{
+              instancePath: `/${type}s/${idx}/name`,
+              message: `[${file}] Duplicate name found. ${item.name} shares the same name as ${existing.name} (index ${existing.index})`,
+              keyword: 'duplicate',
+              schemaPath: '#/properties/name',
+              params: { duplicate: name },
+              severity: 'error'
+            } as ErrorObject]]);
+          } else {
+            nameMap.set(name, { name: item.name, index: idx });
+          }
         }
-      }
-    });
+      });
+    }
     return;
   }
 
@@ -76,7 +122,7 @@ function checkDuplicates(data: any, file: string, type: 'token' | 'validator' | 
     if (existingFiles.length > 0) {
       errors.push([file, [{
         instancePath: '/address',
-        message: `Duplicate address found. Also exists in: ${existingFiles.join(', ')}`,
+        message: `[${file}] Duplicate address found. Also exists in: ${existingFiles.join(', ')}`,
         keyword: 'duplicate',
         schemaPath: '#/properties/address',
         params: { duplicate: address },
@@ -91,7 +137,7 @@ function checkDuplicates(data: any, file: string, type: 'token' | 'validator' | 
     if (existingFiles.length > 0) {
       errors.push([file, [{
         instancePath: '/name',
-        message: `Duplicate name found. Also exists in: ${existingFiles.join(', ')}`,
+        message: `[${file}] Duplicate name found. Also exists in: ${existingFiles.join(', ')}`,
         keyword: 'duplicate',
         schemaPath: '#/properties/name',
         params: { duplicate: name },

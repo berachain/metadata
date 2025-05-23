@@ -890,18 +890,6 @@
     },
     {
       "chainId": 80094,
-      "address": "0x28e0e3B9817012b356119dF9e217c25932D609c2",
-      "name": "Burr Governance Token",
-      "symbol": "BURR",
-      "decimals": 18,
-      "logoURI": "https://coin-images.coingecko.com/coins/images/55134/large/BURR_Token_logo.png?1744006499",
-      "tags": [],
-      "extensions": {
-        "coingeckoId": "burr-governance-token"
-      }
-    },
-    {
-      "chainId": 80094,
       "address": "0xedb5180661f56077292c92ab40b1ac57a279a396",
       "name": "Roots Stable",
       "symbol": "MEAD",

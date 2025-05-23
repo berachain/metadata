@@ -1483,7 +1483,7 @@
       "name": "MEAD | HONEY",
       "protocol": "Roots",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1748027438/vaults/0xf5049dd5b043e8af5758c03ff0cf80626ffef6df.png",
-      "url": "https://hub.berachain.com/pools/0x2a9ea10b60ab02e9b8960a08b4996e6bf5ea5eab000000000000000000000162/details/",
+      "url": "https://app.rootsfi.com",
       "description": "Acquired by depositing WBTC, WETH, WBERA or BYUSD, USDCe into the Roots collateral pool.",
       "owner": "Roots"
     }

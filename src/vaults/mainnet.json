@@ -248,7 +248,7 @@
       "name": "WBERA | HONEY",
       "protocol": "HUB",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1738378469/reward-vaults/icons/soy9mfpovb1odtby9p02.png",
-      "url": "https://hub.berachain.com/pools/0x2c4a603a2aa5596287a06886862dc29d56dbc354000200000000000000000002/details/",
+      "url": "https://hub.berachain.com/pools/0x2c4a603a2aa5596287a06886862dc29d56dbc354000000000000000000000002/details/",
       "description": "Acquired by depositing liquidity into the WBERA | HONEY Pool on Hub",
       "owner": "Foundation"
     },
@@ -1470,6 +1470,26 @@
       "url": "https://v3.info.kodiak.finance/#/berachain_mainnet/pools/0x6ff710767d7aa77f9d0a83d6b14086834570f30d",
       "description": "Acquired by depositing liquidity into the AIBERA | WBERA Pool on Kodiak",
       "owner": "HoneyFun AI"
+    },
+    {
+      "stakingTokenAddress": "0x9b6761bf2397Bb5a6624a856cC84A3A14Dcd3fe5",
+      "vaultAddress": "0x6d4223DAE2a8744a85a6d44e97f3F61679f87ee6",
+      "name": "Smilee - iBERA | wgBERA",
+      "protocol": "Infrared Finance",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1738378469/reward-vaults/icons/soy9mfpovb1odtby9p02.png",
+      "url": "https://infrared.finance/",
+      "description": "Acquired by depositing liquidity into the iBERA | wgBERA Pool on Infrared Finance",
+      "owner": "Foundation"
+    },
+    {
+      "stakingTokenAddress": "0x2c4a603A2aA5596287A06886862dc29d56DbC354",
+      "vaultAddress": "0xC2BaA8443cDA8EBE51a640905A8E6bc4e1f9872c",
+      "name": "WBERA | HONEY",
+      "protocol": "HUB",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1738378469/reward-vaults/icons/soy9mfpovb1odtby9p02.png",
+      "url": "https://hub.berachain.com/pools/0x2c4a603a2aa5596287a06886862dc29d56dbc354000000000000000000000002/details/",
+      "description": "Acquired by depositing liquidity into the WBERA | HONEY Pool on Hub",
+      "owner": "Foundation"
     }
   ]
 }

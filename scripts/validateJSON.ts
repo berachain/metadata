@@ -18,8 +18,6 @@ const ajv = new Ajv({
 addFormats(ajv);
 
 const errors: [string, null | ErrorObject[]][] = [];
-const addressMap = new Map<string, string[]>();
-const nameMap = new Map<string, string[]>();
 
 function checkDuplicates(data: any, file: string, type: 'token' | 'validator' | 'vault') {
   // Handle mainnet.json files
@@ -110,41 +108,6 @@ function checkDuplicates(data: any, file: string, type: 'token' | 'validator' | 
         }
       });
     }
-    return;
-  }
-
-  // Handle individual JSON files
-  const address = data.address?.toLowerCase() || data.vaultAddress?.toLowerCase();
-  const name = data.name?.toLowerCase();
-
-  if (address) {
-    const existingFiles = addressMap.get(address) || [];
-    if (existingFiles.length > 0) {
-      errors.push([file, [{
-        instancePath: '/address',
-        message: `[${file}] Duplicate address found. Also exists in: ${existingFiles.join(', ')}`,
-        keyword: 'duplicate',
-        schemaPath: '#/properties/address',
-        params: { duplicate: address },
-        severity: 'error'
-      } as ErrorObject]]);
-    }
-    addressMap.set(address, [...existingFiles, file]);
-  }
-
-  if (name) {
-    const existingFiles = nameMap.get(name) || [];
-    if (existingFiles.length > 0) {
-      errors.push([file, [{
-        instancePath: '/name',
-        message: `[${file}] Duplicate name found. Also exists in: ${existingFiles.join(', ')}`,
-        keyword: 'duplicate',
-        schemaPath: '#/properties/name',
-        params: { duplicate: name },
-        severity: 'error'
-      } as ErrorObject]]);
-    }
-    nameMap.set(name, [...existingFiles, file]);
   }
 }
 

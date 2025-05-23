@@ -54,7 +54,7 @@
       "id": "0x865a04fc3fb234b69595fc464b00604e8e1f387d47dc6bca2d1503a82d2e20060334ef275c764136f13b87447bd3d0a8",
       "logoURI": "https://res.cloudinary.com/duv0g402y/raw/upload/src/assets/despread.png",
       "name": "DeSpread",
-      "description": "We provide refined perspective for Web3 pioneers. Founded in 2019, DeSpread is a consulting firm specializing in Web3 & blockchain. It actively contributes to Web3’s mass adoption by supporting the growth of various startups and protocols.",
+      "description": "We provide refined perspective for Web3 pioneers. Founded in 2019, DeSpread is a consulting firm specializing in Web3 & blockchain. It actively contributes to Web3's mass adoption by supporting the growth of various startups and protocols.",
       "website": "https://despread.io",
       "twitter": "https://x.com/DeSpreadLabs"
     },
@@ -188,14 +188,6 @@
     },
     {
       "id": "0x8e3b35bd379652019fe8f341c5c854a60f55772016340781e8d3577e2b24e1ac0d5786d45459cd756810281eff8f729c",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/raw/upload/src/assets/kodiak.jpg",
-      "name": "Kodiak",
-      "description": "Native Liquidity Hub",
-      "website": "https://www.kodiak.finance",
-      "twitter": "https://twitter.com/KodiakFi"
-    },
-    {
-      "id": "0xb38e22a9df8a095a3554c1a7deabb9e09faddbb6a801c7d3efe9d61f33f9f1a2e80a1ca8b90908b22e4e4b7a61715005",
       "logoURI": "https://res.cloudinary.com/duv0g402y/raw/upload/src/assets/kodiak.jpg",
       "name": "Kodiak",
       "description": "Native Liquidity Hub",

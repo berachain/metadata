@@ -1234,7 +1234,7 @@
       "protocol": "BULL ISH",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746110086/vaults/0x7E6E4DacFF9aB49804667e1d7B76E921a8fbBE44.png",
       "url": "https://game.bullas.xyz/",
-      "description": "Deposit liquidity into the Kodiak yBGT/yBERA pool",
+      "description": "Acquired by spanking the bera in game to enter a 300-slot queue, earning BGT while providing liquidity. Each spank moves players through the queue, with their stake being removed after 300 spanks.",
       "owner": "BULL ISH"
     },
     {
@@ -1350,7 +1350,7 @@
     {
       "stakingTokenAddress": "0x5e4Fe86C4f6fB2203fbFb77FD6eC3Cb300B639AA",
       "vaultAddress": "0x2461040526130a0ea1a0ed44b9c9d3331f3897ff",
-      "name": "KODI DOLO-WBERA",
+      "name": "Kodiak - DOLO-WBERA",
       "protocol": "Kodiak",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746544756/vaults/p6lxbzhntjy3ijnmrvhb.jpg",
       "url": "https://app.kodiak.finance/#/liquidity/pools/0x5e4fe86c4f6fb2203fbfb77fd6ec3cb300b639aa?farm=0x2461040526130a0ea1a0ed44b9c9d3331f3897ff&chain=berachain_mainnet",
@@ -1360,12 +1360,12 @@
     {
       "stakingTokenAddress": "0x53f786662FF5fbeC135f913ab93C6B3366e90a46",
       "vaultAddress": "0x1cc12219dada26bd8bb6831b6c3063de17f9d399",
-      "name": "50aSUGAR-50HONEY-WEIGHTED",
-      "protocol": "Kodiak",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746534876/tokens/default.png",
-      "url": "https://app.kodiak.finance/",
-      "description": "Acquired by depositing liquidity into the 50aSUGAR-50HONEY-WEIGHTED Pool on Kodiak",
-      "owner": "Kodiak"
+      "name": "Jiko - ASUGAR | HONEY",
+      "protocol": "Hub",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1748274230/vaults/kngiuy4vzcuvfgqoj7xw.png",
+      "url": "https://hub.berachain.com/pools/0x53f786662ff5fbec135f913ab93c6b3366e90a4600020000000000000000014e/details",
+      "description": "Acquired by depositing liquidity into the Jiko - ASUGAR | HONEY Pool on Hub",
+      "owner": "Jiko"
     },
     {
       "stakingTokenAddress": "0xd6eb8ae479EdF452d264493708c85AA798CCCdFd",
@@ -1480,12 +1480,79 @@
     {
       "stakingTokenAddress": "0x2A9EA10b60Ab02e9B8960a08b4996e6Bf5eA5EAb",
       "vaultAddress": "0xf5049dd5b043e8af5758c03ff0cf80626ffef6df",
-      "name": "MEAD | HONEY",
+      "name": "Roots - MEAD | HONEY",
       "protocol": "Roots",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1748027438/vaults/0xf5049dd5b043e8af5758c03ff0cf80626ffef6df.png",
       "url": "https://app.rootsfi.com",
       "description": "Acquired by depositing WBTC, WETH, WBERA or BYUSD, USDCe into the Roots collateral pool.",
       "owner": "Roots"
-    }
-  ]
+    },
+    {
+      // TODO - get missing info
+      "stakingTokenAddress": "0xf91CfBB6c7203D1D659e3C2FcAF4A0f7dD51B3D8",
+      "vaultAddress": "0x999008608dcf23d5dca29b3c863d4353f61de243",
+      "*name": "Hub - Bpaw-RVST-UNI-V2",
+      "*protocol": "Hub",
+      "*logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746534876/tokens/default.png",
+      "url": "https://hub.berachain.com/vaults/0x999008608dcf23d5dca29b3c863d4353f61de243",
+      "*description": "Obtain Bpaw Reward Vault Staking Token from Hub",
+      "*owner": "Hub"
+    },
+    {
+      // TODO - get missing info
+      "stakingTokenAddress": "0xf91CfBB6c7203D1D659e3C2FcAF4A0f7dD51B3D8",
+      "vaultAddress": "0xeee277a91f9f50cda5d188522c921820a848cd99",
+      "*name": "Hub - STEERUV20",
+      "*protocol": "Hub",
+      "*logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746534876/tokens/default.png",
+      "url": "https://hub.berachain.com/vaults/0xeee277a91f9f50cda5d188522c921820a848cd99",
+      "*description": "Obtain STEERUV20 Token from Hub",
+      "*owner": "Hub"
+    },
+    {
+    // TODO - get missing info, change all logoURIs to default
+    "stakingTokenAddress": "0x9f20cda4ebe746929cdb9e0ffca60e4a335a0b15",
+    "vaultAddress": "0x9f20cda4ebe746929cdb9e0ffca60e4a335a0b15",
+    "*name": "Kodiak - STG | HONEY",
+    "*protocol": "Kodiak",
+    "*logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746534876/tokens/default.png",
+    "url": "https://hub.berachain.com/vaults/0xeee277a91f9f50cda5d188522c921820a848cd99",
+    "*description": "Acquired by depositing liquidity into the STG | HONEY Pool on Kodiak",
+    "*owner": "Kodiak"
+    },
+    {
+      // TODO - get missing info, change all logoURIs to default
+      "stakingTokenAddress": "0xCF21469a78aC96f4d84Eb4e77E515A8A672330CF",
+      "vaultAddress": "0x33414563ab271b8720569329aabc8767fc507af3",
+      "*name": "Hub - Bpaw-RVST-eWBERA-6",
+      "*protocol": "Hub",
+      "*logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746534876/tokens/default.png",
+      "url": "https://hub.berachain.com/vaults/0x33414563ab271b8720569329aabc8767fc507af3",
+      "*description": "Obtain Bpaw-RVST-EKV Token from Hub",
+      "*owner": "Hub"
+    },
+    {
+      // TODO - get missing info, change all logoURIs to default
+      "stakingTokenAddress": "0x0B0944cf9cCB0A4D4CCFb2b2EE0C3d893DF16AcF",
+      "vaultAddress": "0x0b88337309905e19ae708b03763fd4a750b23b40",
+      "*name": "Hub - Bpaw-RVST-eLBGT-1",
+      "*protocol": "Hub",
+      "*logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746534876/tokens/default.png",
+      "url": "https://hub.berachain.com/vaults/0x0b88337309905e19ae708b03763fd4a750b23b40",
+      "*description": "Obtain Bpaw-RVST-eLBGT-1 Token from Hub",
+      "*owner": "Hub"
+    },
+    {
+      // TODO - get missing info, change all logoURIs to default
+      "stakingTokenAddress": "0x62CF6e355C77Edb6f5C8eb2085A85cf4dE4c1852",
+      "vaultAddress": "0x006b0d54b0b85c0f9a6041cabd97f2a545eccf3c",
+      "*name": "Beraborrow - bUNIBTC",
+      "*protocol": "Beraborrow",
+      "*logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746534876/tokens/default.png",
+      "url": "https://hub.berachain.com/vaults/0x006b0d54b0b85c0f9a6041cabd97f2a545eccf3c",
+      "*description": "Acquired by depositing bUNIBTC into the Liquid Stability Pool on Beraborrow",
+      "*owner": "Berraborrow"
+    },
+
+  
 }

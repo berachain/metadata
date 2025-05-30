@@ -917,6 +917,15 @@
       "decimals": 18,
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1747305832/tokens/0xf3530788DEB3d21E8fA2c3CBBF93317FB38a0D3C.png",
       "tags": []
-    }
+    },
+     {
+      "chainId": 80094,
+      "address": "0x804CF700De1e18f2411Bd05aad5fa10d60e1900f",
+      "symbol": "aSUGAR",
+      "name": "aSugar Token",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1748274447/tokens/0x804CF700De1e18f2411Bd05aad5fa10d60e1900f.png",
+      "decimals": 18,
+      "tags": []
+     }
   ]
 }

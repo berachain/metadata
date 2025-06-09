@@ -211,6 +211,12 @@
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1748027532/protocols/roots.png",
       "url": "https://app.rootsfi.com",
       "description": "Roots is a Berachain-native decentralized lending protocol that optimizes for capital efficiency by allowing users to mint its stablecoin MEAD against yield-generating assets, offering no-interest loans, minimal fees, and the ability to pursue additional DeFi opportunities while retaining their underlying APR."
+    },
+    {
+      "name": "TWIN Finance",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1748027532/protocols/TWIN%20Finance%20Protocol%20Image.png",
+      "url": "https://app.twinfinance.io/",
+      "description": "TWIN Finance is a synthetic assets protocol for derivatives of real-world assets on Berachain"
     }
   ],
   "vaults": [
@@ -1562,6 +1568,46 @@
       "url": "https://app.beraborrow.com/den/borrow/WBTC-uniBTC",
       "description": "Acquired by depositing bUNIBTC into a CDP on BeraBorrow",
       "owner": "Berraborrow"
+    },
+    {
+      "stakingTokenAddress": "0xc5240664229DB09d5327681CB9346412a8e78aB1",
+      "vaultAddress": "0xdfc168476bb7c9f483980fc56dd2f822748543d4",
+      "name": "TWIN AAPL-HONEY",
+      "protocol": "Kodiak",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1748885557/vaults/0xdfc168476bb7c9f483980fc56dd2f822748543d4.png",
+      "url": "https://app.twinfinance.io/",
+      "description": "Acquired by depositing liquidity into the AAPL-HONEY pool on Kodiak",
+      "owner": "TWIN Finance"
+    },
+    {
+      "stakingTokenAddress": "0x408dF611Cd2CA38b4c692517f64c8960d568F021",
+      "vaultAddress": "0x6ead9b6c78f75e8fe1c821cd4276398ae8b4262a",
+      "name": "TWIN iAAPL-HONEY",
+      "protocol": "Kodiak",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1748885568/vaults/0x6ead9b6c78f75e8fe1c821cd4276398ae8b4262a.png",
+      "url": "https://app.twinfinance.io/",
+      "description": "Acquired by depositing liquidity into the iAAPL-HONEY pool on Kodiak",
+      "owner": "TWIN Finance"
+    },
+    {
+      "stakingTokenAddress": "0xE0dA06290f72c16dd7a296751E0fA20706a703A2",
+      "vaultAddress": "0xbd89970d226723ce837239614381ede556acaefe",
+      "name": "TWIN MSTR-HONEY",
+      "protocol": "Kodiak",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1748885568/vaults/0xbd89970d226723ce837239614381ede556acaefe.png",
+      "url": "https://app.twinfinance.io/",
+      "description": "Acquired by depositing liquidity into the MSTR-HONEY pool on Kodiak",
+      "owner": "TWIN Finance"
+    },
+    {
+      "stakingTokenAddress": "0xf0443861359b059D3d69daa655b878901Da0F930",
+      "vaultAddress": "0xab4cb288bcdba9cd79ad9942a161ebe14fe0590d",
+      "name": "TWIN iMSTR-HONEY",
+      "protocol": "Kodiak",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1748885568/vaults/0xab4cb288bcdba9cd79ad9942a161ebe14fe0590d.png",
+      "url": "https://app.twinfinance.io/",
+      "description": "Acquired by depositing liquidity into the iMSTR-HONEY pool on Kodiak",
+      "owner": "TWIN Finance"
     }
   ]
 }

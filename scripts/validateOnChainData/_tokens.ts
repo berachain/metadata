@@ -16,6 +16,51 @@ export async function validateTokens(errors: string[], file) {
 
   const publicClient = clients[tokenMetadata.chain];
 
+  // Track duplicates
+  const tokenAddresses = new Map<string, { name: string; index: number }>();
+  const tokenSymbols = new Map<string, { name: string; index: number }>();
+
+  // First pass: check for duplicates
+  tokenMetadata.content.tokens.forEach((token, idx) => {
+    const tokenAddress = token.address.toLowerCase();
+    const tokenSymbol = token.symbol.toLowerCase();
+
+    if (tokenAddresses.has(tokenAddress)) {
+      const existing = tokenAddresses.get(tokenAddress) ?? {
+        name: "unknown",
+        index: -1,
+      };
+      errors.push(
+        formatAnnotation({
+          rawContent,
+          xPath: `/tokens/${idx}/address`,
+          message: `Duplicate token address found. ${token.name} shares the same address as ${existing.name} (index ${existing.index})`,
+          file: path,
+        }),
+      );
+    } else {
+      tokenAddresses.set(tokenAddress, { name: token.name, index: idx });
+    }
+
+    if (tokenSymbols.has(tokenSymbol)) {
+      const existing = tokenSymbols.get(tokenSymbol) ?? {
+        name: "unknown",
+        index: -1,
+      };
+      errors.push(
+        formatAnnotation({
+          rawContent,
+          xPath: `/tokens/${idx}/symbol`,
+          message: `Duplicate token symbol found. ${token.name} shares the same symbol as ${existing.name} (index ${existing.index})`,
+          file: path,
+        }),
+      );
+    } else {
+      tokenSymbols.set(tokenSymbol, { name: token.name, index: idx });
+    }
+  });
+
+  // Second pass: validate on-chain data
   await Promise.all(
     tokenMetadata.content.tokens.map(async (token, idx) => {
       const tokenAddress = token.address;

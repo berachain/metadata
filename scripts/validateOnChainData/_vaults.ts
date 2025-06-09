@@ -7,6 +7,58 @@ import { clients, formatAnnotation } from "../utils";
 
 export async function validateVaults(errors: string[], file) {
   const { rawContent, path, ...vaultMetadata } = file;
+
+  // Track duplicates
+  const vaultAddresses = new Map<string, { name: string; index: number }>();
+  const stakingTokenAddresses = new Map<
+    string,
+    { name: string; index: number }
+  >();
+
+  // First pass: check for duplicates
+  vaultMetadata.content.vaults.forEach((vault, idx) => {
+    const vaultAddress = vault.vaultAddress.toLowerCase();
+    const stakingTokenAddress = vault.stakingTokenAddress.toLowerCase();
+
+    if (vaultAddresses.has(vaultAddress)) {
+      const existing = vaultAddresses.get(vaultAddress) ?? {
+        name: "unknown",
+        index: -1,
+      };
+      errors.push(
+        formatAnnotation({
+          rawContent,
+          xPath: `/vaults/${idx}/vaultAddress`,
+          message: `Duplicate vault address found. ${vault.name} shares the same vault address as ${existing.name} (index ${existing.index})`,
+          file: path,
+        }),
+      );
+    } else {
+      vaultAddresses.set(vaultAddress, { name: vault.name, index: idx });
+    }
+
+    if (stakingTokenAddresses.has(stakingTokenAddress)) {
+      const existing = stakingTokenAddresses.get(stakingTokenAddress) ?? {
+        name: "unknown",
+        index: -1,
+      };
+      errors.push(
+        formatAnnotation({
+          rawContent,
+          xPath: `/vaults/${idx}/stakingTokenAddress`,
+          message: `Duplicate staking token address found. ${vault.name} shares the same staking token as ${existing.name} (index ${existing.index})`,
+          file: path,
+        }),
+      );
+    } else {
+      stakingTokenAddresses.set(stakingTokenAddress, {
+        name: vault.name,
+        index: idx,
+      });
+    }
+  });
+
+  // Second pass: validate on-chain data
   await Promise.all(
     vaultMetadata.content.vaults.map(async (vault, idx) => {
       if (vault.vaultAddress === zeroAddress) {

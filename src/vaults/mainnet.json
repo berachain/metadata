@@ -1562,6 +1562,16 @@
       "url": "https://app.beraborrow.com/den/borrow/WBTC-uniBTC",
       "description": "Acquired by depositing bUNIBTC into a CDP on BeraBorrow",
       "owner": "Berraborrow"
+    },
+    {
+      "stakingTokenAddress": "0xB34FCA9739249578D93a22ce02bf7FaD277bAD35",
+      "vaultAddress": "0x6fD82191550c53414B1d4cE982a8424CE039697B",
+      "name": "BurrBear - NECT | USDC.e | USD₮0 | HONEY",
+      "protocol": "BurrBear",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1743429746/vault/0xB34FCA9739249578D93a22ce02bf7FaD277bAD35.png",
+      "url": "https://app.burrbear.io/#/berachain/pool/0xb34fca9739249578d93a22ce02bf7fad277bad35000000000000000000000013",
+      "description": "Acquired by depositing liquidity into the NECT | USDC.e | USD₮0 | HONEY Pool on BurrBear",
+      "owner": "BurrBear"
     }
   ]
 }

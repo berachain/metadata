@@ -1562,6 +1562,16 @@
       "url": "https://app.beraborrow.com/den/borrow/WBTC-uniBTC",
       "description": "Acquired by depositing bUNIBTC into a CDP on BeraBorrow",
       "owner": "Berraborrow"
+    },
+    {
+      "stakingTokenAddress": "0xe416c064946112c1626d6700d1081a750b1b1dd7",
+      "vaultAddress": "0x4974ee5f484a3c05f181aeb380cd7c411dd79c0e",
+      "name": "Smilee - wgBERA | WBERA",
+      "protocol": "HUB",
+      "logoURI": "",
+      "url": "https://hub.berachain.com/vaults/0xa068760e9bec127b7cd1655ea2ec992aa0a1631d/",
+      "description": "Stake your BERA in Smilee Finance and mint wgBERA to access this Liquidity Pool.",
+      "owner": "Smilee"
     }
   ]
 }

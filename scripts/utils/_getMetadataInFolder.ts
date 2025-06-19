@@ -1,11 +1,9 @@
 import fs from "node:fs";
 import path from "node:path";
-
+import type { TokensFile } from "../../src/types/tokens";
+import type { ValidatorsFile } from "../../src/types/validators";
+import type { VaultsFile } from "../../src/types/vaults";
 import type { ValidChainName } from "../_constants";
-
-import type tokensType from "../../src/tokens/mainnet.json";
-import type validatorsType from "../../src/validators/mainnet.json";
-import type vaultsType from "../../src/vaults/mainnet.json";
 import { isValidChainName } from "./_isValidChainName";
 /**
  * Reads and parses metadata files from a specified folder
@@ -20,10 +18,10 @@ export function getMetadataInFolder<
 ): {
   chain: ValidChainName;
   content: T extends "tokens"
-    ? typeof tokensType
+    ? TokensFile
     : T extends "vaults"
-      ? typeof vaultsType
-      : typeof validatorsType;
+      ? VaultsFile
+      : ValidatorsFile;
   /**
    * Used for annotations
    */
@@ -32,21 +30,24 @@ export function getMetadataInFolder<
 }[] {
   const folderPath = path.join(process.argv[2] ?? "", "src", folder);
 
-  return fs.readdirSync(folderPath).map((file) => {
-    const chain = file.split(".json")[0];
+  return fs
+    .readdirSync(folderPath)
+    .filter((file) => file.endsWith(".json"))
+    .map((file) => {
+      const chain = file.split(".json")[0];
 
-    if (!isValidChainName(chain)) {
-      throw new Error(`Invalid chain name: ${chain}`);
-    }
+      if (!isValidChainName(chain)) {
+        throw new Error(`Invalid chain name: ${chain}`);
+      }
 
-    const rawContent = fs.readFileSync(path.join(folderPath, file), "utf8");
-    const content = JSON.parse(rawContent);
+      const rawContent = fs.readFileSync(path.join(folderPath, file), "utf8");
+      const content = JSON.parse(rawContent);
 
-    return {
-      chain,
-      content,
-      rawContent,
-      path: path.join(folderPath, file),
-    };
-  });
+      return {
+        chain,
+        content,
+        rawContent,
+        path: path.join(folderPath, file),
+      };
+    });
 }

@@ -1,11 +1,20 @@
 import { getAddress, isAddress, isAddressEqual, zeroAddress } from "viem";
+import type { VaultsFile } from "../../src/types/vaults";
 import {
   CASE_SENSITIVE_ADDRESSES,
   REWARD_VAULT_FACTORIES,
 } from "../_constants";
 import { clients, formatAnnotation } from "../utils";
 
-export async function validateVaults(errors: string[], file) {
+export async function validateVaults(
+  errors: string[],
+  file: {
+    rawContent: string;
+    path: string;
+    chain: string;
+    content: VaultsFile;
+  },
+) {
   const { rawContent, path, ...vaultMetadata } = file;
   await Promise.all(
     vaultMetadata.content.vaults.map(async (vault, idx) => {

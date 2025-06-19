@@ -2,6 +2,11 @@
 // ================================================================
 import fs from "node:fs";
 import path from "node:path";
+import chalk from "chalk";
+import sharp from "sharp";
+import type { TokensFile } from "../src/types/tokens";
+import type { ValidatorsFile } from "../src/types/validators";
+import type { VaultsFile } from "../src/types/vaults";
 
 // Config
 // ================================================================
@@ -56,13 +61,90 @@ const getImageDimensions = (
 };
 
 /**
+ * Checks if a PNG image has transparent pixels
+ * @param imagePath - The path to the PNG image file
+ * @returns Promise<boolean> - true if the image has transparent pixels, false otherwise
+ */
+const hasTransparency = async (imagePath: string): Promise<boolean> => {
+  try {
+    const image = sharp(imagePath);
+    const metadata = await image.metadata();
+
+    // Only check PNG files for transparency
+    if (metadata.format !== "png") {
+      return false;
+    }
+
+    // Get the raw pixel data
+    const { data } = await image
+      .raw()
+      .ensureAlpha()
+      .toBuffer({ resolveWithObject: true });
+
+    // Check if any pixel has an alpha value less than 255 (transparent)
+    for (let i = 3; i < data.length; i += 4) {
+      if (data[i] < 255) {
+        return true;
+      }
+    }
+
+    return false;
+  } catch (error) {
+    console.warn(
+      `Warning: Could not check transparency for ${imagePath}:`,
+      error,
+    );
+    return false;
+  }
+};
+
+/**
+ * Validates an image file for existence and transparency (for vaults)
+ * @param filePath - Base path to the image file
+ * @param name - Name of the item for error messages
+ * @param id - ID of the item for error messages
+ * @param warnings - Array to collect warnings
+ * @param checkTransparency - Whether to check for transparency (for vaults)
+ */
+const validateImageFile = async (
+  filePath: string,
+  name: string,
+  id: string,
+  warnings: string[],
+  checkTransparency = false,
+) => {
+  // Check if image file exists
+  const pngPath = `${filePath}.png`;
+  const jpgPath = `${filePath}.jpg`;
+  const jpegPath = `${filePath}.jpeg`;
+
+  if (
+    !fs.existsSync(pngPath) &&
+    !fs.existsSync(jpgPath) &&
+    !fs.existsSync(jpegPath)
+  ) {
+    warnings.push(
+      `${id}:\nIcon file not found in assets folder for ${name} (${id})!`,
+    );
+  } else if (checkTransparency && fs.existsSync(pngPath)) {
+    // Check for transparency in PNG vault images
+    const hasTransparentPixels = await hasTransparency(pngPath);
+    if (hasTransparentPixels) {
+      warnings.push(
+        `${id}:\nVault image has transparent pixels for ${name} (${id})!`,
+      );
+    }
+  }
+};
+
+/**
  * Checks all images in the assets folder for valid dimensions
  */
-const validateAssetsImages = () => {
+const validateAssetsImages = async () => {
   const errors: string[] = [];
 
   // Recursive function to process files in a directory
-  const processDirectory = (dirPath: string) => {
+  const processDirectory = async (dirPath: string) => {
     const entries = fs.readdirSync(dirPath, { withFileTypes: true });
 
     for (const entry of entries) {
@@ -70,7 +152,7 @@ const validateAssetsImages = () => {
 
       if (entry.isDirectory()) {
         // Recursively process subdirectories
-        processDirectory(fullPath);
+        await processDirectory(fullPath);
       } else if ([".DS_Store", "validator-default.png"].includes(entry.name)) {
         // Do nothing
       } else {
@@ -122,56 +204,55 @@ const validateAssetsImages = () => {
             );
           }
 
-          // if extension is png, check if the top left, top right, bottom left, bottom right pixel is transparent
+          // Check PNG files for transparency
           if (ext === ".png" && dimensions) {
-            const buffer = fs.readFileSync(fullPath);
-            const topLeftPixel = buffer.readUInt32BE(0);
-            const topRightPixel = buffer.readUInt32BE(dimensions.width - 1);
-            const bottomLeftPixel = buffer.readUInt32BE(
-              (dimensions.width * (dimensions.height - 1)) % buffer.length,
-            );
-            const bottomRightPixel = buffer.readUInt32BE(
-              Math.min(
-                dimensions.width * dimensions.height - 1,
-                buffer.length - 4,
-              ),
-            );
-
-            // @TODO: re-enable this check
-            // if (
-            //   topLeftPixel === 0x00000000 ||
-            //   topRightPixel === 0x00000000 ||
-            //   bottomLeftPixel === 0x00000000 ||
-            //   bottomRightPixel === 0x00000000
-            // ) {
-            //   errors.push(
-            //     `${relativePath}: Invalid image! Image cannot be transparent!`,
-            //   );
-            // }
+            const hasTransparentPixels = await hasTransparency(fullPath);
+            if (hasTransparentPixels) {
+              errors.push(
+                `${relativePath}: Invalid image! Image cannot have transparent pixels.`,
+              );
+            }
           }
-        } else {
-          console.error(`${fullPath}: Unsupported file type!`);
-          process.exit(1); // Force exit with error code 1 to fail CI
+        } else if (
+          ext === ".webp" ||
+          ext === ".gif" ||
+          ext === ".bmp" ||
+          ext === ".tiff"
+        ) {
+          errors.push(
+            `${path.relative(ASSET_PATH, fullPath)}: Invalid file type! Only PNG and JPG images are allowed. Found: ${ext}`,
+          );
+        } else if (!entry.name.startsWith(".")) {
+          // Only warn for non-hidden files that aren't images
+          console.warn(
+            `${path.relative(ASSET_PATH, fullPath)}: Non-image file found.`,
+          );
         }
       }
     }
   };
 
   // Start processing from root folder
-  processDirectory(ASSET_PATH);
+  await processDirectory(ASSET_PATH);
 
   if (errors.length > 0) {
-    console.error(`${errors.length} Errors found in assets folder:`);
-    // biome-ignore lint/complexity/noForEach: <explanation>
-    errors.forEach((error) => console.error("\x1b[31m%s\x1b[0m", error));
+    console.error(
+      chalk.red.bold(`\n${errors.length} Errors found in assets folder:`),
+    );
+    errors.forEach((error) => console.error(chalk.red(`  ${error}`)));
+    console.error(
+      chalk.red.bold("\nPlease fix these issues before proceeding."),
+    );
     process.exit(1); // Force exit with error code 1 to fail CI
+  } else {
+    console.log(chalk.green.bold("\nAll image validations passed!"));
   }
 };
 
 /**
  * Checks all images in the metadata folder for valid dimensions
  */
-const validateMetadataImages = () => {
+const validateMetadataImages = async () => {
   const warnings: string[] = [];
 
   // Check for default.png in vaults folder
@@ -194,8 +275,10 @@ const validateMetadataImages = () => {
   // Get all json files in all folders
   const jsonMetadata: {
     [key: string]: {
-      // biome-ignore lint/suspicious/noExplicitAny: <explanation>
-      [key: string]: any;
+      [key: string]:
+        | TokensFile["tokens"]
+        | VaultsFile["vaults"]
+        | ValidatorsFile["validators"];
     };
   } = {};
   for (const folder of folders) {
@@ -225,43 +308,66 @@ const validateMetadataImages = () => {
   // Validate all images in the assets folder from metadata
   for (const key of Object.keys(jsonMetadata)) {
     for (const file of Object.keys(jsonMetadata[key])) {
-      // biome-ignore lint/complexity/noForEach: <explanation>
-      jsonMetadata[key][file].forEach((item) => {
-        let id: string;
-
-        if (key === "tokens") {
-          id = item.address;
-        } else if (key === "validators") {
-          id = item.id;
-        } else if (key === "vaults") {
-          id = item.vaultAddress;
-        } else {
-          throw new Error(`Invalid key: ${key}`);
-        }
-
-        const filePath = path.join(ASSET_PATH, key, id);
-
-        if (
-          !fs.existsSync(`${filePath}.png`) &&
-          !fs.existsSync(`${filePath}.jpg`) &&
-          !fs.existsSync(`${filePath}.jpeg`)
-        ) {
-          warnings.push(
-            `${id}:\nIcon file not found in assets/${key} folder for ${item.name} (${id})!`,
+      if (key === "tokens") {
+        const tokens = jsonMetadata[key][file] as TokensFile["tokens"];
+        for (const token of tokens) {
+          const filePath = path.join(ASSET_PATH, key, token.address);
+          await validateImageFile(
+            filePath,
+            token.name,
+            token.address,
+            warnings,
           );
         }
-      });
+      } else if (key === "validators") {
+        const validators = jsonMetadata[key][
+          file
+        ] as ValidatorsFile["validators"];
+        for (const validator of validators) {
+          const filePath = path.join(ASSET_PATH, key, validator.id);
+          await validateImageFile(
+            filePath,
+            validator.name,
+            validator.id,
+            warnings,
+          );
+        }
+      } else if (key === "vaults") {
+        const vaults = jsonMetadata[key][file] as VaultsFile["vaults"];
+        for (const vault of vaults) {
+          const filePath = path.join(ASSET_PATH, key, vault.vaultAddress);
+          await validateImageFile(
+            filePath,
+            vault.name,
+            vault.vaultAddress,
+            warnings,
+            true,
+          );
+        }
+      } else {
+        throw new Error(`Invalid key: ${key}`);
+      }
     }
   }
 
   if (warnings.length > 0) {
-    console.warn(`${warnings.length} Errors found in metadata:`);
-    // biome-ignore lint/complexity/noForEach: <explanation>
-    warnings.forEach((error) => console.warn("\x1b[33m%s\x1b[0m", error));
+    console.warn(
+      chalk.yellow.bold(`\n${warnings.length} Warnings found in metadata:`),
+    );
+    warnings.forEach((error) => console.warn(chalk.yellow(`  ${error}`)));
+  } else {
+    console.log(chalk.green.bold("\nAll metadata validations passed!"));
   }
 };
 
 // Initialize
 // ================================================================
-validateAssetsImages();
-validateMetadataImages();
+const main = async () => {
+  await validateAssetsImages();
+  await validateMetadataImages();
+};
+
+main().catch((error) => {
+  console.error("Error during validation:", error);
+  process.exit(1);
+});

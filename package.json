@@ -12,12 +12,18 @@
     "lint": "biome lint .",
     "check": "biome check ."
   },
-  "keywords": ["berachain", "metadata", "tokens", "validators", "vaults"],
+  "keywords": [
+    "berachain",
+    "metadata",
+    "tokens",
+    "validators",
+    "vaults"
+  ],
   "author": "",
   "license": "ISC",
   "type": "module",
   "devDependencies": {
-    "@biomejs/biome": "1.9.4",
+    "@biomejs/biome": "2.0.0",
     "@types/node": "22.13.13",
     "ajv": "8.17.1",
     "ajv-formats": "^3.0.1",
@@ -25,11 +31,13 @@
     "viem": "^2.24.2"
   },
   "engines": {
-    "node": "22"
+    "node": ">=22"
   },
   "packageManager": "pnpm@9.15.9+sha512.68046141893c66fad01c079231128e9afb89ef87e2691d69e4d40eee228988295fd4682181bae55b58418c3a253bde65a505ec7c5f9403ece5cc3cd37dcf2531",
   "dependencies": {
     "@actions/core": "^1.11.1",
-    "jsonc-parser": "^3.3.1"
+    "chalk": "^5.4.1",
+    "jsonc-parser": "^3.3.1",
+    "sharp": "^0.34.2"
   }
 }

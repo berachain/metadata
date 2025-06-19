@@ -1,17 +1,19 @@
-import {
-  type Address,
-  erc20Abi,
-  getAddress,
-  isAddress,
-  isAddressEqual,
-  zeroAddress,
-} from "viem";
+import { erc20Abi, getAddress, isAddress, zeroAddress } from "viem";
 
+import type { TokensFile } from "../../src/types/tokens";
 import { CASE_SENSITIVE_ADDRESSES } from "../_constants";
 import { clients, formatAnnotation } from "../utils";
 import { ALLOWED_NAME_AND_SYMBOL_PATCHES } from "./_allowedTokenPatches";
 
-export async function validateTokens(errors: string[], file) {
+export async function validateTokens(
+  errors: string[],
+  file: {
+    rawContent: string;
+    path: string;
+    chain: string;
+    content: TokensFile;
+  },
+) {
   const { rawContent, path, ...tokenMetadata } = file;
 
   const publicClient = clients[tokenMetadata.chain];

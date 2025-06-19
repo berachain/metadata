@@ -1,7 +1,7 @@
 name: Validate
 
 on:
-  pull_request_target:
+  pull_request:
 
 jobs:
   schema:
@@ -9,10 +9,6 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
-      with:
-        repository: ${{ github.event.pull_request.head.repo.full_name }}
-        ref: ${{ github.event.pull_request.head.ref }}
-        path: ./head
 
     - name: Setup Node.js
       uses: actions/setup-node@v4
@@ -42,16 +38,13 @@ jobs:
       
     - name: Validate JSON files
       run: |
-        pnpm validate:json head
+        pnpm validate:json .
 
   format:
     runs-on: ubuntu-latest
 
     steps:
     - uses: actions/checkout@v4
-      with:
-        repository: ${{ github.event.pull_request.head.repo.full_name }}
-        ref: ${{ github.event.pull_request.head.ref }}
 
     - name: Setup Node.js
       uses: actions/setup-node@v4
@@ -88,10 +81,6 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
-      with:
-        repository: ${{ github.event.pull_request.head.repo.full_name }}
-        ref: ${{ github.event.pull_request.head.ref }}
-        path: ./head
 
     - name: Setup Node.js
       uses: actions/setup-node@v4
@@ -120,7 +109,7 @@ jobs:
       run: pnpm install
       
     - name: Validate consistency with on-chain data
-      run: pnpm validate:data head
+      run: pnpm validate:data .
 
   images:
     needs: schema
@@ -128,10 +117,6 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
-      with:
-        repository: ${{ github.event.pull_request.head.repo.full_name }}
-        ref: ${{ github.event.pull_request.head.ref }}
-        path: ./head
 
     - name: Setup Node.js
       uses: actions/setup-node@v4
@@ -161,4 +146,4 @@ jobs:
       
     - name: Validate images
       run: |
-        pnpm validate:images head
+        pnpm validate:images .

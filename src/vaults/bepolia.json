@@ -29,7 +29,7 @@
       "url": "https://hub.berachain.com/pools/0x38fdd999fe8783037db1bbfe465759e312f2d809000200000000000000000004/details/",
       "description": "Acquired by depositing liquidity into the WBTC | WBERA Pool on Hub",
       "owner": "ART",
-      "category": ["defi"]
+      "categories": ["defi"]
     }
   ]
 }

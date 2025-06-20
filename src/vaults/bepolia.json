@@ -19,5 +19,17 @@
       "category": ["defi"]
     }
   ],
-  "vaults": []
+  "vaults": [
+    {
+      "stakingTokenAddress": "0x38fdD999Fe8783037dB1bBFE465759e312f2d809",
+      "vaultAddress": "0xae461ea8238df1bd63b3f93b0ef7da1a56de2f91",
+      "name": "This is a test",
+      "protocol": "HUB",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1738378469/reward-vaults/icons/xqepqh4lifyybbt27f20.png",
+      "url": "https://hub.berachain.com/pools/0x38fdd999fe8783037db1bbfe465759e312f2d809000200000000000000000004/details/",
+      "description": "Acquired by depositing liquidity into the WBTC | WBERA Pool on Hub",
+      "owner": "ART",
+      "category": ["defi"]
+    }
+  ]
 }

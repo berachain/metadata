@@ -12,13 +12,7 @@
     "lint": "biome lint .",
     "check": "biome check ."
   },
-  "keywords": [
-    "berachain",
-    "metadata",
-    "tokens",
-    "validators",
-    "vaults"
-  ],
+  "keywords": ["berachain", "metadata", "tokens", "validators", "vaults"],
   "author": "",
   "license": "ISC",
   "type": "module",

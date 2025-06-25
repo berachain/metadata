@@ -71,8 +71,8 @@
     {
       "chainId": 80069,
       "address": "0xe0037233a4a21c6334CFa67895A4BeaDc87B2c40",
-      "symbol": "bbPYUSD",
-      "name": "bbPYUSD",
+      "symbol": "bbBYUSD",
+      "name": "bbBYUSD",
       "decimals": 18,
       "tags": []
     },

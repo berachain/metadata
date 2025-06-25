@@ -16,6 +16,8 @@ export async function validateVaults(
   },
 ) {
   const { rawContent, path, ...vaultMetadata } = file;
+  const protocols = vaultMetadata.content.protocols;
+
   await Promise.all(
     vaultMetadata.content.vaults.map(async (vault, idx) => {
       if (vault.vaultAddress === zeroAddress) {
@@ -121,6 +123,17 @@ export async function validateVaults(
             rawContent,
             xPath: `/vaults/${idx}/vaultAddress`,
             message: `${vault.name} vault address is wrongly formatted. Should be ${onChainVault}`,
+            file: path,
+          }),
+        );
+      }
+
+      if (!protocols.some((p) => p.name === vault.protocol)) {
+        errors.push(
+          formatAnnotation({
+            rawContent,
+            xPath: `/vaults/${idx}/protocol`,
+            message: `${vault.protocol} is not a valid protocol. Please add it to the list at the top of this file if it's a new protocol.`,
             file: path,
           }),
         );

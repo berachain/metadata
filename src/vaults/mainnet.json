@@ -1,6 +1,15 @@
 {
   "$schema": "../../schemas/vaults.schema.json",
   "name": "Berachain Mainnet Default Reward Vault List",
+  "categories": [
+    {
+      "slug": "defi"
+    },
+    {
+      "slug": "gamefi",
+      "description": "GameFi is a category of blockchain-based games that combine elements of traditional gaming with blockchain technology."
+    }
+  ],
   "protocols": [
     {
       "name": "HUB",
@@ -225,6 +234,7 @@
       "vaultAddress": "0x6649Bc987a7c0fB0199c523de1b1b330cd0457A8",
       "name": "BYUSD | HONEY",
       "protocol": "HUB",
+      "category": ["defi"],
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1738733620/reward-vaults/icons/c2q60zif1cetllqip0a6.png",
       "url": "https://hub.berachain.com/pools/0xde04c469ad658163e2a5e860a03a86b52f6fa8c8000000000000000000000000/details/",
       "description": "Acquired by depositing liquidity into the BYUSD | HONEY Pool on Hub",
@@ -235,6 +245,7 @@
       "vaultAddress": "0x17376aD6167a5592FbEAA42e6068c132474a513d",
       "name": "WETH | WBERA",
       "protocol": "HUB",
+      "category": ["defi"],
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1738733618/reward-vaults/icons/cmiqewcekww0ckhqoe9d.png",
       "url": "https://hub.berachain.com/pools/0xdd70a5ef7d8cfe5c5134b5f9874b09fb5ce812b4000200000000000000000003/details/",
       "description": "Acquired by depositing liquidity into the WETH | WBERA Pool on Hub",
@@ -245,6 +256,7 @@
       "vaultAddress": "0x086f82fa0cA310Cc835a9DB4f53697687ef149c7",
       "name": "WBTC | WBERA",
       "protocol": "HUB",
+      "category": ["defi"],
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1738378469/reward-vaults/icons/xqepqh4lifyybbt27f20.png",
       "url": "https://hub.berachain.com/pools/0x38fdd999fe8783037db1bbfe465759e312f2d809000200000000000000000004/details/",
       "description": "Acquired by depositing liquidity into the WBTC | WBERA Pool on Hub",
@@ -255,6 +267,7 @@
       "vaultAddress": "0xF99be47baf0c22B7eB5EAC42c8D91b9942Dc7e84",
       "name": "USDC.e | HONEY",
       "protocol": "HUB",
+      "category": ["defi"],
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1738378469/reward-vaults/icons/oqmqj7c4707nobigirw5.png",
       "url": "https://hub.berachain.com/pools/0xf961a8f6d8c69e7321e78d254ecafbcc3a637621000000000000000000000001/details/",
       "description": "Acquired by depositing liquidity into the USDC.e | HONEY Pool on Hub",
@@ -265,6 +278,7 @@
       "vaultAddress": "0xC2BaA8443cDA8EBE51a640905A8E6bc4e1f9872c",
       "name": "WBERA | HONEY",
       "protocol": "HUB",
+      "category": ["defi"],
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1738378469/reward-vaults/icons/soy9mfpovb1odtby9p02.png",
       "url": "https://hub.berachain.com/pools/0x2c4a603a2aa5596287a06886862dc29d56dbc354000200000000000000000002/details/",
       "description": "Acquired by depositing liquidity into the WBERA | HONEY Pool on Hub",

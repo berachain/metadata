@@ -4,7 +4,13 @@ export interface VaultsFile {
   $schema: string;
   name: string;
   protocols: Protocol[];
+  categories: Category[];
   vaults: Vault[];
+}
+
+export interface Category {
+  slug: string;
+  description?: string;
 }
 
 export interface Protocol {
@@ -21,5 +27,6 @@ export interface Vault {
   protocol: string;
   logoURI?: string;
   url: string;
+  category?: string[];
   description?: string;
 }

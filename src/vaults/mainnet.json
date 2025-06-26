@@ -217,6 +217,12 @@
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1748027532/protocols/TWIN%20Finance%20Protocol%20Image.png",
       "url": "https://app.twinfinance.io/",
       "description": "TWIN Finance is a synthetic assets protocol for derivatives of real-world assets on Berachain"
+    },
+    {
+      "name": "Aquabera",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1745505341/protocols/berachainhub.png",
+      "url": "https://app.aquabera.com/explore",
+      "description": "Liquidity management protocol that maximizes your returns while minimizing risks without requiring constant oversight."
     }
   ],
   "vaults": [

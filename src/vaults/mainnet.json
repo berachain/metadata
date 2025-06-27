@@ -293,7 +293,7 @@
       "protocol": "Smilee",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746537459/vaults/cmjqyekbneijzmqwftq9.png",
       "url": "https://app.kodiak.finance/#/liquidity/pools/0x88c983bf3d4a9adcee14e1b4f1c446c4c5853ea3?farm=0x25acec3a1766a0d02d7c8e22f48533d32d7b311b&chain=berachain_mainnet",
-      "description": "Obtain the LP tokens by staking your BERA in Infrared and Smilee.",
+      "description": "Acquired by depositing liquidity into the iBERA-wgBERA Pool on Kodiak",
       "owner": "Smilee"
     },
     {
@@ -1334,26 +1334,6 @@
       "url": "https://app.kodiak.finance/#/liquidity/pools/0xf6c6be0ff6d6f70a04dbe4f1ade62cb23053bd95?farm=0xc6506d205c92f9acd69779ed0c547557f3ad4607&chain=berachain_mainnet",
       "description": "Acquired by depositing liquidity into the WETH-HONEY Pool on Kodiak",
       "owner": "Kodiak"
-    },
-    {
-      "stakingTokenAddress": "0x88c983bf3d4A9Adcee14e1b4f1C446c4C5853EA3",
-      "vaultAddress": "0x25acec3a1766a0d02d7c8e22f48533d32d7b311b",
-      "name": "KODI iBERA-wgBERA",
-      "protocol": "Kodiak",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746537459/vaults/cmjqyekbneijzmqwftq9.png",
-      "url": "https://app.kodiak.finance/#/liquidity/pools/0x88c983bf3d4a9adcee14e1b4f1c446c4c5853ea3?farm=0x25acec3a1766a0d02d7c8e22f48533d32d7b311b&chain=berachain_mainnet",
-      "description": "Acquired by depositing liquidity into the iBERA-wgBERA Pool on Kodiak",
-      "owner": "Smilee"
-    },
-    {
-      "stakingTokenAddress": "0xd6eb8ae479EdF452d264493708c85AA798CCCdFd",
-      "vaultAddress": "0xc70e2af5eede9431536314bbbdf884e20179e3b7",
-      "name": "duniBTC",
-      "protocol": "Hub",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746534876/tokens/default.png",
-      "url": "https://hub.berachain.com/vaults/0xc70e2af5eede9431536314bbbdf884e20179e3b7/",
-      "description": "duniBTC",
-      "owner": "duniBTC"
     },
     {
       "stakingTokenAddress": "0x2BDB8C39A3808eB9A03dE69925b6b158A57c57e6",

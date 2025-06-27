@@ -1,6 +1,15 @@
 {
   "$schema": "../../schemas/vaults.schema.json",
   "name": "Berachain Bepolia Reward Vault List",
+  "categories": [
+    {
+      "slug": "defi"
+    },
+    {
+      "slug": "foundation",
+      "description": "This is a testnet-only category. It includes vaults that the Berachain Foundation owns to maintain the testnet."
+    }
+  ],
   "protocols": [
     {
       "name": "HUB",

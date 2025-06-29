@@ -1644,6 +1644,16 @@
       "url": "https://app.burrbear.io/#/berachain/pool/0xb34fca9739249578d93a22ce02bf7fad277bad35000000000000000000000013",
       "description": "Acquired by depositing liquidity into the NECT | USDC.e | USD₮0 | HONEY Pool on BurrBear",
       "owner": "BurrBear"
+    },
+    {
+      "stakingTokenAddress": "0xC4C039178a79e614609e592d7689eCB3107758b1",
+      "vaultAddress": "0xf326CB487D9542a0c43b7c6C9a252fa626403023",
+      "name": "BurrBear - BURR | NECT",
+      "protocol": "BurrBear",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1750883916/vaults/0xf326CB487D9542a0c43b7c6C9a252fa626403023.png",
+      "url": "https://app.burrbear.io/#/berachain/pool/0xc4c039178a79e614609e592d7689ecb3107758b1000200000000000000000020",
+      "description": "Acquired by depositing liquidity into the BURR | NECT Pool on BurrBear",
+      "owner": "BurrBear"
     }
   ]
 }

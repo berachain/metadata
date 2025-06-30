@@ -126,7 +126,7 @@ export async function validateTokens(
           formatAnnotation({
             rawContent,
             xPath: `/tokens/${idx}/name`,
-            message: `Token ${token.name} has different name on ${tokenMetadata.chain} . Should be ${onChainName} is ${token.name}`,
+            message: `Token ${token.name} has different name on ${tokenMetadata.chain}. Should be ${onChainName} is ${token.name}`,
             file: path,
           }),
         );

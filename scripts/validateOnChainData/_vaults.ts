@@ -178,20 +178,19 @@ export async function validateVaults(
         );
       }
 
-      if (
-        vault.category &&
-        !vault.category.every((category) =>
-          categories.some((c) => c.slug === category),
-        )
-      ) {
-        errors.push(
-          formatAnnotation({
-            rawContent,
-            xPath: `/vaults/${idx}/category`,
-            message: `${vault.name} category is not a valid category. Should be one of ${categories.map((c) => c.slug).join(", ")}`,
-            file: path,
-          }),
-        );
+      if (vault.category) {
+        for (const category of vault.category) {
+          if (!categories.some((c) => c.slug === category)) {
+            errors.push(
+              formatAnnotation({
+                rawContent,
+                xPath: `/vaults/${idx}/category`,
+                message: `${category} is not a valid category. Should be one of ${categories.map((c) => c.slug).join(", ")}`,
+                file: path,
+              }),
+            );
+          }
+        }
       }
     }),
   );

@@ -23,7 +23,8 @@
           },
           "description": {
             "type": "string",
-            "minLength": 1
+            "minLength": 1,
+            "$comment": "This is a description of the category. It is intended to be used for documentation purposes."
           }
         }
       }

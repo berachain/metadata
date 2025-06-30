@@ -16,7 +16,7 @@ export async function validateVaults(
   },
 ) {
   const { rawContent, path, ...vaultMetadata } = file;
-
+  const categories = vaultMetadata.content.categories;
   // Track duplicates
   const vaultAddresses = new Map<string, { name: string; index: number }>();
   const stakingTokenAddresses = new Map<
@@ -173,6 +173,22 @@ export async function validateVaults(
             rawContent,
             xPath: `/vaults/${idx}/vaultAddress`,
             message: `${vault.name} vault address is wrongly formatted. Should be ${onChainVault}`,
+            file: path,
+          }),
+        );
+      }
+
+      if (
+        vault.category &&
+        !vault.category.every((category) =>
+          categories.some((c) => c.slug === category),
+        )
+      ) {
+        errors.push(
+          formatAnnotation({
+            rawContent,
+            xPath: `/vaults/${idx}/category`,
+            message: `${vault.name} category is not a valid category. Should be one of ${categories.map((c) => c.slug).join(", ")}`,
             file: path,
           }),
         );

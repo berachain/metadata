@@ -10,6 +10,24 @@
       "type": "string",
       "minLength": 1
     },
+    "categories": {
+      "type": "array",
+      "minLength": 1,
+      "items": {
+        "type": "object",
+        "required": ["slug"],
+        "properties": {
+          "slug": {
+            "type": "string",
+            "minLength": 1
+          },
+          "description": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
     "protocols": {
       "type": "array",
       "items": {

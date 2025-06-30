@@ -1,6 +1,15 @@
 {
   "$schema": "../../schemas/vaults.schema.json",
   "name": "Berachain Mainnet Default Reward Vault List",
+  "categories": [
+    {
+      "slug": "defi"
+    },
+    {
+      "slug": "gamefi",
+      "description": "GameFi is a category of blockchain-based games that combine elements of traditional gaming with blockchain technology."
+    }
+  ],
   "protocols": [
     {
       "name": "HUB",

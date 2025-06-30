@@ -9,5 +9,14 @@
       "description": "Swap a variety of tokens effortlessly on our decentralized platform. Provide liquidity to pools and earn BGT rewards."
     }
   ],
+  "categories": [
+    {
+      "slug": "defi"
+    },
+    {
+      "slug": "foundation",
+      "description": "This is a testnet-only category. It includes vaults that the Berachain Foundation owns to maintain the testnet."
+    }
+  ],
   "vaults": []
 }

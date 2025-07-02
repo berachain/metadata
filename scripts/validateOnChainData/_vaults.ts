@@ -14,6 +14,7 @@ export async function validateVaults(
     chain: string;
     content: VaultsFile;
   },
+  warnings: string[] = [],
 ) {
   const { rawContent, path, ...vaultMetadata } = file;
   const categories = vaultMetadata.content.categories;
@@ -95,12 +96,13 @@ export async function validateVaults(
         CASE_SENSITIVE_ADDRESSES &&
         stakingTokenAddress !== vault.stakingTokenAddress
       ) {
-        errors.push(
+        warnings.push(
           formatAnnotation({
             rawContent,
             xPath: `/vaults/${idx}/stakingTokenAddress`,
             message: `${vault.name} staking token is wrongly formatted. Should be ${stakingTokenAddress}`,
             file: path,
+            level: "warning",
           }),
         );
         return;

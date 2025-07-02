@@ -13,6 +13,7 @@ export async function validateTokens(
     chain: string;
     content: TokensFile;
   },
+  warnings: string[] = [],
 ) {
   const { rawContent, path, ...tokenMetadata } = file;
 
@@ -122,12 +123,13 @@ export async function validateTokens(
         onChainName !== token.name &&
         !ALLOWED_NAME_AND_SYMBOL_PATCHES.includes(tokenAddress)
       ) {
-        errors.push(
+        warnings.push(
           formatAnnotation({
             rawContent,
             xPath: `/tokens/${idx}/name`,
             message: `Token ${token.name} has different name on ${tokenMetadata.chain}. Should be ${onChainName} is ${token.name}`,
             file: path,
+            level: "warning",
           }),
         );
       }
@@ -136,23 +138,25 @@ export async function validateTokens(
         onChainSymbol !== token.symbol &&
         !ALLOWED_NAME_AND_SYMBOL_PATCHES.includes(tokenAddress)
       ) {
-        errors.push(
+        warnings.push(
           formatAnnotation({
             rawContent,
             xPath: `/tokens/${idx}/symbol`,
             message: `Token ${token.name} has different symbol on ${tokenMetadata.chain}. Should be ${onChainSymbol}`,
             file: path,
+            level: "warning",
           }),
         );
       }
 
       if (onChainDecimals !== token.decimals) {
-        errors.push(
+        warnings.push(
           formatAnnotation({
             rawContent,
             xPath: `/tokens/${idx}/decimals`,
             message: `Token ${token.name}  has different decimals on ${tokenMetadata.chain}. Should be ${onChainDecimals}`,
             file: path,
+            level: "warning",
           }),
         );
       }

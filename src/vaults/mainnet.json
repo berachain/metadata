@@ -308,7 +308,7 @@
       "stakingTokenAddress": "0x88c983bf3d4A9Adcee14e1b4f1C446c4C5853EA3",
       "vaultAddress": "0x25AceC3A1766A0d02d7C8E22f48533D32D7b311b",
       "name": "Smilee - iBERA | wgBERA",
-      "protocol": "Smilee",
+      "protocol": "Kodiak",
       "category": ["defi"],
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746537459/vaults/cmjqyekbneijzmqwftq9.png",
       "url": "https://app.kodiak.finance/#/liquidity/pools/0x88c983bf3d4a9adcee14e1b4f1c446c4c5853ea3?farm=0x25acec3a1766a0d02d7c8e22f48533d32d7b311b&chain=berachain_mainnet",
@@ -946,7 +946,7 @@
       "vaultAddress": "0x127696D2e3A4eA1F4eed1AFeF608e8901cbE8965",
       "name": "LXP Rewards Vault",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1744806398/tokens/xqq0lntwsthjkfzskg9q.png",
-      "protocol": "LODE TRADE",
+      "protocol": "HUB",
       "category": ["defi"],
       "url": "https://hub.berachain.com/vaults/0x127696d2e3a4ea1f4eed1afef608e8901cbe8965/",
       "description": "LXP is acquired by using LODE (i.e. trading and completing quest campaigns). LXP is a proxy for trading rebates and rewards, it does not have liquidity nor is intended to be traded. LXP must be claimed and staked in our rewards vault (https://hub.berachain.com/vaults/0x127696d2e3a4ea1f4eed1afef608e8901cbe8965/) to be eligible for rewards. Please review our full proposal here: https://hub.forum.berachain.com/t/request-for-lxp-reward-vault-lode/316.",
@@ -1253,12 +1253,12 @@
       "stakingTokenAddress": "0xd08E3652e6b29EBdD58fe93B422513862FB49899",
       "vaultAddress": "0xffb155ef53cb08a0722c9eeeea5cb362d77ba125",
       "name": "Concrete - sUSDe",
-      "protocol": "Concrete ",
+      "protocol": "Concrete",
       "category": ["defi"],
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746472446/vaults/concrete_stables.png",
       "url": "https://app.concrete.xyz/vault/0xd08E3652e6b29EBdD58fe93B422513862FB49899",
       "description": "Acquired by depositing sUSDe into Concrete's Berachain Stables vault",
-      "owner": "Concrete "
+      "owner": "Concrete"
     },
     {
       "stakingTokenAddress": "0x8d3e53f5521927E5c78D42B4f9e08ae8DF91B772",
@@ -1484,7 +1484,7 @@
       "stakingTokenAddress": "0x53f786662FF5fbeC135f913ab93C6B3366e90a46",
       "vaultAddress": "0x1cc12219dada26bd8bb6831b6c3063de17f9d399",
       "name": "Jiko - ASUGAR | HONEY",
-      "protocol": "Hub",
+      "protocol": "HUB",
       "category": ["gamefi"],
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1748897429/vaults/kngiuy4vzcuvfgqoj7xw.png",
       "url": "https://hub.berachain.com/pools/0x53f786662ff5fbec135f913ab93c6b3366e90a4600020000000000000000014e/details",
@@ -1591,7 +1591,7 @@
       "owner": "BurrBear"
     },
     {
-      "stakingTokenAddress": "0x7aEF016302C3a27417372CF3AA74A1708D1ca291",
+      "stakingTokenAddress": "0x7aEF016302C3a27417372CF3AA74A1708D1Ca291",
       "vaultAddress": "0xbc8c3d0cecef980e1f4a4775bd354614be163556",
       "name": "Kodiak - BERAMO | BERA",
       "protocol": "Kodiak",
@@ -1646,7 +1646,7 @@
       "owner": "Goldilocks"
     },
     {
-      "stakingTokenAddress": "0x9f20cda4ebe746929cdb9e0ffca60e4a335a0b15",
+      "stakingTokenAddress": "0x595b1EcD5EC42fb5F321D4162b04965eaB8F1388",
       "vaultAddress": "0x9f20cda4ebe746929cdb9e0ffca60e4a335a0b15",
       "name": "Kodiak - STG | HONEY",
       "protocol": "Kodiak",

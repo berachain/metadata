@@ -986,6 +986,15 @@
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1748902436/tokens/0x804CF700De1e18f2411Bd05aad5fa10d60e1900f.png",
       "decimals": 18,
       "tags": []
+    },
+    {
+      "chainId": 80094,
+      "address": "0x6698EDe14709A9Dd8379744CC2D28F276E3d2Eac",
+      "symbol": "PLUTUS",
+      "name": "Plutus token",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1748902436/tokens/0x6698EDe14709A9Dd8379744CC2D28F276E3d2Eac.png",
+      "decimals": 18,
+      "tags": []
     }
   ]
 }

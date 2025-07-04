@@ -18,5 +18,46 @@
       "description": "This is a testnet-only category. It includes vaults that the Berachain Foundation owns to maintain the testnet."
     }
   ],
-  "vaults": []
+  "vaults": [
+    {
+      "stakingTokenAddress": "0xDa94d2bfc516f1963C4c36f390a803D544688f71",
+      "vaultAddress": "0x57abe4e0c59a650a7042e18493179dd5b91a3f61",
+      "name": "Bepolia Foundation Vault #1",
+      "protocol": "HUB",
+      "categories": ["foundation"],
+      "url": "https://bepolia.hub.berachain.com/vaults/0x57abe4e0c59a650a7042e18493179dd5b91a3f61"
+    },
+    {
+      "stakingTokenAddress": "0xA9d09e1Bd86bBAFeac4020099207eE23549618B0",
+      "vaultAddress": "0xae461ea8238df1bd63B3f93b0EF7da1A56De2f91",
+      "name": "Bepolia Foundation Vault #2",
+      "protocol": "HUB",
+      "categories": ["foundation"],
+      "url": "https://bepolia.hub.berachain.com/vaults/0xae461ea8238df1bd63B3f93b0EF7da1A56De2f91"
+    },
+    {
+      "stakingTokenAddress": "0x5bA554fA6faDc5583eD99d09E0545dB4bC9f994d",
+      "vaultAddress": "0x45450D1E3bfd42E224976a7a263F7e59AB9607C8",
+      "name": "Bepolia Foundation Vault #3",
+      "protocol": "HUB",
+      "categories": ["foundation"],
+      "url": "https://bepolia.hub.berachain.com/vaults/0x45450D1E3bfd42E224976a7a263F7e59AB9607C8"
+    },
+    {
+      "stakingTokenAddress": "0xe5C337e10089246afE8DA5752BB1777613F70aa9",
+      "vaultAddress": "0x3bcED9bC841a862716d58560c07480c203e61912",
+      "name": "Bepolia Foundation Vault #4",
+      "protocol": "HUB",
+      "categories": ["foundation"],
+      "url": "https://bepolia.hub.berachain.com/vaults/0x3bcED9bC841a862716d58560c07480c203e61912"
+    },
+    {
+      "stakingTokenAddress": "0x9d323a87597667d7373CF9C2F758a29896f6496A",
+      "vaultAddress": "0x668b25f09D1f505b774bb5F686874c401EE22730",
+      "name": "Bepolia Foundation Vault #5",
+      "protocol": "HUB",
+      "categories": ["foundation"],
+      "url": "https://bepolia.hub.berachain.com/vaults/0x668b25f09D1f505b774bb5F686874c401EE22730"
+    }
+  ]
 }

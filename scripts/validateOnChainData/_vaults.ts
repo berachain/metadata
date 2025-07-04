@@ -182,7 +182,7 @@ export async function validateVaults(
         );
       }
 
-      if (!protocols.some((p) => p.name === vault.protocol)) {
+      if (vault.protocol && !protocols.some((p) => p.name === vault.protocol)) {
         errors.push(
           formatAnnotation({
             rawContent,

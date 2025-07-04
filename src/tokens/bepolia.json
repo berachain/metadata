@@ -148,6 +148,7 @@
       "symbol": "USDT",
       "name": "Tether USD",
       "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/berachain/metadata/refs/heads/main/src/assets/tokens/0x2d4E54B721e0800080c8CFa0975d60173b8C0E46.jpg",
       "tags": []
     }
   ]

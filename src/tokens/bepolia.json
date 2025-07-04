@@ -148,7 +148,6 @@
       "symbol": "USDT",
       "name": "Tether USD",
       "decimals": 6,
-      "logoURI": "https://static.tronscan.org/production/logo/usdtlogo.png",
       "tags": []
     }
   ]

@@ -2438,6 +2438,18 @@
       "action": "Stake frxUSD / HONEY"
     },
     {
+      "stakingTokenAddress": "0x3640587709a387B54B0DF555cD651A95A54fA900",
+      "vaultAddress": "0xC7fee55E923dDbc6c596b8fe7e14889bc3005b3C",
+      "name": "Wasabee - BEE | WBERA",
+      "protocol": "Wasabee",
+      "categories": ["defi"],
+      "logoURI": "https://raw.githubusercontent.com/berachain/metadata/refs/heads/main/src/assets/vaults/0xC7fee55E923dDbc6c596b8fe7e14889bc3005b3C.jpg",
+      "url": "https://wasabee.honeypotfinance.xyz/vault/0x3640587709a387B54B0DF555cD651A95A54fA900",
+      "description": "Acquired by depositing liquidity into the BEE | WBERA Pool on Wasabee",
+      "owner": "Wasabee",
+      "action": "Stake BEE / WBERA"
+    },
+    {
       "stakingTokenAddress": "0x5d3da311a5d3c22d257bb9943de9e55acda2f9cf",
       "vaultAddress": "0xc2bee59d96af61e050aa602d5882078947372ebc",
       "name": "Miso - mBGT | iBERA",

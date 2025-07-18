@@ -998,6 +998,15 @@
     },
     {
       "chainId": 80094,
+      "address": "0x93a0CB3ee34aA983db262F904021911eCD199228",
+      "symbol": "BEE",
+      "name": "Bee Token",
+      "logoURI": "https://raw.githubusercontent.com/berachain/metadata/refs/heads/main/src/assets/tokens/0x93a0CB3ee34aA983db262F904021911eCD199228.jpg",
+      "decimals": 18,
+      "tags": []
+    },
+    {
+      "chainId": 80094,
       "address": "0x927439eef2e2520afa78d8742cae7be3e3e90b11",
       "symbol": "mBGT",
       "name": "market BGT",

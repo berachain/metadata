@@ -25,6 +25,19 @@
             "type": "string",
             "minLength": 1,
             "description": "This is a description of the category. It is intended to be used for documentation purposes."
+          },
+          "subcategories": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["slug"],
+              "properties": {
+                "slug": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              }
+            }
           }
         }
       }
@@ -99,7 +112,7 @@
             "items": {
               "type": "string"
             },
-            "$comment": "This is an array of categories. If it is present, it must have exactly one item. It's an array for future proofing.",
+            "$comment": "This is an array of categories. It must have exactly one item. It's an array for future proofing.",
             "minItems": 1,
             "maxItems": 1
           },
@@ -112,7 +125,8 @@
           "vaultAddress",
           "name",
           "protocol",
-          "url"
+          "url",
+          "categories"
         ]
       }
     }

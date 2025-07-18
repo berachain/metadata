@@ -11,6 +11,7 @@ export interface VaultsFile {
 export interface Category {
   slug: string;
   description?: string;
+  subcategories?: Omit<Category, "subcategories">[];
 }
 
 export interface Protocol {

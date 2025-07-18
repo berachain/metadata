@@ -25,6 +25,19 @@
             "type": "string",
             "minLength": 1,
             "description": "This is a description of the category. It is intended to be used for documentation purposes."
+          },
+          "subcategories": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["slug"],
+              "properties": {
+                "slug": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              }
+            }
           }
         }
       }

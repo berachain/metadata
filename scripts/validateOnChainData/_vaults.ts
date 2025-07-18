@@ -194,8 +194,23 @@ export async function validateVaults(
       }
 
       if (vault.categories) {
-        for (const category of vault.categories) {
-          if (!categories.some((c) => c.slug === category)) {
+        for (const categoryEntry of vault.categories) {
+          const [category, subcategory, anythingElse] = categoryEntry.split("/");
+
+          if (anythingElse) {
+            errors.push(
+              formatAnnotation({
+                rawContent,
+                xPath: `/vaults/${idx}/categories`,
+                message: `${categoryEntry} is not a valid category. Categories should be in the format "category/subcategory"`,
+                file: path,
+              }),
+            );
+          }
+          
+          const categoryDefinition = categories.find((c) => c.slug === category);
+
+          if (!categoryDefinition) {
             errors.push(
               formatAnnotation({
                 rawContent,
@@ -204,6 +219,19 @@ export async function validateVaults(
                 file: path,
               }),
             );
+          }
+
+          if (subcategory) {
+            if (!categoryDefinition?.subcategories?.some((c) => c.slug === subcategory)) {
+              errors.push(
+                formatAnnotation({
+                  rawContent,
+                  xPath: `/vaults/${idx}/categories`,
+                  message: `${subcategory} is not a valid subcategory of ${category}. Should be one of: ${categoryDefinition?.subcategories?.map((c) => c.slug).join(", ")}`,
+                  file: path,
+                }),
+              );
+            }
           }
         }
       }

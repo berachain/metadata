@@ -425,7 +425,7 @@
       "vaultAddress": "0x6649Bc987a7c0fB0199c523de1b1b330cd0457A8",
       "name": "BYUSD | HONEY",
       "protocol": "HUB",
-      "categories": ["defi/amm"],
+      "categories": ["defi"],
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1738733620/reward-vaults/icons/c2q60zif1cetllqip0a6.png",
       "url": "https://hub.berachain.com/pools/0xde04c469ad658163e2a5e860a03a86b52f6fa8c8000000000000000000000000/details/",
       "description": "Acquired by depositing liquidity into the BYUSD | HONEY Pool on Hub",

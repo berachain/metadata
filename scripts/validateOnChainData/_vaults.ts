@@ -195,7 +195,8 @@ export async function validateVaults(
 
       if (vault.categories) {
         for (const categoryEntry of vault.categories) {
-          const [category, subcategory, anythingElse] = categoryEntry.split("/");
+          const [category, subcategory, anythingElse] =
+            categoryEntry.split("/");
 
           if (anythingElse) {
             errors.push(
@@ -207,8 +208,10 @@ export async function validateVaults(
               }),
             );
           }
-          
-          const categoryDefinition = categories.find((c) => c.slug === category);
+
+          const categoryDefinition = categories.find(
+            (c) => c.slug === category,
+          );
 
           if (!categoryDefinition) {
             errors.push(
@@ -222,7 +225,11 @@ export async function validateVaults(
           }
 
           if (subcategory) {
-            if (!categoryDefinition?.subcategories?.some((c) => c.slug === subcategory)) {
+            if (
+              !categoryDefinition?.subcategories?.some(
+                (c) => c.slug === subcategory,
+              )
+            ) {
               errors.push(
                 formatAnnotation({
                   rawContent,

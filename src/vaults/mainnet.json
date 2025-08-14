@@ -7,6 +7,27 @@
       "subcategories": [
         {
           "slug": "amm"
+        },
+        {
+          "slug": "cdp"
+        },
+        {
+          "slug": "lending"
+        },
+        {
+          "slug": "liquid-staking"
+        },
+        {
+          "slug": "yield"
+        },
+        {
+          "slug": "derivatives"
+        },
+        {
+          "slug": "options"
+        },
+        {
+          "slug": "dex-agg"
         }
       ]
     },

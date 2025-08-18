@@ -381,10 +381,11 @@
       "description": "beraBTC is a wrapped Bitcoin token and liquidity product on Berachain."
     },
     {
-      "name": "Beraji-KO",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746534876/tokens/default.png",
+      "name": "Jiko",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1748897429/vaults/kngiuy4vzcuvfgqoj7xw.png",
       "url": "https://app.beraji.com/",
-      "description": "Beraji-KO is a DeFi protocol for innovative staking and liquidity solutions on Berachain."
+      "description": "A yield optimizer protocol powering the PvP idle card game.",
+      "tags": ["platform"]
     },
     {
       "name": "Frax Finance",
@@ -1806,8 +1807,8 @@
       "stakingTokenAddress": "0x53f786662FF5fbeC135f913ab93C6B3366e90a46",
       "vaultAddress": "0x1cc12219dada26bd8bb6831b6c3063de17f9d399",
       "name": "Jiko - ASUGAR | HONEY",
-      "protocol": "HUB",
-      "categories": ["defi/amm"],
+      "protocol": "Jiko",
+      "categories": ["gamefi"],
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1748897429/vaults/kngiuy4vzcuvfgqoj7xw.png",
       "url": "https://hub.berachain.com/pools/0x53f786662ff5fbec135f913ab93c6b3366e90a4600020000000000000000014e/details",
       "description": "Acquired by depositing liquidity into the Jiko - ASUGAR | HONEY Pool on Hub",
@@ -2545,6 +2546,18 @@
       "description": "Acquired by depositing swBERA and wgBERA into the sWBERA | wgBERA (80/20) on Berahub. Stake WBERA to get swBERA, stake BERA in Smilee to get wgBERA.",
       "owner": "Smilee",
       "action": "Stake sWBERA / wgBERA (80/20)"
+    },
+    {
+      "stakingTokenAddress": "0x31d9f788b1da5730c5b70d673d491c6e21144c53",
+      "vaultAddress": "0x58b4420c1462fcf00284ac21b75e0ee7eb405de4",
+      "name": "JIKO BET",
+      "protocol": "Jiko",
+      "categories": ["gamefi"],
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1755195943/vaults/0x58b4420c1462fcf00284ac21b75e0ee7eb405de4.png",
+      "url": "https://app.beraji.com/game",
+      "description": "Acquired by spending at least 5 HONEY in-game each day to qualify for that day’s BGT rewards. Eligible spending includes creating rooms, joining rooms, or predicting battles. Once the daily minimum is met, your total spend is converted into LP and auto-staked into the reward vault for BGT distribution.",
+      "owner": "Jiko",
+      "action": "JIKO BET"
     }
   ]
 }

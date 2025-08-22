@@ -2386,7 +2386,7 @@
       "protocol": "Kodiak",
       "categories": ["defi/amm"],
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1745684774/protocols/openstate.png",
-      "url": "https://app.kodiak.finance/#/liquidity/pools/0x0b77545a4eb1b995e79bf85e0ed8d6ee288ca632",
+      "url": "https://app.kodiak.finance/#/liquidity/pools/0x0b77545a4eb1b995e79bf85e0ed8d6ee288ca632?chain=berachain_mainnet",
       "description": "eWBERA-4 can be acquired by depositing WBERA in Euler's Tulipa Folding Hive market, osBGT can be purchased through either Kodiak or through OpenState's iBGT PSM. This contract introduces the first pool to use a WBERA lending receipt token within a pool to improve its capital efficiency for LPs.",
       "owner": "OpenState",
       "action": "Stake eWBERA / osBGT"

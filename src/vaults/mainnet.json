@@ -2390,7 +2390,7 @@
       "categories": ["defi/amm"],
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1745684774/protocols/openstate.png",
       "url": "https://openstate.com",
-      "description": "Openstate enables scalable yield infrastructure. Earn top yields and enjoy instant liquidity for BGT and more - all on Openstate.",
+      "description": "Acquired by depositing liquidity into the OpenState - eWBERA | osBGT Pool on Kodiak",
       "owner": "OpenState",
       "action": "Stake eWBERA / osBGT"
     },
@@ -2570,7 +2570,7 @@
       "categories": ["defi/amm"],
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1745684774/protocols/openstate.png",
       "url": "https://app.kodiak.finance/#/liquidity/pools/0x9a7d89284520572b3ec41efeba9add65622b301a?chain=berachain_mainnet",
-      "description": "Openstate enables scalable yield infrastructure. Earn top yields and enjoy instant liquidity for BGT and more - all on Openstate.",
+      "description": "Acquired by depositing liquidity into the OpenState - osBGT | sWBERA Pool on Kodiak",
       "owner": "OpenState",
       "action": "Stake osBGT / sWBERA"
     }

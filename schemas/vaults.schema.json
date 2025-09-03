@@ -15,7 +15,7 @@
       "minLength": 1,
       "items": {
         "type": "object",
-        "required": ["slug"],
+        "required": ["slug", "name"],
         "properties": {
           "slug": {
             "type": "string",

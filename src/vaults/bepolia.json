@@ -12,17 +12,13 @@
   ],
   "categories": [
     {
-      "slug": "defi"
+      "slug": "defi",
+      "name": "DeFi"
     },
     {
       "slug": "foundation",
-      "description": "This is a testnet-only category. It includes vaults that the Berachain Foundation owns to maintain the testnet.",
-      "subcategories": [
-        {
-          "slug": "test",
-          "description": "This is a temporary category."
-        }
-      ]
+      "name": "Foundation",
+      "description": "This is a testnet-only category. It includes vaults that the Berachain Foundation owns to maintain the testnet."
     }
   ],
   "vaults": [
@@ -31,7 +27,7 @@
       "vaultAddress": "0x57abe4e0c59a650a7042e18493179dd5b91a3f61",
       "name": "Bepolia Foundation Vault #1",
       "protocol": "HUB",
-      "categories": ["foundation/test"],
+      "categories": ["foundation"],
       "url": "https://bepolia.hub.berachain.com/vaults/0x57abe4e0c59a650a7042e18493179dd5b91a3f61",
       "description": "Bribes automation, Owned by BD team"
     },

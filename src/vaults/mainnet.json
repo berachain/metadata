@@ -7,26 +7,32 @@
       "name": "DeFi",
       "subcategories": [
         {
-          "slug": "amm"
+          "slug": "amm",
+          "name": "AMM"
         },
         {
-          "slug": "cdp"
+          "slug": "cdp",
+          "name": "CDP"
         },
         {
-          "slug": "lending"
+          "slug": "lending",
+          "name": "Lending"
         },
         {
           "slug": "liquid-staking",
           "name": "Liquid Staking"
         },
         {
-          "slug": "yield"
+          "slug": "yield",
+          "name": "Yield"
         },
         {
-          "slug": "derivatives"
+          "slug": "derivatives",
+          "name": "Derivatives"
         },
         {
-          "slug": "options"
+          "slug": "options",
+          "name": "Options"
         },
         {
           "slug": "dex-agg",
@@ -36,10 +42,12 @@
     },
     {
       "slug": "gamefi",
+      "name": "GameFi",
       "description": "GameFi is a category of blockchain-based games that combine elements of traditional gaming with blockchain technology."
     },
     {
-      "slug": "memecoin"
+      "slug": "memecoin",
+      "name": "Memecoin"
     }
   ],
   "protocols": [

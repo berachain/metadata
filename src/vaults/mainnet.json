@@ -334,9 +334,9 @@
     },
     {
       "name": "Ultraviolet",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746534876/tokens/default.png",
-      "url": "https://berachain.com",
-      "description": "Ultraviolet is a Berachain-native protocol for innovative DeFi products and liquidity strategies.",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1757015770/ultraviolet.png",
+      "url": "https://www.uvmoney.xyz/mint",
+      "description": "Ultraviolet is a yield-bearing derivatives protocol that enables users to speculate on BERA and infrared's iBGT premium through innovative DeFi products.",
       "tags": ["platform"]
     },
     {
@@ -410,6 +410,13 @@
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746534876/tokens/default.png",
       "url": "https://www.oogabooga.io/",
       "description": "Ooga Booga is a meme and DeFi protocol on Berachain, focused on community-driven incentives and fun."
+    },
+    {
+      "name": "Pendle",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1757014424/pendle.png",
+      "url": "https://www.pendle.finance/",
+      "description": "Pendle is a decentralized finance protocol that allows users to tokenize and sell future yields.",
+      "tags": ["platform"]
     },
     {
       "name": "Honeypot Finance",
@@ -580,16 +587,16 @@
       "action": "Stake stBGT / WBERA"
     },
     {
-      "stakingTokenAddress": "0x36FA291f4A4Ae41e4be2a979136EBd7eb97950E7",
+      "stakingTokenAddress": "0x01cbf8BF3dA700A1196FDCe3f4B5B441F1A013E5",
       "vaultAddress": "0xf3BDf754B4691286090090D601f77384dA9FB721",
-      "name": "WBERA - LOCKS Beradrome Kodiak V2 LP",
-      "protocol": "Beradrome",
+      "name": "Beradrome $LOCKS/BERA vault",
+      "protocol": "Kodiak",
       "categories": ["defi"],
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746541685/vaults/wy69tcudpjlzyktsqgeg.png",
-      "url": "https://app.kodiak.finance/#/liquidity/v2/add/0x6969696969696969696969696969696969696969/0xb7e448e5677d212b8c8da7d6312e8afc49800466?chain=berachain_mainnet",
-      "description": "Acquired by depositing liquidity into the WBERA - LOCKS Kodiak pool and staking the LP token on Beradrome.",
+      "url": "https://kodiak.finance/",
+      "description": "Acquired by depositing liquidity into the Goldilocks - LOCKS | BERA Pool on Kodiak",
       "owner": "Goldilocks DAO",
-      "action": "Stake WBERA / LOCKS"
+      "action": "Stake LOCKS / BERA"
     },
     {
       "stakingTokenAddress": "0x2461e93D5963C2bB69de499676763E67A63c7Ba5",
@@ -1327,7 +1334,7 @@
       "vaultAddress": "0x8412561FADDD6C85F5a17e07E0F29428B813E69B",
       "name": "Henlo - Henlocker100M",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1744809287/vaults/jtwci2jihaa3qsken4st.png",
-      "protocol": "Beradrome",
+      "protocol": "HENLO",
       "categories": ["memecoin"],
       "url": "https://app.henlo.com/lock",
       "description": "Acquired by price-locking tokens into a henlocker and staking on Henlo or Beradrome.",
@@ -1339,7 +1346,7 @@
       "vaultAddress": "0xA713816E8d190EFdf35d66b723eb63f8c8c4d5D2",
       "name": "Henlo - Henlocker330M",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1744809304/vaults/skd0lvbdpgl8sekmsal6.png",
-      "protocol": "Beradrome",
+      "protocol": "HENLO",
       "categories": ["memecoin"],
       "url": "https://app.henlo.com/lock",
       "description": "Acquired by price-locking tokens into a henlocker and staking on Henlo or Beradrome.",
@@ -1351,7 +1358,7 @@
       "vaultAddress": "0x15970fcf2dbb9FfCC4e2f79c3Fd777B871540D5b",
       "name": "Henlo - Henlocker420M",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1744809324/vaults/axl1mvuynagmkd2ijf3d.png",
-      "protocol": "Beradrome",
+      "protocol": "HENLO",
       "categories": ["memecoin"],
       "url": "https://app.henlo.com/lock",
       "description": "Acquired by price-locking tokens into a henlocker and staking on Henlo or Beradrome.",
@@ -2397,7 +2404,7 @@
       "protocol": "Kodiak",
       "categories": ["defi/amm"],
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1745684774/protocols/openstate.png",
-      "url": "https://openstate.com",
+      "url": "https://app.kodiak.finance/#/liquidity/pools/0x0b77545a4eb1b995e79bf85e0ed8d6ee288ca632?farm=0x39b08ccbdfd9b0d3c45f1fd02e9b57b44c88ed71&chain=berachain_mainnet",
       "description": "Acquired by depositing liquidity into the OpenState - eWBERA | osBGT Pool on Kodiak",
       "owner": "OpenState",
       "action": "Stake eWBERA / osBGT"
@@ -2581,6 +2588,42 @@
       "description": "Acquired by depositing liquidity into the OpenState - osBGT | sWBERA Pool on Kodiak",
       "owner": "OpenState",
       "action": "Stake osBGT / sWBERA"
+    },
+    {
+      "stakingTokenAddress": "0xc2605ed80880bd6b1523d52aef8d624ed468a935",
+      "vaultAddress": "0x3d1c173460fa24e53d68b31c39d85d874348ed8b",
+      "name": "LP-iBGT on Pendle",
+      "protocol": "Pendle",
+      "categories": ["defi"],
+      "logoURI": "https://raw.githubusercontent.com/berachain/metadata/main/src/assets/vaults/0x3d1c173460fa24e53d68b31c39d85d874348ed8b.png",
+      "url": "https://app.pendle.finance/trade/pools/0x02293d88656860a840ed457d38f51e3e6bee8461/zap/in?chain=bera",
+      "description": "Acquired by depositing liquidity into the Pendle - iBERA | iBGT Pool on Kodiak",
+      "owner": "Infrared",
+      "action": "Stake iBERA / iBGT"
+    },
+    {
+      "stakingTokenAddress": "0x9f0306FA117A380562A7AA35b2D89cCa915AeF4a",
+      "vaultAddress": "0xa37E9695F56C29d0f33f4aE33C66AC90547b2231",
+      "name": "Ultraviolet - uvBERA | wBERA",
+      "protocol": "HUB",
+      "categories": ["defi"],
+      "logoURI": "https://raw.githubusercontent.com/berachain/metadata/main/src/assets/vaults/0xa37E9695F56C29d0f33f4aE33C66AC90547b2231.png",
+      "url": "https://hub.berachain.com/pools/0x9f0306fa117a380562a7aa35b2d89cca915aef4a000200000000000000000181/details/",
+      "description": "Acquired by depositing liquidity into the Ultraviolet - uvBERA | wBERA Pool on BEX",
+      "owner": "Ultraviolet",
+      "action": "Stake uvBERA / wBERA"
+    },
+    {
+      "stakingTokenAddress": "0xC60Ea9801B3F1B01dA373C05381e6cE8ff94D76f",
+      "vaultAddress": "0xc6b923ae78b25aad4c8df319b332a3202b1daedc",
+      "name": "Kodiak - SolvBTC.BNB | SolvBTC 2% Island",
+      "protocol": "Kodiak",
+      "categories": ["defi"],
+      "logoURI": "https://raw.githubusercontent.com/berachain/metadata/main/src/assets/vaults/0xc6b923ae78b25aad4c8df319b332a3202b1daedc.png",
+      "url": "https://app.kodiak.finance/#/liquidity/pools/0xC60Ea9801B3F1B01dA373C05381e6cE8ff94D76f?chain=berachain_mainnet",
+      "description": "Acquired by depositing liquidity into the Kodiak - SolvBTC.BNB | SolvBTC Pool on Kodiak",
+      "owner": "Solv Protocol",
+      "action": "Stake SolvBTC.BNB / SolvBTC"
     }
   ]
 }

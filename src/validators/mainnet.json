@@ -28,6 +28,14 @@
     },
     {
       "id": "0x84acfd38a13af12add8d82e1ef0842c4dfc1e4175fae5b8ab73770f9050cbf673cafdbf6d8ab679fe9ea13208f50b485",
+      "logoURI": "",
+      "name": "[LEGACY] - Smilee Finance",
+      "description": "Generate Awesome Yields with gBERA, the Liquid Staking Token that plays Proof of Liquidity for you.",
+      "website": "https://app.smilee.finance",
+      "twitter": "https://x.com/SmileeFinance"
+    },
+    {
+      "id": "0xaf94de133c6b7a49c51e433cf9371ec3ba8db23d31eed2840aff0297316449f1c1e099c7188f772a6750e522dbc2a764",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1739223283/validators/icons/vpvgcwpww2rifhogektb.jpg",
       "name": "Smilee Finance",
       "description": "Generate Awesome Yields with gBERA, the Liquid Staking Token that plays Proof of Liquidity for you.",

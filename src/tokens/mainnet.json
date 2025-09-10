@@ -52,8 +52,8 @@
       "chainId": 80094,
       "address": "0x118d2ceee9785eaf70c15cd74cd84c9f8c3eec9a",
       "symbol": "sWBERA",
-      "name": "POL Staked WEBERA",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1752588171/brand/swbera.png",
+      "name": "Staked WBERA",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1752588172/brand/swbera.png",
       "decimals": 18,
       "tags": ["featured"]
     },

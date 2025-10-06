@@ -1214,7 +1214,7 @@
       "symbol": "STICKY eWBERA-4-wgBERA",
       "name": "Sticky Vault eWBERA-4-wgBERA-0.05%",
       "decimals": 18,
-      "logoURI": "src/assets/tokens/0x0435c32c79e8341e44047493ba371b502b8c90af.png",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1759768312/tokens/0x0435c32c79e8341e44047493ba371b502b8c90af.png",
       "tags": []
     },
     {
@@ -1223,7 +1223,7 @@
       "symbol": "STICKY NECT-HONEY",
       "name": "Sticky Vault NECT-HONEY-0.01%",
       "decimals": 18,
-      "logoURI": "src/assets/tokens/0xa5b3ecafbfcc7946c11a28252c6f2bdb73d30388.png",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1759768312/tokens/0xa5b3ecafbfcc7946c11a28252c6f2bdb73d30388.png",
       "tags": []
     }
   ]

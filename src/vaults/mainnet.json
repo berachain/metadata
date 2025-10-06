@@ -464,7 +464,7 @@
       "description": "Sumer is a liquidity infrastructure that combines lending, synthetic assets and cross chain liquidity into one unified pool to maximize capital efficiency.",
       "tags": ["platform"]
     },
-     {
+    {
       "name": "WinnieSwap",
       "logoURI": "protocols/winnieswap.com",
       "url": "https://www.winnieswap.com",
@@ -2643,7 +2643,7 @@
       "description": "Acquired by depositing liquidity into the WinnieSwap - NECT | HONEY Pool on WinnieSwap",
       "owner": "WinnieSwap",
       "action": "Stake NECT / HONEY"
-    }
+    },
     {
       "stakingTokenAddress": "0x0435c32c79e8341e44047493ba371b502b8c90af",
       "vaultAddress": "0x054d3bdb73d8e6e2ab24733d78353a7bc565a95b",

@@ -463,6 +463,13 @@
       "url": "https://Sumer.money/",
       "description": "Sumer is a liquidity infrastructure that combines lending, synthetic assets and cross chain liquidity into one unified pool to maximize capital efficiency.",
       "tags": ["platform"]
+    },
+    {
+      "name": "WinnieSwap",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1759847269/protocols/winnieswap.png",
+      "url": "https://www.winnieswap.com",
+      "description": "Supercharging DeFi with Berachain Proof of Liquidity - enjoy deeper liquidity, smarter capital efficiency & sky-high APRs",
+      "tags": ["platform"]
     }
   ],
   "vaults": [
@@ -2624,6 +2631,30 @@
       "description": "Acquired by depositing liquidity into the Kodiak - SolvBTC.BNB | SolvBTC Pool on Kodiak",
       "owner": "Solv Protocol",
       "action": "Stake SolvBTC.BNB / SolvBTC"
+    },
+    {
+      "stakingTokenAddress": "0xa5b3ecafbfcc7946c11a28252c6f2bdb73d30388",
+      "vaultAddress": "0xe409272355d32a3dfcdde888ca275ac33146b854",
+      "name": "WinnieSwap - NECT | HONEY 0.01%",
+      "protocol": "WinnieSwap",
+      "categories": ["defi"],
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1759768373/vaults/0xe409272355d32a3dfcdde888ca275ac33146b854.png",
+      "url": "https://www.winnieswap.com/vaults/0xa5b3ecafbfcc7946c11a28252c6f2bdb73d30388",
+      "description": "Acquired by depositing liquidity into the WinnieSwap - NECT | HONEY Pool on WinnieSwap",
+      "owner": "WinnieSwap",
+      "action": "Stake NECT / HONEY"
+    },
+    {
+      "stakingTokenAddress": "0x0435c32c79e8341e44047493ba371b502b8c90af",
+      "vaultAddress": "0x054d3bdb73d8e6e2ab24733d78353a7bc565a95b",
+      "name": "WinnieSwap - ewBERA | wgBERA 0.05%",
+      "protocol": "WinnieSwap",
+      "categories": ["defi"],
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1759768373/vaults/0x054d3bdb73d8e6e2ab24733d78353a7bc565a95b.png",
+      "url": "https://www.winnieswap.com/vaults/0x0435c32c79e8341e44047493ba371b502b8c90af",
+      "description": "Acquired by depositing liquidity into the WinnieSwap - ewBERA | wgBERA Pool on WinnieSwap",
+      "owner": "WinnieSwap",
+      "action": "Stake ewBERA / wgBERA"
     }
   ]
 }

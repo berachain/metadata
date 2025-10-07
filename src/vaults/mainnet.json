@@ -241,8 +241,8 @@
     {
       "name": "BeraPaw",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746111634/protocols/berapaw.png",
-      "url": "https://www.berapaw.com/",
-      "description": "BeraPaw is an innovative liquid staking protocol that converts Berachain's native token into a more versatile and liquid asset, providing users with a seamless and hassle-free experience.",
+      "url": "https://berapaw.com/",
+      "description": "BeraPaw is an innovative liquid staking protocol that converts Berachain's BERA and BGT into a more versatile and liquid assets, providing users with a seamless and hassle-free experience.",
       "tags": ["platform"]
     },
     {
@@ -640,6 +640,18 @@
       "description": "Acquired by depositing liquidity into the BeraPaw - WBERA | LBGT Pool on Hub",
       "owner": "BeraPaw",
       "action": "Stake WBERA / LBGT"
+    },
+    {
+      "stakingTokenAddress": "0xe98763d61ab493a55963583bcdd854580e084b5b",
+      "vaultAddress": "0xca098a50efd1dc1403f2d601a381c99e16313456",
+      "name": "BeraPaw - LBGT | pBERA",
+      "protocol": "Kodiak",
+      "categories": ["defi/amm"],
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1759757338/vaults/0xca098a50efd1dc1403f2d601a381c99e16313456.png",
+      "url": "https://app.kodiak.finance/#/liquidity/pools/0xe98763d61ab493a55963583bcdd854580e084b5b?farm=0xca098a50efd1dc1403f2d601a381c99e16313456&chain=berachain_mainnet",
+      "description": "Acquired by depositing liquidity into the LBGT | pBERA island on Kodiak",
+      "owner": "BeraPaw",
+      "action": "Stake LBGT / pBERA"
     },
     {
       "stakingTokenAddress": "0xEc8BA456b4e009408d0776cdE8B91f8717D13Fa1",

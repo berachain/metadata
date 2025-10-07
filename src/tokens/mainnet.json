@@ -228,6 +228,15 @@
     },
     {
       "chainId": 80094,
+      "address": "0xDeadf18CB9233770FE8874c78D7483b4A126B34a",
+      "symbol": "pBERA",
+      "name": "Paw Bera",
+      "decimals": 18,
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1759757304/tokens/0xDeadf18CB9233770FE8874c78D7483b4A126B34a.png",
+      "tags": []
+    },
+    {
+      "chainId": 80094,
       "address": "0x6B26f778bfae56CFb4Bf9b62c678d9D40e725227",
       "symbol": "BITCOIN",
       "name": "HarryPotterObamaSonic10Inu",

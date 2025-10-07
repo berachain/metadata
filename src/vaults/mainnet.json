@@ -466,7 +466,7 @@
     },
     {
       "name": "WinnieSwap",
-      "logoURI": "protocols/winnieswap.com",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1759847269/protocols/winnieswap.png",
       "url": "https://www.winnieswap.com",
       "description": "Supercharging DeFi with Berachain Proof of Liquidity - enjoy deeper liquidity, smarter capital efficiency & sky-high APRs",
       "tags": ["platform"]
@@ -2638,7 +2638,7 @@
       "name": "WinnieSwap - NECT | HONEY 0.01%",
       "protocol": "WinnieSwap",
       "categories": ["defi"],
-      "logoURI": "/src/assets/vaults/0xe409272355d32a3dfcdde888ca275ac33146b854.png",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1759768373/vaults/0xe409272355d32a3dfcdde888ca275ac33146b854.png",
       "url": "https://www.winnieswap.com/vaults/0xa5b3ecafbfcc7946c11a28252c6f2bdb73d30388",
       "description": "Acquired by depositing liquidity into the WinnieSwap - NECT | HONEY Pool on WinnieSwap",
       "owner": "WinnieSwap",
@@ -2650,7 +2650,7 @@
       "name": "WinnieSwap - ewBERA | wgBERA 0.05%",
       "protocol": "WinnieSwap",
       "categories": ["defi"],
-      "logoURI": "/src/assets/vaults/0x054d3bdb73d8e6e2ab24733d78353a7bc565a95b.png",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1759768373/vaults/0x054d3bdb73d8e6e2ab24733d78353a7bc565a95b.png",
       "url": "https://www.winnieswap.com/vaults/0x0435c32c79e8341e44047493ba371b502b8c90af",
       "description": "Acquired by depositing liquidity into the WinnieSwap - ewBERA | wgBERA Pool on WinnieSwap",
       "owner": "WinnieSwap",

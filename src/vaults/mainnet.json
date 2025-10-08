@@ -97,7 +97,8 @@
       "name": "Infrared Finance",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1745504839/protocols/infrared.png",
       "url": "https://infrared.finance/",
-      "description": "Infrared Finance is a DeFi protocol focused on innovative yield strategies and liquidity solutions."
+      "description": "Infrared Finance is a DeFi protocol focused on innovative yield strategies and liquidity solutions.",
+      "tags": ["platform"]
     },
     {
       "name": "Dolomite",
@@ -263,7 +264,7 @@
       "name": "Solv Protocol",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1747147250/protocols/Solv%20Protocol.png",
       "url": "https://solv.finance/",
-      "description": "Solv Protocol is a platform that offers a comprehensive set of financial services for Bitcoin holders, including lending, liquid staking, yield generation, and fund management. Powered by a large on-chain Bitcoin reserve, Solv unlocks the potential of Bitcoin's $1 trillion market.",
+      "description": "Solv Protocol offers comprehensive financial services for Bitcoin holders including lending, liquid staking, yield generation, and fund management. Powered by large on-chain Bitcoin reserves.",
       "tags": ["platform"]
     },
     {
@@ -283,7 +284,7 @@
       "name": "Roots",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1748027532/protocols/roots.png",
       "url": "https://app.rootsfi.com",
-      "description": "Roots is a Berachain-native decentralized lending protocol that optimizes for capital efficiency by allowing users to mint its stablecoin MEAD against yield-generating assets, offering no-interest loans, minimal fees, and the ability to pursue additional DeFi opportunities while retaining their underlying APR.",
+      "description": "Roots is a Berachain-native lending protocol that allows users to mint MEAD stablecoin against yield-generating assets, offering no-interest loans and minimal fees while retaining underlying APR.",
       "tags": ["platform"]
     },
     {
@@ -399,8 +400,22 @@
       "tags": ["platform"]
     },
     {
+      "name": "Batoshi",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1759445753/protocols/batoshi.png",
+      "url": "https://berabtc.io",
+      "description": "Batoshi Protocol aligns beraBTC liquidity, BVT governance, and Berachain's PoL system.",
+      "tags": ["platform"]
+    },
+    {
+      "name": "Bullas",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1759445699/protocols/bullas.png",
+      "url": "https://www.spankass.xyz/",
+      "description": "BULL ISH is the first PoL game on Berachain, creating an EV+ gaming experience.",
+      "tags": ["platform"]
+    },
+    {
       "name": "Frax Finance",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746534876/tokens/default.png",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1759445814/protocols/frax.jpg",
       "url": "https://frax.com",
       "description": "Frax Finance is a decentralized stablecoin and DeFi platform, offering the FRAX stablecoin and related products.",
       "tags": ["platform"]
@@ -429,7 +444,7 @@
       "name": "BakerDAO",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1743511182/tokens/uy0260lxub5dn38een6a.png",
       "url": "https://bakerdao.io",
-      "description": "The staking token is a dummy ERC-20 owned wholly by the BakerDAO multisig, where rewards earned are distributed to BakerDAO users with active loans and loops initiated after the snapshot block (block 5623025). Although it is technically owned wholly by BakerDAO, the true beneficial ownership will be decentralized, with protocol users owning the shares. Since only users who open debt positions after snapshot will be beneficial owners, there are none as of yet",
+      "description": "BakerDAO staking token owned by multisig. Rewards distributed to users with active loans/loops after snapshot block 5623025. Beneficial ownership will be decentralized to protocol users.",
       "tags": ["platform"]
     },
     {
@@ -1260,7 +1275,7 @@
       "protocol": "HUB",
       "categories": ["defi/amm"],
       "url": "https://hub.berachain.com/vaults/0x127696d2e3a4ea1f4eed1afef608e8901cbe8965/",
-      "description": "LXP is acquired by using LODE (i.e. trading and completing quest campaigns). LXP is a proxy for trading rebates and rewards, it does not have liquidity nor is intended to be traded. LXP must be claimed and staked in our rewards vault (https://hub.berachain.com/vaults/0x127696d2e3a4ea1f4eed1afef608e8901cbe8965/) to be eligible for rewards. Please review our full proposal here: https://hub.forum.berachain.com/t/request-for-lxp-reward-vault-lode/316.",
+      "description": "LXP is acquired by trading on LODE and completing quest campaigns. It's a proxy for trading rebates and rewards, not intended for trading. Must be staked in rewards vault to earn BGT.",
       "owner": "LODE TRADE",
       "action": "Trade on LODE"
     },
@@ -2110,7 +2125,7 @@
       "name": "TWIN AAPL-HONEY",
       "protocol": "Kodiak",
       "categories": ["defi/amm"],
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1748885557/vaults/0xdfc168476bb7c9f483980fc56dd2f822748543d4.png",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1759445330/tokens/0xdfc168476bb7c9f483980fc56dd2f822748543d4.png",
       "url": "https://app.twinfinance.io/",
       "description": "Acquired by depositing liquidity into the AAPL-HONEY pool on Kodiak",
       "owner": "TWIN Finance",
@@ -2122,7 +2137,7 @@
       "name": "TWIN iAAPL-HONEY",
       "protocol": "Kodiak",
       "categories": ["defi/amm"],
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1748885568/vaults/0x6ead9b6c78f75e8fe1c821cd4276398ae8b4262a.png",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1759445335/tokens/0x6ead9b6c78f75e8fe1c821cd4276398ae8b4262a.png",
       "url": "https://app.twinfinance.io/",
       "description": "Acquired by depositing liquidity into the iAAPL-HONEY pool on Kodiak",
       "owner": "TWIN Finance",
@@ -2134,7 +2149,7 @@
       "name": "TWIN MSTR-HONEY",
       "protocol": "Kodiak",
       "categories": ["defi/amm"],
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1748885568/vaults/0xbd89970d226723ce837239614381ede556acaefe.png",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1759445335/tokens/0xbd89970d226723ce837239614381ede556acaefe.png",
       "url": "https://app.twinfinance.io/",
       "description": "Acquired by depositing liquidity into the MSTR-HONEY pool on Kodiak",
       "owner": "TWIN Finance",
@@ -2146,7 +2161,7 @@
       "name": "TWIN iMSTR-HONEY",
       "protocol": "Kodiak",
       "categories": ["defi/amm"],
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1748885568/vaults/0xab4cb288bcdba9cd79ad9942a161ebe14fe0590d.png",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1759445335/tokens/0xab4cb288bcdba9cd79ad9942a161ebe14fe0590d.png",
       "url": "https://app.twinfinance.io/",
       "description": "Acquired by depositing liquidity into the iMSTR-HONEY pool on Kodiak",
       "owner": "TWIN Finance",
@@ -2412,7 +2427,7 @@
       "categories": ["defi"],
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1743511182/tokens/uy0260lxub5dn38een6a.png",
       "url": "https://bakerdao.io",
-      "description": "The staking token is a dummy ERC-20 owned wholly by the BakerDAO multisig, where rewards earned are distributed to BakerDAO users with active loans and loops initiated after the snapshot block (block 5623025). Although it is technically owned wholly by BakerDAO, the true beneficial ownership will be decentralized, with protocol users owning the shares. Since only users who open debt positions after snapshot will be beneficial owners, there are none as of yet",
+      "description": "BakerDAO staking token owned by multisig. Rewards distributed to users with active loans/loops after snapshot block 5623025. Beneficial ownership will be decentralized to protocol users.",
       "owner": "BakerDAO",
       "action": "Loop or loan"
     },
@@ -2592,7 +2607,7 @@
       "categories": ["gamefi"],
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1755195943/vaults/0x58b4420c1462fcf00284ac21b75e0ee7eb405de4.png",
       "url": "https://app.beraji.com/game",
-      "description": "Acquired by spending at least 5 HONEY in-game each day to qualify for that day’s BGT rewards. Eligible spending includes creating rooms, joining rooms, or predicting battles. Once the daily minimum is met, your total spend is converted into LP and auto-staked into the reward vault for BGT distribution.",
+      "description": "Earn BGT by spending at least 5 HONEY daily in-game. Eligible activities include creating rooms, joining rooms, or predicting battles. Spending is converted to LP and auto-staked for BGT rewards.",
       "owner": "Jiko",
       "action": "JIKO BET"
     },
@@ -2643,6 +2658,102 @@
       "description": "Acquired by depositing liquidity into the Kodiak - SolvBTC.BNB | SolvBTC Pool on Kodiak",
       "owner": "Solv Protocol",
       "action": "Stake SolvBTC.BNB / SolvBTC"
+    },
+    {
+      "stakingTokenAddress": "0x04ec3Ea102b7C02073a8b43031391aB327a2486B",
+      "vaultAddress": "0x7eae500c0ff540c61d882524c79e4c3bf1a52938",
+      "name": "BVT-LRT on Batoshi",
+      "protocol": "Batoshi",
+      "categories": ["defi/derivatives"],
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1759288700/vaults/0x7eae500c0ff540c61d882524c79e4c3bf1a52938.png",
+      "url": "https://berabtc.io",
+      "description": "Batoshi Protocol aligns beraBTC liquidity, BVT governance, and Berachain's PoL system. Issues beraBTC (wrapped Bitcoin) with BTC collateral held by Matrixport's Cactus Custody. BVT provides governance and staking rewards.",
+      "owner": "Batoshi",
+      "action": "Stake BVT-LRT"
+    },
+    {
+      "stakingTokenAddress": "0x94b722f38f94a901449b625046ee6bd9b0245b2e",
+      "vaultAddress": "0x6b03EAfb80b372D8098453F7EB054Cd3D401eAa0",
+      "name": "Ultraviolet Money - uvBGT | swBERA",
+      "protocol": "Kodiak",
+      "categories": ["defi/amm"],
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1759291576/vaults/0x6b03EAfb80b372D8098453F7EB054Cd3D401eAa0.png",
+      "url": "https://app.kodiak.finance/#/liquidity/pools/0x94b722f38f94a901449b625046ee6bd9b0245b2e?chain=berachain_mainnet",
+      "description": "Acquired by depositing liquidity into the Ultraviolet Money - uvBGT | swBERA Pool on Kodiak",
+      "owner": "Ultraviolet Money",
+      "action": "Stake uvBGT / swBERA"
+    },
+    {
+      "stakingTokenAddress": "0x137bac38316075f6675027592b922a7f95a9dd97",
+      "vaultAddress": "0xAFaEDBe1A07704f3779196FBb4595BBE625F327C",
+      "name": "Yeet - YEET | osBGT",
+      "protocol": "Kodiak",
+      "categories": ["defi/amm"],
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1749485367/vaults/0x5fc9d951787c297b3b1ade8a871b84d9aa717608.png",
+      "url": "https://app.kodiak.finance/#/liquidity/pools/0x137bac38316075f6675027592b922a7f95a9dd97?farm=0xafaedbe1a07704f3779196fbb4595bbe625f327c&chain=berachain_mainnet",
+      "description": "Acquired by depositing liquidity into the Yeet - YEET | osBGT Pool on Kodiak",
+      "owner": "Yeet",
+      "action": "Stake YEET / osBGT"
+    },
+    {
+      "stakingTokenAddress": "0x0af0aee92cd4f6b65fe22b2ca6a2c8862f3c6b9f",
+      "vaultAddress": "0xBDeA4c1950103de7550FC48459405c2132fe72BA",
+      "name": "NECT | BOLD | HONEY on BEX",
+      "protocol": "Beraborrow",
+      "categories": ["defi/lending"],
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1759292349/vaults/0xBDeA4c1950103de7550FC48459405c2132fe72BA.png",
+      "url": "https://app.beraborrow.com/",
+      "description": "Beraborrow unlocks instant liquidity against Berachain assets through the first PoL powered stablecoin, Nectar ($NECT). Built with simplicity and flexibility at its core, Beraborrow is designed to maximise opportunities for users without forcing them to sacrifice yield.",
+      "owner": "Beraborrow",
+      "action": "Stake BOLD"
+    },
+    {
+      "stakingTokenAddress": "0x9930BC9164F4E48352085B4655F77ca0cC30760d",
+      "vaultAddress": "0x37b76aD5947091D7E0C859C5501c19ccC7c13Ff8",
+      "name": "WETH/USDC.e Charm Vault by Infrared",
+      "protocol": "Infrared Finance",
+      "categories": ["defi/liquid-staking"],
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1758222013/vaults/0x37b76aD5947091D7E0C859C5501c19ccC7c13Ff8.png",
+      "url": "https://infrared.finance/",
+      "description": "Infrared builds infrastructure around Berachain's Proof of Liquidity (PoL) mechanism. Provides liquid solutions for BGT and BERA, node infrastructure, and vaults to enhance user experience and ecosystem growth.",
+      "owner": "Infrared Finance",
+      "action": "Stake WETH, USDC.e"
+    },
+    {
+      "stakingTokenAddress": "0xF941419761Dd9a6D38a58CFeAdB7dA41b8068E60",
+      "vaultAddress": "0x60B71BA339082EB1d21e45c6d5ABf3eFbC53CF09",
+      "name": "Bull Ish V3",
+      "protocol": "Bullas",
+      "categories": ["gamefi"],
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1759292446/vaults/0x60B71BA339082EB1d21e45c6d5ABf3eFbC53CF09.jpg",
+      "url": "https://www.spankass.xyz/",
+      "description": "BULL ISH is the first PoL game on Berachain, creating an EV+ gaming experience. V3 is permissionless - users only need BERA to play. Simple mechanics: pay BERA to 'spank' the bull and win or lose based on outcome.",
+      "owner": "Bullas",
+      "action": "Stake BullIshV3"
+    },
+    {
+      "stakingTokenAddress": "0x2ab43e4EEcaB510a92cc16CbE6d37891710696cB",
+      "vaultAddress": "0x1626CcB101e41dE2Cf4D28a19F801664ce2A485D",
+      "name": "WBTC/USDT0 Charm Vault by Infrared",
+      "protocol": "Infrared Finance",
+      "categories": ["defi/liquid-staking"],
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1759292501/vaults/0x1626CcB101e41dE2Cf4D28a19F801664ce2A485D.png",
+      "url": "https://infrared.finance/",
+      "description": "Infrared builds infrastructure around Berachain's Proof of Liquidity (PoL) mechanism. Provides liquid solutions for BGT and BERA, node infrastructure, and vaults to enhance user experience and ecosystem growth.",
+      "owner": "Infrared Finance",
+      "action": "Stake WBTC, USD₮0"
+    },
+    {
+      "stakingTokenAddress": "0x38920562047280F2f95B7aBA7a9eaa8D0Ae04A5c",
+      "vaultAddress": "0x11e13b70247e2bcc87544b366c47013ac51955a5",
+      "name": "Kodiak - WBERA | USDC.e",
+      "protocol": "Kodiak",
+      "categories": ["defi/amm"],
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1759292561/vaults/0x11e13b70247e2bcc87544b366c47013ac51955a5.jpg",
+      "url": "https://app.kodiak.finance/#/liquidity/pools/0x38920562047280f2f95b7aba7a9eaa8d0ae04a5c?farm=0x11e13b70247e2bcc87544b366c47013ac51955a5&chain=berachain_mainnet",
+      "description": "Acquired by depositing liquidity into the Kodiak - WBERA | USDC.e Pool on Kodiak",
+      "owner": "Kodiak",
+      "action": "Stake WBERA / USDC.e"
     },
     {
       "stakingTokenAddress": "0xa5b3ecafbfcc7946c11a28252c6f2bdb73d30388",

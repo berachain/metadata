@@ -1234,42 +1234,6 @@
       "decimals": 18,
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1759768312/tokens/0xa5b3ecafbfcc7946c11a28252c6f2bdb73d30388.png",
       "tags": []
-    },
-    {
-      "chainId": 80094,
-      "address": "0x6ead9b6c78f75e8fe1c821cd4276398ae8b4262a",
-      "symbol": "TOKEN_SYMBOL",
-      "name": "TOKEN_NAME",
-      "decimals": 18,
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1759445335/tokens/0x6ead9b6c78f75e8fe1c821cd4276398ae8b4262a.png",
-      "tags": []
-    },
-    {
-      "chainId": 80094,
-      "address": "0xbd89970d226723ce837239614381ede556acaefe",
-      "symbol": "TOKEN_SYMBOL",
-      "name": "TOKEN_NAME",
-      "decimals": 18,
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1759445335/tokens/0xbd89970d226723ce837239614381ede556acaefe.png",
-      "tags": []
-    },
-    {
-      "chainId": 80094,
-      "address": "0xab4cb288bcdba9cd79ad9942a161ebe14fe0590d",
-      "symbol": "TOKEN_SYMBOL",
-      "name": "TOKEN_NAME",
-      "decimals": 18,
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1759445335/tokens/0xab4cb288bcdba9cd79ad9942a161ebe14fe0590d.png",
-      "tags": []
-    },
-    {
-      "chainId": 80094,
-      "address": "0xdfc168476bb7c9f483980fc56dd2f822748543d4",
-      "symbol": "TOKEN_SYMBOL",
-      "name": "TOKEN_NAME",
-      "decimals": 18,
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1759445330/tokens/0xdfc168476bb7c9f483980fc56dd2f822748543d4.png",
-      "tags": []
     }
   ]
 }

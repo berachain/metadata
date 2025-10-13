@@ -642,6 +642,17 @@
       "action": "Stake WBERA / LBGT"
     },
     {
+      "stakingTokenAddress": "0x9dab67da800646873658eac4119a5e498ca0899b",
+      "vaultAddress": "0xd14c2e9700bb828f0c9a971f1b431b9ca78a34f4",
+      "name": "BeraHub - sUSDe | USDe | HONEY",
+      "protocol": "HUB",
+      "categories": ["defi/amm"],
+      "url": "https://hub.berachain.com/pools/0x9dab67da800646873658eac4119a5e498ca0899b0000000000000000000001bc/details/",
+      "description": "Acquired by depositing liquidity into the sUSDe | USDe | HONEY Pool on Hub",
+      "owner": "BeraHub",
+      "action": "Stake sUSDe | USDe | HONEY"
+    },
+    {
       "stakingTokenAddress": "0xe98763d61ab493a55963583bcdd854580e084b5b",
       "vaultAddress": "0xca098a50efd1dc1403f2d601a381c99e16313456",
       "name": "BeraPaw - LBGT | pBERA",

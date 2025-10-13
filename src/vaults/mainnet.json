@@ -2686,6 +2686,18 @@
       "description": "Acquired by depositing liquidity into the BERA / HONEY Pool on BrownFi",
       "owner": "BrownFi",
       "action": "Stake BERA / HONEY"
+    },
+    {
+      "stakingTokenAddress": "0xd57Da672354905B9E42Df077Df77E554dC5Fd1Cc",
+      "vaultAddress": "0x519cef5cc2913bcefdd03d0a22601c19794c4581",
+      "name": "BrownFi - BERA | USDC.e",
+      "protocol": "BrownFi",
+      "categories": ["defi"],
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1760359619/0x519cef5cc2913bcefdd03d0a22601c19794c4581.png",
+      "url": "https://app.brownfi.io/#/pool",
+      "description": "Acquired by depositing liquidity into the BERA / USDC.e Pool on BrownFi",
+      "owner": "BrownFi",
+      "action": "Stake BERA / USDC.e"
     }
   ]
 }

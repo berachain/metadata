@@ -470,6 +470,13 @@
       "url": "https://www.winnieswap.com",
       "description": "Supercharging DeFi with Berachain Proof of Liquidity - enjoy deeper liquidity, smarter capital efficiency & sky-high APRs",
       "tags": ["platform"]
+    },
+    {
+      "name": "BrownFi",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1760358896/brownfi.png",
+      "url": "https://brownfi.io/",
+      "description": "High Capital Efficiency (like UniswapV3) with simple LP management (like UniswapV2) and optimal returns for average LPers",
+      "tags": ["platform"]
     }
   ],
   "vaults": [
@@ -2667,6 +2674,30 @@
       "description": "Acquired by depositing liquidity into the WinnieSwap - ewBERA | wgBERA Pool on WinnieSwap",
       "owner": "WinnieSwap",
       "action": "Stake ewBERA / wgBERA"
+    },
+    {
+      "stakingTokenAddress": "0xd932c344e21ef6c3a94971bf4d4cc71304e2a66c",
+      "vaultAddress": "0x2cb34eeadb1e7ae9cc7bafb84a189e9d921e193a",
+      "name": "BrownFi - BERA | HONEY",
+      "protocol": "BrownFi",
+      "categories": ["defi"],
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1760358904/0x2cb34eeadb1e7ae9cc7bafb84a189e9d921e193a.png",
+      "url": "https://app.brownfi.io/#/pool",
+      "description": "Acquired by depositing liquidity into the BERA / HONEY Pool on BrownFi",
+      "owner": "BrownFi",
+      "action": "Stake BERA / HONEY"
+    },
+    {
+      "stakingTokenAddress": "0xd57Da672354905B9E42Df077Df77E554dC5Fd1Cc",
+      "vaultAddress": "0x519cef5cc2913bcefdd03d0a22601c19794c4581",
+      "name": "BrownFi - BERA | USDC.e",
+      "protocol": "BrownFi",
+      "categories": ["defi"],
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1760359619/0x519cef5cc2913bcefdd03d0a22601c19794c4581.png",
+      "url": "https://app.brownfi.io/#/pool",
+      "description": "Acquired by depositing liquidity into the BERA / USDC.e Pool on BrownFi",
+      "owner": "BrownFi",
+      "action": "Stake BERA / USDC.e"
     }
   ]
 }

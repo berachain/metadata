@@ -72,6 +72,17 @@
     },
     {
       "chainId": 80094,
+      "address": "0x30bba9cd9eb8c95824aa42faa1bb397b07545bc1",
+      "symbol": "Re7HONEY",
+      "name": "Re7 HONEY",
+      "decimals": 18,
+      "extensions": {
+        "coingeckoId": "honey-3",
+        "pythPriceId": "0xf67b033925d73d43ba4401e00308d9b0f26ab4fbd1250e8b5407b9eaade7e1f4"
+      }
+    },
+    {
+      "chainId": 80094,
       "address": "0x688e72142674041f8f6Af4c808a4045cA1D6aC82",
       "symbol": "BYUSD",
       "name": "BYUSD",

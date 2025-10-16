@@ -442,7 +442,7 @@
     },
     {
       "name": "BakerDAO",
-https://res.cloudinary.com/duv0g402y/image/upload/v1743511182/protocols/bakerdao.png
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1743511182/protocols/bakerdao.png",
       "url": "https://bakerdao.io",
       "description": "BakerDAO staking token owned by multisig. Rewards distributed to users with active loans/loops after snapshot block 5623025. Beneficial ownership will be decentralized to protocol users.",
       "tags": ["platform"]

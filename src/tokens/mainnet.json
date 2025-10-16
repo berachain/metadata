@@ -75,6 +75,7 @@
       "address": "0x30bba9cd9eb8c95824aa42faa1bb397b07545bc1",
       "symbol": "Re7HONEY",
       "name": "Re7 HONEY",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/raw/upload/v1717773645/src/assets/honey.png",
       "decimals": 18,
       "extensions": {
         "coingeckoId": "honey-3",

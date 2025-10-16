@@ -59,6 +59,13 @@
       "tags": ["platform"]
     },
     {
+      "name": "Bend",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1759135828/ezdelvtqcvi5hwqgu50l.png",
+      "url": "https://bend.berachain.com",
+      "description": "Lend and borrow your assets on Berachain native lending market",
+      "tags": ["platform"]
+    },
+    {
       "name": "Concrete",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746315599/protocols/Concrete.png",
       "url": "https://app.concrete.xyz",
@@ -515,6 +522,18 @@
       "description": "Acquired by depositing liquidity into the WBTC | WBERA Pool on Hub",
       "owner": "Foundation",
       "action": "Stake WBTC / WBERA"
+    },
+    {
+      "stakingTokenAddress": "0x30bba9cd9eb8c95824aa42faa1bb397b07545bc1",
+      "vaultAddress": "0xdb6e93cd7bddc45ebc411619792fc5f977316c38",
+      "name": "Bend - Re7 Honey",
+      "protocol": "Bend",
+      "categories": ["defi/lending"],
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1759135828/ezdelvtqcvi5hwqgu50l.png",
+      "url": "https://bend.berachain.com/lend/80094/0x30BbA9CD9Eb8c95824aa42Faa1Bb397b07545bc1/",
+      "description": "Acquired by depositing Honey into the Re7 Honey Pool on Bend",
+      "owner": "Foundation",
+      "action": "Lend Honey on Re7 vault"
     },
     {
       "stakingTokenAddress": "0xF961a8f6d8c69E7321e78d254ecAfBcc3A637621",

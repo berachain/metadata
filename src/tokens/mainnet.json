@@ -76,11 +76,7 @@
       "symbol": "Re7HONEY",
       "name": "Re7 HONEY",
       "logoURI": "https://res.cloudinary.com/duv0g402y/raw/upload/v1717773645/src/assets/honey.png",
-      "decimals": 18,
-      "extensions": {
-        "coingeckoId": "honey-3",
-        "pythPriceId": "0xf67b033925d73d43ba4401e00308d9b0f26ab4fbd1250e8b5407b9eaade7e1f4"
-      }
+      "decimals": 18
     },
     {
       "chainId": 80094,

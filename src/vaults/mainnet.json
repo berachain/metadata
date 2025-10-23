@@ -87,6 +87,13 @@
       "tags": ["platform"]
     },
     {
+      "name": "Charm",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1761197168/protocols/charm.jpg",
+      "url": "https://app.charm.fi/berachain/vaults",
+      "description": "Charm creates liquid markets for every asset through Alpha Vaults, a permissionless liquidity manager that creates deep liquidity for any token and profitable markets for liquidity providers.",
+      "tags": ["platform"]
+    },
+    {
       "name": "Kodiak",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1745504629/protocols/kodiak.png",
       "url": "https://app.kodiak.finance/",

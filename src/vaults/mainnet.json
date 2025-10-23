@@ -2818,22 +2818,10 @@
       "action": "Stake iBGT / wgBERA"
     },
     {
-      "stakingTokenAddress": "0xc2605ed80880bd6b1523d52aef8d624ed468a935",
-      "vaultAddress": "0x182a31A27A0D39d735b31e80534CFE1fCd92c38f",
-      "name": "LP-iBGT on Pendle",
-      "protocol": "Pendle",
-      "categories": ["defi"],
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746534876/tokens/default.png",
-      "url": "https://app.pendle.finance/trade/pools/0x02293d88656860a840ed457d38f51e3e6bee8461/zap/in?chain=bera",
-      "description": "Acquired by providing iBGT into Pendle LP Wrap option",
-      "owner": "Infrared Finance",
-      "action": "Stake iBERA / iBGT"
-    },
-    {
       "stakingTokenAddress": "0xa16a8332e3a49bc21454193976907a443de9eda6",
       "vaultAddress": "0x5138915A7Fc0bD6Ed674BBd8F8aAC806649Db6D3",
       "name": "wBTC | NECT Charm Vault by Beraborrow",
-      "protocol": "Kodiak/Charm",
+      "protocol": "Charm",
       "categories": ["defi"],
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1761195462/vaults/0x5138915A7Fc0bD6Ed674BBd8F8aAC806649Db6D3.png",
       "url": "https://app.charm.fi/berachain/vault/0xa16a8332e3a49bc21454193976907a443de9eda6",
@@ -2888,18 +2876,6 @@
       "description": "Kodiak's staking token for BGT distribution to users for various growth campaigns and protocol reserves",
       "owner": "Kodiak",
       "action": "Stake for BGT rewards"
-    },
-    {
-      "stakingTokenAddress": "0x6170da95cf074d891a8e7bdc9583ee51915cc859",
-      "vaultAddress": "0xc91aC72d1051b8C128ded1B00f55f6e2deCD75AA",
-      "name": "LP-iBGT on Pendle",
-      "protocol": "Pendle",
-      "categories": ["defi"],
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1761195886/vaults/0xc91aC72d1051b8C128ded1B00f55f6e2deCD75AA.jpg",
-      "url": "https://app.pendle.finance/trade/pools/0x6170da95cf074d891a8e7bdc9583ee51915cc859/zap/in?chain=bera",
-      "description": "Acquired by providing iBGT into Pendle LP Wrap option",
-      "owner": "Infrared Finance",
-      "action": "Stake iBGT on Pendle"
     },
     {
       "stakingTokenAddress": "0x10b1e01511d89b148700df8e370c6bc74814de60",

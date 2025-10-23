@@ -4,6 +4,7 @@ import fs from "node:fs";
 import path from "node:path";
 import chalk from "chalk";
 import sharp from "sharp";
+import { isAddress } from "viem";
 import type { TokensFile } from "../src/types/tokens";
 import type { ValidatorsFile } from "../src/types/validators";
 import type { VaultsFile } from "../src/types/vaults";
@@ -16,6 +17,15 @@ const METADATA_FOLDER_EXCLUDED = ["assets"];
 
 // Functions
 // ================================================================
+/**
+ * Validates if an Ethereum address is in proper checksum format
+ * @param address - The address to validate
+ * @returns true if the address is properly checksummed, false otherwise
+ */
+const isValidChecksumAddress = (address: string): boolean => {
+  return isAddress(address);
+};
+
 /**
  * Reads the dimensions of an image file for PNG and JPG files
  * @param imagePath - The path to the image file
@@ -58,6 +68,21 @@ const getImageDimensions = (
 
   // Unsupported file format
   return null;
+};
+
+/**
+ * Validates that a URL returns a 200 OK status
+ * @param url - The URL to validate
+ * @returns Promise<boolean> - true if the URL returns 200 OK, false otherwise
+ */
+const validateUrl = async (url: string): Promise<boolean> => {
+  try {
+    const response = await fetch(url, { method: "HEAD" });
+    return response.ok;
+  } catch (error) {
+    console.warn(`Warning: Could not validate URL ${url}:`, error);
+    return false;
+  }
 };
 
 /**
@@ -104,14 +129,18 @@ const hasTransparency = async (imagePath: string): Promise<boolean> => {
  * @param name - Name of the item for error messages
  * @param id - ID of the item for error messages
  * @param warnings - Array to collect warnings
+ * @param errors - Array to collect errors
  * @param checkTransparency - Whether to check for transparency (for vaults)
+ * @param logoUri - Optional logo URI to validate
  */
 const validateImageFile = async (
   filePath: string,
   name: string,
   id: string,
   warnings: string[],
+  errors: string[],
   checkTransparency = false,
+  logoUri?: string,
 ) => {
   // Check if image file exists
   const pngPath = `${filePath}.png`;
@@ -123,7 +152,7 @@ const validateImageFile = async (
     !fs.existsSync(jpgPath) &&
     !fs.existsSync(jpegPath)
   ) {
-    warnings.push(
+    errors.push(
       `${id}:\nIcon file not found in assets folder for ${name} (${id})!`,
     );
   } else if (checkTransparency && fs.existsSync(pngPath)) {
@@ -132,6 +161,16 @@ const validateImageFile = async (
     if (hasTransparentPixels) {
       warnings.push(
         `${id}:\nVault image has transparent pixels for ${name} (${id})!`,
+      );
+    }
+  }
+
+  // Validate logo URI if provided
+  if (logoUri) {
+    const isValidUrl = await validateUrl(logoUri);
+    if (!isValidUrl) {
+      errors.push(
+        `${id}:\nLogo URI returns non-200 status for ${name} (${id}): ${logoUri}`,
       );
     }
   }
@@ -165,26 +204,48 @@ const validateAssetsImages = async () => {
           // Validate file names
           if (relativePath.includes("tokens")) {
             const tokenRegex = /^0x[0-9a-f]{40}$/i;
-            if (
-              !tokenRegex.test(
-                relativePath.replace(ext, "").replace("tokens/", ""),
-              ) &&
-              !entry.name.includes("default")
-            ) {
+            const address = relativePath
+              .replace(ext, "")
+              .replace("tokens/", "");
+            if (!tokenRegex.test(address) && !entry.name.includes("default")) {
               errors.push(
                 `${relativePath}: Invalid file name! Must be a valid token address.`,
               );
+            } else if (!entry.name.includes("default")) {
+              // Validate checksum for token addresses
+              if (!isValidChecksumAddress(address)) {
+                errors.push(
+                  `${relativePath}: Invalid checksum address! Address must be in proper EIP-55 checksum format.`,
+                );
+              }
             }
           } else if (relativePath.includes("validators")) {
             const validatorRegex = /^0x[0-9a-f]{96}$/i;
-            if (
-              !validatorRegex.test(
-                relativePath.replace(ext, "").replace("validators/", ""),
-              )
-            ) {
+            const address = relativePath
+              .replace(ext, "")
+              .replace("validators/", "");
+            if (!validatorRegex.test(address)) {
               errors.push(
                 `${relativePath}: Invalid file name! Must be a valid validator pubkey address.`,
               );
+            }
+            // Note: Validator addresses are 64-byte hashes, not Ethereum addresses, so no EIP-55 checksum validation needed
+          } else if (relativePath.includes("vaults")) {
+            const vaultRegex = /^0x[0-9a-f]{40}$/i;
+            const address = relativePath
+              .replace(ext, "")
+              .replace("vaults/", "");
+            if (!vaultRegex.test(address) && !entry.name.includes("default")) {
+              errors.push(
+                `${relativePath}: Invalid file name! Must be a valid vault address.`,
+              );
+            } else if (!entry.name.includes("default")) {
+              // Validate checksum for vault addresses
+              if (!isValidChecksumAddress(address)) {
+                errors.push(
+                  `${relativePath}: Invalid checksum address! Address must be in proper EIP-55 checksum format.`,
+                );
+              }
             }
           }
 
@@ -254,6 +315,7 @@ const validateAssetsImages = async () => {
  */
 const validateMetadataImages = async () => {
   const warnings: string[] = [];
+  const errors: string[] = [];
 
   // Check for default.png in vaults folder
   const vaultsDefaultPath = path.join(ASSET_PATH, "vaults", "default.png");
@@ -311,12 +373,22 @@ const validateMetadataImages = async () => {
       if (key === "tokens") {
         const tokens = jsonMetadata[key][file] as TokensFile["tokens"];
         for (const token of tokens) {
+          // Validate checksum address
+          if (!isValidChecksumAddress(token.address)) {
+            errors.push(
+              `${token.address}:\nInvalid checksum address for token ${token.name} (${token.address})! Address must be in proper EIP-55 checksum format.`,
+            );
+          }
+
           const filePath = path.join(ASSET_PATH, key, token.address);
           await validateImageFile(
             filePath,
             token.name,
             token.address,
             warnings,
+            errors,
+            false,
+            token.logoURI,
           );
         }
       } else if (key === "validators") {
@@ -324,30 +396,55 @@ const validateMetadataImages = async () => {
           file
         ] as ValidatorsFile["validators"];
         for (const validator of validators) {
+          // Note: Validator addresses are 64-byte hashes, not Ethereum addresses, so no EIP-55 checksum validation needed
+
           const filePath = path.join(ASSET_PATH, key, validator.id);
           await validateImageFile(
             filePath,
             validator.name,
             validator.id,
             warnings,
+            errors,
+            false,
+            validator.logoURI,
           );
         }
       } else if (key === "vaults") {
         const vaults = jsonMetadata[key][file] as VaultsFile["vaults"];
         for (const vault of vaults) {
+          // Validate checksum address
+          if (!isValidChecksumAddress(vault.vaultAddress)) {
+            errors.push(
+              `${vault.vaultAddress}:\nInvalid checksum address for vault ${vault.name} (${vault.vaultAddress})! Address must be in proper EIP-55 checksum format.`,
+            );
+          }
+
           const filePath = path.join(ASSET_PATH, key, vault.vaultAddress);
           await validateImageFile(
             filePath,
             vault.name,
             vault.vaultAddress,
             warnings,
+            errors,
             true,
+            vault.logoURI,
           );
         }
       } else {
         throw new Error(`Invalid key: ${key}`);
       }
     }
+  }
+
+  if (errors.length > 0) {
+    console.error(
+      chalk.red.bold(`\n${errors.length} Errors found in metadata:`),
+    );
+    errors.forEach((error) => console.error(chalk.red(`  ${error}`)));
+    console.error(
+      chalk.red.bold("\nPlease fix these issues before proceeding."),
+    );
+    process.exit(1); // Force exit with error code 1 to fail CI
   }
 
   if (warnings.length > 0) {

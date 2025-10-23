@@ -52,8 +52,8 @@
       "chainId": 80094,
       "address": "0x118d2ceee9785eaf70c15cd74cd84c9f8c3eec9a",
       "symbol": "sWBERA",
-      "name": "Staked WBERA",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1752588172/brand/swbera.png",
+      "name": "POL Staked WBERA",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1759446171/tokens/0x118d2ceee9785eaf70c15cd74cd84c9f8c3eec9a.png",
       "decimals": 18,
       "tags": ["featured"]
     },
@@ -310,10 +310,10 @@
     {
       "chainId": 80094,
       "address": "0xC3827A4BC8224ee2D116637023b124CED6db6e90",
-      "name": "Universal BTC",
+      "name": "uniBTC",
       "symbol": "uniBTC",
       "decimals": 8,
-      "logoURI": "https://coin-images.coingecko.com/coins/images/39599/large/uniBTC_200px.png?1723064455",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1759445982/tokens/0xC3827A4BC8224ee2D116637023b124CED6db6e90.png",
       "tags": [],
       "extensions": {
         "coingeckoId": "universal-btc"
@@ -928,34 +928,34 @@
     {
       "chainId": 80094,
       "address": "0x63CA3e797CBbCB16b1875D42b4869Af7D328d820",
-      "name": "Twin Apple long",
+      "name": "TWIN ASSET TOKEN - AAPL",
       "symbol": "AAPL",
       "decimals": 18,
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1747305832/tokens/0x63CA3e797CBbCB16b1875D42b4869Af7D328d820.png",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1759445330/tokens/0x63CA3e797CBbCB16b1875D42b4869Af7D328d820.png",
       "tags": []
     },
     {
       "chainId": 80094,
       "address": "0xCB700b56226D3b28a3b897c6Ce8881bbfB22D2F8",
-      "name": "Twin Apple short",
+      "name": "TWIN ASSET TOKEN - iAAPL",
       "symbol": "iAAPL",
       "decimals": 18,
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1747305832/tokens/0xCB700b56226D3b28a3b897c6Ce8881bbfB22D2F8.png",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1759445335/tokens/0xCB700b56226D3b28a3b897c6Ce8881bbfB22D2F8.png",
       "tags": []
     },
     {
       "chainId": 80094,
       "address": "0x80d6206c800a6EDe51eC52fE724DF57fa4B4410B",
-      "name": "Twin Microstrategy long",
+      "name": "TWIN ASSET TOKEN - MSTR",
       "symbol": "MSTR",
       "decimals": 18,
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1747305832/tokens/0x80d6206c800a6EDe51eC52fE724DF57fa4B4410B.png",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1759445335/tokens/0x80d6206c800a6EDe51eC52fE724DF57fa4B4410B.png",
       "tags": []
     },
     {
       "chainId": 80094,
       "address": "0xE5a08b6F213a7c530E03Ad40522BefcBAa1A7f8C",
-      "name": "Twin Microstrategy short",
+      "name": "TWIN ASSET TOKEN - iMSTR",
       "symbol": "iMSTR",
       "decimals": 18,
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1747305832/tokens/0xE5a08b6F213a7c530E03Ad40522BefcBAa1A7f8C.png",
@@ -964,44 +964,44 @@
     {
       "chainId": 80094,
       "address": "0x65967109401506222609BDc86e3039F910C4d08b",
-      "name": "Twin Coinbase long",
+      "name": "TWIN ASSET TOKEN - COIN",
       "symbol": "COIN",
       "decimals": 18,
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1747305832/tokens/0x65967109401506222609BDc86e3039F910C4d08b.png",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1759445330/tokens/0x65967109401506222609BDc86e3039F910C4d08b.png",
       "tags": []
     },
     {
       "chainId": 80094,
       "address": "0x9EA30078bc52740F10812539E77B6502A2a5387a",
-      "name": "Twin Coinbase short",
+      "name": "TWIN ASSET TOKEN - iCOIN",
       "symbol": "iCOIN",
       "decimals": 18,
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1747305832/tokens/0x9EA30078bc52740F10812539E77B6502A2a5387a.png",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1759445337/tokens/0x9EA30078bc52740F10812539E77B6502A2a5387a.png",
       "tags": []
     },
     {
       "chainId": 80094,
       "address": "0x1De7EfAbfA656d077cFD961e4a83b061D351a83B",
-      "name": "Twin Nvidia long",
+      "name": "TWIN ASSET TOKEN - NVDA",
       "symbol": "NVDA",
       "decimals": 18,
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1747305832/tokens/0x1De7EfAbfA656d077cFD961e4a83b061D351a83B.png",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1759445330/tokens/0x1De7EfAbfA656d077cFD961e4a83b061D351a83B.png",
       "tags": []
     },
     {
       "chainId": 80094,
       "address": "0x3A4B2d07c237C701c68238dA07E11302353A16F1",
-      "name": "Twin Nvidia short",
+      "name": "TWIN ASSET TOKEN - iNVDA",
       "symbol": "iNVDA",
       "decimals": 18,
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1747305832/tokens/0x3A4B2d07c237C701c68238dA07E11302353A16F1.png",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1759445334/tokens/0x3A4B2d07c237C701c68238dA07E11302353A16F1.png",
       "tags": []
     },
     {
       "chainId": 80094,
       "address": "0x804CF700De1e18f2411Bd05aad5fa10d60e1900f",
       "symbol": "aSUGAR",
-      "name": "aSugar Token",
+      "name": "aSugar",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1748902436/tokens/0x804CF700De1e18f2411Bd05aad5fa10d60e1900f.png",
       "decimals": 18,
       "tags": []
@@ -1049,7 +1049,7 @@
       "chainId": 80094,
       "address": "0x30E148a79B898EFa1Ab1285F5Eca71972a7e0acE",
       "symbol": "bSumer",
-      "name": "Bera Sumer Token",
+      "name": "Bera Sumerian Token",
       "decimals": 18,
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1752861199/tokens/0x30E148a79B898EFa1Ab1285F5Eca71972a7e0acE.png",
       "tags": []
@@ -1070,7 +1070,7 @@
       "chainId": 80094,
       "address": "0xc99e948e9d183848a6c4f5e6c1d225f02f171d79",
       "symbol": "POLLEN",
-      "name": "Pollen",
+      "name": "POLLEN",
       "decimals": 18,
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1753886118/src/tokens/mainnet/yipjk5nsvjy5jtafl7lg.jpg",
       "tags": [],
@@ -1082,7 +1082,7 @@
       "chainId": 80094,
       "address": "0x93919784c523f39cacaa98ee0a9d96c3f32b593e",
       "symbol": "brBTC",
-      "name": "Bedrock BTC",
+      "name": "brBTC",
       "decimals": 8,
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1753886118/src/tokens/mainnet/afjuznzoiw1hsffzfpko.jpg",
       "tags": [],

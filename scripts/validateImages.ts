@@ -152,7 +152,7 @@ const validateImageFile = async (
     !fs.existsSync(jpgPath) &&
     !fs.existsSync(jpegPath)
   ) {
-    errors.push(
+    warnings.push(
       `${id}:\nIcon file not found in assets folder for ${name} (${id})!`,
     );
   } else if (checkTransparency && fs.existsSync(pngPath)) {

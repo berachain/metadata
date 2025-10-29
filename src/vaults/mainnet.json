@@ -2914,7 +2914,7 @@
       "name": "WBTC:SOLVBTC:XSOLVBTC",
       "protocol": "BurrBear",
       "categories": ["defi"],
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746534606/vaults/0x576374e222ec51608f9631f074536B9f897d2638.png",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1761765054/vaults/0x95bf8d54ba0ff2b2080f19be56f7f95581ac52c9.png",
       "url": "https://app.burrbear.io/pools/berachain/v3/0x112f90f7237cb7915a5833c9bb3acea6f9c127c4",
       "description": "Acquired by depositing liquidity into the WBTC:SOLVBTC:XSOLVBTC pool on BurrBear",
       "owner": "BurrBear",

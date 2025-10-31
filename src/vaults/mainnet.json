@@ -87,6 +87,13 @@
       "tags": ["platform"]
     },
     {
+      "name": "Charm",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1761197168/protocols/charm.jpg",
+      "url": "https://app.charm.fi/berachain/vaults",
+      "description": "Charm creates liquid markets for every asset through Alpha Vaults, a permissionless liquidity manager that creates deep liquidity for any token and profitable markets for liquidity providers.",
+      "tags": ["platform"]
+    },
+    {
       "name": "Kodiak",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1745504629/protocols/kodiak.png",
       "url": "https://app.kodiak.finance/",
@@ -2806,6 +2813,30 @@
       "action": "Stake NECT / HONEY"
     },
     {
+      "stakingTokenAddress": "0xbD9F4417FcC81E6dd33bCa34AbA9fdFb1fE75c0c",
+      "vaultAddress": "0xCe420Bc9bDb02056cD6D6349Ace17ef52F8A6540",
+      "name": "Kodiak - iBGT | wgBERA",
+      "protocol": "Kodiak",
+      "categories": ["defi/amm"],
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1761195348/vaults/0xCe420Bc9bDb02056cD6D6349Ace17ef52F8A6540.jpg",
+      "url": "https://app.kodiak.finance/#/liquidity/pools/0xbD9F4417FcC81E6dd33bCa34AbA9fdFb1fE75c0c?chain=berachain_mainnet",
+      "description": "Acquired by depositing liquidity into the iBGT-wgBERA pool on Kodiak",
+      "owner": "Smilee Finance",
+      "action": "Stake iBGT / wgBERA"
+    },
+    {
+      "stakingTokenAddress": "0xa16a8332e3a49bc21454193976907a443de9eda6",
+      "vaultAddress": "0x5138915A7Fc0bD6Ed674BBd8F8aAC806649Db6D3",
+      "name": "wBTC | NECT Charm Vault by Beraborrow",
+      "protocol": "Charm",
+      "categories": ["defi"],
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1761195462/vaults/0x5138915A7Fc0bD6Ed674BBd8F8aAC806649Db6D3.png",
+      "url": "https://app.charm.fi/berachain/vault/0xa16a8332e3a49bc21454193976907a443de9eda6",
+      "description": "Acquired by depositing liquidity into the NECT/WBTC pair via Charm",
+      "owner": "Beraborrow",
+      "action": "Stake wBTC / NECT"
+    },
+    {
       "stakingTokenAddress": "0x0435c32c79e8341e44047493ba371b502b8c90af",
       "vaultAddress": "0x054d3bdb73d8e6e2ab24733d78353a7bc565a95b",
       "name": "WinnieSwap - ewBERA | wgBERA 0.05%",
@@ -2840,6 +2871,66 @@
       "description": "Acquired by depositing liquidity into the BERA / USDC.e Pool on BrownFi",
       "owner": "BrownFi",
       "action": "Stake BERA / USDC.e"
+    },
+    {
+      "stakingTokenAddress": "0xd0da0A3216bAF477AC22907486E2730F1a9e9A7d",
+      "vaultAddress": "0x04a0c721cf9c26d7ab12f599937cbf520465f028",
+      "name": "Kodiak Reserve for Incentives and Market Expansion",
+      "protocol": "Kodiak",
+      "categories": ["defi"],
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1761195538/vaults/0x04a0c721cf9c26d7ab12f599937cbf520465f028.jpg",
+      "url": "https://app.kodiak.finance",
+      "description": "Kodiak's staking token for BGT distribution to users for various growth campaigns and protocol reserves",
+      "owner": "Kodiak",
+      "action": "Stake for BGT rewards"
+    },
+    {
+      "stakingTokenAddress": "0x10b1e01511d89b148700df8e370c6bc74814de60",
+      "vaultAddress": "0x627bdcb91Eb921705CB2072B3894449aF685e4a9",
+      "name": "NECT:HONEY:USDC:USDT0 Reward Vault",
+      "protocol": "BurrBear",
+      "categories": ["defi"],
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1761195958/vaults/0x627bdcb91Eb921705CB2072B3894449aF685e4a9.png",
+      "url": "https://app.burrbear.io/pools/berachain/v3/0x10b1e01511d89b148700df8e370c6bc74814de60",
+      "description": "Acquired by depositing liquidity into the NECT:HONEY:USDC:USDT0 pool on BurrBear",
+      "owner": "BurrBear",
+      "action": "Stake NECT / HONEY / USDC / USDT"
+    },
+    {
+      "stakingTokenAddress": "0xb4e9c6d0a3603e65ae3f187e81052b2a7327721a",
+      "vaultAddress": "0x0c16fa7683efada4fa713ecc2bf8412c51834cf5",
+      "name": "BURR:NECT Reward Vault",
+      "protocol": "BurrBear",
+      "categories": ["defi"],
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746534876/tokens/default.png",
+      "url": "https://app.burrbear.io/pools/berachain/v3/0xb4e9c6d0a3603e65ae3f187e81052b2a7327721a",
+      "description": "Acquired by depositing liquidity into the BURR:NECT pool on BurrBear",
+      "owner": "BurrBear",
+      "action": "Stake BURR / NECT"
+    },
+    {
+      "stakingTokenAddress": "0x112f90f7237cb7915a5833c9bb3acea6f9c127c4",
+      "vaultAddress": "0x95bf8d54ba0ff2b2080f19be56f7f95581ac52c9",
+      "name": "WBTC:SOLVBTC:XSOLVBTC",
+      "protocol": "BurrBear",
+      "categories": ["defi"],
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1761765054/vaults/0x95bf8d54ba0ff2b2080f19be56f7f95581ac52c9.png",
+      "url": "https://app.burrbear.io/pools/berachain/v3/0x112f90f7237cb7915a5833c9bb3acea6f9c127c4",
+      "description": "Acquired by depositing liquidity into the WBTC:SOLVBTC:XSOLVBTC pool on BurrBear",
+      "owner": "BurrBear",
+      "action": "Stake WBTC / SolvBTC / xSolvBTC"
+    },
+    {
+      "stakingTokenAddress": "0x349C08B706f35d34e53B72E99c078A5e97E915Ca",
+      "vaultAddress": "0x48937F28B2106BfcAcd84e7b8758a0E943CC98Df",
+      "name": "Kodiak - stBGT | wgBERA",
+      "protocol": "Kodiak",
+      "categories": ["defi/amm"],
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1761196257/vaults/0x48937F28B2106BfcAcd84e7b8758a0E943CC98Df.jpg",
+      "url": "https://app.kodiak.finance/#/liquidity/pools/0x349C08B706f35d34e53B72E99c078A5e97E915Ca?chain=berachain_mainnet",
+      "description": "Acquired by depositing liquidity into the stBGT-wgBERA pool on Kodiak",
+      "owner": "Smilee Finance",
+      "action": "Stake stBGT / wgBERA"
     }
   ]
 }

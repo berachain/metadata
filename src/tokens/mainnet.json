@@ -701,7 +701,7 @@
       "name": "Dolomite: WBERA",
       "symbol": "dWBERA",
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/berachain/metadata/refs/heads/main/src/assets/tokens/0xAa97D791Afc02AF30cf0B046172bb05b3c306517.jpg",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1761751100/tokens/0xAa97D791Afc02AF30cf0B046172bb05b3c306517.png",
       "tags": []
     },
     {
@@ -710,7 +710,7 @@
       "name": "Dolomite: rUSD",
       "symbol": "drUSD",
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/berachain/metadata/refs/heads/main/src/assets/tokens/0x3000C6BF0AAEb813e252B584c4D9a82f99e7a71D.jpg",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1761751177/tokens/0x3000C6BF0AAEb813e252B584c4D9a82f99e7a71D.png",
       "tags": []
     },
     {
@@ -719,7 +719,7 @@
       "name": "Dolomite: HONEY",
       "symbol": "dHONEY",
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/berachain/metadata/refs/heads/main/src/assets/tokens/0x7f2B60fDff1494A0E3e060532c9980d7fad0404B.jpg",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1761751239/tokens/0x7f2B60fDff1494A0E3e060532c9980d7fad0404B.png",
       "tags": []
     },
     {
@@ -1162,7 +1162,7 @@
       "chainId": 80094,
       "address": "0xb7e448e5677d212b8c8da7d6312e8afc49800466",
       "symbol": "LOCKS",
-      "name": "Goldilocks DAO",
+      "name": "Locks is Goldilocks DAO",
       "decimals": 18,
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1758659726/tokens/0xb7e448e5677d212b8c8da7d6312e8afc49800466.png",
       "tags": []

@@ -19,6 +19,17 @@ export async function mergeTwoTokenImages(
   const borderWidth = 48; // Width of the circular border (3x thicker)
   const dividerWidth = 24; // Width of the center divider line (3x thicker)
 
+  // Parse brand color to RGB (default to white if not provided)
+  let bgR = 255;
+  let bgG = 255;
+  let bgB = 255;
+  if (brandColor) {
+    const hex = brandColor.replace("#", "");
+    bgR = Number.parseInt(hex.substring(0, 2), 16);
+    bgG = Number.parseInt(hex.substring(2, 4), 16);
+    bgB = Number.parseInt(hex.substring(4, 6), 16);
+  }
+
   // First, resize both images to 1024x1024 to ensure we're working with full images
   const [fullImage1, fullImage2] = await Promise.all([
     sharp(image1Buffer)
@@ -55,29 +66,27 @@ export async function mergeTwoTokenImages(
     })
     .toBuffer();
 
-  // Composite the two halves together
+  // Composite the two halves together with background color matching border color
   let merged = await sharp({
     create: {
       width: OUTPUT_SIZE,
       height: OUTPUT_SIZE,
       channels: 3,
-      background: { r: 255, g: 255, b: 255 },
+      background: { r: bgR, g: bgG, b: bgB },
     },
   })
     .composite([
       { input: leftHalf, top: 0, left: 0 },
       { input: rightHalf, top: 0, left: halfWidth },
     ])
-    .png()
+    .jpeg()
     .toBuffer();
 
   // Add brand color border and divider if provided
   if (brandColor) {
-    // Parse hex color to RGB
-    const hex = brandColor.replace("#", "");
-    const r = Number.parseInt(hex.substring(0, 2), 16);
-    const g = Number.parseInt(hex.substring(2, 4), 16);
-    const b = Number.parseInt(hex.substring(4, 6), 16);
+    const r = bgR;
+    const g = bgG;
+    const b = bgB;
 
     // Create circular mask with border
     const radius = OUTPUT_SIZE / 2;
@@ -133,7 +142,7 @@ export async function mergeTwoTokenImages(
           left: 0,
         },
       ])
-      .png()
+      .jpeg()
       .toBuffer();
   }
 
@@ -215,7 +224,7 @@ export async function mergeThreeTokenImages(
       { input: positioned2, top: thirdSize, left: 0 }, // Bottom left
       { input: positioned3, top: thirdSize, left: twoThirds }, // Bottom right
     ])
-    .png()
+    .jpeg()
     .toBuffer();
 
   return merged;
@@ -234,7 +243,7 @@ export async function useSingleTokenImage(
       fit: "cover",
       position: "center",
     })
-    .png()
+    .jpeg()
     .toBuffer();
 }
 

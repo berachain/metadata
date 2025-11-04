@@ -190,7 +190,7 @@ async function generateVaultImage(
     if (saveLocalFlag) {
       const localImagePath = path.join(
         LOCAL_OUTPUT_DIR,
-        `${vaultAddress}.png`,
+        `${vaultAddress}.jpg`,
       );
       fs.writeFileSync(localImagePath, mergedImage);
       console.log(chalk.green(`  Saved locally: ${localImagePath}`));

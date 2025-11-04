@@ -34,7 +34,7 @@ export const KODIAK_ISLAND_ABI = [
 // Maps protocol/owner names to their brand colors (hex format)
 // Uses vault metadata's "owner" field (fallback to "protocol" field)
 export const PROTOCOL_BRAND_COLORS: Record<string, string> = {
-  Kodiak: "#3083DC",
+  Kodiak: "#A1623D",
 };
 
 /**

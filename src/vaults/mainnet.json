@@ -2931,6 +2931,30 @@
       "description": "Acquired by depositing liquidity into the stBGT-wgBERA pool on Kodiak",
       "owner": "Smilee Finance",
       "action": "Stake stBGT / wgBERA"
+    },
+    {
+      "stakingTokenAddress": "0xe5a2ab5d2fb268e5ff43a5564e44c3309609aff9",
+      "vaultAddress": "0x75da1d58a8d97f7b626224e7e71fa44db13689f2",
+      "name": "Kodiak - USDe | Honey",
+      "protocol": "Kodiak",
+      "categories": ["defi/amm"],
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1762291496/vaults/0x75Da1D58A8d97f7b626224E7E71fa44DB13689f2.jpg",
+      "url": "https://app.kodiak.finance/#/liquidity/pools/0xe5a2ab5d2fb268e5ff43a5564e44c3309609aff9?chain=berachain_mainnet",
+      "description": "Acquired by depositing liquidity into the USDe-Honey pool on Kodiak",
+      "owner": "Kodiak",
+      "action": "Stake USDe / Honey"
+    },
+    {
+      "stakingTokenAddress": "0xd5b6ea3544a51bfdda7e6926bdf778339801dfe8",
+      "vaultAddress": "0x09b113ae50b5af0988b9a1dc50bfe602e7c24ef7",
+      "name": "Kodiak - sUSDe | Honey",
+      "protocol": "Kodiak",
+      "categories": ["defi/amm"],
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1762291470/vaults/0x09b113Ae50B5AF0988B9a1Dc50BFE602e7C24Ef7.jpg",
+      "url": "https://app.kodiak.finance/#/liquidity/pools/0xd5b6ea3544a51bfdda7e6926bdf778339801dfe8?chain=berachain_mainnet",
+      "description": "Acquired by depositing liquidity into the sUSDe-Honey pool on Kodiak",
+      "owner": "Kodiak",
+      "action": "Stake sUSDe / Honey"
     }
   ]
 }

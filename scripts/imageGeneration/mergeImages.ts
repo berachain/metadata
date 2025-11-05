@@ -1,29 +1,84 @@
 import sharp from "sharp";
+import type { BrandColor } from "../_constants";
 
 const OUTPUT_SIZE = 1024;
+
+/**
+ * Helper: Create SVG gradient definition
+ */
+function createGradientSVG(
+  gradient: Extract<BrandColor, { type: "linear" }>,
+  id: string,
+): string {
+  const stops = gradient.stops
+    .map(
+      (stop) =>
+        `<stop offset="${stop.offset}" style="stop-color:${stop.color};stop-opacity:1" />`,
+    )
+    .join("\n      ");
+
+  // Convert angle to SVG gradient coordinates
+  // SVG uses x1,y1,x2,y2 where 0deg = left-to-right
+  const angleRad = ((gradient.angle - 90) * Math.PI) / 180;
+  const x1 = 50 + 50 * Math.cos(angleRad + Math.PI);
+  const y1 = 50 + 50 * Math.sin(angleRad + Math.PI);
+  const x2 = 50 + 50 * Math.cos(angleRad);
+  const y2 = 50 + 50 * Math.sin(angleRad);
+
+  return `
+    <linearGradient id="${id}" x1="${x1}%" y1="${y1}%" x2="${x2}%" y2="${y2}%">
+      ${stops}
+    </linearGradient>
+  `;
+}
+
+/**
+ * Helper: Get fill attribute for SVG (gradient or solid color)
+ */
+function getSVGFill(
+  brandColor: BrandColor | undefined,
+  gradientId: string,
+): string {
+  if (!brandColor) {
+    return "rgb(255,255,255)";
+  }
+  if (typeof brandColor === "string") {
+    // Simple hex color - convert to RGB
+    const hex = brandColor.replace("#", "");
+    const r = Number.parseInt(hex.substring(0, 2), 16);
+    const g = Number.parseInt(hex.substring(2, 4), 16);
+    const b = Number.parseInt(hex.substring(4, 6), 16);
+    return `rgb(${r},${g},${b})`;
+  }
+  // Gradient - use the gradient reference
+  return `url(#${gradientId})`;
+}
 
 /**
  * Merges two token images side-by-side (50:50 vertical split)
  * Takes the LEFT half of image1 and RIGHT half of image2
  * @param image1Buffer - Buffer of first token image (left half will be used)
  * @param image2Buffer - Buffer of second token image (right half will be used)
- * @param brandColor - Optional hex color for border and divider (e.g., "#0066FF")
+ * @param brandColor - Optional brand color (hex string or gradient object)
  * @returns Buffer of merged 1024x1024 image
  */
 export async function mergeTwoTokenImages(
   image1Buffer: Buffer,
   image2Buffer: Buffer,
-  brandColor?: string,
+  brandColor?: BrandColor,
 ): Promise<Buffer> {
   const halfWidth = OUTPUT_SIZE / 2;
   const borderWidth = 48; // Width of the circular border (3x thicker)
   const dividerWidth = 24; // Width of the center divider line (3x thicker)
 
-  // Parse brand color to RGB (default to white if not provided)
+  // Determine if we're using a gradient
+  const isGradient = brandColor && typeof brandColor !== "string";
+
+  // Parse solid color to RGB (default to white if not provided or if gradient)
   let bgR = 255;
   let bgG = 255;
   let bgB = 255;
-  if (brandColor) {
+  if (brandColor && typeof brandColor === "string") {
     const hex = brandColor.replace("#", "");
     bgR = Number.parseInt(hex.substring(0, 2), 16);
     bgG = Number.parseInt(hex.substring(2, 4), 16);
@@ -82,62 +137,101 @@ export async function mergeTwoTokenImages(
     .jpeg()
     .toBuffer();
 
-  // Add brand color border and divider if provided
-  if (brandColor) {
-    const r = bgR;
-    const g = bgG;
-    const b = bgB;
+  // Always apply circular mask and border (use white if no brand color provided)
+  const radius = OUTPUT_SIZE / 2;
+  const center = OUTPUT_SIZE / 2;
 
-    // Create circular mask with border
-    const radius = OUTPUT_SIZE / 2;
-    const center = OUTPUT_SIZE / 2;
+  // Create SVG for circular border and center divider
+  const gradientDef =
+    isGradient ? createGradientSVG(brandColor, "borderGradient") : "";
+  const strokeFill = getSVGFill(brandColor, "borderGradient");
 
-    // Create SVG for circular border and center divider
-    const svgBorder = `
-      <svg width="${OUTPUT_SIZE}" height="${OUTPUT_SIZE}">
-        <!-- Circular border (outer ring) -->
-        <circle
-          cx="${center}"
-          cy="${center}"
-          r="${radius - borderWidth / 2}"
-          fill="none"
-          stroke="rgb(${r},${g},${b})"
-          stroke-width="${borderWidth}"
-        />
-        <!-- Center divider line -->
-        <line
-          x1="${halfWidth}"
-          y1="0"
-          x2="${halfWidth}"
-          y2="${OUTPUT_SIZE}"
-          stroke="rgb(${r},${g},${b})"
-          stroke-width="${dividerWidth}"
-        />
-      </svg>
-    `;
+  const svgBorder = `
+    <svg width="${OUTPUT_SIZE}" height="${OUTPUT_SIZE}">
+      <defs>
+        ${gradientDef}
+      </defs>
+      <!-- Circular border (outer ring) -->
+      <circle
+        cx="${center}"
+        cy="${center}"
+        r="${radius - borderWidth / 2}"
+        fill="none"
+        stroke="${strokeFill}"
+        stroke-width="${borderWidth}"
+      />
+      <!-- Center divider line -->
+      <line
+        x1="${halfWidth}"
+        y1="0"
+        x2="${halfWidth}"
+        y2="${OUTPUT_SIZE}"
+        stroke="${strokeFill}"
+        stroke-width="${dividerWidth}"
+      />
+    </svg>
+  `;
 
-    // Apply circular mask to the merged image
-    const circleMask = Buffer.from(
+  // Apply circular mask to the merged image
+  // Make mask slightly smaller than border inner edge to prevent color bleed
+  const maskRadius = radius - borderWidth;
+  const circleMask = Buffer.from(
+    `<svg width="${OUTPUT_SIZE}" height="${OUTPUT_SIZE}">
+      <circle cx="${center}" cy="${center}" r="${maskRadius}" fill="white"/>
+    </svg>`,
+  );
+
+  // First apply circular mask (creates transparency)
+  const maskedImage = await sharp(merged)
+    .composite([
+      {
+        input: circleMask,
+        blend: "dest-in",
+      },
+    ])
+    .png()
+    .toBuffer();
+
+  // Composite masked image onto brand-colored background to remove transparency
+  // This is crucial because JPEG doesn't support transparency
+  let imageWithBackground: Buffer;
+
+  if (isGradient) {
+    // For gradients, create SVG background
+    const bgGradientDef = createGradientSVG(brandColor, "bgGradient");
+    const bgFill = getSVGFill(brandColor, "bgGradient");
+    const svgBackground = Buffer.from(
       `<svg width="${OUTPUT_SIZE}" height="${OUTPUT_SIZE}">
-        <circle cx="${center}" cy="${center}" r="${radius}" fill="white"/>
+        <defs>
+          ${bgGradientDef}
+        </defs>
+        <rect width="${OUTPUT_SIZE}" height="${OUTPUT_SIZE}" fill="${bgFill}"/>
       </svg>`,
     );
 
-    // First apply circular mask
-    const maskedImage = await sharp(merged)
+    imageWithBackground = await sharp(svgBackground)
       .composite([
         {
-          input: circleMask,
-          blend: "dest-in",
+          input: maskedImage,
+          top: 0,
+          left: 0,
         },
       ])
+      .jpeg()
       .toBuffer();
-
-    // Then overlay the border and divider
-    merged = await sharp(maskedImage)
+  } else {
+    // For solid colors, use Sharp's solid background
+    imageWithBackground = await sharp({
+      create: {
+        width: OUTPUT_SIZE,
+        height: OUTPUT_SIZE,
+        channels: 3,
+        background: { r: bgR, g: bgG, b: bgB },
+      },
+    })
       .composite([
         {
-          input: Buffer.from(svgBorder),
+          input: maskedImage,
           top: 0,
           left: 0,
         },
@@ -145,6 +239,18 @@ export async function mergeTwoTokenImages(
       .jpeg()
       .toBuffer();
   }
+
+  // Finally overlay the border and divider on top
+  merged = await sharp(imageWithBackground)
+    .composite([
+      {
+        input: Buffer.from(svgBorder),
+        top: 0,
+        left: 0,
+      },
+    ])
+    .jpeg()
+    .toBuffer();
 
   return merged;
 }
@@ -250,12 +356,12 @@ export async function useSingleTokenImage(
 /**
  * Merges token images based on count
  * @param imageBuffers - Array of token image buffers
- * @param brandColor - Optional hex color for border and divider (e.g., "#0066FF")
+ * @param brandColor - Optional brand color (hex string or gradient object)
  * @returns Buffer of merged image, or null if invalid count
  */
 export async function mergeTokenImages(
   imageBuffers: Buffer[],
-  brandColor?: string,
+  brandColor?: BrandColor,
 ): Promise<Buffer | null> {
   if (imageBuffers.length === 1) {
     return useSingleTokenImage(imageBuffers[0]);

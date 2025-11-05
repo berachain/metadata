@@ -164,16 +164,15 @@ async function generateVaultImage(
       .map((img) => img.imageBuffer)
       .filter((buf): buf is Buffer => buf !== null);
 
-    // Determine brand color (CLI override > owner lookup > protocol lookup > none)
+    // Determine brand color (CLI override > owner lookup > none)
     let brandColor = brandColorOverride;
     if (!brandColor) {
-      // Try owner field first, then fallback to protocol
-      const ownerOrProtocol = vault.owner || vault.protocol;
-      if (ownerOrProtocol) {
-        const protocolColor = getProtocolBrandColor(ownerOrProtocol);
-        if (protocolColor) {
-          brandColor = protocolColor;
-          console.log(`  Using ${ownerOrProtocol} brand color: ${brandColor}`);
+      // Only use owner field for brand color lookup
+      if (vault.owner) {
+        const ownerColor = getProtocolBrandColor(vault.owner);
+        if (ownerColor) {
+          brandColor = ownerColor;
+          console.log(`  Using ${vault.owner} brand color: ${brandColor}`);
         }
       }
     } else if (brandColor) {

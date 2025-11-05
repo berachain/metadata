@@ -30,21 +30,42 @@ export const KODIAK_ISLAND_ABI = [
   },
 ] as const;
 
+// Brand Color Types
+export type BrandColor =
+  | string // Simple hex color like "#3083DC"
+  | {
+      type: "linear";
+      angle: number; // Angle in degrees (0 = left to right, 90 = bottom to top)
+      stops: Array<{ offset: string; color: string }>; // e.g., [{offset: "0%", color: "#ff0000"}, {offset: "100%", color: "#0000ff"}]
+    };
+
 // Protocol Brand Colors Configuration
-// Maps protocol/owner names to their brand colors (hex format)
-// Uses vault metadata's "owner" field (fallback to "protocol" field)
-export const PROTOCOL_BRAND_COLORS: Record<string, string> = {
-  Kodiak: "#A1623D",
+// Maps protocol/owner names to their brand colors (hex format or gradient)
+// Uses vault metadata's "owner" field
+export const PROTOCOL_BRAND_COLORS: Record<string, BrandColor> = {
+  Kodiak: "#3083DC",
+  OpenState: "#24E4EE",
+  "Infrared Finance": {
+    type: "linear",
+    angle: 90,
+    stops: [
+      { offset: "0%", color: "#B93483" },
+      { offset: "50%", color: "#E85A46" },
+      { offset: "100%", color: "#F4A435" },
+    ],
+  },
+  "Bullas Exchange": "#599952",
+  BrownFi: "#773030"
 };
 
 /**
  * Gets the brand color for a protocol (case-insensitive)
  * @param protocolName - The name of the protocol
- * @returns The hex color string, or undefined if not found
+ * @returns The brand color (hex string or gradient object), or undefined if not found
  */
 export function getProtocolBrandColor(
   protocolName: string,
-): string | undefined {
+): BrandColor | undefined {
   // Case-insensitive lookup
   const normalizedName = protocolName.trim();
 

@@ -31,4 +31,6 @@ export interface Vault {
   url: string;
   description?: string;
   categories?: string[];
+  owner?: string;
+  action?: string;
 }

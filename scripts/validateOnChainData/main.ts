@@ -1,4 +1,5 @@
 import { getMetadataInFolder } from "../utils";
+import { validateApiMetadata } from "./_apiMetadata";
 import { validateTokens } from "./_tokens";
 import { validateVaults } from "./_vaults";
 
@@ -11,6 +12,7 @@ const tokenMetadataFiles = getMetadataInFolder("tokens");
 await Promise.all([
   ...vaultsMetadataFiles.map((file) => validateVaults(errors, file, warnings)),
   ...tokenMetadataFiles.map((file) => validateTokens(errors, file, warnings)),
+  validateApiMetadata(warnings),
 ]);
 
 if (errors.length > 0) {

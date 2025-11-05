@@ -19,15 +19,6 @@ interface MissingVaultItem {
   stakingToken: string;
 }
 
-type ApiResponse =
-  | MissingIncentiveItem[]
-  | MissingVaultItem[]
-  | {
-      data?: MissingIncentiveItem[] | MissingVaultItem[];
-      items?: MissingIncentiveItem[] | MissingVaultItem[];
-      [key: string]: unknown;
-    };
-
 async function fetchMissingIncentives(
   endpoint: string,
   bearerToken: string,
@@ -58,30 +49,14 @@ async function fetchMissingIncentives(
       return [];
     }
 
-    const data: ApiResponse = await response.json();
+    const data: MissingIncentiveItem[] = await response.json();
 
-    // Handle different possible response structures
-    if (Array.isArray(data)) {
-      return data as MissingIncentiveItem[];
-    }
-    if (
-      data &&
-      typeof data === "object" &&
-      "data" in data &&
-      Array.isArray(data.data)
-    ) {
-      return data.data as MissingIncentiveItem[];
-    }
-    if (
-      data &&
-      typeof data === "object" &&
-      "items" in data &&
-      Array.isArray(data.items)
-    ) {
-      return data.items as MissingIncentiveItem[];
+    // API returns an array directly
+    if (!Array.isArray(data)) {
+      return [];
     }
 
-    return [];
+    return data;
   } catch (error) {
     // Network errors should not fail validation, just warn
     console.warn(
@@ -123,30 +98,14 @@ async function fetchMissingVaults(
       return [];
     }
 
-    const data: ApiResponse = await response.json();
+    const data: MissingVaultItem[] = await response.json();
 
-    // Handle different possible response structures
-    if (Array.isArray(data)) {
-      return data as MissingVaultItem[];
-    }
-    if (
-      data &&
-      typeof data === "object" &&
-      "data" in data &&
-      Array.isArray(data.data)
-    ) {
-      return data.data as MissingVaultItem[];
-    }
-    if (
-      data &&
-      typeof data === "object" &&
-      "items" in data &&
-      Array.isArray(data.items)
-    ) {
-      return data.items as MissingVaultItem[];
+    // API returns an array directly
+    if (!Array.isArray(data)) {
+      return [];
     }
 
-    return [];
+    return data;
   } catch (error) {
     // Network errors should not fail validation, just warn
     console.warn(

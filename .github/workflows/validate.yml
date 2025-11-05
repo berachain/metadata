@@ -124,6 +124,7 @@ jobs:
     - name: Validate consistency with on-chain data
       env:
         BERACHAIN_HUB_API_TOKEN: ${{ secrets.BERACHAIN_HUB_API_TOKEN }}
+        BERACHAIN_HUB_API_BASE_URL: ${{ secrets.BERACHAIN_HUB_API_BASE_URL }}
       run: pnpm validate:data head
 
   images:

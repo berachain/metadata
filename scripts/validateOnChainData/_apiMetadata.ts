@@ -3,23 +3,35 @@
  * This adds warnings (not errors) for missing metadata that should be added
  */
 
-interface MissingMetadataItem {
-  address?: string;
-  vaultAddress?: string;
-  stakingTokenAddress?: string;
-  [key: string]: unknown;
+interface MissingIncentiveItem {
+  address: string;
+  name: string;
+  logoURI: string | null;
+  symbol: string;
 }
 
-interface ApiResponse {
-  data?: MissingMetadataItem[];
-  items?: MissingMetadataItem[];
-  [key: string]: unknown;
+interface MissingVaultItem {
+  vaultAddress: string;
+  isVaultWhitelisted: boolean;
+  apr: number | null;
+  tvl: number | null;
+  url: string;
+  stakingToken: string;
 }
 
-async function fetchMissingMetadata(
+type ApiResponse =
+  | MissingIncentiveItem[]
+  | MissingVaultItem[]
+  | {
+      data?: MissingIncentiveItem[] | MissingVaultItem[];
+      items?: MissingIncentiveItem[] | MissingVaultItem[];
+      [key: string]: unknown;
+    };
+
+async function fetchMissingIncentives(
   endpoint: string,
   bearerToken: string,
-): Promise<MissingMetadataItem[]> {
+): Promise<MissingIncentiveItem[]> {
   try {
     const response = await fetch(endpoint, {
       headers: {
@@ -50,13 +62,88 @@ async function fetchMissingMetadata(
 
     // Handle different possible response structures
     if (Array.isArray(data)) {
-      return data;
+      return data as MissingIncentiveItem[];
     }
-    if (data.data && Array.isArray(data.data)) {
-      return data.data;
+    if (
+      data &&
+      typeof data === "object" &&
+      "data" in data &&
+      Array.isArray(data.data)
+    ) {
+      return data.data as MissingIncentiveItem[];
     }
-    if (data.items && Array.isArray(data.items)) {
-      return data.items;
+    if (
+      data &&
+      typeof data === "object" &&
+      "items" in data &&
+      Array.isArray(data.items)
+    ) {
+      return data.items as MissingIncentiveItem[];
+    }
+
+    return [];
+  } catch (error) {
+    // Network errors should not fail validation, just warn
+    console.warn(
+      "\x1b[33m%s\x1b[0m",
+      "Warning",
+      `Failed to fetch missing metadata from ${endpoint}: ${error instanceof Error ? error.message : "Unknown error"}. Skipping API metadata validation.`,
+    );
+    return [];
+  }
+}
+
+async function fetchMissingVaults(
+  endpoint: string,
+  bearerToken: string,
+): Promise<MissingVaultItem[]> {
+  try {
+    const response = await fetch(endpoint, {
+      headers: {
+        Authorization: `Bearer ${bearerToken}`,
+        "Content-Type": "application/json",
+      },
+    });
+
+    if (!response.ok) {
+      // If API is unavailable or returns error, skip validation (don't fail)
+      if (response.status === 401 || response.status === 403) {
+        console.warn(
+          "\x1b[33m%s\x1b[0m",
+          "Warning",
+          `API authentication failed for ${endpoint}. Skipping API metadata validation.`,
+        );
+      } else {
+        console.warn(
+          "\x1b[33m%s\x1b[0m",
+          "Warning",
+          `API request failed for ${endpoint} (${response.status}). Skipping API metadata validation.`,
+        );
+      }
+      return [];
+    }
+
+    const data: ApiResponse = await response.json();
+
+    // Handle different possible response structures
+    if (Array.isArray(data)) {
+      return data as MissingVaultItem[];
+    }
+    if (
+      data &&
+      typeof data === "object" &&
+      "data" in data &&
+      Array.isArray(data.data)
+    ) {
+      return data.data as MissingVaultItem[];
+    }
+    if (
+      data &&
+      typeof data === "object" &&
+      "items" in data &&
+      Array.isArray(data.items)
+    ) {
+      return data.items as MissingVaultItem[];
     }
 
     return [];
@@ -100,35 +187,27 @@ export async function validateApiMetadata(warnings: string[]): Promise<void> {
 
   // Fetch missing metadata from both endpoints
   const [missingIncentives, missingVaults] = await Promise.all([
-    fetchMissingMetadata(incentivesEndpoint, bearerToken),
-    fetchMissingMetadata(vaultsEndpoint, bearerToken),
+    fetchMissingIncentives(incentivesEndpoint, bearerToken),
+    fetchMissingVaults(vaultsEndpoint, bearerToken),
   ]);
 
   // Process missing incentives
   for (const item of missingIncentives) {
-    const address = item.address || item.stakingTokenAddress;
-    if (address) {
+    if (item.address) {
       warnings.push(
-        `Missing metadata for incentive/staking token: ${address}. Consider adding metadata for this address.`,
+        `Missing metadata for incentive/staking token: ${item.address} (${item.name || item.symbol}). Consider adding metadata for this address.`,
       );
     }
   }
 
   // Process missing vaults
   for (const item of missingVaults) {
-    const vaultAddress = item.vaultAddress;
-    const stakingTokenAddress = item.stakingTokenAddress;
-    if (vaultAddress && stakingTokenAddress) {
+    if (item.vaultAddress) {
+      const stakingTokenInfo = item.stakingToken
+        ? `staking token: ${item.stakingToken}`
+        : "";
       warnings.push(
-        `Missing metadata for vault: ${vaultAddress} (staking token: ${stakingTokenAddress}). Consider adding vault metadata.`,
-      );
-    } else if (vaultAddress) {
-      warnings.push(
-        `Missing metadata for vault: ${vaultAddress}. Consider adding vault metadata.`,
-      );
-    } else if (stakingTokenAddress) {
-      warnings.push(
-        `Missing metadata for staking token: ${stakingTokenAddress}. Consider adding vault metadata.`,
+        `Missing metadata for vault: ${item.vaultAddress}${stakingTokenInfo ? ` (${stakingTokenInfo})` : ""}. Consider adding vault metadata.`,
       );
     }
   }

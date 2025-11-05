@@ -122,6 +122,8 @@ jobs:
       run: pnpm install
       
     - name: Validate consistency with on-chain data
+      env:
+        BERACHAIN_HUB_API_TOKEN: ${{ secrets.BERACHAIN_HUB_API_TOKEN }}
       run: pnpm validate:data head
 
   images:

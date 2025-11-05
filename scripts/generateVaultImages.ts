@@ -20,7 +20,7 @@ if (fs.existsSync(envPath)) {
 }
 import type { VaultsFile } from "../src/types/vaults";
 import type { TokensFile } from "../src/types/tokens";
-import type { ValidChainName } from "./_constants";
+import type { ValidChainName, BrandColor } from "./_constants";
 import { getProtocolBrandColor } from "./_constants";
 import { clients } from "./utils";
 import { downloadTokenImages } from "./imageGeneration/downloadTokenImages";
@@ -165,14 +165,14 @@ async function generateVaultImage(
       .filter((buf): buf is Buffer => buf !== null);
 
     // Determine brand color (CLI override > owner lookup > none)
-    let brandColor = brandColorOverride;
+    let brandColor: BrandColor | undefined = brandColorOverride;
     if (!brandColor) {
       // Only use owner field for brand color lookup
       if (vault.owner) {
         const ownerColor = getProtocolBrandColor(vault.owner);
         if (ownerColor) {
           brandColor = ownerColor;
-          console.log(`  Using ${vault.owner} brand color: ${brandColor}`);
+          console.log(`  Using ${vault.owner} brand color: ${typeof brandColor === 'string' ? brandColor : 'gradient'}`);
         }
       }
     } else if (brandColor) {

@@ -58,7 +58,7 @@
       "tags": ["featured"],
       "extensions": {
         "coingeckoId": "pol-staked-wbera",
-        "pythPriceId": "0xa0ed6358b767befb57171c3cfe8becbbd3120ebd75360aade80e4aee8f86a3d3"
+        "beraPythPriceId": "0xa0ed6358b767befb57171c3cfe8becbbd3120ebd75360aade80e4aee8f86a3d3"
       }
     },
     {

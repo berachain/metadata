@@ -55,7 +55,11 @@
       "name": "POL Staked WBERA",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1759446171/tokens/0x118d2ceee9785eaf70c15cd74cd84c9f8c3eec9a.png",
       "decimals": 18,
-      "tags": ["featured"]
+      "tags": ["featured"],
+      "extensions": {
+        "coingeckoId": "pol-staked-wbera",
+        "beraPythPriceId": "0xa0ed6358b767befb57171c3cfe8becbbd3120ebd75360aade80e4aee8f86a3d3"
+      }
     },
     {
       "chainId": 80094,
@@ -151,7 +155,10 @@
       "symbol": "iBERA",
       "name": "iBERA",
       "tags": [],
-      "extensions": { "coingeckoId": "infrared-bera" }
+      "extensions": {
+        "coingeckoId": "infrared-bera",
+        "pythPriceId": "0xeb943c0b5c9e02a529f799ac91070c3b7046f9412f3e5b0a90ba00267b838f34"
+      }
     },
     {
       "chainId": 80094,
@@ -183,7 +190,10 @@
       "symbol": "PENDLE",
       "name": "Pendle",
       "tags": [],
-      "extensions": { "coingeckoId": "pendle" }
+      "extensions": {
+        "coingeckoId": "pendle",
+        "pythPriceId": "0x9a4df90b25497f66b1afb012467e316e801ca3d839456db028892fe8c70c8016"
+      }
     },
     {
       "chainId": 80094,
@@ -219,7 +229,11 @@
       "name": "Liquid BGT",
       "decimals": 18,
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_lfill,g_xy_center,w_200/v1742834369/src/tokens/mainnet/qyuam7lm5qsuevo7mm5b.png",
-      "tags": []
+      "tags": [],
+      "extensions": {
+        "coingeckoId": "liquid-bgt",
+        "pythPriceId": "0x7d80a0d7344c6632c5ed2b85016f32aed4f831294e274739d92bb9e32df5b22f"
+      }
     },
     {
       "chainId": 80094,
@@ -247,7 +261,10 @@
       "decimals": 8,
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1743021359/tokens/x4tefm7msvwzj57ismsz.png",
       "tags": [],
-      "extensions": { "coingeckoId": "harrypotterobamasonic10in" }
+      "extensions": {
+        "coingeckoId": "harrypotterobamasonic10in",
+        "pythPriceId": "0xc5e0e0c92116c0c070a242b254270441a6201af680a33e0381561c59db3266c9"
+      }
     },
     {
       "chainId": 80094,
@@ -257,7 +274,10 @@
       "decimals": 18,
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1743020794/tokens/c1lf9aq8svu5yvm0qusc.png",
       "tags": ["stablecoin"],
-      "extensions": { "coingeckoId": "resolv-usr" }
+      "extensions": {
+        "coingeckoId": "resolv-usr",
+        "pythPriceId": "0x10b013adec14c0fe839ca0fe54cec9e4d0b6c1585ac6d7e70010dac015e57f9c"
+      }
     },
     {
       "chainId": 80094,
@@ -267,7 +287,10 @@
       "decimals": 18,
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1743020925/tokens/cwpaoz5qjaetleciqpfr.png",
       "tags": [],
-      "extensions": { "coingeckoId": "resolv-rlp" }
+      "extensions": {
+        "coingeckoId": "resolv-rlp",
+        "pythPriceId": "0x7265d5cf8ee0e7b5266f75ff19c42c5b7697a9756c9304aa78b6be4fbb8d823d"
+      }
     },
     {
       "chainId": 80094,
@@ -415,7 +438,10 @@
       "decimals": 18,
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1743447620/tokens/zxgqjxi7do2qaq3heeee.png",
       "tags": ["stablecoin"],
-      "extensions": { "coingeckoId": "nectar" }
+      "extensions": {
+        "coingeckoId": "nectar",
+        "pythPriceId": "0xddf0dd319060db4561b5aa8f84a94816d33579f8dc2af2d8f74583bce20cd260"
+      }
     },
     {
       "chainId": 80094,

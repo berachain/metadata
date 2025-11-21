@@ -55,7 +55,8 @@ export const PROTOCOL_BRAND_COLORS: Record<string, BrandColor> = {
     ],
   },
   "Bullas Exchange": "#599952",
-  BrownFi: "#773030"
+  BrownFi: "#773030",
+  BakderDAO:"#CE7E02"
 };
 
 /**

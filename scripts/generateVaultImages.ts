@@ -26,10 +26,6 @@ import { clients } from "./utils";
 import { downloadTokenImages } from "./imageGeneration/downloadTokenImages";
 import { fetchLPTokens } from "./imageGeneration/fetchLPTokens";
 import { mergeTokenImages } from "./imageGeneration/mergeImages";
-import {
-  configureCloudinary,
-  uploadVaultImage,
-} from "./imageGeneration/uploadToCloudinary";
 import { updateVaultLogoURI } from "./imageGeneration/updateMetadata";
 
 // Parse command line arguments
@@ -37,9 +33,7 @@ const args = process.argv.slice(2);
 const vaultAddressArg = args.find((arg) => arg.startsWith("--vault-address="));
 const chainArg = args.find((arg) => arg.startsWith("--chain="));
 const brandColorArg = args.find((arg) => arg.startsWith("--brand-color="));
-const allFlag = args.includes("--all");
 const dryRunFlag = args.includes("--dry-run");
-const forceFlag = args.includes("--force");
 const saveLocalFlag = args.includes("--save-local");
 
 const chain: ValidChainName =
@@ -48,16 +42,14 @@ const vaultAddress = vaultAddressArg?.split("=")[1];
 const brandColorOverride = brandColorArg?.split("=")[1];
 
 // Validation
-if (!allFlag && !vaultAddress) {
+if (!vaultAddress) {
   console.error(
-    chalk.red("Error: Must specify either --vault-address or --all"),
+    chalk.red("Error: Must specify --vault-address"),
   );
   console.log("\nUsage:");
   console.log(
     "  pnpm generate:vault-images --vault-address=0x... --chain=mainnet",
   );
-  console.log("  pnpm generate:vault-images --all --chain=mainnet");
-  console.log("  pnpm generate:vault-images --all --dry-run");
   console.log("  pnpm generate:vault-images --vault-address=0x... --save-local");
   console.log("  pnpm generate:vault-images --vault-address=0x... --brand-color=#0066FF");
   process.exit(1);
@@ -196,39 +188,8 @@ async function generateVaultImage(
     }
 
     if (dryRunFlag) {
-      console.log(chalk.cyan("  [DRY RUN] Would upload image to Cloudinary"));
-      console.log(
-        chalk.cyan("  [DRY RUN] Would update metadata with logoURI"),
-      );
+      console.log(chalk.cyan("  [DRY RUN] Image generation completed"));
       return true;
-    }
-
-    // Step 4: Upload to Cloudinary
-    console.log("  Uploading to Cloudinary...");
-    const uploadResult = await uploadVaultImage(mergedImage, vaultAddress);
-
-    if (!uploadResult.success) {
-      console.error(
-        chalk.red(`  Error: Upload failed - ${uploadResult.error}`),
-      );
-      return false;
-    }
-
-    console.log(chalk.green(`  Uploaded: ${uploadResult.url}`));
-
-    // Step 5: Update metadata
-    console.log("  Updating metadata...");
-    const updateResult = updateVaultLogoURI(
-      vaultAddress,
-      uploadResult.url!,
-      chain,
-    );
-
-    if (!updateResult.success) {
-      console.error(
-        chalk.red(`  Error: Metadata update failed - ${updateResult.error}`),
-      );
-      return false;
     }
 
     console.log(chalk.green(`  Successfully generated vault image!`));
@@ -247,21 +208,6 @@ async function generateVaultImage(
 async function main() {
   console.log(chalk.bold("\n🎨 Vault Image Generator\n"));
 
-  // Configure Cloudinary (unless dry run)
-  if (!dryRunFlag) {
-    try {
-      configureCloudinary();
-      console.log(chalk.green("✓ Cloudinary configured"));
-    } catch (error) {
-      console.error(
-        chalk.red(
-          `Error: ${error instanceof Error ? error.message : String(error)}`,
-        ),
-      );
-      process.exit(1);
-    }
-  }
-
   // Load metadata
   console.log(chalk.blue(`Loading metadata for ${chain}...`));
   const tokenMetadata = loadTokenMetadata(chain);
@@ -270,62 +216,18 @@ async function main() {
     chalk.green(`✓ Loaded ${vaultsData.vaults.length} vault(s)\n`),
   );
 
-  let vaultsToProcess: Address[] = [];
+  const vaultsToProcess: Address[] = [getAddress(vaultAddress)];
 
-  if (allFlag) {
-    // Process all vaults (optionally skip those with logoURI unless --force)
-    vaultsToProcess = vaultsData.vaults
-      .filter((vault) => {
-        if (forceFlag) return true;
-        return !vault.logoURI || vault.logoURI.trim() === "";
-      })
-      .map((vault) => getAddress(vault.vaultAddress));
+  // Process the vault
+  const result = await generateVaultImage(vaultsToProcess[0], chain, tokenMetadata, vaultsData);
 
-    console.log(
-      chalk.blue(
-        `Processing ${vaultsToProcess.length} vault(s) ${forceFlag ? "(forced)" : "without logoURI"}`,
-      ),
-    );
-  } else if (vaultAddress) {
-    vaultsToProcess = [getAddress(vaultAddress)];
+  if (result) {
+    console.log(chalk.bold("\n✓ Vault image generated successfully!"));
+    process.exit(0);
+  } else {
+    console.log(chalk.bold("\n✗ Failed to generate vault image"));
+    process.exit(1);
   }
-
-  // Process each vault
-  let successCount = 0;
-  let skipCount = 0;
-  let failCount = 0;
-
-  for (const addr of vaultsToProcess) {
-    const result = await generateVaultImage(addr, chain, tokenMetadata, vaultsData);
-    if (result) {
-      successCount++;
-    } else {
-      const vault = vaultsData.vaults.find(
-        (v) => v.vaultAddress.toLowerCase() === addr.toLowerCase(),
-      );
-      if (
-        vault &&
-        tokenMetadata.size === 0 &&
-        !vault.logoURI
-      ) {
-        skipCount++;
-      } else {
-        failCount++;
-      }
-    }
-  }
-
-  // Summary
-  console.log(chalk.bold("\n📊 Summary:"));
-  console.log(chalk.green(`  ✓ Success: ${successCount}`));
-  if (skipCount > 0) {
-    console.log(chalk.yellow(`  ⊘ Skipped: ${skipCount}`));
-  }
-  if (failCount > 0) {
-    console.log(chalk.red(`  ✗ Failed: ${failCount}`));
-  }
-
-  process.exit(failCount > 0 ? 1 : 0);
 }
 
 main().catch((error) => {

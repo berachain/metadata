@@ -136,6 +136,14 @@
     },
     {
       "chainId": 80094,
+      "address": "0xb2A12DB2691fc05DcA47b2bE9A087077AFaA0800",
+      "symbol": "SMILEE",
+      "name": "Smilee",
+      "decimals": 18,
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1764358420/tokens/gtnlwgdyn6mp2jbvounw.png"
+    },
+    {
+      "chainId": 80094,
       "address": "0x2F6F07CDcf3588944Bf4C42aC74ff24bF56e7590",
       "symbol": "WETH",
       "name": "WETH",

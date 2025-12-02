@@ -140,7 +140,10 @@
       "symbol": "SMILEE",
       "name": "Smilee",
       "decimals": 18,
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1764358420/tokens/gtnlwgdyn6mp2jbvounw.png"
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1764358420/tokens/gtnlwgdyn6mp2jbvounw.png",
+      "extensions": {
+        "coingeckoId": "smilee"
+      }
     },
     {
       "chainId": 80094,

@@ -167,6 +167,17 @@
     },
     {
       "chainId": 80069,
+      "address": "0xE2c84758017616bCC4563D569d2D4d6B3e379D7c",
+      "symbol": "bbINC7",
+      "name": "bbINC7",
+      "decimals": 18,
+      "tags": [],
+      "extensions": {
+        "pythPriceId": "0xeaa020c61cc479712813461ce153894a96a6c00b21ed0cfc2798d1f9a9e9c94a"
+      }
+    },
+    {
+      "chainId": 80069,
       "address": "0x118d2ceee9785eaf70c15cd74cd84c9f8c3eec9a",
       "symbol": "sWBERA",
       "name": "Staked WBERA",

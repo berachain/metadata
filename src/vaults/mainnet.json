@@ -3102,18 +3102,6 @@
       "action": "Stake WBERA / xfatBERA"
     },
     {
-      "stakingTokenAddress": "0xf40521271f1ae127bcbb989500b19716310d0799",
-      "vaultAddress": "0x028b1F7a949a7a862C3f93987296be30d71f7F97",
-      "name": "Euler - MEV Capital Red Cluster wBERA",
-      "protocol": "Euler",
-      "categories": ["defi"],
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746534876/tokens/default.png",
-      "url": "https://app.euler.finance/vault/0x028b1F7a949a7a862C3f93987296be30d71f7F97?network=berachain",
-      "description": "Acquired by depositing wBERA into the MEV Capital Red Cluster wBERA Vault on Euler. This lending pool enables users to deposit wBERA and receive ERC20 EToken, designed for the Infrared ecosystem with oriBGT looping strategies.",
-      "owner": "Euler",
-      "action": "Stake ewBERA"
-    },
-    {
       "stakingTokenAddress": "0x939f1b6f513c3d62eb25c7e057ed8bb24021a000",
       "vaultAddress": "0x9145aefd784c58219b18c23372155d18c9bcd7e9",
       "name": "Kodiak Island BYUSD-HONEY-0.01%",
@@ -3145,6 +3133,16 @@
       "url": "https://app.charm.fi/berachain/vault/0x4a2d99C4d053ECa6A75F403C656B0B863F336f09",
       "description": "Charm vault managing WBTC/WETH liquidity on Kodiak. This vault serves as a core BTC/ETH connector for Berachain, enabling deeper liquidity and supporting cross-chain trading pairs.",
       "action": "Stake WBTC / WETH"
+    },
+    {
+      "stakingTokenAddress": "0xf40521271f1ae127bcbb989500b19716310d0799",
+      "vaultAddress": "0xab5de27dd4bbf1a47d96ad67f8c59e5859c72f80",
+      "name": "EVK Vault eLBGT-1-STAKE",
+      "protocol": "EVK",
+      "categories": ["defi/liquid-staking"],
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746534876/tokens/default.png",
+      "url": "https://hub.berachain.com",
+      "description": "Placeholder entry for eLBGT-1-STAKE vault. Metadata needs to be added."
     }
   ]
 }

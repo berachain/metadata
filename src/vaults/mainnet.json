@@ -3035,7 +3035,7 @@
       "name": "BeraPaw Rewards",
       "protocol": "BeraPaw",
       "categories": ["defi/yield"],
-      "logoURI": "https://raw.githubusercontent.com/berachain/metadata/main/src/assets/vaults/0xfbef3678faeb671e352b0f9ad87b402243beaf24.png",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1765561259/vaults/0xfbef3678faeb671e352b0f9ad87b402243beaf24.png",
       "url": "https://berapaw.com",
       "description": "BeraPaw Rewards incentivizes LBGT and pBERA liquidity to grow BeraPaw TVL and Berachain's. Rewards enable money market integrations and attract TVL from current and new users. BeraPaw is a liquid staking protocol."
     },
@@ -3055,7 +3055,7 @@
       "name": "Smilee Incinerator",
       "protocol": "Smilee Finance",
       "categories": ["defi/yield"],
-      "logoURI": "https://raw.githubusercontent.com/berachain/metadata/main/src/assets/vaults/0xa5b34ecc898c86ede225160100726c3b2852e890.png",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1765561401/vaults/0xa5b34ecc898c86ede225160100726c3b2852e890.png",
       "url": "https://app.smilee.finance/",
       "description": "Smilee Incinerator provides constant buyback & burn pressure for $SMILEE. The vault uses buyback & burn mechanics from Caveau, Swappee, and Beranames revenues. Receives BGT rewards to incentivize $SMILEE and drive wgBERA adoption."
     },
@@ -3065,7 +3065,7 @@
       "name": "uniBTC | NECT Charm Vault by Beraborrow",
       "protocol": "Beraborrow",
       "categories": ["defi/yield"],
-      "logoURI": "https://raw.githubusercontent.com/berachain/metadata/main/src/assets/vaults/0xBfC1BE70D7b997ee386204B0bBf93107f38359a1.png",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1765561460/vaults/0xBfC1BE70D7b997ee386204B0bBf93107f38359a1.png",
       "url": "https://app.charm.fi/berachain/vault/0xf0dab9d5da8ded3aa66698f59cc00a5720e65dfb",
       "description": "Beraborrow's uniBTC | NECT Charm Vault deepens stablecoin liquidity and strengthens NECT's peg. It attracts BTC-based capital from external chains, onboard new users, and expands leverage opportunities within Beraborrow."
     },
@@ -3086,7 +3086,7 @@
       "name": "sweETH",
       "protocol": "Sumer",
       "categories": ["defi/lending"],
-      "logoURI": "https://raw.githubusercontent.com/berachain/metadata/main/src/assets/vaults/0xd5e32d4d7920a876417ef2ecbbafb58b38f717ac.png",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1765561908/vaults/0xd5e32d4d7920a876417ef2ecbbafb58b38f717ac.png",
       "url": "https://app.sumer.money",
       "description": "sweETH is an action-based incentive vault using a dummy ERC-20 token to represent user actions: deposit weETH, borrow BERA, swap for iBGT, deposit iBGT, and loop. Auto-staked to accumulate BGT rewards, supporting PoL goals through iBGT/BERA looping and DEX volume."
     },

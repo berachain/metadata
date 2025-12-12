@@ -119,7 +119,6 @@ async function fetchMissingVaults(
 
 export async function validateApiMetadata(warnings: string[]): Promise<void> {
   const bearerToken = process.env.BERACHAIN_HUB_API_TOKEN;
-  const apiBaseUrl = process.env.BERACHAIN_HUB_API_BASE_URL;
 
   if (!bearerToken) {
     // Token not provided, skip validation (don't fail)
@@ -131,18 +130,10 @@ export async function validateApiMetadata(warnings: string[]): Promise<void> {
     return;
   }
 
-  if (!apiBaseUrl) {
-    // API base URL not provided, skip validation (don't fail)
-    console.warn(
-      "\x1b[33m%s\x1b[0m",
-      "Warning",
-      "BERACHAIN_HUB_API_BASE_URL environment variable not set. Skipping API metadata validation.",
-    );
-    return;
-  }
-
-  const incentivesEndpoint = `${apiBaseUrl}/incentives/no-metadata/`;
-  const vaultsEndpoint = `${apiBaseUrl}/vaults/no-metadata/`;
+  const incentivesEndpoint =
+    "https://hub.berachain.com/api/internal/incentives/no-metadata/";
+  const vaultsEndpoint =
+    "https://hub.berachain.com/api/internal/vaults/no-metadata/";
 
   // Fetch missing metadata from both endpoints
   const [missingIncentives, missingVaults] = await Promise.all([

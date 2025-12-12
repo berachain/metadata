@@ -2993,8 +2993,8 @@
       "name": "apDAO Treasury Vault",
       "protocol": "apDAO",
       "categories": ["defi/yield"],
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746534876/tokens/default.png",
-      "url": "https://hub.berachain.com",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1765560945/vaults/0xc6dd0727f00cda3972be452f2009ec4973cd74d0.jpg",
+      "url": "https://apiologydao.0xhoneyjar.xyz/auctions",
       "description": "apDAO treasury vault for managing and distributing rewards within the apDAO ecosystem. The staking token (vAPDAO) is held exclusively by the apDAO treasury."
     },
     {
@@ -3014,9 +3014,9 @@
       "name": "Narra Vault",
       "protocol": "Narra Agents",
       "categories": ["defi/yield"],
-      "logoURI": "https://raw.githubusercontent.com/berachain/metadata/main/src/assets/vaults/0x84cde2880f1c63253636501d757630c252678562.png",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1765560991/vaults/0x84cde2880f1c63253636501d757630c252678562.png",
       "url": "https://arena.narralayer.ai",
-      "description": "Narra Agents PoL game vault. Users earn Pre-Narra (ZAI Points) through activities like holding NFTs and accumulating points. Deposited tokens are burned and converted into staking tokens (NANA) according to set weight, which are then delegated for reward mining. Leaderboard available at vault.narralayer.ai"
+      "description": "Narra Agents PoL game vault. Users earn Pre-Narra (ZAI Points) through activities like holding NFTs and accumulating points. Deposited tokens are burned and converted into staking tokens (NANA) for reward mining."
     },
     {
       "stakingTokenAddress": "0xb350944be03cf5f795f48b63eaa542df6a3c8505",
@@ -3037,7 +3037,7 @@
       "categories": ["defi/yield"],
       "logoURI": "https://raw.githubusercontent.com/berachain/metadata/main/src/assets/vaults/0xfbef3678faeb671e352b0f9ad87b402243beaf24.png",
       "url": "https://berapaw.com",
-      "description": "BeraPaw Rewards is an incentive campaign designed to grow BeraPaw TVL and thus Berachain's. The rewards are used to incentivize LBGT and pBERA liquidity, enable integrations with money markets, and attract new TVL from current Berachain users and users onboarded from other chains. BeraPaw is an innovative liquid staking protocol that converts Berachain's native token into a more versatile and liquid asset."
+      "description": "BeraPaw Rewards incentivizes LBGT and pBERA liquidity to grow BeraPaw TVL and Berachain's. Rewards enable money market integrations and attract TVL from current and new users. BeraPaw is a liquid staking protocol."
     },
     {
       "stakingTokenAddress": "0x6170da95cf074d891a8e7bdc9583ee51915cc859",
@@ -3057,7 +3057,7 @@
       "categories": ["defi/yield"],
       "logoURI": "https://raw.githubusercontent.com/berachain/metadata/main/src/assets/vaults/0xa5b34ecc898c86ede225160100726c3b2852e890.png",
       "url": "https://app.smilee.finance/",
-      "description": "Smilee Incinerator is the foundational layer of the $SMILEE token, providing constant, strong buyback & burn pressure. This reward vault heavily relies on a buyback and burn mechanic that is constantly expanded within its system (from the Caveau to the buyback & burn from Swappee and Beranames revenues). The Incinerator receives BGT rewards to incentivize the $SMILEE token ecosystem and drive adoption of wgBERA, the first PoL-native LST."
+      "description": "Smilee Incinerator provides constant buyback & burn pressure for $SMILEE. The vault uses buyback & burn mechanics from Caveau, Swappee, and Beranames revenues. Receives BGT rewards to incentivize $SMILEE and drive wgBERA adoption."
     },
     {
       "stakingTokenAddress": "0xf0dab9d5da8ded3aa66698f59cc00a5720e65dfb",
@@ -3067,7 +3067,7 @@
       "categories": ["defi/yield"],
       "logoURI": "https://raw.githubusercontent.com/berachain/metadata/main/src/assets/vaults/0xBfC1BE70D7b997ee386204B0bBf93107f38359a1.png",
       "url": "https://app.charm.fi/berachain/vault/0xf0dab9d5da8ded3aa66698f59cc00a5720e65dfb",
-      "description": "Beraborrow unlocks instant liquidity against Berachain assets through the first PoL-powered stablecoin, Nectar ($NECT). Designed with simplicity and flexibility at its core, Beraborrow enables users to maximize capital efficiency without sacrificing yield. The uniBTC | NECT Charm Vault plays an important role in building out for uniBTC on Berachain, deepening stablecoin liquidity and strengthening NECT's peg. It attracts BTC-based capital from external chains, onboarding new users to Berachain, and expands leverage and borrowing opportunities within the Beraborrow ecosystem."
+      "description": "Beraborrow's uniBTC | NECT Charm Vault deepens stablecoin liquidity and strengthens NECT's peg. It attracts BTC-based capital from external chains, onboard new users, and expands leverage opportunities within Beraborrow."
     },
     {
       "stakingTokenAddress": "0xde8819788bb9dbfa7855ab8cd3e761a716d098ff",
@@ -3088,7 +3088,7 @@
       "categories": ["defi/lending"],
       "logoURI": "https://raw.githubusercontent.com/berachain/metadata/main/src/assets/vaults/0xd5e32d4d7920a876417ef2ecbbafb58b38f717ac.png",
       "url": "https://app.sumer.money",
-      "description": "sweETH is an action-based incentive vault that uses staking of a dummy ERC-20 token to represent user actions: deposit weETH, borrow BERA, swap for iBGT, deposit iBGT, and loop. This vault drives revenue from the Bera ecosystem by enabling capital-efficient user activity. The token has no market value, requires no user interaction, and is auto-staked on behalf of users to accumulate BGT rewards. It enables BGT rewards to be claimed and delegated via the Hub, incentivizing productive user behavior that supports Berachain's Proof of Liquidity goals through iBGT/BERA looping, DEX volume generation, and yield for native asset holders."
+      "description": "sweETH is an action-based incentive vault using a dummy ERC-20 token to represent user actions: deposit weETH, borrow BERA, swap for iBGT, deposit iBGT, and loop. Auto-staked to accumulate BGT rewards, supporting PoL goals through iBGT/BERA looping and DEX volume."
     },
     {
       "stakingTokenAddress": "0x4decb02b9a838ad66ebcafac3c8a3b12087a8976",

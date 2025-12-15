@@ -3003,7 +3003,7 @@
       "name": "iBERA/iBGT Charm Vault by Infrared",
       "protocol": "Infrared",
       "categories": ["defi/yield"],
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746534876/tokens/default.png",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1765820659/vaults/0xb75ec5440a97c83264f311ac23cc5fe6c93ad565.png",
       "url": "https://app.charm.fi/berachain/vault/0xe15db2653d0bb242e09066e97c231c1404fca45d",
       "description": "Charm vault managing iBERA/iBGT liquidity. This vault ensures BGT emissions are routed to productive pools, increasing chain revenue and supporting iBGT economics through fee-earning activity.",
       "action": "Stake iBERA / iBGT"
@@ -3024,7 +3024,7 @@
       "name": "Kodiak Island SAIL.r-USDe-0.3%",
       "protocol": "Kodiak",
       "categories": ["defi/amm"],
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746534876/tokens/default.png",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1765820834/vaults/0xa5abb42cfc283360dd04ebdbfd3d0c24cc4610a8.png",
       "url": "https://app.kodiak.finance/#/liquidity/pools/0xb350944be03cf5f795f48b63eaa542df6a3c8505?farm=0xa5abb42cfc283360dd04ebdbfd3d0c24cc4610a8&chain=berachain_mainnet",
       "description": "Acquired by depositing liquidity into the SAIL.r-USDe Pool on Kodiak",
       "action": "Stake SAIL.r-USDe"
@@ -3096,7 +3096,7 @@
       "name": "Beradrome Kodiak Island WBERA-xfatBERA-0.05%",
       "protocol": "Kodiak",
       "categories": ["defi/amm"],
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746534876/tokens/default.png",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1765820576/vaults/0xcfab805c47d3bcc41a2c5c1f702e6ff8118208a1.png",
       "url": "https://app.kodiak.finance/#/liquidity/pools/0x4decb02b9a838ad66ebcafac3c8a3b12087a8976?farm=0xcfab805c47d3bcc41a2c5c1f702e6ff8118208a1&chain=berachain_mainnet",
       "description": "Acquired by depositing liquidity into the WBERA-xfatBERA Pool on Kodiak",
       "action": "Stake WBERA / xfatBERA"
@@ -3118,7 +3118,7 @@
       "name": "Kodiak Island WBERA-BERO-0.3%",
       "protocol": "Kodiak",
       "categories": ["defi/amm"],
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746534876/tokens/default.png",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1765820545/vaults/0x7cfe21c7a6c61903f31e657f593d3cfd7e067c0c.png",
       "url": "https://app.kodiak.finance/#/liquidity/pools/0x9ba04ed80a76417bb6b00cca4d9a645bba89386b?farm=0x7cfe21c7a6c61903f31e657f593d3cfd7e067c0c&chain=berachain_mainnet",
       "description": "Acquired by depositing liquidity into the WBERA-BERO Pool on Kodiak",
       "action": "Stake WBERA / BERO"
@@ -3129,7 +3129,7 @@
       "name": "WBTC/WETH Charm Vault by Infrared",
       "protocol": "Infrared",
       "categories": ["defi/amm"],
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746534876/tokens/default.png",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1765820493/vaults/0x58754ed824ce6232201cc46d288ff7d29b47d513.png",
       "url": "https://app.charm.fi/berachain/vault/0x4a2d99C4d053ECa6A75F403C656B0B863F336f09",
       "description": "Charm vault managing WBTC/WETH liquidity on Kodiak. This vault serves as a core BTC/ETH connector for Berachain, enabling deeper liquidity and supporting cross-chain trading pairs.",
       "action": "Stake WBTC / WETH"

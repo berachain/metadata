@@ -540,6 +540,13 @@
       "url": "https://smilee.finance/",
       "description": "Smilee Finance is a DeFi protocol on Berachain",
       "tags": ["platform"]
+    },
+    {
+      "name": "LiquidRoyalty",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746534876/tokens/default.png",
+      "url": "https://www.liquidroyalty.com",
+      "description": "RWA protocol - tokenizes E-commerce cashflow into Liquid Royalties",
+      "tags": ["platform"]
     }
   ],
   "vaults": [
@@ -3048,13 +3055,12 @@
     {
       "stakingTokenAddress": "0xb350944be03cf5f795f48b63eaa542df6a3c8505",
       "vaultAddress": "0xa5abb42cfc283360dd04ebdbfd3d0c24cc4610a8",
-      "name": "Kodiak Island SAIL.r-USDe-0.3%",
-      "protocol": "Kodiak",
-      "categories": ["defi/amm"],
+      "name": "LiquidRoyalty",
+      "protocol": "LiquidRoyalty",
+      "categories": ["defi/yield"],
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1765820834/vaults/0xa5abb42cfc283360dd04ebdbfd3d0c24cc4610a8.png",
-      "url": "https://app.kodiak.finance/#/liquidity/pools/0xb350944be03cf5f795f48b63eaa542df6a3c8505?farm=0xa5abb42cfc283360dd04ebdbfd3d0c24cc4610a8&chain=berachain_mainnet",
-      "description": "Acquired by depositing liquidity into the SAIL.r-USDe Pool on Kodiak",
-      "action": "Stake SAIL.r-USDe"
+      "url": "https://www.liquidroyalty.com",
+      "description": "RWA protocol - tokenizes E-commerce cashflow into Liquid Royalties"
     },
     {
       "stakingTokenAddress": "0xbc3e8a04fbb26e024fb89aa2a576b61f72ad1d30",

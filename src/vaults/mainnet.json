@@ -2986,6 +2986,18 @@
       "description": "Acquired by depositing liquidity into the USDC.e-HONEY pool on Kodiak",
       "owner": "Kodiak",
       "action": "Stake USDC.e / HONEY"
+    },
+    {
+      "stakingTokenAddress": "0x34054679536B60406328eda38617Cd027b9E3D30",
+      "vaultAddress": "0xA5b34Ecc898c86eDE225160100726C3b2852E890",
+      "name": "SMILEE Incinerator",
+      "protocol": "Smilee",
+      "categories": ["defi/amm"],
+      "logoURI": "",
+      "url": "https://app.smilee.finance/gbera",
+      "description": "SMILEE Incinerator is a Proof-of-Liquidity strategy that leverages validator incentives to generate profits for buying and burning SMILEE tokens.",
+      "owner": "Smilee",
+      "action": "Incinerate SMILEE"
     }
   ]
 }

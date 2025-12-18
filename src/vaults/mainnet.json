@@ -2986,6 +2986,18 @@
       "description": "Acquired by depositing liquidity into the USDC.e-HONEY pool on Kodiak",
       "owner": "Kodiak",
       "action": "Stake USDC.e / HONEY"
+    },
+    {
+      "stakingTokenAddress": "0x5978e23D931b5e51a02E1919be7e7a99e4de2583",
+      "vaultAddress": "0x47FffFaD6650e791A5Ed41909C6a8c9E4fb94B99",
+      "name": "Smilee - SMILEE | HONEY",
+      "protocol": "Kodiak",
+      "categories": ["defi/amm"],
+      "logoURI": "",
+      "url": "https://app.kodiak.finance/#/liquidity/pools/0x5978e23d931b5e51a02e1919be7e7a99e4de2583?chain=berachain_mainnet",
+      "description": "Acquired by depositing liquidity into the SMILEE-HONEY Pool on Kodiak",
+      "owner": "Smilee",
+      "action": "Stake SMILEE / HONEY"
     }
   ]
 }

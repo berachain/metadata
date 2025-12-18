@@ -543,7 +543,7 @@
     },
     {
       "name": "Smilee Finance",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746534876/tokens/default.png",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1766078135/protocols/Smilee.jpg",
       "url": "https://smilee.finance/",
       "description": "Smilee Finance is a DeFi protocol on Berachain",
       "tags": ["platform"]
@@ -3186,7 +3186,7 @@
       "name": "IR/USDT0 Charm Vault by Infrared",
       "protocol": "Infrared Finance",
       "categories": ["defi/amm"],
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1766077428/tokens/0xa1B644AEC990Ad6023811cED36E6A2d6D128C7C9.png",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1766078439/vaults/0xe57d86ee9d28b22de1ef967d6104248bd6a52dad.png",
       "url": "https://app.charm.fi/berachain/vault/0x92E9FD03208b9291791C46d1Bd8253f678c24Ec7",
       "description": "Charm vault managing IR/USDT0 liquidity. This vault deepens liquidity for Infrared's native token (IR) and supports ecosystem growth by providing a stable trading pair with USDT0. As Infrared Finance is the largest protocol on Berachain by TVL, this vault plays a pivotal role in value accrual and ecosystem integrations.",
       "owner": "Infrared Finance",
@@ -3210,7 +3210,7 @@
       "name": "Infrared Managed IR-BERA",
       "protocol": "Infrared",
       "categories": ["defi/yield"],
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1766077428/tokens/0xa1B644AEC990Ad6023811cED36E6A2d6D128C7C9.png",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1766078750/vaults/0xb0a43571178bd0fafb2d2def02037ed061ce4919.png",
       "url": "https://hub.berachain.com",
       "description": "Placeholder entry for i-IR-BERA vault. Metadata needs to be added."
     },

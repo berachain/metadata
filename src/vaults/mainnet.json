@@ -441,6 +441,12 @@
       "description": "Ooga Booga is a meme and DeFi protocol on Berachain, focused on community-driven incentives and fun."
     },
     {
+      "name": "Booga Bullas",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746534876/tokens/default.png",
+      "url": "https://www.boogabullas.com/",
+      "description": "Pure leveraged Bera exposure, no liquidations, perpetual treasury growth through fees and buybacks."
+    },
+    {
       "name": "Pendle",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1757014424/pendle.png",
       "url": "https://www.pendle.finance/",
@@ -1161,7 +1167,7 @@
       "name": "BeraXBT - BIXBT | WBERA",
       "protocol": "Kodiak",
       "categories": ["defi/amm"],
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1743429746/tokens/0x147c9A7F5265D7cA9a671C3817b212a0cF88856e.png",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1766075835/vaults/0xDf5C6c28479e21C5F36cEB0C44Ae15975dE844ba.png",
       "url": "https://app.kodiak.finance/#/liquidity/v2/add/ETH/0x147c9A7F5265D7cA9a671C3817b212a0cF88856e?chain=berachain_mainnet",
       "description": "virtual, analytical consciousness bringing deep analysis to berachain",
       "owner": "BeraXBT",
@@ -3177,22 +3183,26 @@
     {
       "stakingTokenAddress": "0x92e9fd03208b9291791c46d1bd8253f678c24ec7",
       "vaultAddress": "0xe57d86ee9d28b22de1ef967d6104248bd6a52dad",
-      "name": "Infrared Managed IR-USDT0",
-      "protocol": "Infrared",
-      "categories": ["defi/yield"],
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746534876/tokens/default.png",
-      "url": "https://hub.berachain.com",
-      "description": "Placeholder entry for i-IR-USDT0 vault. Metadata needs to be added."
+      "name": "IR/USDT0 Charm Vault by Infrared",
+      "protocol": "Infrared Finance",
+      "categories": ["defi/amm"],
+      "logoURI": "https://raw.githubusercontent.com/berachain/metadata/refs/heads/main/src/assets/tokens/0xa1B644AEC990Ad6023811cED36E6A2d6D128C7C9.png",
+      "url": "https://app.charm.fi/berachain/vault/0x92E9FD03208b9291791C46d1Bd8253f678c24Ec7",
+      "description": "Charm vault managing IR/USDT0 liquidity. This vault deepens liquidity for Infrared's native token (IR) and supports ecosystem growth by providing a stable trading pair with USDT0. As Infrared Finance is the largest protocol on Berachain by TVL, this vault plays a pivotal role in value accrual and ecosystem integrations.",
+      "owner": "Infrared Finance",
+      "action": "Stake IR / USD₮0"
     },
     {
       "stakingTokenAddress": "0x81ce513cba2563a0b28a65590a91258a787f0fe9",
       "vaultAddress": "0x3fefb206cafff7eeefc235592cb892549bbaea48",
-      "name": "Kodiak Island WBERA-IR-0.3%",
+      "name": "Kodiak Island IR-BERA-0.3%",
       "protocol": "Kodiak",
-      "categories": ["defi/yield"],
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746534876/tokens/default.png",
-      "url": "https://hub.berachain.com",
-      "description": "Placeholder entry for KODI WBERA-IR vault. Metadata needs to be added."
+      "categories": ["defi/amm"],
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1766076353/vaults/0x3fefb206cafff7eeefc235592cb892549bbaea48.png",
+      "url": "https://app.kodiak.finance/#/liquidity/pools/0x81cE513cBA2563A0b28A65590a91258A787F0fE9?farm=0x3FEfB206CAFff7EEefc235592cb892549BbAEA48&chain=berachain_mainnet",
+      "description": "Acquired by depositing liquidity into the Kodiak Island IR-BERA-0.3% pool. This pool deepens liquidity for Infrared's native token (IR) paired with BERA, supporting ecosystem growth and enabling important trading pairs that drive adoption. As Infrared Finance is the largest protocol on Berachain by TVL, this pool plays a pivotal role in value accrual and ecosystem integrations.",
+      "owner": "Kodiak",
+      "action": "Stake IR / BERA"
     },
     {
       "stakingTokenAddress": "0xae5d9f1069e50ce400b7d9ee44b0957eddc4d23a",
@@ -3200,7 +3210,7 @@
       "name": "Infrared Managed IR-BERA",
       "protocol": "Infrared",
       "categories": ["defi/yield"],
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746534876/tokens/default.png",
+      "logoURI": "https://raw.githubusercontent.com/berachain/metadata/refs/heads/main/src/assets/tokens/0xa1B644AEC990Ad6023811cED36E6A2d6D128C7C9.png",
       "url": "https://hub.berachain.com",
       "description": "Placeholder entry for i-IR-BERA vault. Metadata needs to be added."
     },
@@ -3209,30 +3219,35 @@
       "vaultAddress": "0xcddbd6ddff8cb34b8e561bdedb3e16a6e5b5fdbb",
       "name": "Kodiak Island USD₮0-IR-0.3%",
       "protocol": "Kodiak",
-      "categories": ["defi/yield"],
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746534876/tokens/default.png",
-      "url": "https://hub.berachain.com",
-      "description": "Placeholder entry for KODI USD₮0-IR vault. Metadata needs to be added."
+      "categories": ["defi/amm"],
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1766076382/vaults/0xcddbd6ddff8cb34b8e561bdedb3e16a6e5b5fdbb.png",
+      "url": "https://app.kodiak.finance/#/liquidity/pools/0x200c2c7879e885ed9d6a5d2ad4f6cdfc525a52c4?farm=0xcddbd6ddff8cb34b8e561bdedb3e16a6e5b5fdbb&chain=berachain_mainnet",
+      "description": "Acquired by depositing liquidity into the Kodiak Island USD₮0-IR-0.3% Pool on Kodiak",
+      "owner": "Kodiak",
+      "action": "Stake USD₮0 / IR"
     },
     {
       "stakingTokenAddress": "0x5978e23d931b5e51a02e1919be7e7a99e4de2583",
       "vaultAddress": "0x47ffffad6650e791a5ed41909c6a8c9e4fb94b99",
       "name": "Kodiak Island SMILEE-HONEY-1%",
       "protocol": "Kodiak",
-      "categories": ["defi/yield"],
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746534876/tokens/default.png",
-      "url": "https://hub.berachain.com",
-      "description": "Placeholder entry for KODI SMILEE-HONEY vault. Metadata needs to be added."
+      "categories": ["defi/amm"],
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1766076983/vaults/0x47ffffad6650e791a5ed41909c6a8c9e4fb94b99.png",
+      "url": "https://app.kodiak.finance/#/liquidity/pools/0x5978e23d931b5e51a02e1919be7e7a99e4de2583?farm=0x47ffffad6650e791a5ed41909c6a8c9e4fb94b99&chain=berachain_mainnet",
+      "description": "Acquired by depositing liquidity into the SMILEE | HONEY Pool on Kodiak",
+      "action": "Stake SMILEE / HONEY"
     },
     {
       "stakingTokenAddress": "0x9a9ae9c881fadcfc85857e9375fc2c8443064263",
       "vaultAddress": "0x8846bcef9dcf883c14ca293883b353a79574006f",
-      "name": "Booga Bullas BGT blackhole reward vault staking token",
-      "protocol": "UNKNOWN",
+      "name": "Booga Bullas BGT Blackhole",
+      "protocol": "Booga Bullas",
       "categories": ["defi/yield"],
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746534876/tokens/default.png",
-      "url": "https://hub.berachain.com",
-      "description": "Placeholder entry for BB vault. Metadata needs to be added."
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1766076677/vaults/0x8846bcef9dcf883c14ca293883b353a79574006f.png",
+      "url": "https://www.boogabullas.com/",
+      "description": "The staking token is a dummy token 100% owned by the Booga Bullas multisig, where BGT earned is permanent blackholed and yield generated with it is used to buy and burn / relist Booga Bullas at a markup with the purpose to increase the floor and blackhole even more BGT.",
+      "owner": "Booga Bullas",
+      "action": "Stake BGT Blackhole"
     }
   ]
 }

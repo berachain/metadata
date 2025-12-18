@@ -442,7 +442,7 @@
     },
     {
       "name": "Booga Bullas",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746534876/tokens/default.png",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1766077541/protocols/boogabullas.png",
       "url": "https://www.boogabullas.com/",
       "description": "Pure leveraged Bera exposure, no liquidations, perpetual treasury growth through fees and buybacks."
     },
@@ -536,9 +536,9 @@
     },
     {
       "name": "Narra Agents",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746534876/tokens/default.png",
-      "url": "https://hub.berachain.com",
-      "description": "Narra Agents protocol on Berachain",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1766077772/protocols/narra.png",
+      "url": "https://arena.narralayer.ai",
+      "description": "Narra Agents is a PoL game on Berachain that contributes to the ecosystem by onboarding AI-curious users and creating novel dApp experiences. Users earn Pre-Narra (ZAI Points) through activities like holding NFTs and accumulating points, offering an engaging experience through random AI interaction while bringing an AI agent ecosystem to Berachain.",
       "tags": ["platform"]
     },
     {
@@ -3049,8 +3049,8 @@
       "protocol": "Narra Agents",
       "categories": ["defi/yield"],
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1765560991/vaults/0x84cde2880f1c63253636501d757630c252678562.png",
-      "url": "https://arena.narralayer.ai",
-      "description": "Narra Agents PoL game vault. Users earn Pre-Narra (ZAI Points) through activities like holding NFTs and accumulating points. Deposited tokens are burned and converted into staking tokens (NANA) for reward mining."
+      "url": "https://vault.narralayer.ai",
+      "description": "Narra Agents PoL game vault. Users earn Pre-Narra (ZAI Points) through activities like holding NFTs and accumulating points. Deposited tokens are burned and converted into staking tokens (NANA) according to the set weight, which are then delegated for reward mining. Rewards can be claimed after the cooldown period. The vault includes a public leaderboard for transparency and real-time point tracking."
     },
     {
       "stakingTokenAddress": "0xb350944be03cf5f795f48b63eaa542df6a3c8505",
@@ -3186,7 +3186,7 @@
       "name": "IR/USDT0 Charm Vault by Infrared",
       "protocol": "Infrared Finance",
       "categories": ["defi/amm"],
-      "logoURI": "https://raw.githubusercontent.com/berachain/metadata/refs/heads/main/src/assets/tokens/0xa1B644AEC990Ad6023811cED36E6A2d6D128C7C9.png",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1766077428/tokens/0xa1B644AEC990Ad6023811cED36E6A2d6D128C7C9.png",
       "url": "https://app.charm.fi/berachain/vault/0x92E9FD03208b9291791C46d1Bd8253f678c24Ec7",
       "description": "Charm vault managing IR/USDT0 liquidity. This vault deepens liquidity for Infrared's native token (IR) and supports ecosystem growth by providing a stable trading pair with USDT0. As Infrared Finance is the largest protocol on Berachain by TVL, this vault plays a pivotal role in value accrual and ecosystem integrations.",
       "owner": "Infrared Finance",
@@ -3210,7 +3210,7 @@
       "name": "Infrared Managed IR-BERA",
       "protocol": "Infrared",
       "categories": ["defi/yield"],
-      "logoURI": "https://raw.githubusercontent.com/berachain/metadata/refs/heads/main/src/assets/tokens/0xa1B644AEC990Ad6023811cED36E6A2d6D128C7C9.png",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1766077428/tokens/0xa1B644AEC990Ad6023811cED36E6A2d6D128C7C9.png",
       "url": "https://hub.berachain.com",
       "description": "Placeholder entry for i-IR-BERA vault. Metadata needs to be added."
     },

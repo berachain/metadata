@@ -523,15 +523,8 @@
     {
       "name": "apDAO",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746534876/tokens/default.png",
-      "url": "https://apdao.berachain.com",
+      "url": "https://apiologydao.0xhoneyjar.xyz/",
       "description": "apDAO protocol on Berachain",
-      "tags": ["platform"]
-    },
-    {
-      "name": "Infrared",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1745504839/protocols/infrared.png",
-      "url": "https://app.infrared.finance/",
-      "description": "Infrared is a DeFi protocol focused on innovative yield strategies and liquidity solutions.",
       "tags": ["platform"]
     },
     {
@@ -3035,7 +3028,7 @@
       "stakingTokenAddress": "0xe15db2653d0bb242e09066e97c231c1404fca45d",
       "vaultAddress": "0xb75ec5440a97c83264f311ac23cc5fe6c93ad565",
       "name": "iBERA/iBGT Charm Vault by Infrared",
-      "protocol": "Infrared",
+      "protocol": "Infrared Finance",
       "categories": ["defi/yield"],
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1765820659/vaults/0xb75ec5440a97c83264f311ac23cc5fe6c93ad565.png",
       "url": "https://app.charm.fi/berachain/vault/0xe15db2653d0bb242e09066e97c231c1404fca45d",
@@ -3161,7 +3154,7 @@
       "stakingTokenAddress": "0x4a2d99c4d053eca6a75f403c656b0b863f336f09",
       "vaultAddress": "0x58754ed824ce6232201cc46d288ff7d29b47d513",
       "name": "WBTC/WETH Charm Vault by Infrared",
-      "protocol": "Infrared",
+      "protocol": "Infrared Finance",
       "categories": ["defi/amm"],
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1765820493/vaults/0x58754ed824ce6232201cc46d288ff7d29b47d513.png",
       "url": "https://app.charm.fi/berachain/vault/0x4a2d99C4d053ECa6A75F403C656B0B863F336f09",
@@ -3208,7 +3201,7 @@
       "stakingTokenAddress": "0xae5d9f1069e50ce400b7d9ee44b0957eddc4d23a",
       "vaultAddress": "0xb0a43571178bd0fafb2d2def02037ed061ce4919",
       "name": "Infrared Managed IR-BERA",
-      "protocol": "Infrared",
+      "protocol": "Infrared Finance",
       "categories": ["defi/yield"],
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1766078750/vaults/0xb0a43571178bd0fafb2d2def02037ed061ce4919.png",
       "url": "https://hub.berachain.com",

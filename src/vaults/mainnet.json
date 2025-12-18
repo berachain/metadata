@@ -444,7 +444,8 @@
       "name": "Booga Bullas",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1766077541/protocols/boogabullas.png",
       "url": "https://www.boogabullas.com/",
-      "description": "Pure leveraged Bera exposure, no liquidations, perpetual treasury growth through fees and buybacks."
+      "description": "Pure leveraged Bera exposure, no liquidations, perpetual treasury growth through fees and buybacks.",
+      "tags": ["platform"]
     },
     {
       "name": "Pendle",
@@ -541,13 +542,6 @@
       "description": "Smilee Finance is a DeFi protocol on Berachain",
       "tags": ["platform"]
     },
-    {
-      "name": "LiquidRoyalty",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1766079866/protocols/liquidroyalty.png",
-      "url": "https://www.liquidroyalty.com",
-      "description": "RWA protocol - tokenizes E-commerce cashflow into Liquid Royalties",
-      "tags": ["platform"]
-    }
   ],
   "vaults": [
     {

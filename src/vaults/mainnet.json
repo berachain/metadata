@@ -3055,7 +3055,7 @@
       "name": "SMILEE Incinerator",
       "protocol": "Smilee",
       "categories": ["defi/amm"],
-      "logoURI": "",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1767878202/vaults/qdobduwhbvosynadyh9c.jpg",
       "url": "https://app.smilee.finance/gbera",
       "description": "SMILEE Incinerator is a Proof-of-Liquidity strategy that leverages validator incentives to generate profits for buying and burning SMILEE tokens.",
       "owner": "Smilee",

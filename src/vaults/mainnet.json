@@ -3064,12 +3064,14 @@
     {
       "stakingTokenAddress": "0x34054679536b60406328eda38617cd027b9e3d30",
       "vaultAddress": "0xa5b34ecc898c86ede225160100726c3b2852e890",
-      "name": "Smilee Incinerator",
-      "protocol": "Smilee Finance",
-      "categories": ["defi/yield"],
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1765561401/vaults/0xa5b34ecc898c86ede225160100726c3b2852e890.png",
-      "url": "https://app.smilee.finance/",
-      "description": "Smilee Incinerator provides constant buyback & burn pressure for $SMILEE. The vault uses buyback & burn mechanics from Caveau, Swappee, and Beranames revenues. Receives BGT rewards to incentivize $SMILEE and drive wgBERA adoption."
+      "name": "SMILEE Incinerator",
+      "protocol": "Smilee",
+      "categories": ["defi/amm"],
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1767878202/vaults/qdobduwhbvosynadyh9c.jpg",
+      "url": "https://app.smilee.finance/gbera",
+      "description": "SMILEE Incinerator is a Proof-of-Liquidity strategy that leverages validator incentives to generate profits for buying and burning SMILEE tokens.",
+      "owner": "Smilee",
+      "action": "Incinerate SMILEE"
     },
     {
       "stakingTokenAddress": "0xf0dab9d5da8ded3aa66698f59cc00a5720e65dfb",

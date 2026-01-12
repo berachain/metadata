@@ -11,8 +11,8 @@ import type { VaultsFile } from "../src/types/vaults";
 
 // Config
 // ================================================================
-const METADATA_FOLDER = "src";
-const ASSET_PATH = path.join(process.argv[2] ?? "", METADATA_FOLDER, "assets");
+const METADATA_FOLDER = path.join(process.argv[2] ?? "", "src");
+const ASSET_PATH = path.join(METADATA_FOLDER, "assets");
 const METADATA_FOLDER_EXCLUDED = ["assets"];
 
 // Functions

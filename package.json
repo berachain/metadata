@@ -30,7 +30,7 @@
     "cloudinary": "^2.5.0",
     "dotenv": "^16.4.5",
     "tsx": "4.19.3",
-    "viem": "^2.24.2"
+    "viem": "2.44.0"
   },
   "engines": {
     "node": ">=22"
@@ -38,6 +38,7 @@
   "packageManager": "pnpm@9.15.9+sha512.68046141893c66fad01c079231128e9afb89ef87e2691d69e4d40eee228988295fd4682181bae55b58418c3a253bde65a505ec7c5f9403ece5cc3cd37dcf2531",
   "dependencies": {
     "@actions/core": "^1.11.1",
+    "@berachain/berajs": "0.1.0",
     "chalk": "^5.4.1",
     "cloudinary": "^2.5.0",
     "jsonc-parser": "^3.3.1",

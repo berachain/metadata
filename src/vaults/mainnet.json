@@ -3252,7 +3252,7 @@
       "name": "Lend wgBERA on Dolomite",
       "protocol": "Dolomite",
       "categories": ["defi/lending"],
-      "logoURI": "",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1768320478/vaults/0xfdd6a6512a864c8775001c1962ac8ec2802ce820.jpg",
       "url": "https://app.dolomite.io/earn",
       "description": "Acquired by depositing wgBERA single sided on Dolomite Balance within the Earn Section.",
       "owner": "Smilee",

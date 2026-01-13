@@ -3245,6 +3245,18 @@
       "description": "The staking token is a dummy token 100% owned by the Booga Bullas multisig, where BGT earned is permanent blackholed and yield generated with it is used to buy and burn / relist Booga Bullas at a markup with the purpose to increase the floor and blackhole even more BGT.",
       "owner": "Booga Bullas",
       "action": "Stake BGT Blackhole"
+    },
+    {
+      "stakingTokenAddress": "0x561fee9518c2417d9e85dc295c829eeee7bfc255",
+      "vaultAddress": "0xfdd6a6512a864c8775001c1962ac8ec2802ce820",
+      "name": "Lend wgBERA on Dolomite",
+      "protocol": "Dolomite",
+      "categories": ["defi/lending"],
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1768320478/vaults/0xfdd6a6512a864c8775001c1962ac8ec2802ce820.jpg",
+      "url": "https://app.dolomite.io/earn",
+      "description": "Acquired by depositing wgBERA single sided on Dolomite Balance within the Earn Section.",
+      "owner": "Smilee",
+      "action": "Lend wgBERA on Dolomite"
     }
   ]
 }

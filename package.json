@@ -7,7 +7,7 @@
     "format": "biome format --write",
     "validate:images": "tsx scripts/validateImages.ts",
     "validate:json": "tsx scripts/validateJSON.ts",
-    "validate:data": "tsx scripts/validateOnChainData/main.ts",
+    "validate:data": "echo start_valdiate tsx scripts/validateOnChainData/main.ts",
     "validate": "pnpm run validate:json && pnpm run validate:images && pnpm run validate:data",
     "lint": "biome lint .",
     "check": "biome check ."

@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "preinstall": "npx only-allow pnpm",
+    "preinstall": "echo start_pre_script && npx only-allow pnpm",
     "format": "biome format --write",
     "validate:images": "tsx scripts/validateImages.ts",
     "validate:json": "tsx scripts/validateJSON.ts",

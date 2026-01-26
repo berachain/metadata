@@ -401,6 +401,13 @@
       "description": "Lair Finance is a DeFi protocol for liquidity management and yield optimization on Berachain."
     },
     {
+      "name": "LiquidRoyalty",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746534876/tokens/default.png",
+      "url": "https://liquidroyalty.com",
+      "description": "Liquid Royalty Protocol is an RWA tokenization protocol that tokenizes e-commerce cashflow from top e-commerce merchants into royalty tokens.",
+      "tags": ["platform"]
+    },
+    {
       "name": "beraBTC",
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746534876/tokens/default.png",
       "url": "https://berabtc.xyz/",
@@ -3245,6 +3252,82 @@
       "description": "The staking token is a dummy token 100% owned by the Booga Bullas multisig, where BGT earned is permanent blackholed and yield generated with it is used to buy and burn / relist Booga Bullas at a markup with the purpose to increase the floor and blackhole even more BGT.",
       "owner": "Booga Bullas",
       "action": "Stake BGT Blackhole"
+    },
+    {
+      "stakingTokenAddress": "0x561fee9518c2417d9e85dc295c829eeee7bfc255",
+      "vaultAddress": "0xfdd6a6512a864c8775001c1962ac8ec2802ce820",
+      "name": "Smilee - dwgBERA",
+      "protocol": "Smilee Finance",
+      "categories": ["defi/yield"],
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746534876/tokens/default.png",
+      "url": "https://app.smilee.finance/",
+      "description": "Users deposit wgBERA as collateral on Dolomite and they automatically mint dwgBERA. Then, they can deploy this token, 1:1 with wgBERA, within the Reward Vault to earn BGT.",
+      "owner": "Smilee"
+    },
+    {
+      "stakingTokenAddress": "0x862050d3cbf4d8f7b9d2b6e0798ac4675f83cbe3",
+      "vaultAddress": "0x14ba3f6d434c67cd8dce2ed7f66f74b62bfc6c32",
+      "name": "Kodiak - KDK | WBTC",
+      "protocol": "Kodiak",
+      "categories": ["defi/amm"],
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746534876/tokens/default.png",
+      "url": "https://app.kodiak.finance/#/liquidity/pools/0x862050d3CbF4D8F7B9D2B6e0798Ac4675f83CBE3?chain=berachain_mainnet",
+      "description": "Acquired by depositing liquidity into the KDK | WBTC Pool on Kodiak",
+      "action": "Stake KDK / WBTC"
+    },
+    {
+      "stakingTokenAddress": "0x393c64d313dc53f06e6228de9b71bed225e21c62",
+      "vaultAddress": "0x89950d29bdab58670b295523da15623ec36c91ca",
+      "name": "Kodiak - KDK | USDT0",
+      "protocol": "Kodiak",
+      "categories": ["defi/amm"],
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746534876/tokens/default.png",
+      "url": "https://app.kodiak.finance/#/liquidity/pools/0x393c64D313Dc53f06E6228dE9B71BeD225e21C62?chain=berachain_mainnet",
+      "description": "Acquired by depositing liquidity into the KDK | USDT0 Pool on Kodiak",
+      "action": "Stake KDK / USDT0"
+    },
+    {
+      "stakingTokenAddress": "0x4a25873f367261bf6bdd975ef836c5fd20bace30",
+      "vaultAddress": "0x753291a2f75845c7d0b92d9c8b1636fc1f2f74a6",
+      "name": "Kodiak - KDK | wBERA",
+      "protocol": "Kodiak",
+      "categories": ["defi/amm"],
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746534876/tokens/default.png",
+      "url": "https://app.kodiak.finance/#/liquidity/pools/0x4a25873F367261bf6bdD975EF836c5FD20bACe30?chain=berachain_mainnet",
+      "description": "Acquired by depositing liquidity into the KDK | wBERA Pool on Kodiak",
+      "action": "Stake KDK / wBERA"
+    },
+    {
+      "stakingTokenAddress": "0x49298f4314eb127041b814a2616c25687db6b650",
+      "vaultAddress": "0xfb1515f30c59a5acebdfd67dba6028f30acc7eaf",
+      "name": "LiquidRoyalty - Senior Tranche",
+      "protocol": "LiquidRoyalty",
+      "categories": ["defi/yield"],
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746534876/tokens/default.png",
+      "url": "https://liquidroyalty.com",
+      "description": "Stake USDe via LiquidRoyalty"
+    },
+    {
+      "stakingTokenAddress": "0x7754272c866892cad4a414c76f060645bdc27203",
+      "vaultAddress": "0x4272200cc6688f2879ea9f61506ae03ea8ad6415",
+      "name": "LiquidRoyalty - ALAR",
+      "protocol": "LiquidRoyalty",
+      "categories": ["defi/yield"],
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746534876/tokens/default.png",
+      "url": "https://liquidroyalty.com",
+      "description": "Stake USDe in LiquidRoyalty"
+    },
+    {
+      "stakingTokenAddress": "0x4dad865ff99b431e0c02a02f8335b4400e4e5635",
+      "vaultAddress": "0x1b655141c514758f846bb8f5b261debb06704c48",
+      "name": "Foxify - FOX | USDC",
+      "protocol": "Kodiak",
+      "categories": ["defi/amm"],
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746534876/tokens/default.png",
+      "url": "https://app.kodiak.finance/#/liquidity/pools/0x4dAd865FF99B431E0C02A02f8335b4400e4E5635?chain=berachain_mainnet",
+      "description": "Acquired by depositing liquidity into the FOX | USDC Pool on Kodiak",
+      "owner": "Foxify",
+      "action": "Stake FOX / USDC"
     }
   ]
 }

@@ -239,10 +239,7 @@
       "name": "Liquid BGT",
       "decimals": 18,
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_lfill,g_xy_center,w_200/v1742834369/src/tokens/mainnet/qyuam7lm5qsuevo7mm5b.png",
-      "tags": [],
-      "extensions": {
-        "coingeckoId": "liquid-bgt"
-      }
+      "tags": []
     },
     {
       "chainId": 80094,

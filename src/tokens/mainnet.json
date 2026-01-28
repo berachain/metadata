@@ -91,8 +91,7 @@
       "decimals": 6,
       "tags": ["stablecoin", "featured"],
       "extensions": {
-        "coingeckoId": "paypal-usd",
-        "pythPriceId": "0x00456705ae9007ea761e95c724035a23a62fe9e444bbc744e11af7f050ab53c3"
+        "coingeckoId": "paypal-usd"
       }
     },
     {
@@ -242,8 +241,7 @@
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_lfill,g_xy_center,w_200/v1742834369/src/tokens/mainnet/qyuam7lm5qsuevo7mm5b.png",
       "tags": [],
       "extensions": {
-        "coingeckoId": "liquid-bgt",
-        "pythPriceId": "0x7d80a0d7344c6632c5ed2b85016f32aed4f831294e274739d92bb9e32df5b22f"
+        "coingeckoId": "liquid-bgt"
       }
     },
     {
@@ -448,11 +446,7 @@
       "symbol": "NECT",
       "decimals": 18,
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1743447620/tokens/zxgqjxi7do2qaq3heeee.png",
-      "tags": ["stablecoin"],
-      "extensions": {
-        "coingeckoId": "nectar",
-        "pythPriceId": "0xddf0dd319060db4561b5aa8f84a94816d33579f8dc2af2d8f74583bce20cd260"
-      }
+      "tags": ["stablecoin"]
     },
     {
       "chainId": 80094,
@@ -662,7 +656,6 @@
       "symbol": "BIXBT",
       "decimals": 18,
       "logoURI": "https://assets.coingecko.com/coins/images/55022/standard/BeraLogo-200px.jpg?1743243276",
-      "extensions": { "coingeckoId": "beraxbt" }
     },
     {
       "chainId": 80094,

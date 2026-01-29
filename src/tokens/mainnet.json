@@ -63,6 +63,15 @@
     },
     {
       "chainId": 80094,
+      "address": "0xA3503ba6460121d5936F4576f5486Fed30dbA4d8",
+      "symbol": "siBERA",
+      "name": "Staked iBERA",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1765363694/a9tqybr8qmfnjkpr9zi6.png",
+      "decimals": 18,
+      "tags": ["featured"]
+    },
+    {
+      "chainId": 80094,
       "address": "0xFCBD14DC51f0A4d49d5E53C2E0950e0bC26d0Dce",
       "symbol": "HONEY",
       "name": "Honey",

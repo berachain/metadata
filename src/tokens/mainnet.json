@@ -19,7 +19,7 @@
       "symbol": "BERA",
       "name": "Berachain Token",
       "decimals": 18,
-      "logoURI": "https://res.cloudinary.com/duv0g402y/raw/upload/v1717773645/src/assets/bera.png",
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0x0000000000000000000000000000000000000000.png",
       "tags": ["featured"],
       "extensions": {
         "coingeckoId": "berachain-bera",
@@ -32,7 +32,7 @@
       "symbol": "WBERA",
       "name": "Wrapped Berachain Token",
       "decimals": 18,
-      "logoURI": "https://res.cloudinary.com/duv0g402y/raw/upload/v1717773645/src/assets/wbera.png",
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0x6969696969696969696969696969696969696969.png",
       "tags": ["featured"],
       "extensions": {
         "coingeckoId": "berachain-bera",
@@ -45,7 +45,7 @@
       "symbol": "BGT",
       "name": "Bera Governance Token",
       "decimals": 18,
-      "logoURI": "https://res.cloudinary.com/duv0g402y/raw/upload/v1717773645/src/assets/bgt.png",
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0x656b95E550C07a9ffe548bd4085c72418Ceb1dba.png",
       "tags": ["featured"]
     },
     {
@@ -53,7 +53,7 @@
       "address": "0x118d2ceee9785eaf70c15cd74cd84c9f8c3eec9a",
       "symbol": "sWBERA",
       "name": "POL Staked WBERA",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1759446171/tokens/0x118d2ceee9785eaf70c15cd74cd84c9f8c3eec9a.png",
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0x118d2ceee9785eaf70c15cd74cd84c9f8c3eec9a.png",
       "decimals": 18,
       "tags": ["featured"],
       "extensions": {
@@ -66,7 +66,7 @@
       "address": "0xA3503ba6460121d5936F4576f5486Fed30dbA4d8",
       "symbol": "siBERA",
       "name": "Staked iBERA",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1765363694/a9tqybr8qmfnjkpr9zi6.png",
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0xA3503ba6460121d5936F4576f5486Fed30dbA4d8.png",
       "decimals": 18,
       "tags": ["featured"]
     },
@@ -76,7 +76,7 @@
       "symbol": "HONEY",
       "name": "Honey",
       "decimals": 18,
-      "logoURI": "https://res.cloudinary.com/duv0g402y/raw/upload/v1717773645/src/assets/honey.png",
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0xFCBD14DC51f0A4d49d5E53C2E0950e0bC26d0Dce.png",
       "tags": ["stablecoin", "featured"],
       "extensions": {
         "coingeckoId": "honey-3",
@@ -88,7 +88,7 @@
       "address": "0x30bba9cd9eb8c95824aa42faa1bb397b07545bc1",
       "symbol": "Re7HONEY",
       "name": "Re7 HONEY",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/raw/upload/v1717773645/src/assets/honey.png",
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0x30bba9cd9eb8c95824aa42faa1bb397b07545bc1.png",
       "decimals": 18
     },
     {
@@ -96,7 +96,7 @@
       "address": "0x688e72142674041f8f6Af4c808a4045cA1D6aC82",
       "symbol": "BYUSD",
       "name": "BYUSD",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1738732576/tokens/y6wa21vehnappbe2cruf.png",
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0x688e72142674041f8f6Af4c808a4045cA1D6aC82.png",
       "decimals": 6,
       "tags": ["stablecoin", "featured"],
       "extensions": {
@@ -109,7 +109,7 @@
       "symbol": "USDC.e",
       "name": "Bridged USDC (Stargate)",
       "decimals": 6,
-      "logoURI": "https://coin-images.coingecko.com/coins/images/6319/large/usdc.png?1696506694",
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0x549943e04f40284185054145c6E4e9568C1D3241.png",
       "tags": ["stablecoin", "featured"],
       "extensions": {
         "coingeckoId": "usd-coin",
@@ -122,7 +122,7 @@
       "symbol": "USD₮0",
       "name": "Tether USD Coin",
       "decimals": 6,
-      "logoURI": "https://raw.githubusercontent.com/berachain/metadata/refs/heads/main/src/assets/tokens/0x779ded0c9e1022225f8e0630b35a9b54be713736.png",
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0x779Ded0c9e1022225f8E0630b35a9b54bE713736.png",
       "tags": ["stablecoin", "featured"],
       "extensions": {
         "coingeckoId": "tether",
@@ -135,7 +135,7 @@
       "symbol": "WBTC",
       "name": "WBTC",
       "decimals": 8,
-      "logoURI": "https://res.cloudinary.com/duv0g402y/raw/upload/v1717773645/src/assets/btc.png",
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0x0555E30da8f98308EdB960aa94C0Db47230d2B9c.png",
       "tags": ["featured", "deposit"],
       "extensions": {
         "coingeckoId": "wrapped-bitcoin",
@@ -148,7 +148,7 @@
       "symbol": "SMILEE",
       "name": "Smilee",
       "decimals": 18,
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1766077408/tokens/0xb2A12DB2691fc05DcA47b2bE9A087077AFaA0800.jpg",
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0xb2A12DB2691fc05DcA47b2bE9A087077AFaA0800.jpg",
       "extensions": {
         "coingeckoId": "smilee"
       }
@@ -159,7 +159,7 @@
       "symbol": "WETH",
       "name": "WETH",
       "decimals": 18,
-      "logoURI": "https://res.cloudinary.com/duv0g402y/raw/upload/v1717773645/src/assets/eth.png",
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0x2F6F07CDcf3588944Bf4C42aC74ff24bF56e7590.png",
       "tags": ["featured", "deposit"],
       "extensions": {
         "coingeckoId": "weth",
@@ -170,7 +170,7 @@
       "chainId": 80094,
       "address": "0x9b6761bf2397Bb5a6624a856cC84A3A14Dcd3fe5",
       "decimals": 18,
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1738837562/tokens/feeqqlxk3wq4lp0rym34.png",
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0x9b6761bf2397Bb5a6624a856cC84A3A14Dcd3fe5.png",
       "symbol": "iBERA",
       "name": "iBERA",
       "tags": [],
@@ -183,7 +183,7 @@
       "chainId": 80094,
       "address": "0xac03CABA51e17c86c921E1f6CBFBdC91F8BB2E6b",
       "decimals": 18,
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1738837560/tokens/iaynouqgjmryrzl0wcvx.png",
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0xac03CABA51e17c86c921E1f6CBFBdC91F8BB2E6b.png",
       "symbol": "iBGT",
       "name": "iBGT",
       "tags": [],
@@ -196,7 +196,7 @@
       "chainId": 80094,
       "address": "0x6d4223DAE2a8744a85a6d44e97f3F61679f87ee6",
       "decimals": 18,
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1739455325/tokens/luha7bssovccqq4jigdh.png",
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0x6d4223DAE2a8744a85a6d44e97f3F61679f87ee6.png",
       "symbol": "USDbr",
       "name": "USDbr",
       "tags": []
@@ -205,7 +205,7 @@
       "chainId": 80094,
       "address": "0xFf9c599D51C407A45D631c6e89cB047Efb88AeF6",
       "decimals": 18,
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1743022198/tokens/axoo3bolisdxoz2glakg.png",
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0xFf9c599D51C407A45D631c6e89cB047Efb88AeF6.png",
       "symbol": "PENDLE",
       "name": "Pendle",
       "tags": [],
@@ -218,7 +218,7 @@
       "chainId": 80094,
       "address": "0xFaF4c16847bD0ebaC546C49a9C9c6b81abd4b08C",
       "decimals": 18,
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1739455320/tokens/yxqyrtpt4x6ldudyxktd.png",
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0xFaF4c16847bD0ebaC546C49a9C9c6b81abd4b08C.png",
       "symbol": "NOME",
       "name": "NOME",
       "tags": []
@@ -229,7 +229,7 @@
       "symbol": "AZT",
       "name": "AZEx Token",
       "decimals": 18,
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1742832647/src/tokens/mainnet/k4g9i4kz5igywhv5zmpq.png",
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0xDAd7898717AdE066E1114E6bdbFaFd8A6F378B7b.png",
       "tags": []
     },
     {
@@ -238,7 +238,7 @@
       "symbol": "ARTIO",
       "name": "Artio",
       "decimals": 18,
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1743021469/tokens/eygclwqlzatgbbyjkdzz.png",
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0x6FF4D64976428025Cdcc3354EF53b5D19637481e.png",
       "tags": []
     },
     {
@@ -247,7 +247,7 @@
       "symbol": "LBGT",
       "name": "Liquid BGT",
       "decimals": 18,
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_lfill,g_xy_center,w_200/v1742834369/src/tokens/mainnet/qyuam7lm5qsuevo7mm5b.png",
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0xBaadCC2962417C01Af99fb2B7C75706B9bd6Babe.png",
       "tags": [],
       "extensions": {
         "coingeckoId": "liquid-bgt"
@@ -259,7 +259,7 @@
       "symbol": "stBGT",
       "name": "stBGT",
       "decimals": 18,
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1753812563/tokens/0x2CeC7f1ac87F5345ced3D6c74BBB61bfAE231Ffb.png",
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0x2CeC7f1ac87F5345ced3D6c74BBB61bfAE231Ffb.png",
       "tags": []
     },
     {
@@ -268,7 +268,7 @@
       "symbol": "pBERA",
       "name": "Paw Bera",
       "decimals": 18,
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1759757304/tokens/0xDeadf18CB9233770FE8874c78D7483b4A126B34a.png",
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0xDeadf18CB9233770FE8874c78D7483b4A126B34a.png",
       "tags": []
     },
     {
@@ -277,7 +277,7 @@
       "symbol": "BITCOIN",
       "name": "HarryPotterObamaSonic10Inu",
       "decimals": 8,
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1743021359/tokens/x4tefm7msvwzj57ismsz.png",
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0x6B26f778bfae56CFb4Bf9b62c678d9D40e725227.png",
       "tags": [],
       "extensions": {
         "coingeckoId": "harrypotterobamasonic10in",
@@ -290,7 +290,7 @@
       "symbol": "USR",
       "name": "Resolv USD",
       "decimals": 18,
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1743020794/tokens/c1lf9aq8svu5yvm0qusc.png",
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0x2492D0006411Af6C8bbb1c8afc1B0197350a79e9.png",
       "tags": ["stablecoin"],
       "extensions": {
         "coingeckoId": "resolv-usr",
@@ -303,7 +303,7 @@
       "symbol": "RLP",
       "name": "Resolv Liquidity Provider Token",
       "decimals": 18,
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1743020925/tokens/cwpaoz5qjaetleciqpfr.png",
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0x35E5dB674D8e93a03d814FA0ADa70731efe8a4b9.png",
       "tags": [],
       "extensions": {
         "coingeckoId": "resolv-rlp",
@@ -316,9 +316,11 @@
       "name": "Lorenzo stBTC",
       "symbol": "stBTC",
       "decimals": 18,
-      "logoURI": "https://coin-images.coingecko.com/coins/images/50978/large/a.jpg?1730208372",
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0xf6718b2701D4a6498eF77D7c152b2137Ab28b8A3.png",
       "tags": [],
-      "extensions": { "coingeckoId": "lorenzo-stbtc" }
+      "extensions": {
+        "coingeckoId": "lorenzo-stbtc"
+      }
     },
     {
       "chainId": 80094,
@@ -342,9 +344,11 @@
       "name": "uniBTC",
       "symbol": "uniBTC",
       "decimals": 8,
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1759445982/tokens/0xC3827A4BC8224ee2D116637023b124CED6db6e90.png",
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0xC3827A4BC8224ee2D116637023b124CED6db6e90.png",
       "tags": [],
-      "extensions": { "coingeckoId": "universal-btc" }
+      "extensions": {
+        "coingeckoId": "universal-btc"
+      }
     },
     {
       "chainId": 80094,
@@ -352,7 +356,7 @@
       "name": "Lombard Staked Bitcoin",
       "symbol": "LBTC",
       "decimals": 8,
-      "logoURI": "https://coin-images.coingecko.com/coins/images/39969/large/LBTC_Logo.png?1724959872",
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0xecAc9C5F704e954931349Da37F60E39f515c11c1.png",
       "tags": [],
       "extensions": {
         "coingeckoId": "lombard-staked-btc",
@@ -365,9 +369,11 @@
       "name": "Fire Bitcoin",
       "symbol": "FBTC",
       "decimals": 8,
-      "logoURI": "https://coin-images.coingecko.com/coins/images/39182/large/fbtc.png?1740123952",
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0xbAC93A69c62a1518136FF840B788Ba715cbDfE2B.png",
       "tags": [],
-      "extensions": { "coingeckoId": "ignition-fbtc" }
+      "extensions": {
+        "coingeckoId": "ignition-fbtc"
+      }
     },
     {
       "chainId": 80094,
@@ -415,7 +421,7 @@
       "name": "Magic Internet Money",
       "symbol": "MIM",
       "decimals": 18,
-      "logoURI": "https://coin-images.coingecko.com/coins/images/16786/large/mimlogopng.png?1696516358",
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0x5B82028cfc477C4E7ddA7FF33d59A23FA7Be002a.png",
       "extensions": {
         "coingeckoId": "magic-internet-money",
         "pythPriceId": "0x7aa41f6ee464616f3cbc469fddfd7e63d8db319b7bd585cc95b24c29c9172916"
@@ -428,7 +434,7 @@
       "name": "rswETH",
       "symbol": "rswETH",
       "decimals": 18,
-      "logoURI": "https://coin-images.coingecko.com/coins/images/34489/large/rswETH_Icon.png?1706865484",
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0x850CDF416668210ED0c36bfFF5d21921C7adA3b8.png",
       "extensions": {
         "coingeckoId": "restaked-swell-eth",
         "pythPriceId": "0x17e349391a4d8362706ec4126c2fa42047601cb71c1063e38ca305fab9b0ec4d"
@@ -441,7 +447,7 @@
       "name": "KelpDao Restaked ETH",
       "symbol": "rsETH",
       "decimals": 18,
-      "logoURI": "https://coin-images.coingecko.com/coins/images/33800/large/Icon___Dark.png?1702991855",
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0x4186BFC76E2E237523CBC30FD220FE055156b41F.png",
       "extensions": {
         "coingeckoId": "kelp-dao-restaked-eth",
         "pythPriceId": "0x0caec284d34d836ca325cf7b3256c078c597bc052fbd3c0283d52b581d68d71f"
@@ -454,7 +460,7 @@
       "name": "Nectar",
       "symbol": "NECT",
       "decimals": 18,
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1743447620/tokens/zxgqjxi7do2qaq3heeee.png",
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0x1cE0a25D13CE4d52071aE7e02Cf1F6606F4C79d3.png",
       "tags": ["stablecoin"]
     },
     {
@@ -463,7 +469,7 @@
       "name": "gBERA Token",
       "symbol": "gBERA",
       "decimals": 18,
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1742832647/src/tokens/mainnet/jgmp1qhoyzmsbknja1f0.png",
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0x3b3dd22625128Ff1548110f9B7Bc702F540668e2.png",
       "tags": []
     },
     {
@@ -472,9 +478,11 @@
       "name": "Wrapped gBERA",
       "symbol": "wgBERA",
       "decimals": 18,
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1742832647/src/tokens/mainnet/fnjauaw96s6kl0dxjzx7.png",
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0xD77552D3849ab4D8C3b189A9582d0ba4C1F4f912.png",
       "tags": [],
-      "extensions": { "coingeckoId": "wrapped-gbera" }
+      "extensions": {
+        "coingeckoId": "wrapped-gbera"
+      }
     },
     {
       "chainId": 80094,
@@ -482,7 +490,7 @@
       "name": "Beraplug",
       "symbol": "PLUG",
       "decimals": 18,
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1743017404/tokens/pj0avz3gekjw6ih76xjv.png",
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0x231A6BD8eB88Cfa42776B7Ac575CeCAf82bf1E21.png",
       "tags": []
     },
     {
@@ -491,8 +499,10 @@
       "name": "Solv BTC",
       "symbol": "SolvBTC",
       "decimals": 18,
-      "logoURI": "https://coin-images.coingecko.com/coins/images/36800/large/solvBTC.png?1719810684",
-      "extensions": { "coingeckoId": "solv-btc" }
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0x541FD749419CA806a8bc7da8ac23D346f2dF8B77.png",
+      "extensions": {
+        "coingeckoId": "solv-btc"
+      }
     },
     {
       "chainId": 80094,
@@ -500,8 +510,10 @@
       "name": "xSolvBTC",
       "symbol": "xSolvBTC",
       "decimals": 18,
-      "logoURI": "https://coin-images.coingecko.com/coins/images/39384/large/unnamed.png?1721961640",
-      "extensions": { "coingeckoId": "solv-protocol-solvbtc-bbn" }
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0xCC0966D8418d412c599A6421b760a847eB169A8c.png",
+      "extensions": {
+        "coingeckoId": "solv-protocol-solvbtc-bbn"
+      }
     },
     {
       "chainId": 80094,
@@ -516,7 +528,7 @@
       "name": "StakeStone Ether",
       "symbol": "STONE",
       "decimals": 18,
-      "logoURI": "https://coin-images.coingecko.com/coins/images/33103/large/200_200.png?1702602672",
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0xEc901DA9c68E90798BbBb74c11406A32A70652C3.png",
       "extensions": {
         "coingeckoId": "stakestone-ether",
         "pythPriceId": "0x4dcc2fb96fb89a802ef9712f6bd2246d3607cf95ca5540cb24490d37003f8c46"
@@ -528,7 +540,7 @@
       "name": "Berachain Staked ETH",
       "symbol": "beraETH",
       "decimals": 18,
-      "logoURI": "https://coin-images.coingecko.com/coins/images/54260/large/beraETH.png?1738952010",
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0x6fc6545d5cDE268D5C7f1e476D444F39c995120d.png",
       "extensions": {
         "coingeckoId": "berachain-staked-eth",
         "pythPriceId": "0x9d4294bbcd1174d6f2003ec365831e64cc31d9f6f15a2b85399db8d5000960f6"
@@ -540,7 +552,7 @@
       "name": "USDa",
       "symbol": "USDa",
       "decimals": 18,
-      "logoURI": "https://coin-images.coingecko.com/coins/images/51599/large/SUSDA.png?1731604761",
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0xff12470a969Dd362EB6595FFB44C82c959Fe9ACc.png",
       "extensions": {
         "coingeckoId": "usda-2",
         "pythPriceId": "0x3a1050a3c03354c94ed44acf808327f05b7f9d610f38644684f5ce4796cce27b"
@@ -552,8 +564,10 @@
       "name": "USDa saving token",
       "symbol": "sUSDa",
       "decimals": 18,
-      "logoURI": "https://coin-images.coingecko.com/coins/images/51821/large/USDA.png?1732035172",
-      "extensions": { "coingeckoId": "susda" }
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0x2840F9d9f96321435Ab0f977E7FDBf32EA8b304f.png",
+      "extensions": {
+        "coingeckoId": "susda"
+      }
     },
     {
       "chainId": 80094,
@@ -561,7 +575,7 @@
       "name": "USDe",
       "symbol": "USDe",
       "decimals": 18,
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1743021263/tokens/vtfyhwt1bjcygv4uhwvh.png",
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34.png",
       "extensions": {
         "coingeckoId": "ethena-usde",
         "pythPriceId": "0x6ec879b1e9963de5ee97e9c8710b742d6228252a5e2ca12d4ae81d7fe5ee8c5d"
@@ -573,7 +587,7 @@
       "name": "Staked USDe",
       "symbol": "sUSDe",
       "decimals": 18,
-      "logoURI": "https://coin-images.coingecko.com/coins/images/33669/large/sUSDe-Symbol-Color.png?1716307680",
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0x211Cc4DD073734dA055fbF44a2b4667d5E5fE5d2.png",
       "extensions": {
         "coingeckoId": "ethena-staked-usde",
         "pythPriceId": "0xca3ba9a619a4b3755c10ac7d5e760275aa95e9823d38a84fedd416856cdba37c"
@@ -585,7 +599,7 @@
       "name": "Wrapped eETH",
       "symbol": "weETH",
       "decimals": 18,
-      "logoURI": "https://coin-images.coingecko.com/coins/images/33033/large/weETH.png?1701438396",
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0x7DCC39B4d1C53CB31e1aBc0e358b43987FEF80f7.png",
       "extensions": {
         "coingeckoId": "wrapped-eeth",
         "pythPriceId": "0x9ee4e7c60b940440a261eb54b6d8149c23b580ed7da3139f7f08f4ea29dad395"
@@ -597,7 +611,7 @@
       "name": "Olympus",
       "symbol": "OHM",
       "decimals": 9,
-      "logoURI": "https://coin-images.coingecko.com/coins/images/14483/large/token_OHM_%281%29.png?1696514169",
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0x18878Df23e2a36f81e820e4b47b4A40576D3159C.png",
       "extensions": {
         "coingeckoId": "olympus",
         "pythPriceId": "0x3a8c0214e4fb7f1dd7792ed4d5b2971372e52f088fcd9cc02309253cbdc4a70e"
@@ -609,8 +623,10 @@
       "name": "Dinero OFT",
       "symbol": "DINERO",
       "decimals": 18,
-      "logoURI": "https://coin-images.coingecko.com/coins/images/39341/large/dinero.jpg?1721807902",
-      "extensions": { "coingeckoId": "dinero-2" }
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0x09D9420332bff75522a45FcFf4855F82a0a3ff50.png",
+      "extensions": {
+        "coingeckoId": "dinero-2"
+      }
     },
     {
       "chainId": 80094,
@@ -619,7 +635,9 @@
       "symbol": "HENLO",
       "decimals": 18,
       "logoURI": "https://coin-images.coingecko.com/coins/images/54719/large/Full_Circle_Logo_Large_%28YellowBlue%29_%281%29.png?1741193376",
-      "extensions": { "coingeckoId": "henlo-3" }
+      "extensions": {
+        "coingeckoId": "henlo-3"
+      }
     },
     {
       "chainId": 80094,
@@ -628,7 +646,9 @@
       "symbol": "bm",
       "decimals": 18,
       "logoURI": "https://coin-images.coingecko.com/coins/images/54413/large/photo_2025-02-13_05.15.34.jpeg?1739554671",
-      "extensions": { "coingeckoId": "bm" }
+      "extensions": {
+        "coingeckoId": "bm"
+      }
     },
     {
       "chainId": 80094,
@@ -637,7 +657,9 @@
       "symbol": "RAMEN",
       "decimals": 18,
       "logoURI": "https://coin-images.coingecko.com/coins/images/54443/large/rsz_tokens_1.png?1739772470",
-      "extensions": { "coingeckoId": "ramen" }
+      "extensions": {
+        "coingeckoId": "ramen"
+      }
     },
     {
       "chainId": 80094,
@@ -646,17 +668,21 @@
       "symbol": "YEET",
       "decimals": 18,
       "logoURI": "https://coin-images.coingecko.com/coins/images/54416/large/IMG_7050.PNG?1739556073",
-      "extensions": { "coingeckoId": "yeet" }
+      "extensions": {
+        "coingeckoId": "yeet"
+      }
     },
     {
       "chainId": 80094,
       "address": "0xF9ee98099F5078078Bb8e17E6b4a4F95137E2037",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/30645/large/QLLK8pmR_400x400.jpg",
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0xF9ee98099F5078078Bb8e17E6b4a4F95137E2037.png",
       "symbol": "EQB",
       "name": "Equilibria Token",
       "tags": [],
-      "extensions": { "coingeckoId": "equilibria-finance" }
+      "extensions": {
+        "coingeckoId": "equilibria-finance"
+      }
     },
     {
       "chainId": 80094,
@@ -664,7 +690,7 @@
       "name": "BeraXBT",
       "symbol": "BIXBT",
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/55022/standard/BeraLogo-200px.jpg?1743243276"
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0x147c9A7F5265D7cA9a671C3817b212a0cF88856e.png"
     },
     {
       "chainId": 80094,
@@ -674,7 +700,9 @@
       "decimals": 18,
       "logoURI": "https://coin-images.coingecko.com/coins/images/54663/large/NAV_Token.png?1740898251",
       "tags": [],
-      "extensions": { "coingeckoId": "nav" }
+      "extensions": {
+        "coingeckoId": "nav"
+      }
     },
     {
       "chainId": 80094,
@@ -684,7 +712,9 @@
       "decimals": 18,
       "logoURI": "https://coin-images.coingecko.com/coins/images/32726/large/HOLD.png?1699018663",
       "tags": [],
-      "extensions": { "coingeckoId": "holdstation" }
+      "extensions": {
+        "coingeckoId": "holdstation"
+      }
     },
     {
       "chainId": 80094,
@@ -694,7 +724,9 @@
       "decimals": 18,
       "logoURI": "https://coin-images.coingecko.com/coins/images/54529/large/_BERAMO_logo.png?1740168354",
       "tags": [],
-      "extensions": { "coingeckoId": "beramoniumcoin" }
+      "extensions": {
+        "coingeckoId": "beramoniumcoin"
+      }
     },
     {
       "chainId": 80094,
@@ -702,7 +734,7 @@
       "name": "Beratardio",
       "symbol": "BERATARDIO",
       "decimals": 18,
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1743513356/tokens/wu5gnzwstmazfyvxydea.png",
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0x66A501076865a2b21Df9dBd51FA931317188418B.png",
       "tags": ["memecoin"]
     },
     {
@@ -711,9 +743,11 @@
       "name": "Wizzwoods Token",
       "symbol": "WIZZ",
       "decimals": 18,
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1745506096/tokens/0x01c8a5ccad23a4d3764ef71c403862160aa2913a.png",
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0x01C8A5ccAD23A4D3764eF71c403862160Aa2913a.png",
       "tags": [],
-      "extensions": { "coingeckoId": "wizzwoods-token" }
+      "extensions": {
+        "coingeckoId": "wizzwoods-token"
+      }
     },
     {
       "chainId": 80094,
@@ -721,7 +755,7 @@
       "name": "Reward EUL",
       "symbol": "rEUL",
       "decimals": 18,
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1743590397/tokens/fchcibsy6l38oqg7ig05.png",
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0x56C44d2F484A61ce92Fa0BCc849feB37aBfeB59C.png",
       "tags": []
     },
     {
@@ -730,9 +764,11 @@
       "name": "Bedrock",
       "symbol": "BR",
       "decimals": 18,
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1744808447/tokens/fudxzeljryceklkujvuw.png",
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0xd352dc6e5F0c45E2F2b38eb5565EB286A1ea4087.png",
       "tags": [],
-      "extensions": { "coingeckoId": "bedrock-token" }
+      "extensions": {
+        "coingeckoId": "bedrock-token"
+      }
     },
     {
       "chainId": 80094,
@@ -740,7 +776,7 @@
       "name": "Dolomite: WBERA",
       "symbol": "dWBERA",
       "decimals": 18,
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1761751100/tokens/0xAa97D791Afc02AF30cf0B046172bb05b3c306517.png",
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0xAa97D791Afc02AF30cf0B046172bb05b3c306517.png",
       "tags": []
     },
     {
@@ -749,7 +785,7 @@
       "name": "Dolomite: rUSD",
       "symbol": "drUSD",
       "decimals": 18,
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1761751177/tokens/0x3000C6BF0AAEb813e252B584c4D9a82f99e7a71D.png",
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0x3000C6BF0AAEb813e252B584c4D9a82f99e7a71D.png",
       "tags": []
     },
     {
@@ -758,7 +794,7 @@
       "name": "Dolomite: HONEY",
       "symbol": "dHONEY",
       "decimals": 18,
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1761751239/tokens/0x7f2B60fDff1494A0E3e060532c9980d7fad0404B.png",
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0x7f2B60fDff1494A0E3e060532c9980d7fad0404B.png",
       "tags": []
     },
     {
@@ -767,7 +803,7 @@
       "name": "Dolomite",
       "symbol": "DOLO",
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/berachain/metadata/refs/heads/main/src/assets/tokens/0x0F81001eF0A83ecCE5ccebf63EB302c70a39a654.png",
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0x0F81001eF0A83ecCE5ccebf63EB302c70a39a654.png",
       "tags": []
     },
     {
@@ -776,7 +812,7 @@
       "name": "Kodiak token",
       "symbol": "KDK",
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/berachain/metadata/refs/heads/main/src/assets/tokens/0xc0d1ac00a30fa4e30e44afc7313d6312c87e21df.png",
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0xc0d1ac00a30fa4e30e44afc7313d6312c87e21df.png",
       "tags": []
     },
     {
@@ -785,7 +821,7 @@
       "name": "Kodiak Island WBERA-POLLEN-1%",
       "symbol": "KODI WBERA-POLLEN",
       "decimals": 18,
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1745344462/tokens/0xD6620E78B89E8fdB5dFA675D55001C7FaD424bDc.png",
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0xD6620E78B89E8fdB5dFA675D55001C7FaD424bDc.png",
       "tags": []
     },
     {
@@ -794,7 +830,7 @@
       "name": "HyperBERA.USDC",
       "symbol": "HyperBERA.USDC",
       "decimals": 6,
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1745430856/tokens/0x36b933554782b108bb9962ac00c498acbceb706d.png",
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0x36b933554782b108bb9962ac00c498acbceb706d.png",
       "tags": []
     },
     {
@@ -803,7 +839,7 @@
       "name": "dgnBeraland",
       "symbol": "dgnBeraland",
       "decimals": 6,
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1745430960/tokens/0xbe75c8a7e58c7901d2e128dc8d3b6de2481f1f79.png",
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0xbe75c8a7e58c7901d2e128dc8d3b6de2481f1f79.png",
       "tags": []
     },
     {
@@ -812,7 +848,7 @@
       "name": "ICHI Vault Liquidity",
       "symbol": "IV-WASABEE-4-WBERA-wgBERA",
       "decimals": 18,
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1745502841/tokens/0xac04b1AbADF214B57f7Ade1DD905AB7aCac23a6b.png",
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0xac04b1AbADF214B57f7Ade1DD905AB7aCac23a6b.png",
       "tags": []
     },
     {
@@ -821,7 +857,7 @@
       "name": "ICHI Vault Liquidity",
       "symbol": "IV-WASABEE-3-WBERA-iBERA",
       "decimals": 18,
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1745502888/tokens/0xE57D868d244d2Cf2E9679eaBa2A3048E58674565.png",
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0xE57D868d244d2Cf2E9679eaBa2A3048E58674565.png",
       "tags": []
     },
     {
@@ -830,7 +866,7 @@
       "name": "Kodiak Island iBERA-osBGT-0.3%",
       "symbol": "KODI iBERA-osBGT",
       "decimals": 18,
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1745684188/tokens/0xaD445256Ff81171043A5e7Cd8831e4371B000176.png",
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0xaD445256Ff81171043A5e7Cd8831e4371B000176.png",
       "tags": []
     },
     {
@@ -839,7 +875,7 @@
       "name": "Kodiak Island yBGT-yBERA-0.3%",
       "symbol": "KODI yBGT-yBERA",
       "decimals": 18,
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1745934111/tokens/0x5347e5133b22A680Ee94b7e62803E848F8d8C92e.jpg",
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0x5347e5133b22A680Ee94b7e62803E848F8d8C92e.png",
       "tags": []
     },
     {
@@ -848,7 +884,7 @@
       "name": "Kodiak Island brBTC-uniBTC-0.05%",
       "symbol": "KODI brBTC-uniBTC",
       "decimals": 18,
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1745989732/tokens/0x1ac0E38eE5f66F6fa46E1644BB6B73bEe598b953.png",
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0x1ac0E38eE5f66F6fa46E1644BB6B73bEe598b953.png",
       "tags": []
     },
     {
@@ -857,7 +893,7 @@
       "name": "Uniswap V2",
       "symbol": "UNI-V2",
       "decimals": 18,
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746108625/tokens/0x68Cac522833F38E088EEC5e356956C02F0268063.png",
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0x68Cac522833F38E088EEC5e356956C02F0268063.png",
       "tags": []
     },
     {
@@ -866,7 +902,7 @@
       "name": "BULL ISH V2",
       "symbol": "BULL ISH V2",
       "decimals": 18,
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746110153/tokens/0xdDD3Ea5De9c70973E224D938B8f392EC4CC0171C.jpg",
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0xdDD3Ea5De9c70973E224D938B8f392EC4CC0171C.png",
       "tags": []
     },
     {
@@ -875,7 +911,7 @@
       "name": "Burr Governance Token",
       "symbol": "BURR",
       "decimals": 18,
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746534541/tokens/0x28e0e3B9817012b356119dF9e217c25932D609c2.jpg",
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0x28e0e3B9817012b356119dF9e217c25932D609c2.png",
       "tags": []
     },
     {
@@ -884,7 +920,7 @@
       "name": "Prime Ether.Fi Liquid Bera BTC",
       "symbol": "primeLiquidBeraBTC",
       "decimals": 8,
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746534876/tokens/default.png",
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0x46fcd35431f5B371224ACC2e2E91732867B1A77e.png",
       "tags": []
     },
     {
@@ -893,7 +929,7 @@
       "name": "Prime Ether.Fi Liquid Bera ETH",
       "symbol": "primeLiquidBeraETH",
       "decimals": 18,
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746534876/tokens/default.png",
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0xB83742330443f7413DBD2aBdfc046dB0474a944e.png",
       "tags": []
     },
     {
@@ -902,7 +938,7 @@
       "name": "Dolomite: uniBTC",
       "symbol": "duniBTC",
       "decimals": 8,
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746505862/tokens/0xd6eb8ae479EdF452d264493708c85AA798CCCdFd.png",
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0xd6eb8ae479EdF452d264493708c85AA798CCCdFd.png",
       "tags": []
     },
     {
@@ -911,7 +947,7 @@
       "name": "Roots Stable",
       "symbol": "MEAD",
       "decimals": 18,
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1746892015/tokens/0xedb5180661f56077292c92ab40b1ac57a279a396.png",
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0xedb5180661f56077292c92ab40b1ac57a279a396.png",
       "tags": ["stablecoin"]
     },
     {
@@ -920,7 +956,7 @@
       "name": "Lair",
       "symbol": "LAIR",
       "decimals": 18,
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1747305832/tokens/0xf3530788DEB3d21E8fA2c3CBBF93317FB38a0D3C.png",
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0xf3530788DEB3d21E8fA2c3CBBF93317FB38a0D3C.png",
       "tags": []
     },
     {
@@ -929,7 +965,7 @@
       "name": "TWIN ASSET TOKEN - AAPL",
       "symbol": "AAPL",
       "decimals": 18,
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1759445330/tokens/0x63CA3e797CBbCB16b1875D42b4869Af7D328d820.png",
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0x63CA3e797CBbCB16b1875D42b4869Af7D328d820.png",
       "tags": []
     },
     {
@@ -938,7 +974,7 @@
       "name": "TWIN ASSET TOKEN - iAAPL",
       "symbol": "iAAPL",
       "decimals": 18,
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1759445335/tokens/0xCB700b56226D3b28a3b897c6Ce8881bbfB22D2F8.png",
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0xCB700b56226D3b28a3b897c6Ce8881bbfB22D2F8.png",
       "tags": []
     },
     {
@@ -947,7 +983,7 @@
       "name": "TWIN ASSET TOKEN - MSTR",
       "symbol": "MSTR",
       "decimals": 18,
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1759445335/tokens/0x80d6206c800a6EDe51eC52fE724DF57fa4B4410B.png",
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0x80d6206c800a6EDe51eC52fE724DF57fa4B4410B.png",
       "tags": []
     },
     {
@@ -956,7 +992,7 @@
       "name": "TWIN ASSET TOKEN - iMSTR",
       "symbol": "iMSTR",
       "decimals": 18,
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1747305832/tokens/0xE5a08b6F213a7c530E03Ad40522BefcBAa1A7f8C.png",
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0xE5a08b6F213a7c530E03Ad40522BefcBAa1A7f8C.png",
       "tags": []
     },
     {
@@ -965,7 +1001,7 @@
       "name": "TWIN ASSET TOKEN - COIN",
       "symbol": "COIN",
       "decimals": 18,
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1759445330/tokens/0x65967109401506222609BDc86e3039F910C4d08b.png",
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0x65967109401506222609BDc86e3039F910C4d08b.png",
       "tags": []
     },
     {
@@ -974,7 +1010,7 @@
       "name": "TWIN ASSET TOKEN - iCOIN",
       "symbol": "iCOIN",
       "decimals": 18,
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1759445337/tokens/0x9EA30078bc52740F10812539E77B6502A2a5387a.png",
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0x9EA30078bc52740F10812539E77B6502A2a5387a.png",
       "tags": []
     },
     {
@@ -983,7 +1019,7 @@
       "name": "TWIN ASSET TOKEN - NVDA",
       "symbol": "NVDA",
       "decimals": 18,
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1759445330/tokens/0x1De7EfAbfA656d077cFD961e4a83b061D351a83B.png",
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0x1De7EfAbfA656d077cFD961e4a83b061D351a83B.png",
       "tags": []
     },
     {
@@ -992,7 +1028,7 @@
       "name": "TWIN ASSET TOKEN - iNVDA",
       "symbol": "iNVDA",
       "decimals": 18,
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1759445334/tokens/0x3A4B2d07c237C701c68238dA07E11302353A16F1.png",
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0x3A4B2d07c237C701c68238dA07E11302353A16F1.png",
       "tags": []
     },
     {
@@ -1000,7 +1036,7 @@
       "address": "0x804CF700De1e18f2411Bd05aad5fa10d60e1900f",
       "symbol": "aSUGAR",
       "name": "aSugar",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1748902436/tokens/0x804CF700De1e18f2411Bd05aad5fa10d60e1900f.png",
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0x804CF700De1e18f2411Bd05aad5fa10d60e1900f.png",
       "decimals": 18,
       "tags": []
     },
@@ -1009,7 +1045,7 @@
       "address": "0x6698EDe14709A9Dd8379744CC2D28F276E3d2Eac",
       "symbol": "PLUTUS",
       "name": "Plutus token",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1751932877/tokens/0x6698EDe14709A9Dd8379744CC2D28F276E3d2Eac.png",
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0x6698EDe14709A9Dd8379744CC2D28F276E3d2Eac.png",
       "decimals": 18,
       "tags": []
     },
@@ -1018,7 +1054,7 @@
       "address": "0x93a0CB3ee34aA983db262F904021911eCD199228",
       "symbol": "BEE",
       "name": "Bee Token",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1752860866/tokens/0x93a0CB3ee34aA983db262F904021911eCD199228.jpg",
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0x93a0CB3ee34aA983db262F904021911eCD199228.jpg",
       "decimals": 18,
       "tags": []
     },
@@ -1028,7 +1064,7 @@
       "symbol": "mBGT",
       "name": "market BGT",
       "decimals": 18,
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1752586947/tokens/0x927439eef2e2520afa78d8742cae7be3e3e90b11.png",
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0x927439eef2e2520afa78d8742cae7be3e3e90b11.png",
       "tags": []
     },
     {
@@ -1037,9 +1073,11 @@
       "name": "SatLayer SolvBTC.BERA",
       "symbol": "satSolvBTC.BERA",
       "decimals": 18,
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1752690614/tokens/0xFF21f46Bc9D78125705eEF6EfCA62f9420cfDB9b.png",
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0xFF21f46Bc9D78125705eEF6EfCA62f9420cfDB9b.png",
       "tags": [],
-      "extensions": { "coingeckoId": "solv-protocol-solvbtc-bbn" }
+      "extensions": {
+        "coingeckoId": "solv-protocol-solvbtc-bbn"
+      }
     },
     {
       "chainId": 80094,
@@ -1047,7 +1085,7 @@
       "symbol": "bSumer",
       "name": "Bera Sumerian Token",
       "decimals": 18,
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1752861199/tokens/0x30E148a79B898EFa1Ab1285F5Eca71972a7e0acE.png",
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0x30E148a79B898EFa1Ab1285F5Eca71972a7e0acE.png",
       "tags": []
     },
     {
@@ -1056,9 +1094,11 @@
       "symbol": "osBGT",
       "name": "OpenState BGT",
       "decimals": 18,
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1753886119/src/tokens/mainnet/q2kcmxsqqq0reef3tnii.jpg",
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0xD2C41BF4033A83C0FC3A7F58a392Bf37d6dCDb58.jpg",
       "tags": [],
-      "extensions": { "coingeckoId": "openstate-bgt" }
+      "extensions": {
+        "coingeckoId": "openstate-bgt"
+      }
     },
     {
       "chainId": 80094,
@@ -1066,9 +1106,11 @@
       "symbol": "POLLEN",
       "name": "POLLEN",
       "decimals": 18,
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1753886118/src/tokens/mainnet/yipjk5nsvjy5jtafl7lg.jpg",
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0xc99e948e9d183848a6c4f5e6c1d225f02f171d79.jpg",
       "tags": [],
-      "extensions": { "coingeckoId": "pollen-2" }
+      "extensions": {
+        "coingeckoId": "pollen-2"
+      }
     },
     {
       "chainId": 80094,
@@ -1076,9 +1118,11 @@
       "symbol": "brBTC",
       "name": "brBTC",
       "decimals": 8,
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1753886118/src/tokens/mainnet/afjuznzoiw1hsffzfpko.jpg",
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0x93919784c523f39cacaa98ee0a9d96c3f32b593e.jpg",
       "tags": [],
-      "extensions": { "coingeckoId": "bedrock-btc" }
+      "extensions": {
+        "coingeckoId": "bedrock-btc"
+      }
     },
     {
       "chainId": 80094,
@@ -1086,7 +1130,7 @@
       "symbol": "50sWBERA-50wgBERA-WEIGHTED",
       "name": "sWBERA | wgBERA",
       "decimals": 18,
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1754411074/tokens/0x09d4683d680aBF2ecD69F4D6Bcbc006abFE9f6Ad.png",
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0x09d4683d680aBF2ecD69F4D6Bcbc006abFE9f6Ad.png",
       "tags": []
     },
     {
@@ -1094,7 +1138,7 @@
       "address": "0x31d9f788b1da5730c5b70d673d491c6e21144c53",
       "symbol": "JIKO BET",
       "name": "Jiko Bet",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1755195875/tokens/0x31d9f788b1da5730c5b70d673d491c6e21144c53.png",
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0x31d9f788b1da5730c5b70d673d491c6e21144c53.png",
       "decimals": 18,
       "tags": []
     },
@@ -1103,7 +1147,7 @@
       "address": "0xE368a6BBb2c285A557800FF676D85Dd7E9C6299B",
       "symbol": "beraBTC",
       "name": "Bera Bitcoin",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1758176429/tokens/0xe368a6bbb2c285a557800ff676d85dd7e9c6299b.png",
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0xE368a6BBb2c285A557800FF676D85Dd7E9C6299B.png",
       "decimals": 8,
       "tags": []
     },
@@ -1112,7 +1156,7 @@
       "address": "0x8C9807d681EC113700841A9DAC09Bb30D616fC75",
       "symbol": "BVT",
       "name": "BeraBTC Vault Token",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1755195875/tokens/0x8C9807d681EC113700841A9DAC09Bb30D616fC75.png",
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0x8C9807d681EC113700841A9DAC09Bb30D616fC75.png",
       "decimals": 18,
       "tags": []
     },
@@ -1122,7 +1166,7 @@
       "symbol": "ZERO",
       "name": "Zero",
       "decimals": 18,
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1758659723/tokens/0x0000382fbb422b4f593931fc6f2d25cc16600000.png",
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0x0000382fbb422b4f593931fc6f2d25cc16600000.png",
       "tags": []
     },
     {
@@ -1131,7 +1175,7 @@
       "symbol": "PRG",
       "name": "Porridge",
       "decimals": 18,
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1758659726/tokens/0xbf2e152f460090ace91a456e3dee5acf703f27ad.png",
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0xbf2e152f460090ace91a456e3dee5acf703f27ad.png",
       "tags": []
     },
     {
@@ -1140,7 +1184,7 @@
       "symbol": "xfatBERA",
       "name": "Extra FatBERA",
       "decimals": 18,
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1758659724/tokens/0xcac89b3f94ed6bab04113884deee2a55293c2dd7.jpg",
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0xcac89b3f94ed6bab04113884deee2a55293c2dd7.jpg",
       "tags": []
     },
     {
@@ -1149,7 +1193,7 @@
       "symbol": "BREAD",
       "name": "Bread",
       "decimals": 18,
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1758661011/tokens/0x0003eedfdd020bf60d10cf684abac7c4534b7ead.png",
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0x0003eedfdd020bf60d10cf684abac7c4534b7ead.png",
       "tags": []
     },
     {
@@ -1158,7 +1202,7 @@
       "symbol": "yBGT",
       "name": "Bearn BGT",
       "decimals": 18,
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1758659724/tokens/0x7e768f47dfdd5dae874aac233f1bc5817137e453.png",
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0x7e768f47dfdd5dae874aac233f1bc5817137e453.png",
       "tags": []
     },
     {
@@ -1167,7 +1211,7 @@
       "symbol": "AIBERA",
       "name": "HoneyFun AI",
       "decimals": 18,
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1758659727/tokens/0xcc6a16bcfda7d0ebe168f69ef7b946e96a90e67f.png",
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0xcc6a16bcfda7d0ebe168f69ef7b946e96a90e67f.png",
       "tags": []
     },
     {
@@ -1176,7 +1220,7 @@
       "symbol": "QIA",
       "name": "Quod In Altum",
       "decimals": 18,
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1758659727/tokens/0x41fc191d145307667ea3e50f244b78de9cddf53f.png",
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0x41fc191d145307667ea3e50f244b78de9cddf53f.png",
       "tags": []
     },
     {
@@ -1185,7 +1229,7 @@
       "symbol": "rUSD",
       "name": "Reservoir Stablecoin",
       "decimals": 18,
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1758659723/tokens/0x09d4214c03d01f49544c0448dbe3a27f768f2b34.png",
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0x09d4214c03d01f49544c0448dbe3a27f768f2b34.png",
       "tags": []
     },
     {
@@ -1194,7 +1238,7 @@
       "symbol": "OOGA",
       "name": "Ooga Token",
       "decimals": 18,
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1758661267/tokens/0x009af46df68db0e76bfe9ea35663f6ed17877956.png",
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0x009af46df68db0e76bfe9ea35663f6ed17877956.png",
       "tags": []
     },
     {
@@ -1203,7 +1247,7 @@
       "symbol": "SOL",
       "name": "Wrapped SOL",
       "decimals": 9,
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1758659724/tokens/0x225b86198ba36321a8a840291416aed62494043f.png",
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0x225b86198ba36321a8a840291416aed62494043f.png",
       "tags": []
     },
     {
@@ -1212,7 +1256,7 @@
       "symbol": "LOCKS",
       "name": "Locks is Goldilocks DAO",
       "decimals": 18,
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1758659726/tokens/0xb7e448e5677d212b8c8da7d6312e8afc49800466.png",
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0xb7e448e5677d212b8c8da7d6312e8afc49800466.png",
       "tags": []
     },
     {
@@ -1221,7 +1265,7 @@
       "symbol": "STICKY eWBERA-4-wgBERA",
       "name": "Sticky Vault eWBERA-4-wgBERA-0.05%",
       "decimals": 18,
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1759768312/tokens/0x0435c32c79e8341e44047493ba371b502b8c90af.png",
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0x0435c32c79e8341e44047493ba371b502b8c90af.png",
       "tags": []
     },
     {
@@ -1230,7 +1274,7 @@
       "symbol": "STICKY NECT-HONEY",
       "name": "Sticky Vault NECT-HONEY-0.01%",
       "decimals": 18,
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1759768312/tokens/0xa5b3ecafbfcc7946c11a28252c6f2bdb73d30388.png",
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0xa5b3ecafbfcc7946c11a28252c6f2bdb73d30388.png",
       "tags": []
     },
     {
@@ -1239,7 +1283,7 @@
       "symbol": "IR",
       "name": "Infrared Governance Token",
       "decimals": 18,
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1766077428/tokens/0xa1B644AEC990Ad6023811cED36E6A2d6D128C7C9.png",
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0xa1B644AEC990Ad6023811cED36E6A2d6D128C7C9.png",
       "tags": [],
       "extensions": {
         "coingeckoId": "infrared-finance"

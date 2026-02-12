@@ -122,7 +122,7 @@
       "symbol": "USD₮0",
       "name": "Tether USD Coin",
       "decimals": 6,
-      "logoURI": "https://coin-images.coingecko.com/coins/images/325/large/Tether.png?1696501661",
+      "logoURI": "https://raw.githubusercontent.com/berachain/metadata/refs/heads/main/src/assets/tokens/0x779ded0c9e1022225f8e0630b35a9b54be713736.png",
       "tags": ["stablecoin", "featured"],
       "extensions": {
         "coingeckoId": "tether",

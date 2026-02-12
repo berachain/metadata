@@ -772,6 +772,15 @@
     },
     {
       "chainId": 80094,
+      "address": "0xc0d1ac00a30fa4e30e44afc7313d6312c87e21df",
+      "name": "Kodiak token",
+      "symbol": "KDK",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/berachain/metadata/refs/heads/main/src/assets/tokens/0xc0d1ac00a30fa4e30e44afc7313d6312c87e21df.png",
+      "tags": []
+    },
+    {
+      "chainId": 80094,
       "address": "0xD6620E78B89E8fdB5dFA675D55001C7FaD424bDc",
       "name": "Kodiak Island WBERA-POLLEN-1%",
       "symbol": "KODI WBERA-POLLEN",

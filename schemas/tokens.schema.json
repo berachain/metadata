@@ -12,7 +12,7 @@
     },
     "logoURI": {
       "type": "string",
-      "pattern": "^(https://raw.githubusercontent.com/berachain/metadata/[^\\s]+|https://(assets|coin-images).coingecko.com/[^\\s]+|https://res.cloudinary.com/duv0g402y/[^\\s]+)$"
+      "pattern": "^(https://raw.githubusercontent.com/berachain/metadata/[^\\s]+|https://(assets|coin-images).coingecko.com/[^\\s]+|https://res.cloudinary.com/duv0g402y/[^\\s]+|https://[^/]+\\.r2\\.cloudflarestorage\\.com/[^\\s]+|https://[^/]+\\.r2\\.dev/[^\\s]+)$"
     },
     "tags": {
       "type": "object",
@@ -55,7 +55,7 @@
           },
           "logoURI": {
             "type": "string",
-            "pattern": "^(https://raw.githubusercontent.com/berachain/metadata/[^\\s]+|https://(assets|coin-images).coingecko.com/[^\\s]+|https://res.cloudinary.com/duv0g402y/[^\\s]+)$"
+            "pattern": "^(https://raw.githubusercontent.com/berachain/metadata/[^\\s]+|https://(assets|coin-images).coingecko.com/[^\\s]+|https://res.cloudinary.com/duv0g402y/[^\\s]+|https://[^/]+\\.r2\\.cloudflarestorage\\.com/[^\\s]+|https://[^/]+\\.r2\\.dev/[^\\s]+)$"
           },
           "base64": {
             "type": "string"

@@ -497,6 +497,14 @@
       "description": "Staking and securing blockchains with Hyperblocks",
       "website": "https://hyperblocks.pro/",
       "twitter": "https://x.com/hyper_blocks"
+    },
+    {
+      "id": "0x893f3ff7bf081fff0a35ffe892d089c824f2742ede179d5f9c5d621f0d46f9033354feafbdeab1ffbfb4e749b74901e0",
+      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1770945811/src/validators/mainnet/user4vxffcomnq9caldc.png",
+      "name": "Nonce Classic",
+      "description": "Emerging from 'nonce', Korea's premier Web3 builder community, Nonce Classic is an APAC-based, institution-grade staking provider dedicated to securing the decentralized future.",
+      "website": "https://nonceclassic.org/",
+      "twitter": "https://x.com/nonceclassic"
     }
   ]
 }

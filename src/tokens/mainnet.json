@@ -122,7 +122,7 @@
       "symbol": "USD₮0",
       "name": "Tether USD Coin",
       "decimals": 6,
-      "logoURI": "https://coin-images.coingecko.com/coins/images/325/large/Tether.png?1696501661",
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0x779ded0c9e1022225f8e0630b35a9b54be713736.png",
       "tags": ["stablecoin", "featured"],
       "extensions": {
         "coingeckoId": "tether",
@@ -768,6 +768,15 @@
       "symbol": "DOLO",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/berachain/metadata/refs/heads/main/src/assets/tokens/0x0F81001eF0A83ecCE5ccebf63EB302c70a39a654.png",
+      "tags": []
+    },
+    {
+      "chainId": 80094,
+      "address": "0xc0d1ac00a30fa4e30e44afc7313d6312c87e21df",
+      "name": "Kodiak token",
+      "symbol": "KDK",
+      "decimals": 18,
+      "logoURI": "https://b90379be3d6b408ce6228aed59905e43.r2.cloudflarestorage.com/metadata/tokens/0xc0d1ac00a30fa4e30e44afc7313d6312c87e21df.png",
       "tags": []
     },
     {

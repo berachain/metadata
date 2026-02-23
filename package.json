@@ -9,6 +9,7 @@
     "validate:json": "tsx scripts/validateJSON.ts",
     "validate:data": "tsx scripts/validateOnChainData/main.ts",
     "validate": "pnpm run validate:json && pnpm run validate:images && pnpm run validate:data",
+    "metadata:missing": "tsx scripts/manageVaultsFromApi.ts add",
     "lint": "biome lint .",
     "check": "biome check ."
   },

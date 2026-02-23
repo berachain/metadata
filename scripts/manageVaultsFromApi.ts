@@ -3,8 +3,8 @@
  * Supports: finding missing vaults, adding vaults from API, and removing vaults not in API
  */
 
-import { readFileSync, writeFileSync } from "fs";
-import { join } from "path";
+import { readFileSync, writeFileSync } from "node:fs";
+import { join } from "node:path";
 import "dotenv/config";
 
 interface GraphQLResponse {
@@ -64,6 +64,12 @@ interface Vault {
       decimals: number;
     };
   }>;
+}
+
+interface LocalVault {
+  vaultAddress: string;
+  name?: string;
+  protocol?: string;
 }
 
 const GRAPHQL_QUERY_FULL = `query GetVaults($where: GqlRewardVaultFilter, $pageSize: Int, $skip: Int, $orderBy: GqlRewardVaultOrderBy = bgtCapturePercentage, $orderDirection: GqlRewardVaultOrderDirection = desc, $search: String) {
@@ -209,7 +215,7 @@ async function queryVaults(
       });
 
       if (response.status === 429 && attempt < retries) {
-        const delay = Math.pow(2, attempt) * 1000;
+        const delay = 2 ** attempt * 1000;
         console.log(
           `Rate limited. Waiting ${delay}ms before retry ${attempt + 1}/${retries}...`,
         );
@@ -235,7 +241,7 @@ async function queryVaults(
       if (attempt === retries) {
         throw error;
       }
-      const delay = Math.pow(2, attempt) * 1000;
+      const delay = 2 ** attempt * 1000;
       console.log(
         `Error occurred. Waiting ${delay}ms before retry ${attempt + 1}/${retries}...`,
       );
@@ -424,7 +430,7 @@ async function findVaultsNotInApi() {
     // Read vaults from mainnet.json
     const vaultsPath = join(process.cwd(), "src", "vaults", "mainnet.json");
     const content = JSON.parse(readFileSync(vaultsPath, "utf-8"));
-    const localVaults = content.vaults as Array<{ vaultAddress: string }>;
+    const localVaults = content.vaults as LocalVault[];
 
     console.log(`Found ${localVaults.length} vaults in mainnet.json\n`);
     console.log("=".repeat(80));
@@ -448,8 +454,8 @@ async function findVaultsNotInApi() {
       if (!apiVaultAddresses.has(vaultAddress)) {
         vaultsNotInApi.push({
           vaultAddress: vault.vaultAddress,
-          name: (vault as any).name,
-          protocol: (vault as any).protocol,
+          name: vault.name,
+          protocol: vault.protocol,
         });
       }
     }
@@ -470,7 +476,7 @@ async function findVaultsNotInApi() {
         console.log(`  Name: ${vault.name || "N/A"}`);
         console.log(`  Protocol: ${vault.protocol || "N/A"}`);
       }
-      console.log("\n" + "=".repeat(80));
+      console.log(`\n${"=".repeat(80)}`);
       console.log(
         "\n💡 These vaults exist in the metadata file but are not active/whitelisted in the API.",
       );
@@ -494,7 +500,7 @@ async function removeVaultsNotInApi() {
     // Read vaults from mainnet.json
     const vaultsPath = join(process.cwd(), "src", "vaults", "mainnet.json");
     const content = JSON.parse(readFileSync(vaultsPath, "utf-8"));
-    const localVaults = content.vaults as Array<{ vaultAddress: string }>;
+    const localVaults = content.vaults as LocalVault[];
 
     console.log(`Found ${localVaults.length} vaults in mainnet.json\n`);
     console.log("=".repeat(80));
@@ -534,19 +540,18 @@ async function removeVaultsNotInApi() {
       });
 
       for (const vault of removedVaults) {
-        const vaultData = vault as any;
         console.log(`\nRemoving: ${vault.vaultAddress}`);
-        console.log(`  Name: ${vaultData.name || "N/A"}`);
-        console.log(`  Protocol: ${vaultData.protocol || "N/A"}`);
+        console.log(`  Name: ${vault.name || "N/A"}`);
+        console.log(`  Protocol: ${vault.protocol || "N/A"}`);
       }
 
-      console.log("\n" + "=".repeat(80));
+      console.log(`\n${"=".repeat(80)}`);
 
       // Update the content
       content.vaults = filteredVaults;
 
       // Write back to file
-      writeFileSync(vaultsPath, JSON.stringify(content, null, 2) + "\n");
+      writeFileSync(vaultsPath, `${JSON.stringify(content, null, 2)}\n`);
 
       console.log(`\n✅ Removed ${removedCount} vault(s) from mainnet.json`);
       console.log(
@@ -697,7 +702,7 @@ async function addVaultsFromApi() {
 
     if (addedCount > 0) {
       // DO NOT sort - preserve existing order, just append new vaults
-      writeFileSync(vaultsPath, JSON.stringify(content, null, 2) + "\n");
+      writeFileSync(vaultsPath, `${JSON.stringify(content, null, 2)}\n`);
       console.log(
         `\n✅ Added ${addedCount} new vault entries to ${vaultsPath}`,
       );

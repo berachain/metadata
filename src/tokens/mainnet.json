@@ -318,7 +318,9 @@
       "decimals": 18,
       "logoURI": "https://coin-images.coingecko.com/coins/images/50978/large/a.jpg?1730208372",
       "tags": [],
-      "extensions": { "coingeckoId": "lorenzo-stbtc" }
+      "extensions": {
+        "coingeckoId": "lorenzo-stbtc"
+      }
     },
     {
       "chainId": 80094,
@@ -344,7 +346,9 @@
       "decimals": 8,
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1759445982/tokens/0xC3827A4BC8224ee2D116637023b124CED6db6e90.png",
       "tags": [],
-      "extensions": { "coingeckoId": "universal-btc" }
+      "extensions": {
+        "coingeckoId": "universal-btc"
+      }
     },
     {
       "chainId": 80094,
@@ -367,7 +371,9 @@
       "decimals": 8,
       "logoURI": "https://coin-images.coingecko.com/coins/images/39182/large/fbtc.png?1740123952",
       "tags": [],
-      "extensions": { "coingeckoId": "ignition-fbtc" }
+      "extensions": {
+        "coingeckoId": "ignition-fbtc"
+      }
     },
     {
       "chainId": 80094,
@@ -474,7 +480,9 @@
       "decimals": 18,
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1742832647/src/tokens/mainnet/fnjauaw96s6kl0dxjzx7.png",
       "tags": [],
-      "extensions": { "coingeckoId": "wrapped-gbera" }
+      "extensions": {
+        "coingeckoId": "wrapped-gbera"
+      }
     },
     {
       "chainId": 80094,
@@ -492,7 +500,9 @@
       "symbol": "SolvBTC",
       "decimals": 18,
       "logoURI": "https://coin-images.coingecko.com/coins/images/36800/large/solvBTC.png?1719810684",
-      "extensions": { "coingeckoId": "solv-btc" }
+      "extensions": {
+        "coingeckoId": "solv-btc"
+      }
     },
     {
       "chainId": 80094,
@@ -501,7 +511,9 @@
       "symbol": "xSolvBTC",
       "decimals": 18,
       "logoURI": "https://coin-images.coingecko.com/coins/images/39384/large/unnamed.png?1721961640",
-      "extensions": { "coingeckoId": "solv-protocol-solvbtc-bbn" }
+      "extensions": {
+        "coingeckoId": "solv-protocol-solvbtc-bbn"
+      }
     },
     {
       "chainId": 80094,
@@ -553,7 +565,9 @@
       "symbol": "sUSDa",
       "decimals": 18,
       "logoURI": "https://coin-images.coingecko.com/coins/images/51821/large/USDA.png?1732035172",
-      "extensions": { "coingeckoId": "susda" }
+      "extensions": {
+        "coingeckoId": "susda"
+      }
     },
     {
       "chainId": 80094,
@@ -610,7 +624,9 @@
       "symbol": "DINERO",
       "decimals": 18,
       "logoURI": "https://coin-images.coingecko.com/coins/images/39341/large/dinero.jpg?1721807902",
-      "extensions": { "coingeckoId": "dinero-2" }
+      "extensions": {
+        "coingeckoId": "dinero-2"
+      }
     },
     {
       "chainId": 80094,
@@ -619,7 +635,9 @@
       "symbol": "HENLO",
       "decimals": 18,
       "logoURI": "https://coin-images.coingecko.com/coins/images/54719/large/Full_Circle_Logo_Large_%28YellowBlue%29_%281%29.png?1741193376",
-      "extensions": { "coingeckoId": "henlo-3" }
+      "extensions": {
+        "coingeckoId": "henlo-3"
+      }
     },
     {
       "chainId": 80094,
@@ -628,7 +646,9 @@
       "symbol": "bm",
       "decimals": 18,
       "logoURI": "https://coin-images.coingecko.com/coins/images/54413/large/photo_2025-02-13_05.15.34.jpeg?1739554671",
-      "extensions": { "coingeckoId": "bm" }
+      "extensions": {
+        "coingeckoId": "bm"
+      }
     },
     {
       "chainId": 80094,
@@ -637,7 +657,9 @@
       "symbol": "RAMEN",
       "decimals": 18,
       "logoURI": "https://coin-images.coingecko.com/coins/images/54443/large/rsz_tokens_1.png?1739772470",
-      "extensions": { "coingeckoId": "ramen" }
+      "extensions": {
+        "coingeckoId": "ramen"
+      }
     },
     {
       "chainId": 80094,
@@ -646,7 +668,9 @@
       "symbol": "YEET",
       "decimals": 18,
       "logoURI": "https://coin-images.coingecko.com/coins/images/54416/large/IMG_7050.PNG?1739556073",
-      "extensions": { "coingeckoId": "yeet" }
+      "extensions": {
+        "coingeckoId": "yeet"
+      }
     },
     {
       "chainId": 80094,
@@ -656,7 +680,9 @@
       "symbol": "EQB",
       "name": "Equilibria Token",
       "tags": [],
-      "extensions": { "coingeckoId": "equilibria-finance" }
+      "extensions": {
+        "coingeckoId": "equilibria-finance"
+      }
     },
     {
       "chainId": 80094,
@@ -674,7 +700,9 @@
       "decimals": 18,
       "logoURI": "https://coin-images.coingecko.com/coins/images/54663/large/NAV_Token.png?1740898251",
       "tags": [],
-      "extensions": { "coingeckoId": "nav" }
+      "extensions": {
+        "coingeckoId": "nav"
+      }
     },
     {
       "chainId": 80094,
@@ -684,7 +712,9 @@
       "decimals": 18,
       "logoURI": "https://coin-images.coingecko.com/coins/images/32726/large/HOLD.png?1699018663",
       "tags": [],
-      "extensions": { "coingeckoId": "holdstation" }
+      "extensions": {
+        "coingeckoId": "holdstation"
+      }
     },
     {
       "chainId": 80094,
@@ -694,7 +724,9 @@
       "decimals": 18,
       "logoURI": "https://coin-images.coingecko.com/coins/images/54529/large/_BERAMO_logo.png?1740168354",
       "tags": [],
-      "extensions": { "coingeckoId": "beramoniumcoin" }
+      "extensions": {
+        "coingeckoId": "beramoniumcoin"
+      }
     },
     {
       "chainId": 80094,
@@ -713,7 +745,9 @@
       "decimals": 18,
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1745506096/tokens/0x01c8a5ccad23a4d3764ef71c403862160aa2913a.png",
       "tags": [],
-      "extensions": { "coingeckoId": "wizzwoods-token" }
+      "extensions": {
+        "coingeckoId": "wizzwoods-token"
+      }
     },
     {
       "chainId": 80094,
@@ -732,7 +766,9 @@
       "decimals": 18,
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1744808447/tokens/fudxzeljryceklkujvuw.png",
       "tags": [],
-      "extensions": { "coingeckoId": "bedrock-token" }
+      "extensions": {
+        "coingeckoId": "bedrock-token"
+      }
     },
     {
       "chainId": 80094,
@@ -1030,7 +1066,9 @@
       "decimals": 18,
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1752690614/tokens/0xFF21f46Bc9D78125705eEF6EfCA62f9420cfDB9b.png",
       "tags": [],
-      "extensions": { "coingeckoId": "solv-protocol-solvbtc-bbn" }
+      "extensions": {
+        "coingeckoId": "solv-protocol-solvbtc-bbn"
+      }
     },
     {
       "chainId": 80094,
@@ -1049,7 +1087,9 @@
       "decimals": 18,
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1753886119/src/tokens/mainnet/q2kcmxsqqq0reef3tnii.jpg",
       "tags": [],
-      "extensions": { "coingeckoId": "openstate-bgt" }
+      "extensions": {
+        "coingeckoId": "openstate-bgt"
+      }
     },
     {
       "chainId": 80094,
@@ -1059,7 +1099,9 @@
       "decimals": 18,
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1753886118/src/tokens/mainnet/yipjk5nsvjy5jtafl7lg.jpg",
       "tags": [],
-      "extensions": { "coingeckoId": "pollen-2" }
+      "extensions": {
+        "coingeckoId": "pollen-2"
+      }
     },
     {
       "chainId": 80094,
@@ -1069,7 +1111,9 @@
       "decimals": 8,
       "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1753886118/src/tokens/mainnet/afjuznzoiw1hsffzfpko.jpg",
       "tags": [],
-      "extensions": { "coingeckoId": "bedrock-btc" }
+      "extensions": {
+        "coingeckoId": "bedrock-btc"
+      }
     },
     {
       "chainId": 80094,

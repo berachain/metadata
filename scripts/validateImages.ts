@@ -165,7 +165,7 @@ const validateImageFile = async (
     }
   }
 
-  // Validate logo URI if provided
+  // Validate logo URI reachability (format is enforced by schemas in validate:json)
   if (logoUri) {
     const isValidUrl = await validateUrl(logoUri);
     if (!isValidUrl) {

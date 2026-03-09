@@ -328,8 +328,7 @@
       "name": "Wrapped aBTC",
       "symbol": "waBTC",
       "tags": [],
-      "decimals": 18,
-      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/tokens/0x09def5abc67e967d54e8233a4b5ebbc1b3fbe34b.png/public"
+      "decimals": 18
     },
     {
       "chainId": 80094,
@@ -337,8 +336,7 @@
       "name": "pumpBTC.bera",
       "symbol": "pumpBTC.bera",
       "tags": [],
-      "decimals": 8,
-      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/tokens/0x1fcca65fb6ae3b2758b9b2b394cb227eae404e1e.png/public"
+      "decimals": 8
     },
     {
       "chainId": 80094,
@@ -383,8 +381,7 @@
       "name": "CIAN yield layer rsETH",
       "symbol": "ylrsETH",
       "decimals": 18,
-      "tags": [],
-      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/tokens/0x9b2316cfe980515de7430f1c4e831b89a5921137.png/public"
+      "tags": []
     },
     {
       "chainId": 80094,
@@ -392,8 +389,7 @@
       "name": "CIAN yield layer pumpBTC",
       "symbol": "ylpumpBTC",
       "decimals": 8,
-      "tags": [],
-      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/tokens/0xdcb3d91555385dae23e6b966b5626aa7a75be940.png/public"
+      "tags": []
     },
     {
       "chainId": 80094,
@@ -401,8 +397,7 @@
       "name": "CIAN yield layer BTCLST",
       "symbol": "ylBTCLST",
       "decimals": 8,
-      "tags": [],
-      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/tokens/0xe946dd7d03f6f5c440f68c84808ca88d26475fc5.png/public"
+      "tags": []
     },
     {
       "chainId": 80094,
@@ -410,8 +405,7 @@
       "name": "CIAN yield layer uniBTC",
       "symbol": "yluniBTC",
       "decimals": 8,
-      "tags": [],
-      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/tokens/0x907883da917ca9750ad202ff6395c4c6ab14e60e.png/public"
+      "tags": []
     },
     {
       "chainId": 80094,
@@ -419,8 +413,7 @@
       "name": "CIAN yield layer stETH",
       "symbol": "ylstETH",
       "decimals": 18,
-      "tags": [],
-      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/tokens/0xa958090601e21a82e9873042652e35891d945a8c.png/public"
+      "tags": []
     },
     {
       "chainId": 80094,
@@ -527,8 +520,7 @@
       "address": "0x93F4d0ab6a8B4271f4a28Db399b5E30612D21116",
       "name": "StakeStone Bitcoin",
       "symbol": "SBTC",
-      "decimals": 18,
-      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/tokens/0x93f4d0ab6a8b4271f4a28db399b5e30612d21116.png/public"
+      "decimals": 18
     },
     {
       "chainId": 80094,

@@ -4,7 +4,7 @@
   "protocols": [
     {
       "name": "HUB",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1738378765/dapps/hub/hoymyj8bfl3xfczeioch.png",
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/protocols/hub.png/public",
       "url": "https://bepolia.hub.berachain.com",
       "description": "Swap a variety of tokens effortlessly on our decentralized platform. Provide liquidity to pools and earn BGT rewards.",
       "tags": ["platform"]
@@ -29,7 +29,8 @@
       "protocol": "HUB",
       "categories": ["foundation"],
       "url": "https://bepolia.hub.berachain.com/vaults/0x57abe4e0c59a650a7042e18493179dd5b91a3f61",
-      "description": "Bribes automation, Owned by BD team"
+      "description": "Bribes automation, Owned by BD team",
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/vaults/0x57abe4e0c59a650a7042e18493179dd5b91a3f61.png/public"
     },
     {
       "stakingTokenAddress": "0xA9d09e1Bd86bBAFeac4020099207eE23549618B0",
@@ -38,7 +39,8 @@
       "protocol": "HUB",
       "categories": ["foundation"],
       "url": "https://bepolia.hub.berachain.com/vaults/0xae461ea8238df1bd63B3f93b0EF7da1A56De2f91",
-      "description": "Bribes automation, Owned by BD team"
+      "description": "Bribes automation, Owned by BD team",
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/vaults/0xae461ea8238df1bd63b3f93b0ef7da1a56de2f91.png/public"
     },
     {
       "stakingTokenAddress": "0x5bA554fA6faDc5583eD99d09E0545dB4bC9f994d",
@@ -47,7 +49,8 @@
       "protocol": "HUB",
       "categories": ["foundation"],
       "url": "https://bepolia.hub.berachain.com/vaults/0x45450D1E3bfd42E224976a7a263F7e59AB9607C8",
-      "description": "Bribes automation, Owned by BD team"
+      "description": "Bribes automation, Owned by BD team",
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/vaults/0x45450d1e3bfd42e224976a7a263f7e59ab9607c8.png/public"
     },
     {
       "stakingTokenAddress": "0xe5C337e10089246afE8DA5752BB1777613F70aa9",
@@ -56,7 +59,8 @@
       "protocol": "HUB",
       "categories": ["foundation"],
       "url": "https://bepolia.hub.berachain.com/vaults/0x3bcED9bC841a862716d58560c07480c203e61912",
-      "description": "Owned by Frontend Team"
+      "description": "Owned by Frontend Team",
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/vaults/0x3bced9bc841a862716d58560c07480c203e61912.png/public"
     },
     {
       "stakingTokenAddress": "0x9d323a87597667d7373CF9C2F758a29896f6496A",
@@ -64,7 +68,8 @@
       "name": "Bepolia Foundation Vault #5",
       "protocol": "HUB",
       "categories": ["foundation"],
-      "url": "https://bepolia.hub.berachain.com/vaults/0x668b25f09D1f505b774bb5F686874c401EE22730"
+      "url": "https://bepolia.hub.berachain.com/vaults/0x668b25f09D1f505b774bb5F686874c401EE22730",
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/vaults/0x668b25f09d1f505b774bb5f686874c401ee22730.png/public"
     }
   ]
 }

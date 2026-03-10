@@ -687,7 +687,7 @@ async function addVaultsFromApi() {
         protocol: protocol,
         categories: categories,
         logoURI:
-          "https://res.cloudinary.com/duv0g402y/image/upload/v1746534876/tokens/default.png",
+          "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/tokens/default.png/public",
         url: "https://hub.berachain.com",
         description: `Placeholder entry for ${vault.stakingToken.symbol} vault. Metadata needs to be added.`,
       };

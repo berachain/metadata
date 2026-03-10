@@ -21,7 +21,7 @@
           },
           "logoURI": {
             "type": "string",
-            "pattern": "^(https://raw.githubusercontent.com/berachain/metadata/[^\\s]+|https://(assets|coin-images).coingecko.com/[^\\s]+|https://res.cloudinary.com/duv0g402y/[^\\s]+|https://imagedelivery\\.net/qNj7Q3MCke89zoKzav7eDQ/(tokens/0x[0-9a-fA-F]{40}\\.(png|jpg|jpeg)|validators/0x[0-9a-fA-F]{96}\\.(png|jpg|jpeg)|vaults/0x[0-9a-fA-F]{40}\\.(png|jpg|jpeg)|protocols/[a-z0-9-]+\\.(png|jpg|jpeg))/public)$"
+            "pattern": "^(https://imagedelivery\\.net/qNj7Q3MCke89zoKzav7eDQ/(tokens/(default|0x[0-9a-fA-F]{40})\\.(png|jpg|jpeg)|validators/0x[0-9a-fA-F]{96}\\.(png|jpg|jpeg)|vaults/0x[0-9a-fA-F]{40}\\.(png|jpg|jpeg)|protocols/[a-z0-9-]+\\.(png|jpg|jpeg))/public)$"
           },
           "name": {
             "type": "string",

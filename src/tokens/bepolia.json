@@ -1,7 +1,7 @@
 {
   "$schema": "../../schemas/tokens.schema.json",
   "name": "Berachain Bepolia Token List",
-  "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1739450224/foundation/oe6damqveywiebwxeelf.png",
+  "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/tokens/default.png/public",
   "tags": {
     "stablecoin": {
       "name": "Stablecoin",
@@ -19,7 +19,7 @@
       "symbol": "WBERA",
       "name": "Wrapped Berachain Token",
       "decimals": 18,
-      "logoURI": "https://res.cloudinary.com/duv0g402y/raw/upload/v1717773645/src/assets/wbera.png",
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/tokens/0x6969696969696969696969696969696969696969.png/public",
       "tags": ["featured"],
       "extensions": {
         "coingeckoId": "berachain-bera",
@@ -32,7 +32,7 @@
       "symbol": "BERA",
       "name": "Berachain Token",
       "decimals": 18,
-      "logoURI": "https://res.cloudinary.com/duv0g402y/raw/upload/v1717773645/src/assets/bera.png",
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/tokens/0x0000000000000000000000000000000000000000.png/public",
       "tags": ["featured"],
       "extensions": {
         "coingeckoId": "berachain-bera",
@@ -45,7 +45,7 @@
       "symbol": "BGT",
       "name": "Bera Governance Token",
       "decimals": 18,
-      "logoURI": "https://res.cloudinary.com/duv0g402y/raw/upload/v1717773645/src/assets/bgt.png",
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/tokens/0x656b95e550c07a9ffe548bd4085c72418ceb1dba.png/public",
       "tags": ["featured"]
     },
     {
@@ -54,7 +54,7 @@
       "symbol": "HONEY",
       "name": "Honey",
       "decimals": 18,
-      "logoURI": "https://res.cloudinary.com/duv0g402y/raw/upload/v1717773645/src/assets/honey.png",
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/tokens/0xfcbd14dc51f0a4d49d5e53c2e0950e0bc26d0dce.png/public",
       "tags": ["stablecoin", "featured"],
       "extensions": {
         "pythPriceId": "0xf67b033925d73d43ba4401e00308d9b0f26ab4fbd1250e8b5407b9eaade7e1f4"
@@ -65,7 +65,7 @@
       "address": "0x6e8d0eCfCE5c2b7587263923e23d141F6364c7f9",
       "symbol": "bbUSDC",
       "name": "bbUSDC",
-      "logoURI": "https://coin-images.coingecko.com/coins/images/6319/large/usdc.png?1696506694",
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/tokens/0x6e8d0ecfce5c2b7587263923e23d141f6364c7f9.png/public",
       "decimals": 18,
       "tags": ["stablecoin", "featured"],
       "extensions": {
@@ -78,7 +78,7 @@
       "address": "0xe0037233a4a21c6334CFa67895A4BeaDc87B2c40",
       "symbol": "bbBYUSD",
       "name": "bbBYUSD",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1738732576/tokens/y6wa21vehnappbe2cruf.png",
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/tokens/0xe0037233a4a21c6334cfa67895a4beadc87b2c40.png/public",
       "decimals": 18,
       "tags": ["stablecoin", "featured"],
       "extensions": {
@@ -92,7 +92,7 @@
       "symbol": "USD₮0",
       "name": "Tether USD Coin",
       "decimals": 6,
-      "logoURI": "https://coin-images.coingecko.com/coins/images/325/large/Tether.png?1696501661",
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/tokens/0x75a226792e574918855740ebe24ad2f06d4d0fb9.png/public",
       "tags": ["stablecoin", "featured"],
       "extensions": {
         "coingeckoId": "tether",
@@ -181,7 +181,7 @@
       "address": "0x118d2ceee9785eaf70c15cd74cd84c9f8c3eec9a",
       "symbol": "sWBERA",
       "name": "Staked WBERA",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1752588172/brand/swbera.png",
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/tokens/0x118d2ceee9785eaf70c15cd74cd84c9f8c3eec9a.png/public",
       "decimals": 18,
       "tags": ["featured"]
     },
@@ -191,7 +191,7 @@
       "name": "USDe",
       "symbol": "USDe",
       "decimals": 18,
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1743021263/tokens/vtfyhwt1bjcygv4uhwvh.png",
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/tokens/0x150f4bf02afe36e19637ae0bd0d426c464fc1e7a.png/public",
       "extensions": {
         "coingeckoId": "ethena-usde",
         "pythPriceId": "0x6ec879b1e9963de5ee97e9c8710b742d6228252a5e2ca12d4ae81d7fe5ee8c5d"

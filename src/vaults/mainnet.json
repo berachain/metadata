@@ -3330,6 +3330,17 @@
       "description": "Acquired by depositing USDC and FOX into the FOX | USDC pool on Kodiak.",
       "owner": "Foxify",
       "action": "Stake FOX / USDC"
+    },
+    {
+      "stakingTokenAddress": "0xc38421e5577250eba177bc5bc832e747bea13ee0",
+      "vaultAddress": "0x18e310dd4a6179d9600e95d18926ab7819b2a071",
+      "name": "LiquidRoyalty - Senior Vault",
+      "protocol": "LiquidRoyalty",
+      "categories": ["defi/yield"],
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/vaults/0x18e310dd4a6179d9600e95d18926ab7819b2a071.png/public",
+      "url": "https://liquidroyalty.com",
+      "description": "Stake USDe via LiquidRoyalty",
+      "action": "Stake USDe via LiquidRoyalty"
     }
   ]
 }

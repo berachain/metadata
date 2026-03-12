@@ -4,7 +4,7 @@
   "validators": [
     {
       "id": "0xa3539ca28e0fd74d2a3c4c552740be77d6914cad2d8ec16583492cc57e8cfa358c62e31cc9106b1700cc169962855a6f",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1759246417/src/validators/mainnet/gn3aklkrebsa2jgcorxi.png",
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/validators/0xa3539ca28e0fd74d2a3c4c552740be77d6914cad2d8ec16583492cc57e8cfa358c62e31cc9106b1700cc169962855a6f.png/public",
       "name": "L0vd",
       "description": "Professional validator, staking and infrastructure provider. More than 50 networks contributed. With L0ve.",
       "website": "https://l0vd.com",
@@ -12,7 +12,7 @@
     },
     {
       "id": "0x832153bf3e09b9cab14414425a0ebaeb889e21d20872ebb990ed9a6102d7dc7f3017d4689f931a8e96d918bdeb184e1b",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1738890946/src/validators/mainnet/u5hysssn1bjb5mkqjvgn.png",
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/validators/0x832153bf3e09b9cab14414425a0ebaeb889e21d20872ebb990ed9a6102d7dc7f3017d4689f931a8e96d918bdeb184e1b.png/public",
       "name": "BGTScan",
       "description": "🐻⛓ on-chain BGT analytics, powered by Nodeinfra",
       "website": "https://bgtscan.com",
@@ -20,7 +20,7 @@
     },
     {
       "id": "0xa232a81b5e834b817db01d85ee13e36552b48413626287de511b6c89b7b8ff4a448e865713fd21c98f1467a58fe6efe5",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/raw/upload/src/assets/stakeus.png",
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/validators/0xa232a81b5e834b817db01d85ee13e36552b48413626287de511b6c89b7b8ff4a448e865713fd21c98f1467a58fe6efe5.png/public",
       "name": "StakeUs",
       "description": "Experimenting with Boost APR and Reward Pools",
       "website": "https://stakeus.xyz",
@@ -28,7 +28,7 @@
     },
     {
       "id": "0x84acfd38a13af12add8d82e1ef0842c4dfc1e4175fae5b8ab73770f9050cbf673cafdbf6d8ab679fe9ea13208f50b485",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1757322825/validators/icons/esusebxbys8inall4yey.jpg",
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/validators/0x84acfd38a13af12add8d82e1ef0842c4dfc1e4175fae5b8ab73770f9050cbf673cafdbf6d8ab679fe9ea13208f50b485.jpg/public",
       "name": "[LEGACY] Smilee Finance",
       "description": "Generate Awesome Yields with gBERA, the Liquid Staking Token that plays Proof of Liquidity for you.",
       "website": "https://app.smilee.finance",
@@ -36,7 +36,7 @@
     },
     {
       "id": "0xaf94de133c6b7a49c51e433cf9371ec3ba8db23d31eed2840aff0297316449f1c1e099c7188f772a6750e522dbc2a764",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1739223283/validators/icons/vpvgcwpww2rifhogektb.jpg",
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/validators/0xaf94de133c6b7a49c51e433cf9371ec3ba8db23d31eed2840aff0297316449f1c1e099c7188f772a6750e522dbc2a764.jpg/public",
       "name": "Smilee Finance",
       "description": "Generate Awesome Yields with gBERA, the Liquid Staking Token that plays Proof of Liquidity for you.",
       "website": "https://app.smilee.finance",
@@ -44,7 +44,7 @@
     },
     {
       "id": "0x97266c94c490662479a9188b070c86e505df4f167016883af4114c8c1a71429e8f270c0c2f1b74375880f81828b768c0",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1738875968/src/validators/mainnet/1xp_logo_symbol_black.png",
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/validators/0x97266c94c490662479a9188b070c86e505df4f167016883af4114c8c1a71429e8f270c0c2f1b74375880f81828b768c0.png/public",
       "name": "1XP | nambera.com",
       "description": "1XP secures the future of economic autonomy. With top-tier infrastructure and deep governance expertise, we power networks that enable true decentralization. Stake with experience. Stake with 1XP.",
       "website": "https://1xp.com",
@@ -52,7 +52,7 @@
     },
     {
       "id": "0x960052c5509caa280218f3ecf3da7ba5bf4ec20b97e6c52700dd93515ef4e963813aa92a8731c9e137b1027dbc77102f",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/raw/upload/src/assets/Lugahill_square.png",
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/validators/0x960052c5509caa280218f3ecf3da7ba5bf4ec20b97e6c52700dd93515ef4e963813aa92a8731c9e137b1027dbc77102f.png/public",
       "name": "Luganodes",
       "description": "Swiss-Operated Institutional Grade Staking Provider",
       "website": "https://luganodes.com",
@@ -60,7 +60,7 @@
     },
     {
       "id": "0x865a04fc3fb234b69595fc464b00604e8e1f387d47dc6bca2d1503a82d2e20060334ef275c764136f13b87447bd3d0a8",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/raw/upload/src/assets/despread.png",
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/validators/0x865a04fc3fb234b69595fc464b00604e8e1f387d47dc6bca2d1503a82d2e20060334ef275c764136f13b87447bd3d0a8.png/public",
       "name": "DeSpread",
       "description": "Korean Beras are coming. DeSpread provides a data-driven growth strategy for expanding into APAC regions.",
       "website": "https://despread.io",
@@ -68,7 +68,7 @@
     },
     {
       "id": "0xabfb6d9eb0785e57b43ecffddd5d906375dd627e7338137a77c02788ed6d569b1a098ff2c2499a740e382930b39bce48",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/raw/upload/src/assets/A41.png",
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/validators/0xabfb6d9eb0785e57b43ecffddd5d906375dd627e7338137a77c02788ed6d569b1a098ff2c2499a740e382930b39bce48.png/public",
       "name": "A41",
       "description": "A41 is a blockchain infrastructure company. We provide staking service on multichain. Stake your token with us now and earn rewards!",
       "website": "https://a41.io",
@@ -76,7 +76,7 @@
     },
     {
       "id": "0x98111a6ee569f1be005551d8c76e042aabcb5bf4c491d177445a2b5fb30dedc7bf6db39e387831c6739bde4129c6ada5",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/raw/upload/src/assets/StakeLab.png",
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/validators/0x98111a6ee569f1be005551d8c76e042aabcb5bf4c491d177445a2b5fb30dedc7bf6db39e387831c6739bde4129c6ada5.png/public",
       "name": "StakeLab",
       "description": "Grow your assets - app.stakelab.zone/stake/berachain",
       "website": "https://www.stakelab.zone",
@@ -84,7 +84,7 @@
     },
     {
       "id": "0xb2faa51f9cf1a8c818459034941d965445bda15b212661f74f09394f2febe40c1f8feeba0cedcafd4ad28a944afb2b2c",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/raw/upload/src/assets/figment.png",
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/validators/0xb2faa51f9cf1a8c818459034941d965445bda15b212661f74f09394f2febe40c1f8feeba0cedcafd4ad28a944afb2b2c.png/public",
       "name": "Figment",
       "description": "",
       "website": "https://figment.io/",
@@ -92,7 +92,7 @@
     },
     {
       "id": "0xb577aa07f35ba1651b266f7f316ed1cd10907d0064e01dbcb502ec8c39bc1fc01acde07f4755ad0d414832fa2e2b5629",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/raw/upload/src/assets/enigma.png",
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/validators/0xb577aa07f35ba1651b266f7f316ed1cd10907d0064e01dbcb502ec8c39bc1fc01acde07f4755ad0d414832fa2e2b5629.png/public",
       "name": "Enigma",
       "description": "Highly secure professional validator across 40+ chains - offering a full refund for any downtime slashing - Reach out to us at contact@enigma-validator.com",
       "website": "https://enigma-validator.com/",
@@ -100,7 +100,7 @@
     },
     {
       "id": "0x964dd0632d0ed772dd0b5a269e9809be5b742df0ad4463552c7b51beef6baf6021360db60b0428ff1c4c38661c02b283",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/raw/upload/src/assets/Brightlystake-logo.png",
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/validators/0x964dd0632d0ed772dd0b5a269e9809be5b742df0ad4463552c7b51beef6baf6021360db60b0428ff1c4c38661c02b283.png/public",
       "name": "Brightlystake",
       "description": "Stake with Confidence",
       "website": "https://www.brightlystake.com",
@@ -108,7 +108,7 @@
     },
     {
       "id": "0xa6194b4dc5f7c8bd00666cbe1a9490eae3306ff397c4d198395dd938100fc3828e2d072a1bf6f256299f9cdb8d2b42f0",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/raw/upload/src/assets/nodesguru.png",
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/validators/0xa6194b4dc5f7c8bd00666cbe1a9490eae3306ff397c4d198395dd938100fc3828e2d072a1bf6f256299f9cdb8d2b42f0.png/public",
       "name": "NodesGuru",
       "description": "Guru of non-custodial staking. Professional node running, low fees, best uptime and 24/7 customer support.",
       "website": "https://nodes.guru",
@@ -116,7 +116,7 @@
     },
     {
       "id": "0x98b7240b6aa60283ef2733840dc0996b1a16b68b38f9cbd83e5b7dda516d47b8279449f14c5b6a3d2bd8e74816ce2cae",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/raw/upload/src/assets/blockscape.png",
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/validators/0x98b7240b6aa60283ef2733840dc0996b1a16b68b38f9cbd83e5b7dda516d47b8279449f14c5b6a3d2bd8e74816ce2cae.png/public",
       "name": "Blockscape",
       "description": "Blockscape Finance AG is a Swiss company that provides enterprise-grade node operations for blockchains. We are running world-class infrastructure in multiple data centers across the globe.",
       "website": "https://www.blockscape.network",
@@ -124,7 +124,7 @@
     },
     {
       "id": "0xa769858cabcbe2fa239997e676e378f2037a679a1cf674679c40e410ffa9e72921781c24af7cc79969361559e88615de",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1738889627/src/validators/mainnet/utguxxdytjhs7dy317qw.png",
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/validators/0xa769858cabcbe2fa239997e676e378f2037a679a1cf674679c40e410ffa9e72921781c24af7cc79969361559e88615de.png/public",
       "name": "Coinage x DAIC",
       "description": "The official validator node from Coinage (Coinage.Media) and DAIC (https://daic.capital/telegram)",
       "website": "https://daic.capital",
@@ -132,7 +132,7 @@
     },
     {
       "id": "0x8db0c2f3475fbe90310e7b2ed608546dae7aa5d0fe7f3d2775c2e18ab0e87368bc8c670de021f7740f2f82e6d54a8131",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1741270208/src/validators/mainnet/skg8f4nk3qlve7ivwmyj.png",
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/validators/0x8db0c2f3475fbe90310e7b2ed608546dae7aa5d0fe7f3d2775c2e18ab0e87368bc8c670de021f7740f2f82e6d54a8131.png/public",
       "name": "[NODERS]",
       "description": "Professional blockchain validator and web3 developer team",
       "website": "https://noders.team",
@@ -140,7 +140,7 @@
     },
     {
       "id": "0x89233d54cc54e67cbab9493af37bcbedaa9def92c14637694bf88f675b2ccd0a6c98a8dde009d6d80f515f11a8845517",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/raw/upload/src/assets/pops.png",
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/validators/0x89233d54cc54e67cbab9493af37bcbedaa9def92c14637694bf88f675b2ccd0a6c98a8dde009d6d80f515f11a8845517.png/public",
       "name": "P-OPS Team",
       "description": "P-OPS TEAM is a decentralized organization providing you with validation and staking services, blockchain consultation, growth acceleration and investment capital for innovative Web 3.0 projects.",
       "website": "https://pops.one",
@@ -148,7 +148,7 @@
     },
     {
       "id": "0xa3ae000f40c06c1af1c40d713370a5fbf2cc28fdd6a03b36b751a1eb28a5699eea469d7b337981081facc738c326091d",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/raw/upload/src/assets/b-harvest.png",
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/validators/0xa3ae000f40c06c1af1c40d713370a5fbf2cc28fdd6a03b36b751a1eb28a5699eea469d7b337981081facc738c326091d.png/public",
       "name": "B-Harvest",
       "description": "Provides secure validation services for dPoS networks",
       "website": "https://bharvest.io/",
@@ -156,7 +156,7 @@
     },
     {
       "id": "0x8d0a94a5a2bb0289ebb24e73233f5ae6508d635022d8a12c69fce99791783bd76ab3fd33b6304a5fe42b85201db12f18",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/raw/upload/src/assets/kudasaijp.png",
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/validators/0x8d0a94a5a2bb0289ebb24e73233f5ae6508d635022d8a12c69fce99791783bd76ab3fd33b6304a5fe42b85201db12f18.png/public",
       "name": "Kudasai",
       "description": "KudasaiJP/Omakase is a professional staking and validation service. We also contribute to innovative projects via marketing and development support.",
       "website": "https://kudasai.co.jp",
@@ -164,7 +164,7 @@
     },
     {
       "id": "0x8148ddb478a291cf6a16fb98195e3076aad319ca8821b4aef69c8d1d45c8ed49d61109a1cbc029b58f22f5bb60854fe4",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1738876216/src/validators/mainnet/p4cghuslx33dgzrrswtn.png",
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/validators/0x8148ddb478a291cf6a16fb98195e3076aad319ca8821b4aef69c8d1d45c8ed49d61109a1cbc029b58f22f5bb60854fe4.png/public",
       "name": "Simply Staking",
       "description": "Simply Staking runs highly reliable and secure infrastructure in our own datacentre in Malta, built with the aim of supporting the growth of the blockchain ecosystem.",
       "website": "https://simplystaking.com",
@@ -172,7 +172,7 @@
     },
     {
       "id": "0xa9504e88e6e969bd31a194c7c81df0e44b4644d0db81ad712d55023c5c6e1ac656558f27c8f8bac65c1fe72c597e6578",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/raw/upload/src/assets/ContributionDAO.png",
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/validators/0xa9504e88e6e969bd31a194c7c81df0e44b4644d0db81ad712d55023c5c6e1ac656558f27c8f8bac65c1fe72c597e6578.png/public",
       "name": "ContributionDAO",
       "description": "Secure Network With Institutional Grade Solution",
       "website": "https://contributiondao.com",
@@ -180,7 +180,7 @@
     },
     {
       "id": "0xa247c21f73c3327f31f8ee0dbb40110ef0a830af89b83986dddf92d1bd1a68b88f9050bc6a0f1405cb75fbb457e3e83b",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/raw/upload/src/assets/stakecito_logo.png",
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/validators/0xa247c21f73c3327f31f8ee0dbb40110ef0a830af89b83986dddf92d1bd1a68b88f9050bc6a0f1405cb75fbb457e3e83b.png/public",
       "name": "Stakecito",
       "description": "Securing & Decentralizing PoS Networks.",
       "website": "https://www.stakecito.com",
@@ -188,7 +188,7 @@
     },
     {
       "id": "0x89c7f0d4cbace56294b624f6fa1b27beaa5afc9dab7072383c5f63f636e9f78f9e868a82e6684a72068199461f1f1c15",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/raw/upload/src/assets/validationcloud.png",
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/validators/0x89c7f0d4cbace56294b624f6fa1b27beaa5afc9dab7072383c5f63f636e9f78f9e868a82e6684a72068199461f1f1c15.png/public",
       "name": "Validation Cloud",
       "description": "Validation Cloud is a Web3 platform that delivers elite, high-performance node and staking infrastructure.",
       "website": "https://www.validationcloud.io",
@@ -196,7 +196,7 @@
     },
     {
       "id": "0x8e3b35bd379652019fe8f341c5c854a60f55772016340781e8d3577e2b24e1ac0d5786d45459cd756810281eff8f729c",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/raw/upload/src/assets/kodiak.jpg",
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/validators/0x8e3b35bd379652019fe8f341c5c854a60f55772016340781e8d3577e2b24e1ac0d5786d45459cd756810281eff8f729c.jpg/public",
       "name": "Kodiak",
       "description": "Native Liquidity Hub",
       "website": "https://www.kodiak.finance",
@@ -204,7 +204,7 @@
     },
     {
       "id": "0x89884fc95abcb82736d768fc8ad4fdf4cb2112496974ae05440d835d0e93216643ae212b365fb6d9d2501d76d0925ef3",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/raw/upload/src/assets/TTT.png",
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/validators/0x89884fc95abcb82736d768fc8ad4fdf4cb2112496974ae05440d835d0e93216643ae212b365fb6d9d2501d76d0925ef3.png/public",
       "name": "TTT 🇻🇳",
       "description": " Vietnam's largest community validator, offering validation services, educational resources, and market penetration in the Vietnamese crypto market. ",
       "website": "https://tienthuattoan.com",
@@ -212,7 +212,7 @@
     },
     {
       "id": "0xa7f3186065f3f18a4b21b661f40941b942dad39062d9df399d94a18870e0600f1ccab51ee71ca5d6f971b79c2e51d6de",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1743020076/validators/u7xgalgnwviuq1srrakj.png",
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/validators/0xa7f3186065f3f18a4b21b661f40941b942dad39062d9df399d94a18870e0600f1ccab51ee71ca5d6f971b79c2e51d6de.png/public",
       "name": "CoinSummer",
       "description": "Backed by crypto-native degens, CoinSummer is a trusted liquidity provider, staking validator, and AVS operator supporting the crypto and DeFi evolution.",
       "website": "https://coinsummer.io",
@@ -220,7 +220,7 @@
     },
     {
       "id": "0xb1580b412431ff7a1cca16045f0996740a5e52ebd1aeff6359415d99886b89a3506b36bd71af132a5dcb989e7a89b58d",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/raw/upload/src/assets/infstones.png",
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/validators/0xb1580b412431ff7a1cca16045f0996740a5e52ebd1aeff6359415d99886b89a3506b36bd71af132a5dcb989e7a89b58d.png/public",
       "name": "InfStones",
       "description": "The Ultimate Web3 Infrastructure Platform(TM) supporting over 80+ blockchain protocols. Staking, Node Management, API Gateway, and Blockwatch.",
       "website": "https://infstones.com",
@@ -228,7 +228,7 @@
     },
     {
       "id": "0xab98ea73f3afab04154829f8d12a537cbf31a8b08f7f8e3870f4902001f0011234ed8f9218b40b4ed732d11d889f609d",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1743020080/validators/we75ivvkrlwoyuurmwdz.png",
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/validators/0xab98ea73f3afab04154829f8d12a537cbf31a8b08f7f8e3870f4902001f0011234ed8f9218b40b4ed732d11d889f609d.png/public",
       "name": "ChorusOne",
       "description": "Secure Berachain and shape its future by delegating to Chorus One, a highly secure and stable validator. By delegating, you agree to the terms of service at: https://chorus.one/tos",
       "website": "https://chorus.one",
@@ -236,7 +236,7 @@
     },
     {
       "id": "0x80305831f81c688a6814ebf9d9b842e28a20b425864c480fab6f52e41541853eab39e77ca68248d096bd4d5499b24b7e",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/raw/upload/src/assets/ghost.png",
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/validators/0x80305831f81c688a6814ebf9d9b842e28a20b425864c480fab6f52e41541853eab39e77ca68248d096bd4d5499b24b7e.png/public",
       "name": "GhostGraph",
       "description": "Ghost is building the next-gen blockchain indexing stack with GhostLogs and GhostGraph. GhostGraph is live on Berachain and lets developers create APIs for smart contracts. Stay in Solidity and create blazingly fast subgraphs",
       "website": "https://tryghost.xyz",
@@ -244,7 +244,7 @@
     },
     {
       "id": "0xa14fa37a1d4c65326bf091d3bb0e5607fde8946471ed923e6815077fac7282d89820dd4f8765e4085ca8247fb99ecb6b",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1739449352/validators/icons/hm89bhgw1h2eydgtrmeu.png",
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/validators/0xa14fa37a1d4c65326bf091d3bb0e5607fde8946471ed923e6815077fac7282d89820dd4f8765e4085ca8247fb99ecb6b.png/public",
       "name": "Asymmetric Research",
       "description": "",
       "website": "https://www.asymmetric.re",
@@ -252,7 +252,7 @@
     },
     {
       "id": "0x98beef4053d097aa1527a70301021a363fd3b92754a446932f5c97e7daa9c8d0bcf2ed315e7a55775a8bbe5ebe134ffb",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/raw/upload/src/assets/quantnode.png",
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/validators/0x98beef4053d097aa1527a70301021a363fd3b92754a446932f5c97e7daa9c8d0bcf2ed315e7a55775a8bbe5ebe134ffb.png/public",
       "name": "Quantnode",
       "description": "Safe & Easy2Use Staking Provider. Supporting networks at early stage",
       "website": "https://quantnode.tech",
@@ -260,7 +260,7 @@
     },
     {
       "id": "0xb255e317f7e6415eab053180c8e36b5f6312c1e6ee1e884a26c490aa4121595574656ed89c83e0d6afd5e2b33c00b101",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1742293903/validators/icons/75050da2-27ea-4485-b981-51d37b66cd24.png",
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/validators/0xb255e317f7e6415eab053180c8e36b5f6312c1e6ee1e884a26c490aa4121595574656ed89c83e0d6afd5e2b33c00b101.png/public",
       "name": "StakeTab",
       "description": "Professional staking provider offering infrastructure solutions for the Web3 ecosystem. Our experience in developing Web3 services since 2017 enables us to create best-in-class, data-rich products for each customer.",
       "website": "https://staketab.com/",
@@ -268,7 +268,7 @@
     },
     {
       "id": "0xb40cc8701d344c41054a3d028bb5f5f0702f7c228b22bdc9081541808c101808d3db2c130d64359efdd7589365b8f05b",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/raw/upload/src/assets/manticore.jpg",
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/validators/0xb40cc8701d344c41054a3d028bb5f5f0702f7c228b22bdc9081541808c101808d3db2c130d64359efdd7589365b8f05b.jpg/public",
       "name": "MantiCore",
       "description": "Secure and reliable individual PoS/PoW validator. Best uptime and 24/7 support.",
       "website": "https://manticore.team",
@@ -276,7 +276,7 @@
     },
     {
       "id": "0x8bca787da4be8b093c0e8bb9e62311ee61459140cd616aad48dbcab233a163da85994869983e74658fa53af595432df4",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/raw/upload/src/assets/kysenpool.png",
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/validators/0x8bca787da4be8b093c0e8bb9e62311ee61459140cd616aad48dbcab233a163da85994869983e74658fa53af595432df4.png/public",
       "name": "KysenPool",
       "description": "Unlock the Power of Staking with Our Trusted Blockchain Infrastructure Services",
       "website": "https://www.kysenpool.io",
@@ -284,7 +284,7 @@
     },
     {
       "id": "0xa0c673180d97213c1c35fe3bf4e684dd3534baab235a106d1f71b9c8a37e4d37a056d47546964fd075501dff7f76aeaf",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/raw/upload/src/assets/thj.jpg",
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/validators/0xa0c673180d97213c1c35fe3bf4e684dd3534baab235a106d1f71b9c8a37e4d37a056d47546964fd075501dff7f76aeaf.jpg/public",
       "name": "The Honey Jar",
       "description": "THJ is the Berachain-native creative venture studio. We're the creators of Honeycomb, Henlo, ApDAO, and more.",
       "website": "https://www.0xhoneyjar.xyz/",
@@ -292,7 +292,7 @@
     },
     {
       "id": "0xb8cb7205f642e6cb370cc9d1a9b229381f50f34f2e5aa5db8ef8c7c6016d034687f871afb9d3e2a583a782c0c881e31e",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1738875950/src/validators/mainnet/rhino_logo_filled.png",
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/validators/0xb8cb7205f642e6cb370cc9d1a9b229381f50f34f2e5aa5db8ef8c7c6016d034687f871afb9d3e2a583a782c0c881e31e.png/public",
       "name": "RHINO 🦏",
       "description": "Blockchain infrastructure at institutional standards. Multi-region reliability, enterprise SLAs, and slash protection insurance. We build trust into every block. Build on 🐻⛓️ at https://berachain-apis.com",
       "website": "https://rhinostake.com",
@@ -300,7 +300,7 @@
     },
     {
       "id": "0xa47aa6bd157dfa6ab6f411384a662c3d4d4f8745217ea8198470d6f3135bd71958fd824256fdbf16b21494ec3080b7ee",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1739449352/validators/icons/hm89bhgw1h2eydgtrmeu.png",
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/validators/0xa47aa6bd157dfa6ab6f411384a662c3d4d4f8745217ea8198470d6f3135bd71958fd824256fdbf16b21494ec3080b7ee.png/public",
       "name": "BitGo",
       "description": "",
       "website": "https://www.bitgo.com",
@@ -308,7 +308,7 @@
     },
     {
       "id": "0x89543c3e50251ae355835484faf7cb38dacfca943b97fef9c9ee1e47248258a7198da417bf8fc6771fa7ef16a8adec0f",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1739449352/validators/icons/hm89bhgw1h2eydgtrmeu.png",
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/validators/0x89543c3e50251ae355835484faf7cb38dacfca943b97fef9c9ee1e47248258a7198da417bf8fc6771fa7ef16a8adec0f.png/public",
       "name": "UFN",
       "description": "",
       "website": "",
@@ -316,7 +316,7 @@
     },
     {
       "id": "0x83fd53710b75c2115bd0aac128b739eb9fa9e262603dacdf834030abb1bf4c8a6c00bb72b314c123d77f4ff40cd4d49a",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1739449352/validators/icons/hm89bhgw1h2eydgtrmeu.png",
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/validators/0x83fd53710b75c2115bd0aac128b739eb9fa9e262603dacdf834030abb1bf4c8a6c00bb72b314c123d77f4ff40cd4d49a.png/public",
       "name": "BicroStrategy",
       "description": "",
       "website": "",
@@ -324,7 +324,7 @@
     },
     {
       "id": "0x83d0f90cdedaac1450c8dc08cfa644ae02f5918572041c2fca7df8b55336682cb5edbccadd6e77129de425844e147d02",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1739449352/validators/icons/hm89bhgw1h2eydgtrmeu.png",
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/validators/0x83d0f90cdedaac1450c8dc08cfa644ae02f5918572041c2fca7df8b55336682cb5edbccadd6e77129de425844e147d02.png/public",
       "name": "wallahi",
       "description": "",
       "website": "",
@@ -332,7 +332,7 @@
     },
     {
       "id": "0xa1147c6c5938ba7f34423f9dd473bf7b1bb8836ed47ed3ff258146c94d6f10aed73cba3b4668adbe32ca0b53a99034f3",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1739377904/src/validators/mainnet/lnyqzheabe7kseicovus.jpg",
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/validators/0xa1147c6c5938ba7f34423f9dd473bf7b1bb8836ed47ed3ff258146c94d6f10aed73cba3b4668adbe32ca0b53a99034f3.jpg/public",
       "name": "Frequency",
       "description": "",
       "website": "",
@@ -340,7 +340,7 @@
     },
     {
       "id": "0x83199315cf36ebcf6a50bab572800d79324835fae832a3da9238f399c39feceb62de41339eab4cc8f79a6d4e6bcb825c",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1745212267/validators/mg5olfymhhhirzrjrgma.png",
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/validators/0x83199315cf36ebcf6a50bab572800d79324835fae832a3da9238f399c39feceb62de41339eab4cc8f79a6d4e6bcb825c.png/public",
       "name": "Falcon Nest",
       "description": "",
       "website": "",
@@ -348,7 +348,7 @@
     },
     {
       "id": "0x928d6f66bfd9cb1ef18da6843ad9db6c1b6ec7e3093705c95224e8f20232f243e7a627d09144360d4c1775d8fafdb0e7",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1743020374/validators/sj9gkkwfh2ccvw6z8fpv.png",
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/validators/0x928d6f66bfd9cb1ef18da6843ad9db6c1b6ec7e3093705c95224e8f20232f243e7a627d09144360d4c1775d8fafdb0e7.png/public",
       "name": "Infrared by Luganodes",
       "description": "Swiss-operated, non-custodial, institutional staking provider with $3Bn+ in assets, supporting 50+ PoS networks. This validator node is operated with Infrared Finance.",
       "website": "https://luganodes.com",
@@ -356,7 +356,7 @@
     },
     {
       "id": "0x88be126bfda4eee190e6c01a224272ed706424851e203791c7279aeecb6b503059901db35b1821f1efe4e6b445f5cc9f",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1743020675/validators/jrc9cwxnihoh1dh4axa2.png",
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/validators/0x88be126bfda4eee190e6c01a224272ed706424851e203791c7279aeecb6b503059901db35b1821f1efe4e6b445f5cc9f.png/public",
       "name": "Infrared by StakeLab",
       "description": "Grow your assets - app.stakelab.zone/stake/berachain",
       "website": "https://stakelab.zone",
@@ -364,7 +364,7 @@
     },
     {
       "id": "0xb77084d2b92baa3e01ec5ce57fbd529d3c8e60941c637bdc7c85d9ca2cc56545c3cbea86879dcbe9402f8a55d0284e7b",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1740538962/src/validators/mainnet/ollxsvawywocamy0p8lu.png",
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/validators/0xb77084d2b92baa3e01ec5ce57fbd529d3c8e60941c637bdc7c85d9ca2cc56545c3cbea86879dcbe9402f8a55d0284e7b.png/public",
       "name": "The Empty Jar",
       "description": "The Empty Jar is used for THJ internal and experimental projects. Do not expect this validator to offer competitive incentives.",
       "website": "https://www.0xhoneyjar.xyz/",
@@ -372,7 +372,7 @@
     },
     {
       "id": "0x89cbd542c737cca4bc33f1ea5084a857a7620042fe37fd326ecf5aeb61f2ce096043cd0ed57ba44693cf606978b566ba",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1741180084/src/validators/mainnet/iveonwrot3u4wjbaqjcy.png",
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/validators/0x89cbd542c737cca4bc33f1ea5084a857a7620042fe37fd326ecf5aeb61f2ce096043cd0ed57ba44693cf606978b566ba.png/public",
       "name": "Beradrome X ApDAO",
       "description": "Joint validator of Beradrome and Apiology DAO. Powered by fatBERA",
       "website": "https://beradrome.com/",
@@ -380,7 +380,7 @@
     },
     {
       "id": "0xb82a791d7c3d72efa6759e0250785346266d6c70ed881424ec63ad4d060904983bc57903fa133a9bc00c2d6f9b12964d",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1741180088/src/validators/mainnet/rmzwnuyzpwn0eyjxlasw.png",
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/validators/0xb82a791d7c3d72efa6759e0250785346266d6c70ed881424ec63ad4d060904983bc57903fa133a9bc00c2d6f9b12964d.png/public",
       "name": "Berabaddies",
       "description": "Validator for the girlies",
       "website": "https://x.com/berabaddies",
@@ -388,7 +388,7 @@
     },
     {
       "id": "0x96652bba2f2f3b6b4fcfdfe9847f6a5604965d0ebac37c1f0c3774da0866140ab69734feec0eb0761f8e08d809c9e12b",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1741706187/src/validators/mainnet/jldsbhu8izidlqdk2py3.png",
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/validators/0x96652bba2f2f3b6b4fcfdfe9847f6a5604965d0ebac37c1f0c3774da0866140ab69734feec0eb0761f8e08d809c9e12b.png/public",
       "name": "SNZPool",
       "description": "SNZPool is a professional technology service provider for PoS Nodes",
       "website": "https://snzholding.com",
@@ -396,7 +396,7 @@
     },
     {
       "id": "0x892e8d2225cebeed25e54a59f4167610704fc507170a7b6532584ffa7f66c1dda20c83a2f148fb5f7ec614f340edba60",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1742396594/src/validators/mainnet/rdjsybn1acmkycqauvfo.png",
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/validators/0x892e8d2225cebeed25e54a59f4167610704fc507170a7b6532584ffa7f66c1dda20c83a2f148fb5f7ec614f340edba60.png/public",
       "name": "P2P.org",
       "description": "P2P.org is a leading non-custodial institutional staking provider. Stake with us for a secure, reliable and simple service.",
       "website": "https://www.p2p.org",
@@ -404,7 +404,7 @@
     },
     {
       "id": "0x86888df491e8ccdc5bb940b9dda51fa7449518593820c9e4e9033a7b87f5e9f8debbba6a4f68218711896906ad40ce71",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1742835080/src/validators/mainnet/rexllant1goj9swhdoxi.png",
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/validators/0x86888df491e8ccdc5bb940b9dda51fa7449518593820c9e4e9033a7b87f5e9f8debbba6a4f68218711896906ad40ce71.png/public",
       "name": "Infrared by Cephalopod Equipment",
       "description": "Cephalopod Equipment - infrastructure for decentralized intelligence.",
       "website": "",
@@ -412,7 +412,7 @@
     },
     {
       "id": "0x875aaf00241b14ccd86176e4baed170df6735529afd0f38f01ecfe881cbb613058922a0372814b967e3ae9e880d88658",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1742397042/src/validators/mainnet/lvm30zmhbwwjavy8wofu.png",
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/validators/0x875aaf00241b14ccd86176e4baed170df6735529afd0f38f01ecfe881cbb613058922a0372814b967e3ae9e880d88658.png/public",
       "name": "Infrared by Pier Two",
       "description": "This Pier Two validator is operated Infrared. Pier Two is an Australian-based, APAC-focused institutional staking provider. Operating highly performant hybrid cloud and bare metal infrastructure, with zonal redundancy. Our spirit bears are Koala Bears.",
       "website": "https://piertwo.com/",
@@ -420,7 +420,7 @@
     },
     {
       "id": "0x998adf736d60eecdfd3ab5136a779aa23235c44bb6de08def2069f73e946de963b35a68d5a66d611d3a7cd45035dca8f",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/raw/upload/src/assets/coinsummer.png",
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/validators/0x998adf736d60eecdfd3ab5136a779aa23235c44bb6de08def2069f73e946de963b35a68d5a66d611d3a7cd45035dca8f.png/public",
       "name": "Infrared by CoinSummer Labs",
       "description": "Backed by crypto-native degens, CoinSummer is a trusted liquidity provider, staking validator, and AVS operator supporting the crypto and DeFi evolution.",
       "website": "https://coinsummer.io",
@@ -428,7 +428,7 @@
     },
     {
       "id": "0x90d64ab2a8ab9b5faace9225d205d47dc0b8155592b354b860134928f7f39f15f54d909dad7897868aba6dc7e7eef6c8",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1743532829/validators/z4nv4vkaucm6caaoto7w.png",
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/validators/0x90d64ab2a8ab9b5faace9225d205d47dc0b8155592b354b860134928f7f39f15f54d909dad7897868aba6dc7e7eef6c8.png/public",
       "name": "Infrared by A41",
       "description": "A41 is a blockchain infrastructure company based in Seoul, managing $2 billion in staked assets and supports 20+ blockchain protocols. This validator node is operated with Infrared Finance.",
       "website": "https://www.a41.io/",
@@ -436,7 +436,7 @@
     },
     {
       "id": "0x8ccaba10bddc33a4f8d2acdd78593879a84c7466f641f1d9b4238b20ee2d0706894b3e55b0744098c50b9b4821da3207",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1762362206/validators/0x8ccaba10bddc33a4f8d2acdd78593879a84c7466f641f1d9b4238b20ee2d0706894b3e55b0744098c50b9b4821da3207.jpg",
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/validators/0x8ccaba10bddc33a4f8d2acdd78593879a84c7466f641f1d9b4238b20ee2d0706894b3e55b0744098c50b9b4821da3207.png/public",
       "name": "Infrared by RockawayX",
       "description": "Bare-metal, non-custodial, institutional infrastructure operator for PoS blockchains. This validator node is operated in cooperation with Hack VC and Infrared Finance.",
       "website": "https://www.rockawayx.com",
@@ -444,7 +444,7 @@
     },
     {
       "id": "0x967fb9134794ac697aadf15782b6f03da5494a094eb588045ac209bc80315d3c33b4cbf78db90400428c92011d6fde58",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1743772244/validators/twbqhha3sct4rnonrouk.png",
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/validators/0x967fb9134794ac697aadf15782b6f03da5494a094eb588045ac209bc80315d3c33b4cbf78db90400428c92011d6fde58.png/public",
       "name": "Infrared by Kingnodes 👑",
       "description": "Enterprise web3 infrastructure provider. TG: t.me/kingnodes",
       "website": "https://kingnodes.com",
@@ -452,7 +452,7 @@
     },
     {
       "id": "0xaddc88b5a74211b80ed2b8c5169b85380b7428a8b0a3381a4470d52203eb230f136b423370308783082866f716b06651",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1743533918/validators/mcusroc1wjdbi8wjqybc.png",
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/validators/0xaddc88b5a74211b80ed2b8c5169b85380b7428a8b0a3381a4470d52203eb230f136b423370308783082866f716b06651.png/public",
       "name": "Infrared by Nodeinfra",
       "description": "Korean validator focused on reliability and security",
       "website": "https://nodeinfra.com",
@@ -460,7 +460,7 @@
     },
     {
       "id": "0xab2f79eeae163596276d5a56e52be4796df33377b157531a839a0174a68ca36e245bee122c4b5364176cf25ec2e0e8fc",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1747240901/validators/0xab2f79eeae163596276d5a56e52be4796df33377b157531a839a0174a68ca36e245bee122c4b5364176cf25ec2e0e8fc.png",
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/validators/0xab2f79eeae163596276d5a56e52be4796df33377b157531a839a0174a68ca36e245bee122c4b5364176cf25ec2e0e8fc.png/public",
       "name": "Infrared by DeSpread",
       "description": "Korean Beras are coming. DeSpread provides a data-driven growth strategy for expanding into APAC regions.",
       "website": "https://despread.io",
@@ -468,7 +468,7 @@
     },
     {
       "id": "0x8e98ca2aaa76909360e4b1cf2e87ed2839222ab37495b067b3257cef256dbeabeca55ec72465d0fb2321a9b73f495e0f",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1748439531/validators/0x8e98ca2aaa76909360e4b1cf2e87ed2839222ab37495b067b3257cef256dbeabeca55ec72465d0fb2321a9b73f495e0f.png",
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/validators/0x8e98ca2aaa76909360e4b1cf2e87ed2839222ab37495b067b3257cef256dbeabeca55ec72465d0fb2321a9b73f495e0f.png/public",
       "name": "Infrared by KudasaiJP",
       "description": "KudasaiJP/Omakase is a professional staking and validation service. We also contribute to innovative projects via marketing and development support.",
       "website": "https://kudasai.co.jp",
@@ -476,7 +476,7 @@
     },
     {
       "id": "0xb47bc1b35cd4c66f563f3f36285ab49747dde1469cf9972e21da45677aabde4c20d55a24bf7faa6791511a5ba3c8d415",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1748439531/validators/0xb47bc1b35cd4c66f563f3f36285ab49747dde1469cf9972e21da45677aabde4c20d55a24bf7faa6791511a5ba3c8d415.png",
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/validators/0xb47bc1b35cd4c66f563f3f36285ab49747dde1469cf9972e21da45677aabde4c20d55a24bf7faa6791511a5ba3c8d415.png/public",
       "name": "DeFimans Co., Ltd",
       "description": "A web3 professional firm ready to assist you from the get-go. DeFimans is a web3 consulting firm based in Japan with crypto-native members with DeFi and TradFi backgrounds. Our core strength lies in three areas. First is client connection with domestic/global web3 players; we have very close connections to some of Japan's biggest entertainment and finance companies, top-tier DeFi projects, and startups. Next, Unparalleled insight into the Japanese web3 space. Based on our connections and experience in this unique market, we can provide crucial information and networking to assist global projects looking to GTM in Japan or vice versa. Lastly, the highest concentration of DeFi and tokenomics expertise in Japan. We advise tokenomics and capital policy for global DeFi projects and web3 projects of the biggest Japanese companies in the finance and entertainment sectors.",
       "website": "https://defimans.com/en/",
@@ -484,7 +484,7 @@
     },
     {
       "id": "0xb6380cbd103b20dbde1a47df1d1cc299f01dda8966e10a395e4430ba2871f719529ea5cd9ffa9d48625b0d96dd77fb50",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/v1748439531/validators/0xb6380cbd103b20dbde1a47df1d1cc299f01dda8966e10a395e4430ba2871f719529ea5cd9ffa9d48625b0d96dd77fb50.png",
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/validators/0xb6380cbd103b20dbde1a47df1d1cc299f01dda8966e10a395e4430ba2871f719529ea5cd9ffa9d48625b0d96dd77fb50.png/public",
       "name": "Ancient Mibera",
       "description": "run for free by thj. 100% of commission distributed to mibera liquid backing. mibera.",
       "website": "https://www.honeyroad.xyz/",
@@ -492,11 +492,19 @@
     },
     {
       "id": "0x807899bd9f6a2592b8cf13dd4e01d9fc5c1bc039419e1e22cd54bb3b91f888e73837c7c9c98ecb1e991195d359d3c07a",
-      "logoURI": "https://res.cloudinary.com/duv0g402y/image/upload/c_thumb,w_200,g_face/v1753200771/src/validators/mainnet/gyket5ovocboeosnvlq5.png",
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/validators/0x807899bd9f6a2592b8cf13dd4e01d9fc5c1bc039419e1e22cd54bb3b91f888e73837c7c9c98ecb1e991195d359d3c07a.png/public",
       "name": "Hyperblocks",
       "description": "Staking and securing blockchains with Hyperblocks",
       "website": "https://hyperblocks.pro/",
       "twitter": "https://x.com/hyper_blocks"
+    },
+    {
+      "id": "0xb43b4c92eb6d2aef63ee0e282ad71ee6668f2ee6ec6b04de700e5c98b8badab8312cbd18c1b8605b93846039772d1acd",
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/validators/0xb43b4c92eb6d2aef63ee0e282ad71ee6668f2ee6ec6b04de700e5c98b8badab8312cbd18c1b8605b93846039772d1acd.png/public",
+      "name": "Nonce Classic",
+      "description": "Emerging from 'nonce', Korea's premier Web3 builder community, Nonce Classic is an APAC-based, institution-grade staking provider dedicated to securing the decentralized future.",
+      "website": "https://nonceclassic.org/",
+      "twitter": "https://x.com/nonceclassic"
     }
   ]
 }

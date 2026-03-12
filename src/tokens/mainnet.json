@@ -20,9 +20,7 @@
       "name": "Berachain Token",
       "decimals": 18,
       "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/tokens/0x0000000000000000000000000000000000000000.png/public",
-      "tags": [
-        "featured"
-      ],
+      "tags": ["featured"],
       "extensions": {
         "coingeckoId": "berachain-bera",
         "pythPriceId": "0x962088abcfdbdb6e30db2e340c8cf887d9efb311b1f2f17b155a63dbb6d40265"
@@ -35,9 +33,7 @@
       "name": "Wrapped Berachain Token",
       "decimals": 18,
       "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/tokens/0x6969696969696969696969696969696969696969.png/public",
-      "tags": [
-        "featured"
-      ],
+      "tags": ["featured"],
       "extensions": {
         "coingeckoId": "berachain-bera",
         "pythPriceId": "0x962088abcfdbdb6e30db2e340c8cf887d9efb311b1f2f17b155a63dbb6d40265"
@@ -50,9 +46,7 @@
       "name": "Bera Governance Token",
       "decimals": 18,
       "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/tokens/0x656b95e550c07a9ffe548bd4085c72418ceb1dba.png/public",
-      "tags": [
-        "featured"
-      ]
+      "tags": ["featured"]
     },
     {
       "chainId": 80094,
@@ -61,9 +55,7 @@
       "name": "POL Staked WBERA",
       "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/tokens/0x118d2ceee9785eaf70c15cd74cd84c9f8c3eec9a.png/public",
       "decimals": 18,
-      "tags": [
-        "featured"
-      ],
+      "tags": ["featured"],
       "extensions": {
         "coingeckoId": "pol-staked-wbera",
         "beraPythPriceId": "0xa0ed6358b767befb57171c3cfe8becbbd3120ebd75360aade80e4aee8f86a3d3"
@@ -76,9 +68,7 @@
       "name": "Staked iBERA",
       "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/tokens/0xa3503ba6460121d5936f4576f5486fed30dba4d8.png/public",
       "decimals": 18,
-      "tags": [
-        "featured"
-      ]
+      "tags": ["featured"]
     },
     {
       "chainId": 80094,
@@ -87,10 +77,7 @@
       "name": "Honey",
       "decimals": 18,
       "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/tokens/0xfcbd14dc51f0a4d49d5e53c2e0950e0bc26d0dce.png/public",
-      "tags": [
-        "stablecoin",
-        "featured"
-      ],
+      "tags": ["stablecoin", "featured"],
       "extensions": {
         "coingeckoId": "honey-3",
         "pythPriceId": "0xf67b033925d73d43ba4401e00308d9b0f26ab4fbd1250e8b5407b9eaade7e1f4"
@@ -111,10 +98,7 @@
       "name": "BYUSD",
       "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/tokens/0x688e72142674041f8f6af4c808a4045ca1d6ac82.png/public",
       "decimals": 6,
-      "tags": [
-        "stablecoin",
-        "featured"
-      ],
+      "tags": ["stablecoin", "featured"],
       "extensions": {
         "coingeckoId": "paypal-usd"
       }
@@ -126,10 +110,7 @@
       "name": "Bridged USDC (Stargate)",
       "decimals": 6,
       "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/tokens/0x549943e04f40284185054145c6e4e9568c1d3241.png/public",
-      "tags": [
-        "stablecoin",
-        "featured"
-      ],
+      "tags": ["stablecoin", "featured"],
       "extensions": {
         "coingeckoId": "usd-coin",
         "pythPriceId": "0xeaa020c61cc479712813461ce153894a96a6c00b21ed0cfc2798d1f9a9e9c94a"
@@ -142,10 +123,7 @@
       "name": "Tether USD Coin",
       "decimals": 6,
       "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/tokens/0x779ded0c9e1022225f8e0630b35a9b54be713736.png/public",
-      "tags": [
-        "stablecoin",
-        "featured"
-      ],
+      "tags": ["stablecoin", "featured"],
       "extensions": {
         "coingeckoId": "tether",
         "pythPriceId": "0x2b89b9dc8fdf9f34709a5b106b472f0f39bb6ca9ce04b0fd7f2e971688e2e53b"
@@ -158,10 +136,7 @@
       "name": "WBTC",
       "decimals": 8,
       "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/tokens/0x0555e30da8f98308edb960aa94c0db47230d2b9c.png/public",
-      "tags": [
-        "featured",
-        "deposit"
-      ],
+      "tags": ["featured", "deposit"],
       "extensions": {
         "coingeckoId": "wrapped-bitcoin",
         "pythPriceId": "0xc9d8b075a5c69303365ae23633d4e085199bf5c520a3b90fed1322a0342ffc33"
@@ -185,10 +160,7 @@
       "name": "WETH",
       "decimals": 18,
       "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/tokens/0x2f6f07cdcf3588944bf4c42ac74ff24bf56e7590.png/public",
-      "tags": [
-        "featured",
-        "deposit"
-      ],
+      "tags": ["featured", "deposit"],
       "extensions": {
         "coingeckoId": "weth",
         "pythPriceId": "0x9d4294bbcd1174d6f2003ec365831e64cc31d9f6f15a2b85399db8d5000960f6"
@@ -319,9 +291,7 @@
       "name": "Resolv USD",
       "decimals": 18,
       "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/tokens/0x2492d0006411af6c8bbb1c8afc1b0197350a79e9.png/public",
-      "tags": [
-        "stablecoin"
-      ],
+      "tags": ["stablecoin"],
       "extensions": {
         "coingeckoId": "resolv-usr",
         "pythPriceId": "0x10b013adec14c0fe839ca0fe54cec9e4d0b6c1585ac6d7e70010dac015e57f9c"
@@ -491,9 +461,7 @@
       "symbol": "NECT",
       "decimals": 18,
       "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/tokens/0x1ce0a25d13ce4d52071ae7e02cf1f6606f4c79d3.png/public",
-      "tags": [
-        "stablecoin"
-      ]
+      "tags": ["stablecoin"]
     },
     {
       "chainId": 80094,
@@ -767,9 +735,7 @@
       "symbol": "BERATARDIO",
       "decimals": 18,
       "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/tokens/0x66a501076865a2b21df9dbd51fa931317188418b.png/public",
-      "tags": [
-        "memecoin"
-      ]
+      "tags": ["memecoin"]
     },
     {
       "chainId": 80094,
@@ -982,9 +948,7 @@
       "symbol": "MEAD",
       "decimals": 18,
       "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/tokens/0xedb5180661f56077292c92ab40b1ac57a279a396.png/public",
-      "tags": [
-        "stablecoin"
-      ]
+      "tags": ["stablecoin"]
     },
     {
       "chainId": 80094,

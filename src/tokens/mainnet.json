@@ -1288,6 +1288,15 @@
       "extensions": {
         "coingeckoId": "infrared-finance"
       }
+    },
+    {
+      "chainId": 80094,
+      "address": "0x316cd39632Cac4F4CdfC21757c4500FE12f64514",
+      "symbol": "wsrUSD",
+      "name": "Wrapped Savings rUSD",
+      "decimals": 18,
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/tokens/0x316cd39632cac4f4cdfc21757c4500fe12f64514.png/public",
+      "tags": []
     }
   ]
 }

@@ -3306,7 +3306,8 @@
       "categories": ["defi/yield"],
       "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/vaults/0xfb1515f30c59a5acebdfd67dba6028f30acc7eaf.png/public",
       "url": "https://liquidroyalty.com",
-      "description": "Stake USDe via LiquidRoyalty"
+      "description": "Stake USDe in snrUSD",
+      "action": "Stake USDe in snrUSD"
     },
     {
       "stakingTokenAddress": "0x09ceA16A2563c2d7D807C86f5b8da760389B5915",
@@ -3316,8 +3317,8 @@
       "categories": ["defi/yield"],
       "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/vaults/0x6cefb51b2c01d55d5e936a1ced25077aa961944c.png/public",
       "url": "https://liquidroyalty.com",
-      "description": "Stake USDe in ALAR via LiquidRoyalty",
-      "action": "Stake USDe in LiquidRoyalty"
+      "description": "Stake USDe in ALAR",
+      "action": "Stake USDe in ALAR"
     },
     {
       "stakingTokenAddress": "0x4dad865ff99b431e0c02a02f8335b4400e4e5635",
@@ -3339,8 +3340,8 @@
       "categories": ["defi/yield"],
       "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/vaults/0x18e310dd4a6179d9600e95d18926ab7819b2a071.png/public",
       "url": "https://liquidroyalty.com",
-      "description": "Stake USDe via LiquidRoyalty",
-      "action": "Stake USDe via LiquidRoyalty"
+      "description": "Stake USDe in snrUSD",
+      "action": "Stake USDe in snrUSD"
     }
   ]
 }

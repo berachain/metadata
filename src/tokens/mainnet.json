@@ -1153,10 +1153,10 @@
     },
     {
       "chainId": 80094,
-      "address": "0x8C9807d681EC113700841A9DAC09Bb30D616fC75",
+      "address": "0x7dC8013Bc53d3bf0298127CD828a20815581AAba",
       "symbol": "BVT",
       "name": "BeraBTC Vault Token",
-      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/tokens/0x8c9807d681ec113700841a9dac09bb30d616fc75.png/public",
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/tokens/0x7dC8013Bc53d3bf0298127CD828a20815581AAba.png/public",
       "decimals": 18,
       "tags": []
     },

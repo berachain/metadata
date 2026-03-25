@@ -3,6 +3,9 @@ name: Validate
 on:
   pull_request_target:
 
+permissions:
+  contents: read
+
 jobs:
   schema:
     runs-on: ubuntu-latest
@@ -50,9 +53,11 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
+    - uses: actions/checkout@v4
       with:
         repository: ${{ github.event.pull_request.head.repo.full_name }}
         ref: ${{ github.event.pull_request.head.ref }}
+        path: ./head
 
     - name: Setup Node.js
       uses: actions/setup-node@v4
@@ -81,7 +86,7 @@ jobs:
       run: pnpm install
 
     - name: Lint Check
-      run: pnpx @biomejs/biome@2.0.0 ci
+      run: pnpx @biomejs/biome@2.0.0 ci ./head
 
   data-consistency:
     needs: schema

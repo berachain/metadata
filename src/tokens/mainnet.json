@@ -46,7 +46,10 @@
       "name": "Bera Governance Token",
       "decimals": 18,
       "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/tokens/0x656b95e550c07a9ffe548bd4085c72418ceb1dba.png/public",
-      "tags": ["featured"]
+      "tags": ["featured"],
+      "extensions": {
+        "coingeckoId": "berachain-governance-token"
+      }
     },
     {
       "chainId": 80094,
@@ -260,7 +263,10 @@
       "name": "stBGT",
       "decimals": 18,
       "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/tokens/0x2cec7f1ac87f5345ced3d6c74bbb61bfae231ffb.png/public",
-      "tags": []
+      "tags": [],
+      "extensions": {
+        "coingeckoId": "stbgt"
+      }
     },
     {
       "chainId": 80094,
@@ -461,7 +467,10 @@
       "symbol": "NECT",
       "decimals": 18,
       "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/tokens/0x1ce0a25d13ce4d52071ae7e02cf1f6606f4c79d3.png/public",
-      "tags": ["stablecoin"]
+      "tags": ["stablecoin"],
+      "extensions": {
+        "coingeckoId": "nectar"
+      }
     },
     {
       "chainId": 80094,
@@ -804,7 +813,10 @@
       "symbol": "DOLO",
       "decimals": 18,
       "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/tokens/0x0f81001ef0a83ecce5ccebf63eb302c70a39a654.png/public",
-      "tags": []
+      "tags": [],
+      "extensions": {
+        "coingeckoId": "dolomite"
+      }
     },
     {
       "chainId": 80094,
@@ -813,7 +825,10 @@
       "symbol": "KDK",
       "decimals": 18,
       "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/tokens/0xc0d1ac00a30fa4e30e44afc7313d6312c87e21df.png/public",
-      "tags": []
+      "tags": [],
+      "extensions": {
+        "coingeckoId": "kodiak-finance"
+      }
     },
     {
       "chainId": 80094,
@@ -957,7 +972,10 @@
       "symbol": "LAIR",
       "decimals": 18,
       "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/tokens/0xf3530788deb3d21e8fa2c3cbbf93317fb38a0d3c.png/public",
-      "tags": []
+      "tags": [],
+      "extensions": {
+        "coingeckoId": "lair"
+      }
     },
     {
       "chainId": 80094,
@@ -1038,7 +1056,10 @@
       "name": "aSugar",
       "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/tokens/0x804cf700de1e18f2411bd05aad5fa10d60e1900f.png/public",
       "decimals": 18,
-      "tags": []
+      "tags": [],
+      "extensions": {
+        "coingeckoId": "asugar"
+      }
     },
     {
       "chainId": 80094,
@@ -1047,7 +1068,10 @@
       "name": "Plutus token",
       "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/tokens/0x6698ede14709a9dd8379744cc2d28f276e3d2eac.png/public",
       "decimals": 18,
-      "tags": []
+      "tags": [],
+      "extensions": {
+        "coingeckoId": "plutus"
+      }
     },
     {
       "chainId": 80094,
@@ -1167,7 +1191,10 @@
       "name": "Zero",
       "decimals": 18,
       "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/tokens/0x0000382fbb422b4f593931fc6f2d25cc16600000.png/public",
-      "tags": []
+      "tags": [],
+      "extensions": {
+        "coingeckoId": "zero-2"
+      }
     },
     {
       "chainId": 80094,
@@ -1194,7 +1221,10 @@
       "name": "Bread",
       "decimals": 18,
       "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/tokens/0x0003eedfdd020bf60d10cf684abac7c4534b7ead.png/public",
-      "tags": []
+      "tags": [],
+      "extensions": {
+        "coingeckoId": "bread-2"
+      }
     },
     {
       "chainId": 80094,
@@ -1230,7 +1260,10 @@
       "name": "Reservoir Stablecoin",
       "decimals": 18,
       "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/tokens/0x09d4214c03d01f49544c0448dbe3a27f768f2b34.png/public",
-      "tags": []
+      "tags": [],
+      "extensions": {
+        "coingeckoId": "reservoir-rusd"
+      }
     },
     {
       "chainId": 80094,
@@ -1239,7 +1272,10 @@
       "name": "Ooga Token",
       "decimals": 18,
       "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/tokens/0x009af46df68db0e76bfe9ea35663f6ed17877956.png/public",
-      "tags": []
+      "tags": [],
+      "extensions": {
+        "coingeckoId": "ooga-booga"
+      }
     },
     {
       "chainId": 80094,
@@ -1248,7 +1284,10 @@
       "name": "Wrapped SOL",
       "decimals": 9,
       "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/tokens/0x225b86198ba36321a8a840291416aed62494043f.png/public",
-      "tags": []
+      "tags": [],
+      "extensions": {
+        "coingeckoId": "wrapped-sol-2"
+      }
     },
     {
       "chainId": 80094,
@@ -1257,7 +1296,10 @@
       "name": "Locks is Goldilocks DAO",
       "decimals": 18,
       "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/tokens/0xb7e448e5677d212b8c8da7d6312e8afc49800466.png/public",
-      "tags": []
+      "tags": [],
+      "extensions": {
+        "coingeckoId": "goldilocks-dao"
+      }
     },
     {
       "chainId": 80094,

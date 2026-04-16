@@ -8,7 +8,9 @@
     "validate:images": "tsx scripts/validateImages.ts",
     "validate:json": "tsx scripts/validateJSON.ts",
     "validate:data": "tsx scripts/validateOnChainData/main.ts",
-    "validate": "pnpm run validate:json && pnpm run validate:images && pnpm run validate:data",
+    "validate:pyth": "tsx scripts/validatePythPriceIds.ts",
+    "validate:coingecko": "tsx scripts/validateCoingeckoIds.ts",
+    "validate": "pnpm run validate:json && pnpm run validate:images && pnpm run validate:data && pnpm run validate:pyth && pnpm run validate:coingecko",
     "metadata:missing": "tsx scripts/manageVaultsFromApi.ts add",
     "lint": "biome lint .",
     "check": "biome check ."

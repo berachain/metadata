@@ -109,8 +109,9 @@ async function checkSingleId(id: string): Promise<boolean> {
 // ------- main -------
 async function main() {
   const fix = process.argv.includes("--fix");
+  const baseDir = process.argv.slice(2).find((a) => !a.startsWith("--")) ?? "";
 
-  const filePath = resolve(process.cwd(), "src/tokens/mainnet.json");
+  const filePath = resolve(process.cwd(), baseDir, "src/tokens/mainnet.json");
   const raw = readFileSync(filePath, "utf-8");
   const tokenList = JSON.parse(raw) as TokenList;
 

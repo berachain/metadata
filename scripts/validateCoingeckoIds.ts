@@ -71,7 +71,8 @@ const platform = platformIdx !== -1 ? args[platformIdx + 1] : DEFAULT_PLATFORM;
 const fix = args.includes("--fix");
 const dryRun = args.includes("--dry-run");
 const skipLp = args.includes("--skip-lp");
-const baseDir = args.find((a, i) => !a.startsWith("--") && i !== platformIdx + 1) ?? "";
+const baseDir =
+  args.find((a, i) => !a.startsWith("--") && i !== platformIdx + 1) ?? "";
 
 function isLpToken(token: Token): boolean {
   return LP_PATTERNS.some(

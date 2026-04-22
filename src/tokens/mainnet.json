@@ -48,7 +48,8 @@
       "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/tokens/0x656b95e550c07a9ffe548bd4085c72418ceb1dba.png/public",
       "tags": ["featured"],
       "extensions": {
-        "coingeckoId": "berachain-governance-token"
+        "coingeckoId": "berachain-bera",
+        "pythPriceId": "0x962088abcfdbdb6e30db2e340c8cf887d9efb311b1f2f17b155a63dbb6d40265"
       }
     },
     {

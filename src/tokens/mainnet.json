@@ -558,6 +558,14 @@
     },
     {
       "chainId": 80094,
+      "address": "0xff12470a969Dd362EB6595FFB44C82c959Fe9ACc",
+      "name": "USDa",
+      "symbol": "USDa",
+      "decimals": 18,
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/tokens/0xff12470a969dd362eb6595ffb44c82c959fe9acc.png/public"
+    },
+    {
+      "chainId": 80094,
       "address": "0x2840F9d9f96321435Ab0f977E7FDBf32EA8b304f",
       "name": "USDa saving token",
       "symbol": "sUSDa",

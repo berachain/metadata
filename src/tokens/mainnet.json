@@ -48,7 +48,8 @@
       "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/tokens/0x656b95e550c07a9ffe548bd4085c72418ceb1dba.png/public",
       "tags": ["featured"],
       "extensions": {
-        "coingeckoId": "berachain-governance-token"
+        "coingeckoId": "berachain-bera",
+        "pythPriceId": "0x962088abcfdbdb6e30db2e340c8cf887d9efb311b1f2f17b155a63dbb6d40265"
       }
     },
     {
@@ -554,6 +555,14 @@
         "coingeckoId": "berachain-staked-eth",
         "pythPriceId": "0x9d4294bbcd1174d6f2003ec365831e64cc31d9f6f15a2b85399db8d5000960f6"
       }
+    },
+    {
+      "chainId": 80094,
+      "address": "0xff12470a969Dd362EB6595FFB44C82c959Fe9ACc",
+      "name": "USDa",
+      "symbol": "USDa",
+      "decimals": 18,
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/tokens/0xff12470a969dd362eb6595ffb44c82c959fe9acc.png/public"
     },
     {
       "chainId": 80094,

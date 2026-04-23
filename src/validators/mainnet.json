@@ -505,6 +505,14 @@
       "description": "Emerging from 'nonce', Korea's premier Web3 builder community, Nonce Classic is an APAC-based, institution-grade staking provider dedicated to securing the decentralized future.",
       "website": "https://nonceclassic.org/",
       "twitter": "https://x.com/nonceclassic"
+    },
+    {
+      "id": "0x9242eb451a9a71c5601dd3b348e014b91b6b39d48dac671bcee73cccf6fcad23ad5d7a3e2bf4e00f099e4cfefe0cc658",
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/validators/0x9242eb451a9a71c5601dd3b348e014b91b6b39d48dac671bcee73cccf6fcad23ad5d7a3e2bf4e00f099e4cfefe0cc658.png/public",
+      "name": "Cryptomind",
+      "description": "Cryptomind Group is Thailand's premier crypto conglomerate, with a multi-entity ecosystem covering the full blockchain value chain backed by a Thailand SEC-licensed digital asset management business and nation's largest crypto media platform (BitcoinAddict).",
+      "website": "https://cryptomind.group",
+      "twitter": "https://x.com/cryptomindgroup"
     }
   ]
 }

@@ -162,26 +162,35 @@ const validatePath = (relPath: string): FileCheckOk | FileCheckErr => {
 
   const basename = filename.slice(0, filename.length - ext.length);
 
-  if (type === "validators") {
-    if (!/^0x[0-9a-f]{96}$/i.test(basename)) {
-      return {
-        ok: false,
-        reason: "filename must be 0x + 96 hex chars (validator pubkey)",
-      };
-    }
-  } else {
-    // tokens or vaults
-    if (!/^0x[0-9a-f]{40}$/i.test(basename)) {
-      return {
-        ok: false,
-        reason: "filename must be 0x + 40 hex chars (address)",
-      };
-    }
-    if (!isValidChecksumAddress(basename)) {
-      return {
-        ok: false,
-        reason: "address is not in EIP-55 checksum format",
-      };
+  // Default fallback images (e.g. default.png, validator-default.png) are
+  // repo-wide placeholders, not tied to a specific address/pubkey. Mirror
+  // the exemption in validateImages.ts so legitimate default-logo refreshes
+  // aren't blocked by the address/checksum checks. They still go through
+  // the dimension + transparency gates downstream.
+  const isDefault = basename.toLowerCase().includes("default");
+
+  if (!isDefault) {
+    if (type === "validators") {
+      if (!/^0x[0-9a-f]{96}$/i.test(basename)) {
+        return {
+          ok: false,
+          reason: "filename must be 0x + 96 hex chars (validator pubkey)",
+        };
+      }
+    } else {
+      // tokens or vaults
+      if (!/^0x[0-9a-f]{40}$/i.test(basename)) {
+        return {
+          ok: false,
+          reason: "filename must be 0x + 40 hex chars (address)",
+        };
+      }
+      if (!isValidChecksumAddress(basename)) {
+        return {
+          ok: false,
+          reason: "address is not in EIP-55 checksum format",
+        };
+      }
     }
   }
 

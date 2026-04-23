@@ -3,11 +3,14 @@
 import fs from "node:fs";
 import path from "node:path";
 import chalk from "chalk";
-import sharp from "sharp";
-import { isAddress } from "viem";
 import type { TokensFile } from "../src/types/tokens";
 import type { ValidatorsFile } from "../src/types/validators";
 import type { VaultsFile } from "../src/types/vaults";
+import {
+  getImageDimensions,
+  hasTransparency,
+  isValidChecksumAddress,
+} from "./utils/_imageChecks";
 
 // Config
 // ================================================================
@@ -17,59 +20,6 @@ const METADATA_FOLDER_EXCLUDED = ["assets"];
 
 // Functions
 // ================================================================
-/**
- * Validates if an Ethereum address is in proper checksum format
- * @param address - The address to validate
- * @returns true if the address is properly checksummed, false otherwise
- */
-const isValidChecksumAddress = (address: string): boolean => {
-  return isAddress(address);
-};
-
-/**
- * Reads the dimensions of an image file for PNG and JPG files
- * @param imagePath - The path to the image file
- * @returns The width and height of the image, or null if the file is not a valid image
- */
-const getImageDimensions = (
-  imagePath: string,
-): { width: number; height: number } | null => {
-  const buffer = fs.readFileSync(imagePath);
-
-  // Check PNG header
-  if (buffer.slice(0, 8).toString("hex") === "89504e470d0a1a0a") {
-    // PNG files start with 8 bytes: 89 50 4e 47 0d 0a 1a 0a
-    // The width and height are located at bytes 16-19 (width) and 20-23 (height)
-    const width = buffer.readUInt32BE(16);
-    const height = buffer.readUInt32BE(20);
-    return { width, height };
-  }
-
-  // Check JPG header
-  if (buffer.slice(0, 2).toString("hex") === "ffd8") {
-    // JPG files start with ff d8
-    let i = 2;
-    while (i < buffer.length) {
-      // Get segment length (2 bytes)
-      const segmentLength = buffer.readUInt16BE(i + 2);
-      if (
-        buffer[i] === 0xff &&
-        buffer[i + 1] >= 0xc0 &&
-        buffer[i + 1] <= 0xc3
-      ) {
-        // Start of frame (SOF) marker, contains width and height in the segment
-        const height = buffer.readUInt16BE(i + 5);
-        const width = buffer.readUInt16BE(i + 7);
-        return { width, height };
-      }
-      i += segmentLength + 2;
-    }
-  }
-
-  // Unsupported file format
-  return null;
-};
-
 /**
  * Validates that a URL returns a 200 OK status
  * @param url - The URL to validate
@@ -81,44 +31,6 @@ const validateUrl = async (url: string): Promise<boolean> => {
     return response.ok;
   } catch (error) {
     console.warn(`Warning: Could not validate URL ${url}:`, error);
-    return false;
-  }
-};
-
-/**
- * Checks if a PNG image has transparent pixels
- * @param imagePath - The path to the PNG image file
- * @returns Promise<boolean> - true if the image has transparent pixels, false otherwise
- */
-const hasTransparency = async (imagePath: string): Promise<boolean> => {
-  try {
-    const image = sharp(imagePath);
-    const metadata = await image.metadata();
-
-    // Only check PNG files for transparency
-    if (metadata.format !== "png") {
-      return false;
-    }
-
-    // Get the raw pixel data
-    const { data } = await image
-      .raw()
-      .ensureAlpha()
-      .toBuffer({ resolveWithObject: true });
-
-    // Check if any pixel has an alpha value less than 255 (transparent)
-    for (let i = 3; i < data.length; i += 4) {
-      if (data[i] < 255) {
-        return true;
-      }
-    }
-
-    return false;
-  } catch (error) {
-    console.warn(
-      `Warning: Could not check transparency for ${imagePath}:`,
-      error,
-    );
     return false;
   }
 };

@@ -12,6 +12,12 @@ PLEASE NOTE:
 - Submitting a PR _DOES NOT_ guarantee addition to the lists
 - All PRs should include relevant assets in the `assets/` directory
 
+### What happens after you open the PR
+
+If your PR adds or modifies files under `src/assets/`, a maintainer must approve the `cloudflare-uploads` deployment before the `images` check can run. You don't need to do anything — expect the `images` check to sit in "waiting for review" until a maintainer approves the upload. Once approved, the workflow uploads your image to Cloudflare Images and re-runs validation; the check then turns green.
+
+If your PR only edits JSON files (no new images), the `upload-assets` job is skipped and validation runs normally — no approval needed.
+
 ### Adding a Token
 
 ```json

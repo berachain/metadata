@@ -6,6 +6,7 @@
     "preinstall": "npx only-allow pnpm",
     "format": "biome format --write",
     "validate:images": "tsx scripts/validateImages.ts",
+    "upload:assets": "tsx scripts/uploadAssets.ts",
     "validate:json": "tsx scripts/validateJSON.ts",
     "validate:data": "tsx scripts/validateOnChainData/main.ts",
     "validate:pyth": "tsx scripts/validatePythPriceIds.ts",

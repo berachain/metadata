@@ -132,8 +132,87 @@ jobs:
         BERACHAIN_HUB_API_BASE_URL: ${{ secrets.BERACHAIN_HUB_API_BASE_URL }}
       run: pnpm validate:data head
 
+  detect-changes:
+    runs-on: ubuntu-latest
+    outputs:
+      assets-changed: ${{ steps.filter.outputs.assets }}
+    steps:
+    - uses: actions/checkout@v4
+    - id: filter
+      uses: dorny/paths-filter@v3
+      with:
+        base: ${{ github.event.pull_request.base.sha }}
+        ref: ${{ github.event.pull_request.head.sha }}
+        filters: |
+          assets:
+            - 'src/assets/**'
+
+  upload-assets:
+    needs: [schema, detect-changes]
+    if: needs.detect-changes.outputs.assets-changed == 'true'
+    runs-on: ubuntu-latest
+    environment: cloudflare-uploads
+    permissions:
+      contents: read
+      pull-requests: write
+
+    steps:
+    - uses: actions/checkout@v4
+    - uses: actions/checkout@v4
+      with:
+        repository: ${{ github.event.pull_request.head.repo.full_name }}
+        ref: ${{ github.event.pull_request.head.sha }}
+        path: ./head
+        persist-credentials: false
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version-file: '.nvmrc'
+
+    - name: Setup pnpm
+      uses: pnpm/action-setup@v2
+      with:
+        version: 9.15.9
+
+    - name: Get pnpm store directory
+      shell: bash
+      run: |
+        echo "STORE_PATH=$(pnpm store path --silent)" >> $GITHUB_ENV
+
+    - name: Setup pnpm cache
+      uses: actions/cache@v4
+      with:
+        path: ${{ env.STORE_PATH }}
+        key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
+        restore-keys: |
+          ${{ runner.os }}-pnpm-store-
+
+    - name: Install dependencies
+      run: pnpm install
+
+    - name: Upload changed images to Cloudflare Images
+      env:
+        CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        CLOUDFLARE_IMAGES_API_TOKEN: ${{ secrets.CLOUDFLARE_IMAGES_API_TOKEN }}
+        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_REPOSITORY: ${{ github.repository }}
+        PR_NUMBER: ${{ github.event.pull_request.number }}
+      run: pnpm upload:assets ./head
+
+    - name: Post summary comment
+      if: always()
+      env:
+        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        PR: ${{ github.event.pull_request.number }}
+      run: |
+        if [ -s "$GITHUB_STEP_SUMMARY" ]; then
+          gh pr comment "$PR" --body-file "$GITHUB_STEP_SUMMARY"
+        fi
+
   images:
-    needs: schema
+    needs: [schema, upload-assets]
+    if: always() && needs.schema.result == 'success' && (needs.upload-assets.result == 'success' || needs.upload-assets.result == 'skipped')
     runs-on: ubuntu-latest
 
     steps:
@@ -169,7 +248,7 @@ jobs:
 
     - name: Install dependencies
       run: pnpm install
-      
+
     - name: Validate images
       run: |
         pnpm validate:images head

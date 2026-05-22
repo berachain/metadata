@@ -1,0 +1,105 @@
+# This workflow handles the secret-dependent upload step.
+# It runs AFTER the Validate workflow completes and never checks out fork code.
+# Secrets (Cloudflare creds) only exist in this workflow, isolated from
+# any fork-controlled input.
+#
+# The artifact bridge:
+#   Validate (pull_request_target, no secrets)
+#     └── packages asset files + PR metadata as artifacts
+#   Post-Validate (workflow_run, has secrets)
+#     └── downloads artifacts, uploads to Cloudflare using base branch scripts
+
+name: Post-Validate
+
+on:
+  workflow_run:
+    workflows: ["Validate"]
+    types: [completed]
+
+jobs:
+  upload-assets:
+    runs-on: ubuntu-latest
+    if: github.event.workflow_run.conclusion == 'success'
+    environment: cloudflare-uploads
+    permissions:
+      contents: read
+      pull-requests: write
+      actions: read
+
+    steps:
+    - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4.3.1
+
+    - name: Setup Node.js
+      uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+      with:
+        node-version-file: '.nvmrc'
+
+    - name: Setup pnpm
+      uses: pnpm/action-setup@eae0cfeb286e66ffb5155f1a79b90583a127a68b # v2.4.1
+      with:
+        version: 9.15.9
+
+    - name: Get pnpm store directory
+      shell: bash
+      run: echo "STORE_PATH=$(pnpm store path --silent)" >> $GITHUB_ENV
+
+    - name: Setup pnpm cache
+      uses: actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830 # v4.3.0
+      with:
+        path: ${{ env.STORE_PATH }}
+        key: ${{ runner.os }}-pnpm-store-${{ hashFiles('pnpm-lock.yaml') }}
+        restore-keys: |
+          ${{ runner.os }}-pnpm-store-
+
+    - name: Install dependencies
+      run: pnpm install
+
+    # Read PR metadata from artifact saved by Validate workflow.
+    # We use artifacts instead of workflow_run.pull_requests[] because
+    # that array is empty for fork PRs (known GitHub limitation).
+    - name: Download PR info
+      uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4.3.0
+      with:
+        name: pr-info
+        run-id: ${{ github.event.workflow_run.id }}
+        github-token: ${{ github.token }}
+
+    - name: Read PR metadata
+      id: pr
+      run: |
+        echo "number=$(cat pr_number.txt)" >> $GITHUB_OUTPUT
+        echo "head_repo=$(cat pr_head_repo.txt)" >> $GITHUB_OUTPUT
+        echo "head_sha=$(cat pr_head_sha.txt)" >> $GITHUB_OUTPUT
+
+    # Try to download the asset artifact. If no assets changed in the PR,
+    # the Validate workflow skipped the package-assets job and this artifact
+    # won't exist — that's expected, so continue-on-error.
+    - name: Download asset files
+      id: download-assets
+      uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4.3.0
+      with:
+        name: pr-assets
+        path: ./head/src/assets/
+        run-id: ${{ github.event.workflow_run.id }}
+        github-token: ${{ github.token }}
+      continue-on-error: true
+
+    - name: Upload changed images to Cloudflare Images
+      if: steps.download-assets.outcome == 'success'
+      env:
+        CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        CLOUDFLARE_IMAGES_API_TOKEN: ${{ secrets.CLOUDFLARE_IMAGES_API_TOKEN }}
+        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_REPOSITORY: ${{ github.repository }}
+        PR_NUMBER: ${{ steps.pr.outputs.number }}
+      run: pnpm upload:assets ./head
+
+    - name: Post summary comment
+      if: always() && steps.download-assets.outcome == 'success'
+      env:
+        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        PR: ${{ steps.pr.outputs.number }}
+      run: |
+        if [ -s "$GITHUB_STEP_SUMMARY" ]; then
+          gh pr comment "$PR" --body-file "$GITHUB_STEP_SUMMARY"
+        fi

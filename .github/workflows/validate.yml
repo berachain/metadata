@@ -9,6 +9,7 @@ permissions:
 jobs:
   schema:
     runs-on: ubuntu-latest
+
     steps:
     - uses: actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd # v5.0.1
       with:
@@ -34,24 +35,27 @@ jobs:
 
     - name: Get pnpm store directory
       shell: bash
-      run: echo "STORE_PATH=$(pnpm store path --silent)" >> $GITHUB_ENV
+      run: |
+        echo "STORE_PATH=$(pnpm store path --silent)" >> $GITHUB_ENV
 
     - name: Setup pnpm cache
       uses: actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae # v5.0.5
       with:
         path: ${{ env.STORE_PATH }}
-        key: ${{ runner.os }}-pnpm-store-${{ hashFiles('pnpm-lock.yaml') }}
+        key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
         restore-keys: |
           ${{ runner.os }}-pnpm-store-
 
     - name: Install dependencies
-      run: pnpm install
-
+      run: pnpm install 
+      
     - name: Validate JSON files
-      run: pnpm validate:json head
+      run: |
+        pnpm validate:json head
 
   format:
     runs-on: ubuntu-latest
+
     steps:
     - uses: actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd # v5.0.1
       with:
@@ -77,13 +81,14 @@ jobs:
 
     - name: Get pnpm store directory
       shell: bash
-      run: echo "STORE_PATH=$(pnpm store path --silent)" >> $GITHUB_ENV
+      run: |
+        echo "STORE_PATH=$(pnpm store path --silent)" >> $GITHUB_ENV
 
     - name: Setup pnpm cache
       uses: actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae # v5.0.5
       with:
         path: ${{ env.STORE_PATH }}
-        key: ${{ runner.os }}-pnpm-store-${{ hashFiles('pnpm-lock.yaml') }}
+        key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
         restore-keys: |
           ${{ runner.os }}-pnpm-store-
 
@@ -96,6 +101,7 @@ jobs:
   data-consistency:
     needs: schema
     runs-on: ubuntu-latest
+
     steps:
     - uses: actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd # v5.0.1
       with:
@@ -121,22 +127,24 @@ jobs:
 
     - name: Get pnpm store directory
       shell: bash
-      run: echo "STORE_PATH=$(pnpm store path --silent)" >> $GITHUB_ENV
+      run: |
+        echo "STORE_PATH=$(pnpm store path --silent)" >> $GITHUB_ENV
 
     - name: Setup pnpm cache
       uses: actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae # v5.0.5
       with:
         path: ${{ env.STORE_PATH }}
-        key: ${{ runner.os }}-pnpm-store-${{ hashFiles('pnpm-lock.yaml') }}
+        key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
         restore-keys: |
           ${{ runner.os }}-pnpm-store-
 
     - name: Install dependencies
       run: pnpm install
-
-    # BERACHAIN_HUB_API_TOKEN and BERACHAIN_HUB_API_BASE_URL removed —
-    # not referenced by any script (confirmed via code audit May 2026)
+      
     - name: Validate consistency with on-chain data
+      env:
+        BERACHAIN_HUB_API_TOKEN: ${{ secrets.BERACHAIN_HUB_API_TOKEN }}
+        BERACHAIN_HUB_API_BASE_URL: ${{ secrets.BERACHAIN_HUB_API_BASE_URL }}
       run: pnpm validate:data head
 
   detect-changes:
@@ -157,55 +165,15 @@ jobs:
           assets:
             - 'src/assets/**'
 
-  # Save PR metadata as artifact for the post-validate workflow.
-  # workflow_run.pull_requests[] is empty for fork PRs (known GitHub bug),
-  # so we pass it explicitly via artifact.
-  save-pr-info:
-    runs-on: ubuntu-latest
-    steps:
-    - name: Save PR number and head info
-      run: |
-        echo "${{ github.event.pull_request.number }}" > pr_number.txt
-        echo "${{ github.event.pull_request.head.repo.full_name }}" > pr_head_repo.txt
-        echo "${{ github.event.pull_request.head.sha }}" > pr_head_sha.txt
-    - uses: actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4 # v5.0.0
-      with:
-        name: pr-info
-        path: |
-          pr_number.txt
-          pr_head_repo.txt
-          pr_head_sha.txt
-        retention-days: 1
-
-  # Package changed asset files for the post-validate upload job.
-  # This runs in the no-secrets context; the actual Cloudflare upload
-  # happens in post-validate.yml which has secrets but never checks out fork code.
-  package-assets:
+  upload-assets:
     needs: [schema, detect-changes]
     if: needs.detect-changes.outputs.assets-changed == 'true'
     runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd # v5.0.1
-      with:
-        ref: ${{ github.event.pull_request.base.sha }}
-        persist-credentials: false
-    - uses: actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd # v5.0.1
-      with:
-        repository: ${{ github.event.pull_request.head.repo.full_name }}
-        ref: ${{ github.event.pull_request.head.sha }}
-        path: ./head
-        persist-credentials: false
+    environment: cloudflare-uploads
+    permissions:
+      contents: read
+      pull-requests: write
 
-    - uses: actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4 # v5.0.0
-      with:
-        name: pr-assets
-        path: ./head/src/assets/
-        retention-days: 1
-
-  images:
-    needs: [schema, package-assets]
-    if: always() && needs.schema.result == 'success' && (needs.package-assets.result == 'success' || needs.package-assets.result == 'skipped')
-    runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd # v5.0.1
       with:
@@ -231,13 +199,77 @@ jobs:
 
     - name: Get pnpm store directory
       shell: bash
-      run: echo "STORE_PATH=$(pnpm store path --silent)" >> $GITHUB_ENV
+      run: |
+        echo "STORE_PATH=$(pnpm store path --silent)" >> $GITHUB_ENV
 
     - name: Setup pnpm cache
       uses: actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae # v5.0.5
       with:
         path: ${{ env.STORE_PATH }}
-        key: ${{ runner.os }}-pnpm-store-${{ hashFiles('pnpm-lock.yaml') }}
+        key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
+        restore-keys: |
+          ${{ runner.os }}-pnpm-store-
+
+    - name: Install dependencies
+      run: pnpm install
+
+    - name: Upload changed images to Cloudflare Images
+      env:
+        CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        CLOUDFLARE_IMAGES_API_TOKEN: ${{ secrets.CLOUDFLARE_IMAGES_API_TOKEN }}
+        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_REPOSITORY: ${{ github.repository }}
+        PR_NUMBER: ${{ github.event.pull_request.number }}
+      run: pnpm upload:assets ./head
+
+    - name: Post summary comment
+      if: always()
+      env:
+        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        PR: ${{ github.event.pull_request.number }}
+      run: |
+        if [ -s "$GITHUB_STEP_SUMMARY" ]; then
+          gh pr comment "$PR" --body-file "$GITHUB_STEP_SUMMARY"
+        fi
+
+  images:
+    needs: [schema, upload-assets]
+    if: always() && needs.schema.result == 'success' && (needs.upload-assets.result == 'success' || needs.upload-assets.result == 'skipped')
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd # v5.0.1
+      with:
+        ref: ${{ github.event.pull_request.base.sha }}
+        persist-credentials: false
+    - uses: actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd # v5.0.1
+      with:
+        repository: ${{ github.event.pull_request.head.repo.full_name }}
+        ref: ${{ github.event.pull_request.head.sha }}
+        path: ./head
+        persist-credentials: false
+
+    - name: Setup Node.js
+      uses: actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444 # v5.0.0
+      with:
+        node-version-file: '.nvmrc'
+        package-manager-cache: false
+
+    - name: Setup pnpm
+      uses: pnpm/action-setup@0e279bb959325dab635dd2c09392533439d90093 # v6.0.8
+      with:
+        version: 9.15.9
+
+    - name: Get pnpm store directory
+      shell: bash
+      run: |
+        echo "STORE_PATH=$(pnpm store path --silent)" >> $GITHUB_ENV
+
+    - name: Setup pnpm cache
+      uses: actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae # v5.0.5
+      with:
+        path: ${{ env.STORE_PATH }}
+        key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
         restore-keys: |
           ${{ runner.os }}-pnpm-store-
 
@@ -245,11 +277,13 @@ jobs:
       run: pnpm install
 
     - name: Validate images
-      run: pnpm validate:images head
+      run: |
+        pnpm validate:images head
 
   coingecko:
     needs: schema
     runs-on: ubuntu-latest
+
     steps:
     - uses: actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd # v5.0.1
       with:
@@ -275,13 +309,14 @@ jobs:
 
     - name: Get pnpm store directory
       shell: bash
-      run: echo "STORE_PATH=$(pnpm store path --silent)" >> $GITHUB_ENV
+      run: |
+        echo "STORE_PATH=$(pnpm store path --silent)" >> $GITHUB_ENV
 
     - name: Setup pnpm cache
       uses: actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae # v5.0.5
       with:
         path: ${{ env.STORE_PATH }}
-        key: ${{ runner.os }}-pnpm-store-${{ hashFiles('pnpm-lock.yaml') }}
+        key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
         restore-keys: |
           ${{ runner.os }}-pnpm-store-
 
@@ -294,6 +329,7 @@ jobs:
   pyth:
     needs: schema
     runs-on: ubuntu-latest
+
     steps:
     - uses: actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd # v5.0.1
       with:
@@ -319,13 +355,14 @@ jobs:
 
     - name: Get pnpm store directory
       shell: bash
-      run: echo "STORE_PATH=$(pnpm store path --silent)" >> $GITHUB_ENV
+      run: |
+        echo "STORE_PATH=$(pnpm store path --silent)" >> $GITHUB_ENV
 
     - name: Setup pnpm cache
       uses: actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae # v5.0.5
       with:
         path: ${{ env.STORE_PATH }}
-        key: ${{ runner.os }}-pnpm-store-${{ hashFiles('pnpm-lock.yaml') }}
+        key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
         restore-keys: |
           ${{ runner.os }}-pnpm-store-
 

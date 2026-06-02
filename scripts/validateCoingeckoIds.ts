@@ -136,12 +136,18 @@ async function main() {
   // ═══════════════════════════════════════
   // STEP 1: Validate existing coingeckoIds
   // ═══════════════════════════════════════
-  const withId = tokenList.tokens.filter((t) => t.extensions?.coingeckoId);
+  const withId = tokenList.tokens.filter(
+    (
+      t,
+    ): t is Token & {
+      extensions: TokenExtensions & { coingeckoId: string };
+    } => Boolean(t.extensions?.coingeckoId),
+  );
   const validExisting: typeof withId = [];
   const invalidExisting: { token: Token; id: string }[] = [];
 
   for (const token of withId) {
-    const id = token.extensions!.coingeckoId!;
+    const id = token.extensions.coingeckoId;
     if (allCoinIds.has(id)) {
       validExisting.push(token);
     } else {

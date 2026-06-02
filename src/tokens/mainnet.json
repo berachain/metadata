@@ -1330,6 +1330,15 @@
       "decimals": 18,
       "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/tokens/0x316cd39632cac4f4cdfc21757c4500fe12f64514.png/public",
       "tags": []
+    },
+    {
+      "chainId": 80094,
+      "address": "0xbca138DEd469F5063589bFdfdD4BC68EB1c3f252",
+      "symbol": "avUSD",
+      "name": "Avant USD",
+      "decimals": 18,
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/tokens/0xbca138DEd469F5063589bFdfdD4BC68EB1c3f252.png/public",
+      "tags": ["stablecoin"]
     }
   ]
 }

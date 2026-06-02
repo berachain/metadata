@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 import fs from "node:fs";
-import path from "node:path";
 import { createRequire } from "node:module";
+import path from "node:path";
 
 const requireFromCwd = createRequire(path.join(process.cwd(), "package.json"));
 const sharp = requireFromCwd("sharp");

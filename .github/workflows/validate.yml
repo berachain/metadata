@@ -1,8 +1,26 @@
+# Validate runs on pull_request_target so it can validate fork PRs, BUT it holds
+# NO secrets and never executes fork code. Every job runs the trusted base-branch
+# scripts against the PR head, which is checked out into ./head as DATA only.
+#
+# Anything that needs a secret (the Cloudflare upload) is handed off to
+# post-validate.yml (workflow_run), which never checks out fork code.
+#
+# Artifact bridge:
+#   Validate (pull_request_target, NO secrets)
+#     ├── validates PR head data (schema / format / images / coingecko / pyth / on-chain)
+#     ├── publishes PR metadata as the `pr-info` artifact
+#     └── publishes the changed asset files as the `pr-assets` artifact
+#   Post-Validate (workflow_run, HAS secrets, no fork checkout)
+#     └── downloads those artifacts and uploads to Cloudflare Images
+#
+# Pinned action SHAs and persist-credentials:false are retained from #391.
+
 name: Validate
 
 on:
   pull_request_target:
 
+# Minimal token, read-only. There are NO secrets in this workflow.
 permissions:
   contents: read
 
@@ -35,23 +53,23 @@ jobs:
 
     - name: Get pnpm store directory
       shell: bash
-      run: |
-        echo "STORE_PATH=$(pnpm store path --silent)" >> $GITHUB_ENV
+      run: echo "STORE_PATH=$(pnpm store path --silent)" >> $GITHUB_ENV
 
     - name: Setup pnpm cache
       uses: actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae # v5.0.5
       with:
         path: ${{ env.STORE_PATH }}
-        key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
+        # Key on the BASE lockfile only (not **/), so the fork's lockfile
+        # cannot influence the cache key.
+        key: ${{ runner.os }}-pnpm-store-${{ hashFiles('pnpm-lock.yaml') }}
         restore-keys: |
           ${{ runner.os }}-pnpm-store-
 
     - name: Install dependencies
-      run: pnpm install 
-      
+      run: pnpm install
+
     - name: Validate JSON files
-      run: |
-        pnpm validate:json head
+      run: pnpm validate:json head
 
   format:
     runs-on: ubuntu-latest
@@ -81,14 +99,13 @@ jobs:
 
     - name: Get pnpm store directory
       shell: bash
-      run: |
-        echo "STORE_PATH=$(pnpm store path --silent)" >> $GITHUB_ENV
+      run: echo "STORE_PATH=$(pnpm store path --silent)" >> $GITHUB_ENV
 
     - name: Setup pnpm cache
       uses: actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae # v5.0.5
       with:
         path: ${{ env.STORE_PATH }}
-        key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
+        key: ${{ runner.os }}-pnpm-store-${{ hashFiles('pnpm-lock.yaml') }}
         restore-keys: |
           ${{ runner.os }}-pnpm-store-
 
@@ -127,30 +144,35 @@ jobs:
 
     - name: Get pnpm store directory
       shell: bash
-      run: |
-        echo "STORE_PATH=$(pnpm store path --silent)" >> $GITHUB_ENV
+      run: echo "STORE_PATH=$(pnpm store path --silent)" >> $GITHUB_ENV
 
     - name: Setup pnpm cache
       uses: actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae # v5.0.5
       with:
         path: ${{ env.STORE_PATH }}
-        key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
+        key: ${{ runner.os }}-pnpm-store-${{ hashFiles('pnpm-lock.yaml') }}
         restore-keys: |
           ${{ runner.os }}-pnpm-store-
 
     - name: Install dependencies
       run: pnpm install
-      
-    - name: Validate consistency with on-chain data
-      env:
-        BERACHAIN_HUB_API_TOKEN: ${{ secrets.BERACHAIN_HUB_API_TOKEN }}
-        BERACHAIN_HUB_API_BASE_URL: ${{ secrets.BERACHAIN_HUB_API_BASE_URL }}
+
+    # NO secret here. validate:data runs two kinds of check:
+    #   - validateTokens/validateVaults read ./head's JSON and raise ERRORS
+    #     (blocking). These are the PR-relevant checks and need no secret.
+    #   - validateApiMetadata queries the Berachain Hub API for on-chain items
+    #     missing metadata and only raises WARNINGS; it already catches its own
+    #     failures and skips. Without the token it degrades to a no-op warning.
+    # If you want those API warnings back, run that check from post-validate.yml
+    # (workflow_run, where the token lives) or a scheduled job — never here.
+    - name: Validate consistency with on-chain data (head data only)
       run: pnpm validate:data head
 
   detect-changes:
     runs-on: ubuntu-latest
     outputs:
       assets-changed: ${{ steps.filter.outputs.assets }}
+      assets-files: ${{ steps.filter.outputs.assets_files }}
     steps:
     - uses: actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd # v5.0.1
       with:
@@ -161,80 +183,83 @@ jobs:
       with:
         base: ${{ github.event.pull_request.base.sha }}
         ref: ${{ github.event.pull_request.head.sha }}
+        list-files: json
         filters: |
           assets:
             - 'src/assets/**'
 
-  upload-assets:
-    needs: [schema, detect-changes]
-    if: needs.detect-changes.outputs.assets-changed == 'true'
+  package-pr-context:
+    # Publishes the inputs post-validate.yml needs. The PR head is checked out
+    # as DATA only here: no install, no scripts run against it.
+    needs: detect-changes
     runs-on: ubuntu-latest
-    environment: cloudflare-uploads
-    permissions:
-      contents: read
-      pull-requests: write
 
     steps:
-    - uses: actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd # v5.0.1
-      with:
-        ref: ${{ github.event.pull_request.base.sha }}
-        persist-credentials: false
-    - uses: actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd # v5.0.1
+    - name: Checkout PR head (untrusted, data only)
+      uses: actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd # v5.0.1
       with:
         repository: ${{ github.event.pull_request.head.repo.full_name }}
         ref: ${{ github.event.pull_request.head.sha }}
         path: ./head
         persist-credentials: false
 
-    - name: Setup Node.js
-      uses: actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444 # v5.0.0
-      with:
-        node-version-file: '.nvmrc'
-        package-manager-cache: false
-
-    - name: Setup pnpm
-      uses: pnpm/action-setup@0e279bb959325dab635dd2c09392533439d90093 # v6.0.8
-      with:
-        version: 9.15.9
-
-    - name: Get pnpm store directory
-      shell: bash
-      run: |
-        echo "STORE_PATH=$(pnpm store path --silent)" >> $GITHUB_ENV
-
-    - name: Setup pnpm cache
-      uses: actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae # v5.0.5
-      with:
-        path: ${{ env.STORE_PATH }}
-        key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
-        restore-keys: |
-          ${{ runner.os }}-pnpm-store-
-
-    - name: Install dependencies
-      run: pnpm install
-
-    - name: Upload changed images to Cloudflare Images
+    # workflow_run's pull_requests[] is empty for fork PRs, so post-validate
+    # reads PR identity from this artifact instead. PR-controlled values are
+    # passed through env (never interpolated directly into the script body).
+    - name: Write PR metadata
       env:
-        CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-        CLOUDFLARE_IMAGES_API_TOKEN: ${{ secrets.CLOUDFLARE_IMAGES_API_TOKEN }}
-        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        GITHUB_REPOSITORY: ${{ github.repository }}
         PR_NUMBER: ${{ github.event.pull_request.number }}
-      run: pnpm upload:assets ./head
-
-    - name: Post summary comment
-      if: always()
-      env:
-        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        PR: ${{ github.event.pull_request.number }}
+        PR_HEAD_REPO: ${{ github.event.pull_request.head.repo.full_name }}
+        PR_HEAD_SHA: ${{ github.event.pull_request.head.sha }}
       run: |
-        if [ -s "$GITHUB_STEP_SUMMARY" ]; then
-          gh pr comment "$PR" --body-file "$GITHUB_STEP_SUMMARY"
-        fi
+        mkdir -p pr-info
+        printf '%s' "$PR_NUMBER"    > pr-info/pr_number.txt
+        printf '%s' "$PR_HEAD_REPO" > pr-info/pr_head_repo.txt
+        printf '%s' "$PR_HEAD_SHA"  > pr-info/pr_head_sha.txt
+
+    - name: Upload PR info artifact
+      uses: actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4 # v5.0.0
+      with:
+        name: pr-info
+        path: pr-info/
+        if-no-files-found: error
+        retention-days: 1
+
+    # Stage ONLY the changed asset files, preserving their path under src/assets,
+    # so post-validate uploads exactly the files this PR touched.
+    - name: Stage changed asset files
+      if: needs.detect-changes.outputs.assets-changed == 'true'
+      env:
+        CHANGED_FILES: ${{ needs.detect-changes.outputs.assets-files }}
+      run: |
+        mkdir -p pr-assets
+        printf '%s' "$CHANGED_FILES" | jq -r '.[]' | while IFS= read -r f; do
+          if [ -z "$f" ]; then continue; fi
+          case "$f" in
+            src/assets/*) ;;
+            *) continue ;;
+          esac
+          case "$f" in
+            *..*) continue ;;
+          esac
+          rel="${f#src/assets/}"
+          if [ -f "head/$f" ]; then
+            mkdir -p "pr-assets/$(dirname "$rel")"
+            cp "head/$f" "pr-assets/$rel"
+          fi
+        done
+
+    - name: Upload changed assets artifact
+      if: needs.detect-changes.outputs.assets-changed == 'true'
+      uses: actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4 # v5.0.0
+      with:
+        name: pr-assets
+        path: pr-assets/
+        if-no-files-found: ignore
+        retention-days: 1
 
   images:
-    needs: [schema, upload-assets]
-    if: always() && needs.schema.result == 'success' && (needs.upload-assets.result == 'success' || needs.upload-assets.result == 'skipped')
+    needs: schema
     runs-on: ubuntu-latest
 
     steps:
@@ -262,14 +287,13 @@ jobs:
 
     - name: Get pnpm store directory
       shell: bash
-      run: |
-        echo "STORE_PATH=$(pnpm store path --silent)" >> $GITHUB_ENV
+      run: echo "STORE_PATH=$(pnpm store path --silent)" >> $GITHUB_ENV
 
     - name: Setup pnpm cache
       uses: actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae # v5.0.5
       with:
         path: ${{ env.STORE_PATH }}
-        key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
+        key: ${{ runner.os }}-pnpm-store-${{ hashFiles('pnpm-lock.yaml') }}
         restore-keys: |
           ${{ runner.os }}-pnpm-store-
 
@@ -277,8 +301,7 @@ jobs:
       run: pnpm install
 
     - name: Validate images
-      run: |
-        pnpm validate:images head
+      run: pnpm validate:images head
 
   coingecko:
     needs: schema
@@ -309,14 +332,13 @@ jobs:
 
     - name: Get pnpm store directory
       shell: bash
-      run: |
-        echo "STORE_PATH=$(pnpm store path --silent)" >> $GITHUB_ENV
+      run: echo "STORE_PATH=$(pnpm store path --silent)" >> $GITHUB_ENV
 
     - name: Setup pnpm cache
       uses: actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae # v5.0.5
       with:
         path: ${{ env.STORE_PATH }}
-        key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
+        key: ${{ runner.os }}-pnpm-store-${{ hashFiles('pnpm-lock.yaml') }}
         restore-keys: |
           ${{ runner.os }}-pnpm-store-
 
@@ -355,14 +377,13 @@ jobs:
 
     - name: Get pnpm store directory
       shell: bash
-      run: |
-        echo "STORE_PATH=$(pnpm store path --silent)" >> $GITHUB_ENV
+      run: echo "STORE_PATH=$(pnpm store path --silent)" >> $GITHUB_ENV
 
     - name: Setup pnpm cache
       uses: actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae # v5.0.5
       with:
         path: ${{ env.STORE_PATH }}
-        key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
+        key: ${{ runner.os }}-pnpm-store-${{ hashFiles('pnpm-lock.yaml') }}
         restore-keys: |
           ${{ runner.os }}-pnpm-store-
 

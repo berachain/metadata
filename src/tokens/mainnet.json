@@ -101,6 +101,13 @@
     },
     {
       "chainId": 80094,
+      "address": "0xB5f473c4b7F402d8f7bED42b6D516f5ff3306B01",
+      "symbol": "csRHONEY",
+      "name": "Clearstar Reactor HONEY",
+      "decimals": 18
+    },
+    {
+      "chainId": 80094,
       "address": "0x688e72142674041f8f6Af4c808a4045cA1D6aC82",
       "symbol": "BYUSD",
       "name": "BYUSD",

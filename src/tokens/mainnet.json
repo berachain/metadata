@@ -210,6 +210,24 @@
     },
     {
       "chainId": 80094,
+      "address": "0xFa1EaB9Ca7c0E6Ba423561c8a1e156F69a9c8FC4",
+      "decimals": 18,
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/tokens/0xfa1eab9ca7c0e6ba423561c8a1e156f69a9c8fc4.png/public",
+      "symbol": "uvBGT",
+      "name": "Ultra Violet BGT",
+      "tags": []
+    },
+    {
+      "chainId": 80094,
+      "address": "0x69f1E971257419B1E9C405A553f252c64A29A30a",
+      "decimals": 18,
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/tokens/0x69f1e971257419b1e9c405a553f252c64a29a30a.png/public",
+      "symbol": "oriBGT",
+      "name": "Origami iBGT Auto-Compounder",
+      "tags": []
+    },
+    {
+      "chainId": 80094,
       "address": "0x6d4223DAE2a8744a85a6d44e97f3F61679f87ee6",
       "decimals": 18,
       "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/tokens/0x6d4223dae2a8744a85a6d44e97f3f61679f87ee6.png/public",

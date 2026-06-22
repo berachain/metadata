@@ -34,7 +34,6 @@ function checkDuplicates(
     // Check protocols array if it exists
     if (data.protocols) {
       const protocolNames = new Map<string, { name: string; index: number }>();
-      const protocolUrls = new Map<string, { name: string; index: number }>();
 
       data.protocols.forEach(
         (protocol: { name?: string; url?: string }, idx: number) => {
@@ -42,8 +41,6 @@ function checkDuplicates(
             typeof protocol.name === "string"
               ? protocol.name.toLowerCase()
               : "";
-          const url =
-            typeof protocol.url === "string" ? protocol.url.toLowerCase() : "";
 
           if (name && typeof name === "string") {
             if (protocolNames.has(name)) {
@@ -68,29 +65,6 @@ function checkDuplicates(
                 name: protocol.name ?? "",
                 index: idx,
               });
-            }
-          }
-
-          if (url && typeof url === "string") {
-            if (protocolUrls.has(url)) {
-              const existing = protocolUrls.get(url) ?? {
-                name: "unknown",
-                index: -1,
-              };
-              errors.push([
-                file,
-                [
-                  {
-                    instancePath: `/protocols/${idx}/url`,
-                    schemaPath: "#/protocols/url",
-                    keyword: "duplicate",
-                    params: { duplicate: existing },
-                    message: `Duplicate protocol url: ${url}`,
-                  },
-                ],
-              ]);
-            } else {
-              protocolUrls.set(url, { name: protocol.name ?? "", index: idx });
             }
           }
         },

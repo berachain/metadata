@@ -212,7 +212,9 @@ const validateAssetsImages = async () => {
     console.error(
       chalk.red.bold(`\n${errors.length} Errors found in assets folder:`),
     );
-    errors.forEach((error) => console.error(chalk.red(`  ${error}`)));
+    errors.forEach((error) => {
+      console.error(chalk.red(`  ${error}`));
+    });
     console.error(
       chalk.red.bold("\nPlease fix these issues before proceeding."),
     );
@@ -352,7 +354,9 @@ const validateMetadataImages = async () => {
     console.error(
       chalk.red.bold(`\n${errors.length} Errors found in metadata:`),
     );
-    errors.forEach((error) => console.error(chalk.red(`  ${error}`)));
+    errors.forEach((error) => {
+      console.error(chalk.red(`  ${error}`));
+    });
     console.error(
       chalk.red.bold("\nPlease fix these issues before proceeding."),
     );
@@ -363,7 +367,9 @@ const validateMetadataImages = async () => {
     console.warn(
       chalk.yellow.bold(`\n${warnings.length} Warnings found in metadata:`),
     );
-    warnings.forEach((error) => console.warn(chalk.yellow(`  ${error}`)));
+    warnings.forEach((error) => {
+      console.warn(chalk.yellow(`  ${error}`));
+    });
   } else {
     console.log(chalk.green.bold("\nAll metadata validations passed!"));
   }

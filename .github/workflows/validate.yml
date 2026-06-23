@@ -96,7 +96,7 @@ jobs:
       run: pnpm install
 
     - name: Lint Check
-      run: pnpx @biomejs/biome@2.0.0 ci ./head
+      run: pnpx @biomejs/biome@2.5.0 ci ./head
 
   data-consistency:
     needs: schema

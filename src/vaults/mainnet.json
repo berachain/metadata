@@ -548,6 +548,20 @@
       "url": "https://smilee.finance/",
       "description": "Smilee Finance is a DeFi protocol on Berachain",
       "tags": ["platform"]
+    },
+    {
+      "name": "Avant Protocol",
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/protocols/avantprotocol.png/public",
+      "url": "https://www.avantprotocol.com",
+      "description": "Avant Protocol is institutional-grade infrastructure for onchain savings. The protocol curates deposit yields across USD, BTC, and ETH into multi-strategy yield products via professionally managed portfolios with diversified, risk-adjusted strategies (delta-neutral, DeFi lending, basis, Pendle fixed-yield). It operates a senior/junior tranche capital structure with a protocol-owned Reserve Fund as first-loss capital. Live since January 2025 with ~$125M TVL across 7+ chains, zero security incidents, and four independent audits.",
+      "tags": []
+    },
+    {
+      "name": "Apiary Finance",
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/protocols/apiary.png/public",
+      "url": "https://www.apiary.fi",
+      "description": "Treasury-backed protocol designed to perpetually accumulate $BGT",
+      "tags": [""]
     }
   ],
   "vaults": [
@@ -3342,6 +3356,42 @@
       "url": "https://liquidroyalty.com",
       "description": "Stake USDe in snrUSD",
       "action": "Stake USDe in snrUSD"
+    },
+    {
+      "stakingTokenAddress": "0xd5Cc2B9035b712929dc06F0A665459d550A385f7",
+      "vaultAddress": "0x181f3b1d55299f3744188f7ecd082c75a97d2d4f",
+      "name": "avUSD/HONEY on Kodiak",
+      "protocol": "Kodiak",
+      "categories": ["defi/amm"],
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/vaults/0x181f3b1d55299f3744188f7ecd082c75a97d2d4f.png/public",
+      "url": "https://app.kodiak.finance/#/liquidity/pools/0xd5cc2b9035b712929dc06f0a665459d550a385f7?farm=0x181f3b1d55299f3744188f7ecd082c75a97d2d4f&chain=berachain_mainnet",
+      "description": "Acquired by depositing liquidity into the avUSD-HONEY Pool on Kodiak",
+      "owner": "Avant Protocol",
+      "action": "Stake avUSD / HONEY"
+    },
+    {
+      "stakingTokenAddress": "0x5344c0b81fe363992bb9b3a7ff2562cce5b8e719",
+      "vaultAddress": "0x2c78135f225a84cbf148febe6fc2eb710be119c4",
+      "name": "Apiary Treasury",
+      "protocol": "Kodiak",
+      "categories": ["defi/amm"],
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/vaults/0x2c78135f225a84cbf148febe6fc2eb710be119c4.png/public",
+      "url": "https://app.kodiak.finance/#/swap?chain=berachain_mainnet&inputCurrency=0xFCBD14DC51f0A4d49d5E53C2E0950e0bC26d0Dce&outputCurrency=0x5e4d5f1E7b69Cdcd3faDb0cf182ea7821070Cbb5",
+      "description": "Dummy token, only Apiary Project has access to it ",
+      "owner": "Apiary Finance",
+      "action": "Stake APIARYDUMMY"
+    },
+    {
+      "stakingTokenAddress": "0xB5f473c4b7F402d8f7bED42b6D516f5ff3306B01",
+      "vaultAddress": "0xA2CBAac782bDeCC103b2d2F746b6330525025098",
+      "name": "Bend - Clearstar Reactor Honey",
+      "protocol": "Bend",
+      "categories": ["defi/lending"],
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/vaults/0xa2cbaac782bdecc103b2d2f746b6330525025098.png/public",
+      "url": "https://bend.berachain.com/lend/80094/0xB5f473c4b7F402d8f7bED42b6D516f5ff3306B01/",
+      "description": "Acquired by depositing Honey into the Clearstar Reactor Honey Pool on Bend",
+      "owner": "Clearstar",
+      "action": "Lend Honey on Clearstar Reactor vault"
     }
   ]
 }

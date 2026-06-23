@@ -12,7 +12,7 @@
     },
     "categories": {
       "type": "array",
-      "minLength": 1,
+      "minItems": 1,
       "items": {
         "type": "object",
         "required": ["slug", "name"],

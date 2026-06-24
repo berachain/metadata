@@ -515,10 +515,17 @@
       "tags": ["platform"]
     },
     {
-      "name": "BrownFi",
+      "name": "BrownFi V2",
       "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/protocols/brownfi.png/public",
-      "url": "https://brownfi.io/",
-      "description": "High Capital Efficiency (like UniswapV3) with simple LP management (like UniswapV2) and optimal returns for average LPers",
+      "url": "https://app.brownfi.io/pool",
+      "description": "BrownFi V2 pools with high capital efficiency and simple LP management on Berachain.",
+      "tags": ["platform"]
+    },
+    {
+      "name": "BrownFi V3",
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/protocols/brownfi.png/public",
+      "url": "https://app.brownfi.io/pool",
+      "description": "BrownFi V3 pools with high capital efficiency and simple LP management on Berachain.",
       "tags": ["platform"]
     },
     {
@@ -2908,10 +2915,10 @@
       "stakingTokenAddress": "0xd932c344e21ef6c3a94971bf4d4cc71304e2a66c",
       "vaultAddress": "0x2cb34eeadb1e7ae9cc7bafb84a189e9d921e193a",
       "name": "BrownFi - BERA | HONEY",
-      "protocol": "BrownFi",
+      "protocol": "BrownFi V2",
       "categories": ["defi"],
       "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/vaults/0x2cb34eeadb1e7ae9cc7bafb84a189e9d921e193a.png/public",
-      "url": "https://app.brownfi.io/#/pool",
+      "url": "https://app.brownfi.io/pool/80094/0xd932c344e21ef6c3a94971bf4d4cc71304e2a66c?v=v2",
       "description": "Acquired by depositing liquidity into the BERA / HONEY Pool on BrownFi",
       "owner": "BrownFi",
       "action": "Stake BERA / HONEY"
@@ -2920,10 +2927,10 @@
       "stakingTokenAddress": "0xd57Da672354905B9E42Df077Df77E554dC5Fd1Cc",
       "vaultAddress": "0x519cef5cc2913bcefdd03d0a22601c19794c4581",
       "name": "BrownFi - BERA | USDC.e",
-      "protocol": "BrownFi",
+      "protocol": "BrownFi V2",
       "categories": ["defi"],
       "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/vaults/0x519cef5cc2913bcefdd03d0a22601c19794c4581.png/public",
-      "url": "https://app.brownfi.io/#/pool",
+      "url": "https://app.brownfi.io/pool/80094/0xd57Da672354905B9E42Df077Df77E554dC5Fd1Cc?v=v2",
       "description": "Acquired by depositing liquidity into the BERA / USDC.e Pool on BrownFi",
       "owner": "BrownFi",
       "action": "Stake BERA / USDC.e"
@@ -3392,6 +3399,42 @@
       "description": "Acquired by depositing Honey into the Clearstar Reactor Honey Pool on Bend",
       "owner": "Clearstar",
       "action": "Lend Honey on Clearstar Reactor vault"
+    },
+    {
+      "stakingTokenAddress": "0xc123bc9259d1a99add5a2c512498ac146dd2bade",
+      "vaultAddress": "0xa57d4c595a000e20f8ea8f82663a9c7b15d60168",
+      "name": "BrownFi V3 - WETH | USDC.e",
+      "protocol": "BrownFi V3",
+      "categories": ["defi"],
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/vaults/0xa57d4c595a000e20f8ea8f82663a9c7b15d60168.png/public",
+      "url": "https://app.brownfi.io/pool/80094/0xc123bc9259d1a99add5a2c512498ac146dd2bade?v=v3-official",
+      "description": "Acquired by depositing liquidity into the WETH / USDC.e V3 Pool on BrownFi",
+      "owner": "BrownFi",
+      "action": "Stake WETH / USDC.e"
+    },
+    {
+      "stakingTokenAddress": "0xf2d50928f33ef0f9e8dc20881bc475de2c484e26",
+      "vaultAddress": "0xd54ec45cca5d428c3aef05993195c389c0b82b4e",
+      "name": "BrownFi V3 - USDC.e | BERA",
+      "protocol": "BrownFi V3",
+      "categories": ["defi"],
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/vaults/0xd54ec45cca5d428c3aef05993195c389c0b82b4e.png/public",
+      "url": "https://app.brownfi.io/pool/80094/0xf2d50928f33ef0f9e8dc20881bc475de2c484e26?v=v3-official",
+      "description": "Acquired by depositing liquidity into the USDC.e / BERA V3 Pool on BrownFi",
+      "owner": "BrownFi",
+      "action": "Stake USDC.e / BERA"
+    },
+    {
+      "stakingTokenAddress": "0x3e0fd2ce4d5b7e5f6c34e26c48a2dbd9f8d7d88c",
+      "vaultAddress": "0x3f0cf0c62e5d7617c3f965bfefc656af650e459e",
+      "name": "BrownFi V3 - BERA | HONEY",
+      "protocol": "BrownFi V3",
+      "categories": ["defi"],
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/vaults/0x3f0cf0c62e5d7617c3f965bfefc656af650e459e.png/public",
+      "url": "https://app.brownfi.io/pool/80094/0x3e0fd2ce4d5b7e5f6c34e26c48a2dbd9f8d7d88c?v=v3-official",
+      "description": "Acquired by depositing liquidity into the BERA / HONEY V3 Pool on BrownFi",
+      "owner": "BrownFi",
+      "action": "Stake BERA / HONEY"
     }
   ]
 }

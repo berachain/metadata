@@ -498,7 +498,10 @@
       "symbol": "NECT",
       "decimals": 18,
       "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/tokens/0x1ce0a25d13ce4d52071ae7e02cf1f6606f4c79d3.png/public",
-      "tags": ["stablecoin"]
+      "tags": ["stablecoin"],
+      "extensions": {
+        "coingeckoId": "nectar"
+      }
     },
     {
       "chainId": 80094,
@@ -676,7 +679,10 @@
       "name": "bm",
       "symbol": "bm",
       "decimals": 18,
-      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/tokens/0xb749584f9fc418cf905d54f462fdbfdc7462011b.png/public"
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/tokens/0xb749584f9fc418cf905d54f462fdbfdc7462011b.png/public",
+      "extensions": {
+        "coingeckoId": "bm"
+      }
     },
     {
       "chainId": 80094,
@@ -1313,7 +1319,10 @@
       "name": "Locks is Goldilocks DAO",
       "decimals": 18,
       "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/tokens/0xb7e448e5677d212b8c8da7d6312e8afc49800466.png/public",
-      "tags": []
+      "tags": [],
+      "extensions": {
+        "coingeckoId": "goldilocks-dao"
+      }
     },
     {
       "chainId": 80094,

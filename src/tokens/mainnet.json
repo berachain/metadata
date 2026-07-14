@@ -498,7 +498,10 @@
       "symbol": "NECT",
       "decimals": 18,
       "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/tokens/0x1ce0a25d13ce4d52071ae7e02cf1f6606f4c79d3.png/public",
-      "tags": ["stablecoin"]
+      "tags": ["stablecoin"],
+      "extensions": {
+        "coingeckoId": "nectar"
+      }
     },
     {
       "chainId": 80094,
@@ -538,7 +541,8 @@
       "decimals": 18,
       "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/tokens/0x541fd749419ca806a8bc7da8ac23d346f2df8b77.png/public",
       "extensions": {
-        "coingeckoId": "solv-btc"
+        "coingeckoId": "solv-btc",
+        "pythPriceId": "0xf253cf87dc7d5ed5aa14cba5a6e79aee8bcfaef885a0e1b807035a0bbecc36fa"
       }
     },
     {
@@ -675,7 +679,10 @@
       "name": "bm",
       "symbol": "bm",
       "decimals": 18,
-      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/tokens/0xb749584f9fc418cf905d54f462fdbfdc7462011b.png/public"
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/tokens/0xb749584f9fc418cf905d54f462fdbfdc7462011b.png/public",
+      "extensions": {
+        "coingeckoId": "bm"
+      }
     },
     {
       "chainId": 80094,
@@ -833,7 +840,8 @@
       "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/tokens/0x0f81001ef0a83ecce5ccebf63eb302c70a39a654.png/public",
       "tags": [],
       "extensions": {
-        "coingeckoId": "dolomite"
+        "coingeckoId": "dolomite",
+        "pythPriceId": "0xad92c3a160d0cff06d1490cf0701ee31666c337167ce3924865f3ffada785247"
       }
     },
     {
@@ -1311,7 +1319,10 @@
       "name": "Locks is Goldilocks DAO",
       "decimals": 18,
       "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/tokens/0xb7e448e5677d212b8c8da7d6312e8afc49800466.png/public",
-      "tags": []
+      "tags": [],
+      "extensions": {
+        "coingeckoId": "goldilocks-dao"
+      }
     },
     {
       "chainId": 80094,
@@ -1378,6 +1389,27 @@
       "decimals": 18,
       "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/tokens/0x5344c0b81fe363992bb9b3a7ff2562cce5b8e719.png/public",
       "tags": ["staked"]
+    },
+    {
+      "chainId": 80094,
+      "address": "0x657e8c867d8b37dcc18fa4caead9c45eb088c642",
+      "symbol": "eBTC",
+      "name": "ether.fi BTC",
+      "decimals": 8,
+      "extensions": {
+        "pythPriceId": "0xbe3dd0cf4a168f82e4912952b24420211ad52641b7365d49866d59e20c948288"
+      }
+    },
+    {
+      "chainId": 80094,
+      "address": "0x9895d81bb462a195b4922ed7de0e3acd007c32cb",
+      "symbol": "STG",
+      "name": "StargateToken",
+      "decimals": 18,
+      "extensions": {
+        "coingeckoId": "stargate-finance",
+        "pythPriceId": "0x008546b175392b878c5c7ff0b6327b1cb12669be012fc2935c09a16fc8f6c58f"
+      }
     }
   ]
 }

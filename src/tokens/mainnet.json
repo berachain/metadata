@@ -1397,6 +1397,7 @@
       "name": "ether.fi BTC",
       "decimals": 8,
       "extensions": {
+        "coingeckoId": "ether-fi-staked-btc",
         "pythPriceId": "0xbe3dd0cf4a168f82e4912952b24420211ad52641b7365d49866d59e20c948288"
       }
     },

@@ -1,0 +1,2 @@
+# 공급망 age gate: 신규 해석 버전은 게시 후 7일(10080분) 경과분만 설치 (pnpm ≥ 10.16)
+minimumReleaseAge: 10080

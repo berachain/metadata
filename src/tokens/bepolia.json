@@ -57,6 +57,7 @@
       "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/tokens/0xfcbd14dc51f0a4d49d5e53c2e0950e0bc26d0dce.png/public",
       "tags": ["stablecoin", "featured"],
       "extensions": {
+        "coingeckoId": "honey-3",
         "pythPriceId": "0xf67b033925d73d43ba4401e00308d9b0f26ab4fbd1250e8b5407b9eaade7e1f4"
       }
     },
@@ -107,6 +108,7 @@
       "decimals": 18,
       "tags": [],
       "extensions": {
+        "coingeckoId": "usd-coin",
         "pythPriceId": "0xeaa020c61cc479712813461ce153894a96a6c00b21ed0cfc2798d1f9a9e9c94a"
       }
     },
@@ -118,6 +120,7 @@
       "decimals": 18,
       "tags": [],
       "extensions": {
+        "coingeckoId": "usd-coin",
         "pythPriceId": "0xeaa020c61cc479712813461ce153894a96a6c00b21ed0cfc2798d1f9a9e9c94a"
       }
     },
@@ -129,6 +132,7 @@
       "decimals": 18,
       "tags": [],
       "extensions": {
+        "coingeckoId": "usd-coin",
         "pythPriceId": "0xeaa020c61cc479712813461ce153894a96a6c00b21ed0cfc2798d1f9a9e9c94a"
       }
     },
@@ -140,6 +144,7 @@
       "decimals": 18,
       "tags": [],
       "extensions": {
+        "coingeckoId": "usd-coin",
         "pythPriceId": "0xeaa020c61cc479712813461ce153894a96a6c00b21ed0cfc2798d1f9a9e9c94a"
       }
     },
@@ -151,6 +156,7 @@
       "decimals": 18,
       "tags": [],
       "extensions": {
+        "coingeckoId": "usd-coin",
         "pythPriceId": "0xeaa020c61cc479712813461ce153894a96a6c00b21ed0cfc2798d1f9a9e9c94a"
       }
     },
@@ -162,6 +168,7 @@
       "decimals": 18,
       "tags": [],
       "extensions": {
+        "coingeckoId": "usd-coin",
         "pythPriceId": "0xeaa020c61cc479712813461ce153894a96a6c00b21ed0cfc2798d1f9a9e9c94a"
       }
     },
@@ -173,6 +180,7 @@
       "decimals": 18,
       "tags": [],
       "extensions": {
+        "coingeckoId": "usd-coin",
         "pythPriceId": "0xeaa020c61cc479712813461ce153894a96a6c00b21ed0cfc2798d1f9a9e9c94a"
       }
     },

@@ -1374,6 +1374,33 @@
     },
     {
       "chainId": 80094,
+      "address": "0xda67b4284609d2d48e5d10cfac411572727dc1ed",
+      "symbol": "sUSN",
+      "name": "Staked USN",
+      "decimals": 18,
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/tokens/0xdA67B4284609d2d48e5d10cfAc411572727dc1eD.png/public",
+      "tags": ["stablecoin", "staked"]
+    },
+    {
+      "chainId": 80094,
+      "address": "0xa744fe3688291ac3a4a7ec917678783ad9946a1e",
+      "symbol": "savUSD",
+      "name": "Staked avUSD",
+      "decimals": 18,
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/tokens/0xa744Fe3688291aC3A4a7eC917678783aD9946a1E.png/public",
+      "tags": ["stablecoin", "staked"]
+    },
+    {
+      "chainId": 80094,
+      "address": "0x11a292b4a8985bfe4ea19aad24793b4e1d91ba60",
+      "symbol": "syzUSD",
+      "name": "Staked Yuzu USD",
+      "decimals": 18,
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/tokens/0x11a292b4a8985bFE4ea19AaD24793b4E1d91bA60.png/public",
+      "tags": ["stablecoin", "staked"]
+    },
+    {
+      "chainId": 80094,
       "address": "0xd5cc2b9035b712929dc06f0a665459d550a385f7",
       "symbol": "KODI avUSD-HONEY",
       "name": "Kodiak Island avUSD-HONEY-0.05%",

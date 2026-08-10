@@ -12,8 +12,8 @@ importers:
         specifier: ^1.11.1
         version: 1.11.1
       '@berachain/berajs':
-        specifier: 0.2.12
-        version: 0.2.12(6rsrvffv7x2rcjxezrnwrcergq)
+        specifier: 0.3.3
+        version: 0.3.3(2zndk743k6yeknjxfmwmcbnpi4)
       bignumber.js:
         specifier: 11.1.4
         version: 11.1.4
@@ -257,11 +257,11 @@ packages:
     peerDependencies:
       viem: '>2.24.3'
 
-  '@berachain/abis@0.1.3-beta.0':
-    resolution: {integrity: sha512-LvuMCqTydkf0JRV9bXvxwv1wlEWelV+xadR6QCl39wphsohQEOJYcYkzYx4aVCMTTS7k3COIrdOHl/T2LTqQQw==}
+  '@berachain/abis@0.1.3':
+    resolution: {integrity: sha512-WkG6uaqgHv7UPocLAiYuURCk3LVv3laAxNRePZmr6FAIHNrwp64LOLRlAVZ7OE6gbXBif+wgty3z2HMB8PbEsQ==}
 
-  '@berachain/berajs@0.2.12':
-    resolution: {integrity: sha512-aSIWuP3L8Pvdj2QfF94q/O250W9XjP2Lv08le4z6eXk+Y0khjUvtiiIVcvm4q2RlPQLy2I2g5/I7Q8BJ07wpOw==}
+  '@berachain/berajs@0.3.3':
+    resolution: {integrity: sha512-t60Ey7ACV1tyjciL0i2MtvW6YYnXYuDANgBRku48vbAfTHARO/yxWpywS+ZCYRgn2F2EkOqETcDhG2UzqR7bxA==}
     peerDependencies:
       '@berachain/wagmi': 0.4.2-beta.6
       react: ^19.1
@@ -312,24 +312,19 @@ packages:
       tsup:
         optional: true
 
-  '@berachain/config@0.1.21':
-    resolution: {integrity: sha512-MaY3TcEcTgVotkhdspoVEArJSLif9GOYYuvaJAODVnQFcFEJttPohL27mI+ay2xRklty+37O5IIEjrQ85GF1AA==}
+  '@berachain/config@0.2.2':
+    resolution: {integrity: sha512-Ie2GNyJhDdFjAEacEs+wZ5PDVY3na7FqiKGr76ueLLKnw3rM1GiY/BdyKry3WIymrYJfM5H+1cuA2EEe7GniZQ==}
     peerDependencies:
-      '@flags-sdk/edge-config': 0.1.0
       '@sentry/nextjs': ^10.16
       '@tailwindcss/aspect-ratio': ~0.4.2
       '@tailwindcss/container-queries': ~0.4.1
       '@tailwindcss/typography': ~0.5.15
-      '@vercel/edge-config': 1.4.3
       dotenv: 16.6.1
-      flags: 4.0.6
       next: ^16.1
       tailwindcss-animate: 1.0.7
       tsup: ^8.4.0
       viem: ^2.41.2
     peerDependenciesMeta:
-      '@flags-sdk/edge-config':
-        optional: true
       '@sentry/nextjs':
         optional: true
       '@tailwindcss/aspect-ratio':
@@ -338,11 +333,7 @@ packages:
         optional: true
       '@tailwindcss/typography':
         optional: true
-      '@vercel/edge-config':
-        optional: true
       dotenv:
-        optional: true
-      flags:
         optional: true
       next:
         optional: true
@@ -353,8 +344,8 @@ packages:
       viem:
         optional: true
 
-  '@berachain/graphql@0.5.2':
-    resolution: {integrity: sha512-q9u+sS64EA9J8t/BR9wq6Rx6uPUyCwzAvvWTX3caM1QGkWPVpqSe2lAq1rpAwvcgPcPtrrh9nfMgU1MSNHOevA==}
+  '@berachain/graphql@0.8.2':
+    resolution: {integrity: sha512-wHxH72VZbiAcX+9qCohmUGQ/wRaHR5wsbDo98iA9Q/e4l6CFaKj3F7hC1y5giX1gJFZL82YP4Wmuhc2PTGPUXA==}
     peerDependencies:
       '@apollo/client': ^4.0
       graphql: ^16.8
@@ -493,8 +484,8 @@ packages:
   '@emotion/weak-memoize@0.4.0':
     resolution: {integrity: sha512-snKqtPW01tN0ui7yu9rGv69aJXr/a/Ywvl11sUjNtEcRc+ng/mQriFL0wLXMef74iHa/EkftbDzU9F8iFbH+zg==}
 
-  '@ensofinance/sdk@2.3.1':
-    resolution: {integrity: sha512-sw0Je+x82LxCDexQvWemDk8X2kaPPIaiQwoWqtyWw9sNSnvsu//jLir2FXaNwvusCihYyX3p4Z1zgorqanKZzg==}
+  '@ensofinance/sdk@2.5.0':
+    resolution: {integrity: sha512-Jtg1r11E6jm5ECwV5jjfSIbqZZb6m4F8UN5xJsxX7srY9fIbBKOC9gSCl/D2apqbKrjLMW/erGMWVyTp6OvmXg==}
 
   '@esbuild/aix-ppc64@0.28.1':
     resolution: {integrity: sha512-Svl7tq8k/08+p6CXPpRjQ1fKX+1odH/BQbb48fV6fj3CWHhsoIOoY87w1oHXm0qEpkIK3ZfVgp0hed3XBXzXMQ==}
@@ -2863,6 +2854,21 @@ packages:
   '@types/yargs@17.0.35':
     resolution: {integrity: sha512-qUHkeCyQFxMXg79wQfTtfndEC+N9ZZg76HJftDJp+qH2tV7Gj4OJi7l+PiWwJ+pWtW8GwSmqsDj/oymhrTWXjg==}
 
+  '@vercel/edge-config-fs@0.1.0':
+    resolution: {integrity: sha512-NRIBwfcS0bUoUbRWlNGetqjvLSwgYH/BqKqDN7vK1g32p7dN96k0712COgaz6VFizAm9b0g6IG6hR6+hc0KCPg==}
+
+  '@vercel/edge-config@1.4.3':
+    resolution: {integrity: sha512-8vTDATodRrH49wMzKEjZ8/5H2qs1aPkD0uRK585f/Fx4YN2wfHfY/3td9OFrh+gdnCq07z8A5f0hoY6xhBcPkg==}
+    engines: {node: '>=14.6'}
+    peerDependencies:
+      '@opentelemetry/api': ^1.7.0
+      next: '>=1'
+    peerDependenciesMeta:
+      '@opentelemetry/api':
+        optional: true
+      next:
+        optional: true
+
   '@wagmi/connectors@6.2.0':
     resolution: {integrity: sha512-2NfkbqhNWdjfibb4abRMrn7u6rPjEGolMfApXss6HCDVt9AW2oVC6k8Q5FouzpJezElxLJSagWz9FW1zaRlanA==}
     peerDependencies:
@@ -3246,8 +3252,8 @@ packages:
   axios@1.16.0:
     resolution: {integrity: sha512-6hp5CwvTPlN2A31g5dxnwAX0orzM7pmCRDLnZSX772mv8WDqICwFjowHuPs04Mc8deIld1+ejhtaMn5vp6b+1w==}
 
-  axios@1.16.1:
-    resolution: {integrity: sha512-caYkukvroVPO8KrzuJEb50Hm07KwfBZPEC3VeFHTsqWHvKTsy54hjJz9BS/cdaypROE2rH6xvm9mHX4fgWkr3A==}
+  axios@1.19.0:
+    resolution: {integrity: sha512-ht/iuYZXEjFxLH/Hkezgd7m6JKlHHXEUSneaDz8uZe1Gj5QZtCnpyDsckvAiEnT89OEbCLmnte4R4sn7P0EKFw==}
 
   babel-jest@29.7.0:
     resolution: {integrity: sha512-BrvGY3xZSwEcCzKvKsCi2GgHqDqsYkOP4/by5xCgIwGXQxIEh+8ew3gmrE1y7XRR6LHZIj6yLYnUi/mm2KXKBg==}
@@ -3924,6 +3930,10 @@ packages:
     resolution: {integrity: sha512-8RipRLol37bNs2bhoV67fiTEvdTrbMUYcFTiy3+wuuOnUog2QBHCZWXDRijWQfAkhBj2Uf5UnVaiWwA5vdd82w==}
     engines: {node: '>= 6'}
 
+  form-data@4.0.6:
+    resolution: {integrity: sha512-vKatAh4SlVfgbv+YtmhiRjhEMJsYpsG1Y2rMQtR+SVSbytsSD1YGzDIcrAJmdFec88u/+VoGmxnl+80gL1tRCQ==}
+    engines: {node: '>= 6'}
+
   forwarded-parse@2.1.2:
     resolution: {integrity: sha512-alTFZZQDKMporBH77856pXgzhEzaUVmLCDk+egLgIgHst3Tpndzz8MnKe+GzRJRfvVdn69HhpW7cmXzvtLvJAw==}
 
@@ -4039,6 +4049,10 @@ packages:
 
   hasown@2.0.3:
     resolution: {integrity: sha512-ej4AhfhfL2Q2zpMmLo7U1Uv9+PyhIZpgQLGT1F9miIGmiCJIoCgSmczFdrc97mWT4kVY72KA+WnnhJ5pghSvSg==}
+    engines: {node: '>= 0.4'}
+
+  hasown@2.0.4:
+    resolution: {integrity: sha512-T2UbfbBEF32wiepXIsMlTW9+dDYC6wMh/t/vYA4tuOMKqWz/n3vr1NFSxQiyP+zk2mXsoMA/i/7qV6LKut1t1A==}
     engines: {node: '>= 0.4'}
 
   hermes-compiler@0.14.0:
@@ -6294,18 +6308,19 @@ snapshots:
       decimal.js-light: 2.5.1
       viem: 2.53.1(bufferutil@4.1.0)(typescript@5.9.3)(utf-8-validate@5.0.10)(zod@3.25.76)
 
-  '@berachain/abis@0.1.3-beta.0': {}
+  '@berachain/abis@0.1.3': {}
 
-  '@berachain/berajs@0.2.12(6rsrvffv7x2rcjxezrnwrcergq)':
+  '@berachain/berajs@0.3.3(2zndk743k6yeknjxfmwmcbnpi4)':
     dependencies:
       '@apollo/client': 4.1.6(graphql@16.12.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(rxjs@7.8.2)
       '@berachain-foundation/berancer-sdk': 1.1.7(viem@2.53.1(bufferutil@4.1.0)(typescript@5.9.3)(utf-8-validate@5.0.10)(zod@3.25.76))
-      '@berachain/abis': 0.1.3-beta.0
-      '@berachain/config': 0.1.21(@sentry/nextjs@10.32.1(@opentelemetry/context-async-hooks@2.7.1(@opentelemetry/api@1.9.1))(@opentelemetry/core@2.7.1(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-base@2.7.1(@opentelemetry/api@1.9.1))(next@15.5.9(@babel/core@7.29.0)(@opentelemetry/api@1.9.1)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react@19.2.3)(webpack@5.104.1))(dotenv@17.4.2)(next@15.5.9(@babel/core@7.29.0)(@opentelemetry/api@1.9.1)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(viem@2.53.1(bufferutil@4.1.0)(typescript@5.9.3)(utf-8-validate@5.0.10)(zod@3.25.76))
-      '@berachain/graphql': 0.5.2(@apollo/client@4.1.6(graphql@16.12.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(rxjs@7.8.2))(graphql@16.12.0)
+      '@berachain/abis': 0.1.3
+      '@berachain/config': 0.2.2(@sentry/nextjs@10.32.1(@opentelemetry/context-async-hooks@2.7.1(@opentelemetry/api@1.9.1))(@opentelemetry/core@2.7.1(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-base@2.7.1(@opentelemetry/api@1.9.1))(next@15.5.9(@babel/core@7.29.0)(@opentelemetry/api@1.9.1)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react@19.2.3)(webpack@5.104.1))(dotenv@17.4.2)(next@15.5.9(@babel/core@7.29.0)(@opentelemetry/api@1.9.1)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(viem@2.53.1(bufferutil@4.1.0)(typescript@5.9.3)(utf-8-validate@5.0.10)(zod@3.25.76))
+      '@berachain/graphql': 0.8.2(@apollo/client@4.1.6(graphql@16.12.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(rxjs@7.8.2))(graphql@16.12.0)
       '@berachain/wagmi': 0.1.0-alpha.2(@hey-api/openapi-ts@0.90.2(typescript@5.9.3))(@sentry/nextjs@10.32.1(@opentelemetry/context-async-hooks@2.7.1(@opentelemetry/api@1.9.1))(@opentelemetry/core@2.7.1(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-base@2.7.1(@opentelemetry/api@1.9.1))(next@15.5.9(@babel/core@7.29.0)(@opentelemetry/api@1.9.1)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react@19.2.3)(webpack@5.104.1))(@solana/sysvars@5.5.1(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.9.3))(@tanstack/query-core@5.81.5)(bufferutil@4.1.0)(dotenv@17.4.2)(fastestsmallesttextencoderdecoder@1.0.22)(next@15.5.9(@babel/core@7.29.0)(@opentelemetry/api@1.9.1)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react-dom@19.2.3(react@19.2.3))(react-native@0.83.1(@babel/core@7.29.0)(bufferutil@4.1.0)(react@19.2.3)(utf-8-validate@5.0.10))(react@19.2.3)(typescript@5.9.3)(use-sync-external-store@1.4.0(react@19.2.3))(utf-8-validate@5.0.10)(ws@8.20.1(bufferutil@4.1.0)(utf-8-validate@5.0.10))(zod@3.25.76)
-      '@ensofinance/sdk': 2.3.1
-      '@pythnetwork/hermes-client': 2.0.0(axios@1.16.1)
+      '@ensofinance/sdk': 2.5.0
+      '@pythnetwork/hermes-client': 2.0.0(axios@1.19.0)
+      '@vercel/edge-config': 1.4.3(@opentelemetry/api@1.9.1)(next@15.5.9(@babel/core@7.29.0)(@opentelemetry/api@1.9.1)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))
       '@wagmi/core': 2.22.1(@tanstack/query-core@5.81.5)(react@19.2.3)(typescript@5.9.3)(use-sync-external-store@1.4.0(react@19.2.3))(viem@2.53.1(bufferutil@4.1.0)(typescript@5.9.3)(utf-8-validate@5.0.10)(zod@3.25.76))
       gray-matter: 4.0.3
       swr: 2.3.3(react@19.2.3)
@@ -6314,18 +6329,16 @@ snapshots:
       react: 19.2.3
       react-dom: 19.2.3(react@19.2.3)
     transitivePeerDependencies:
-      - '@flags-sdk/edge-config'
+      - '@opentelemetry/api'
       - '@sentry/nextjs'
       - '@tailwindcss/aspect-ratio'
       - '@tailwindcss/container-queries'
       - '@tailwindcss/typography'
       - '@tanstack/query-core'
       - '@types/react'
-      - '@vercel/edge-config'
       - axios
       - debug
       - dotenv
-      - flags
       - graphql
       - graphql-ws
       - immer
@@ -6344,14 +6357,14 @@ snapshots:
       dotenv: 17.4.2
       next: 15.5.9(@babel/core@7.29.0)(@opentelemetry/api@1.9.1)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
 
-  '@berachain/config@0.1.21(@sentry/nextjs@10.32.1(@opentelemetry/context-async-hooks@2.7.1(@opentelemetry/api@1.9.1))(@opentelemetry/core@2.7.1(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-base@2.7.1(@opentelemetry/api@1.9.1))(next@15.5.9(@babel/core@7.29.0)(@opentelemetry/api@1.9.1)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react@19.2.3)(webpack@5.104.1))(dotenv@17.4.2)(next@15.5.9(@babel/core@7.29.0)(@opentelemetry/api@1.9.1)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(viem@2.53.1(bufferutil@4.1.0)(typescript@5.9.3)(utf-8-validate@5.0.10)(zod@3.25.76))':
+  '@berachain/config@0.2.2(@sentry/nextjs@10.32.1(@opentelemetry/context-async-hooks@2.7.1(@opentelemetry/api@1.9.1))(@opentelemetry/core@2.7.1(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-base@2.7.1(@opentelemetry/api@1.9.1))(next@15.5.9(@babel/core@7.29.0)(@opentelemetry/api@1.9.1)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react@19.2.3)(webpack@5.104.1))(dotenv@17.4.2)(next@15.5.9(@babel/core@7.29.0)(@opentelemetry/api@1.9.1)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(viem@2.53.1(bufferutil@4.1.0)(typescript@5.9.3)(utf-8-validate@5.0.10)(zod@3.25.76))':
     optionalDependencies:
       '@sentry/nextjs': 10.32.1(@opentelemetry/context-async-hooks@2.7.1(@opentelemetry/api@1.9.1))(@opentelemetry/core@2.7.1(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-base@2.7.1(@opentelemetry/api@1.9.1))(next@15.5.9(@babel/core@7.29.0)(@opentelemetry/api@1.9.1)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react@19.2.3)(webpack@5.104.1)
       dotenv: 17.4.2
       next: 15.5.9(@babel/core@7.29.0)(@opentelemetry/api@1.9.1)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
       viem: 2.53.1(bufferutil@4.1.0)(typescript@5.9.3)(utf-8-validate@5.0.10)(zod@3.25.76)
 
-  '@berachain/graphql@0.5.2(@apollo/client@4.1.6(graphql@16.12.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(rxjs@7.8.2))(graphql@16.12.0)':
+  '@berachain/graphql@0.8.2(@apollo/client@4.1.6(graphql@16.12.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(rxjs@7.8.2))(graphql@16.12.0)':
     dependencies:
       '@apollo/client': 4.1.6(graphql@16.12.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(rxjs@7.8.2)
       graphql: 16.12.0
@@ -6617,9 +6630,9 @@ snapshots:
 
   '@emotion/weak-memoize@0.4.0': {}
 
-  '@ensofinance/sdk@2.3.1':
+  '@ensofinance/sdk@2.5.0':
     dependencies:
-      axios: 1.16.1
+      axios: 1.19.0
     transitivePeerDependencies:
       - debug
       - supports-color
@@ -7637,9 +7650,9 @@ snapshots:
       - supports-color
     optional: true
 
-  '@pythnetwork/hermes-client@2.0.0(axios@1.16.1)':
+  '@pythnetwork/hermes-client@2.0.0(axios@1.19.0)':
     dependencies:
-      '@zodios/core': 10.9.6(axios@1.16.1)(zod@3.25.76)
+      '@zodios/core': 10.9.6(axios@1.19.0)(zod@3.25.76)
       eventsource: 3.0.7
       zod: 3.25.76
     transitivePeerDependencies:
@@ -9469,6 +9482,15 @@ snapshots:
     dependencies:
       '@types/yargs-parser': 21.0.3
 
+  '@vercel/edge-config-fs@0.1.0': {}
+
+  '@vercel/edge-config@1.4.3(@opentelemetry/api@1.9.1)(next@15.5.9(@babel/core@7.29.0)(@opentelemetry/api@1.9.1)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))':
+    dependencies:
+      '@vercel/edge-config-fs': 0.1.0
+    optionalDependencies:
+      '@opentelemetry/api': 1.9.1
+      next: 15.5.9(@babel/core@7.29.0)(@opentelemetry/api@1.9.1)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
+
   '@wagmi/connectors@6.2.0(aq2mn2cvktv7qn55oz7prqw2n4)':
     dependencies:
       '@base-org/account': 2.4.0(bufferutil@4.1.0)(fastestsmallesttextencoderdecoder@1.0.22)(react@19.2.3)(typescript@5.9.3)(use-sync-external-store@1.4.0(react@19.2.3))(utf-8-validate@5.0.10)(zod@3.25.76)
@@ -10438,9 +10460,9 @@ snapshots:
   '@xtuc/long@4.2.2':
     optional: true
 
-  '@zodios/core@10.9.6(axios@1.16.1)(zod@3.25.76)':
+  '@zodios/core@10.9.6(axios@1.19.0)(zod@3.25.76)':
     dependencies:
-      axios: 1.16.1
+      axios: 1.19.0
       zod: 3.25.76
 
   abitype@1.0.6(typescript@5.9.3)(zod@3.25.76):
@@ -10608,10 +10630,10 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
-  axios@1.16.1:
+  axios@1.19.0:
     dependencies:
       follow-redirects: 1.16.0
-      form-data: 4.0.5
+      form-data: 4.0.6
       https-proxy-agent: 5.0.1
       proxy-from-env: 2.1.0
     transitivePeerDependencies:
@@ -11116,7 +11138,7 @@ snapshots:
       es-errors: 1.3.0
       get-intrinsic: 1.3.0
       has-tostringtag: 1.0.2
-      hasown: 2.0.3
+      hasown: 2.0.4
 
   es-toolkit@1.33.0: {}
 
@@ -11322,6 +11344,14 @@ snapshots:
       hasown: 2.0.3
       mime-types: 2.1.35
 
+  form-data@4.0.6:
+    dependencies:
+      asynckit: 0.4.0
+      combined-stream: 1.0.8
+      es-set-tostringtag: 2.1.0
+      hasown: 2.0.4
+      mime-types: 2.1.35
+
   forwarded-parse@2.1.2:
     optional: true
 
@@ -11354,7 +11384,7 @@ snapshots:
       get-proto: 1.0.1
       gopd: 1.2.0
       has-symbols: 1.1.0
-      hasown: 2.0.3
+      hasown: 2.0.4
       math-intrinsics: 1.1.0
 
   get-nonce@1.0.1: {}
@@ -11445,6 +11475,10 @@ snapshots:
       has-symbols: 1.1.0
 
   hasown@2.0.3:
+    dependencies:
+      function-bind: 1.1.2
+
+  hasown@2.0.4:
     dependencies:
       function-bind: 1.1.2
 

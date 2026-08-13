@@ -12,8 +12,8 @@ importers:
         specifier: ^1.11.1
         version: 1.11.1
       '@berachain/berajs':
-        specifier: 0.3.3
-        version: 0.3.3(w45vcetc2ibqu63efzkmyavooy)
+        specifier: 0.3.4
+        version: 0.3.4(w45vcetc2ibqu63efzkmyavooy)
       bignumber.js:
         specifier: 11.1.4
         version: 11.1.4
@@ -260,8 +260,8 @@ packages:
   '@berachain/abis@0.1.3':
     resolution: {integrity: sha512-WkG6uaqgHv7UPocLAiYuURCk3LVv3laAxNRePZmr6FAIHNrwp64LOLRlAVZ7OE6gbXBif+wgty3z2HMB8PbEsQ==}
 
-  '@berachain/berajs@0.3.3':
-    resolution: {integrity: sha512-t60Ey7ACV1tyjciL0i2MtvW6YYnXYuDANgBRku48vbAfTHARO/yxWpywS+ZCYRgn2F2EkOqETcDhG2UzqR7bxA==}
+  '@berachain/berajs@0.3.4':
+    resolution: {integrity: sha512-OzbhHsvavN1kl/ND/o4zKZIFbu7l2q5T93nqpZx4kTPXT4QzdnVq2Lq2+ZIiuueCM6UGHf4tnqNoWW45JNHhwg==}
     peerDependencies:
       '@berachain/wagmi': 0.4.2-beta.6
       react: ^19.1
@@ -312,8 +312,8 @@ packages:
       tsup:
         optional: true
 
-  '@berachain/config@0.2.2':
-    resolution: {integrity: sha512-Ie2GNyJhDdFjAEacEs+wZ5PDVY3na7FqiKGr76ueLLKnw3rM1GiY/BdyKry3WIymrYJfM5H+1cuA2EEe7GniZQ==}
+  '@berachain/config@0.2.3-beta.1':
+    resolution: {integrity: sha512-dvTam+B7+aRtKEKlj7UwpNUaiNu5YtMVHOpjXJ3mzzHxLOR4TszL7Wff2F77x/LF6BgKQ/9/WbFzSpd7vI7YNQ==}
     peerDependencies:
       '@sentry/nextjs': ^10.16
       '@tailwindcss/aspect-ratio': ~0.4.2
@@ -2877,11 +2877,8 @@ packages:
   '@types/yargs@17.0.35':
     resolution: {integrity: sha512-qUHkeCyQFxMXg79wQfTtfndEC+N9ZZg76HJftDJp+qH2tV7Gj4OJi7l+PiWwJ+pWtW8GwSmqsDj/oymhrTWXjg==}
 
-  '@vercel/edge-config-fs@0.1.0':
-    resolution: {integrity: sha512-NRIBwfcS0bUoUbRWlNGetqjvLSwgYH/BqKqDN7vK1g32p7dN96k0712COgaz6VFizAm9b0g6IG6hR6+hc0KCPg==}
-
-  '@vercel/edge-config@1.4.3':
-    resolution: {integrity: sha512-8vTDATodRrH49wMzKEjZ8/5H2qs1aPkD0uRK585f/Fx4YN2wfHfY/3td9OFrh+gdnCq07z8A5f0hoY6xhBcPkg==}
+  '@vercel/edge-config@1.5.1':
+    resolution: {integrity: sha512-eawv5LKqEk+KL9lw+lzExpPELE8B1DdvWhpswtSr5nkUujH4nOLq89fY565uWp5z70XzTnfx6E08KIVmgOwSjg==}
     engines: {node: '>=14.6'}
     peerDependencies:
       '@opentelemetry/api': ^1.7.0
@@ -2891,6 +2888,9 @@ packages:
         optional: true
       next:
         optional: true
+
+  '@vercel/global-config-fs@0.1.0':
+    resolution: {integrity: sha512-xxMUwf96H/qKTA4Az+uh3xlVWkwnN3z400P5gex0uUsU8pe99njopYVyKVoUTfu8gN9xbHqaigWaIBr1+lufMg==}
 
   '@wagmi/connectors@6.2.0':
     resolution: {integrity: sha512-2NfkbqhNWdjfibb4abRMrn7u6rPjEGolMfApXss6HCDVt9AW2oVC6k8Q5FouzpJezElxLJSagWz9FW1zaRlanA==}
@@ -4346,10 +4346,6 @@ packages:
 
   js-tokens@4.0.0:
     resolution: {integrity: sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==}
-
-  js-yaml@3.14.2:
-    resolution: {integrity: sha512-PMSmkqxr106Xa156c2M265Z+FTrPl+oxd/rgOQy2tijQeK5TxQ43psO1ZCwhVOSdnn+RzkzlRz/eY4BgJBYVpg==}
-    hasBin: true
 
   js-yaml@3.15.1:
     resolution: {integrity: sha512-S99WuO3HlhO3XN41EtYUNl9zzXjoJx7QvmipxsJVxtCBT0YHEFy+iOJhjSvrmV12nYhWpZaM8lPHkJm0yUMbag==}
@@ -6367,17 +6363,17 @@ snapshots:
 
   '@berachain/abis@0.1.3': {}
 
-  '@berachain/berajs@0.3.3(w45vcetc2ibqu63efzkmyavooy)':
+  '@berachain/berajs@0.3.4(w45vcetc2ibqu63efzkmyavooy)':
     dependencies:
       '@apollo/client': 4.1.6(graphql@16.12.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(rxjs@7.8.2)
       '@berachain-foundation/berancer-sdk': 1.1.7(viem@2.53.1(bufferutil@4.1.0)(typescript@5.9.3)(utf-8-validate@5.0.10)(zod@3.25.76))
       '@berachain/abis': 0.1.3
-      '@berachain/config': 0.2.2(@sentry/nextjs@10.32.1(@opentelemetry/context-async-hooks@2.10.0(@opentelemetry/api@1.9.1))(@opentelemetry/core@2.10.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-base@2.10.0(@opentelemetry/api@1.9.1))(next@15.5.9(@babel/core@7.29.7)(@opentelemetry/api@1.9.1)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react@19.2.3)(webpack@5.104.1))(dotenv@17.4.2)(next@15.5.9(@babel/core@7.29.7)(@opentelemetry/api@1.9.1)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(viem@2.53.1(bufferutil@4.1.0)(typescript@5.9.3)(utf-8-validate@5.0.10)(zod@3.25.76))
+      '@berachain/config': 0.2.3-beta.1(@sentry/nextjs@10.32.1(@opentelemetry/context-async-hooks@2.10.0(@opentelemetry/api@1.9.1))(@opentelemetry/core@2.10.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-base@2.10.0(@opentelemetry/api@1.9.1))(next@15.5.9(@babel/core@7.29.7)(@opentelemetry/api@1.9.1)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react@19.2.3)(webpack@5.104.1))(dotenv@17.4.2)(next@15.5.9(@babel/core@7.29.7)(@opentelemetry/api@1.9.1)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(viem@2.53.1(bufferutil@4.1.0)(typescript@5.9.3)(utf-8-validate@5.0.10)(zod@3.25.76))
       '@berachain/graphql': 0.8.2(@apollo/client@4.1.6(graphql@16.12.0)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(rxjs@7.8.2))(graphql@16.12.0)
       '@berachain/wagmi': 0.1.0-alpha.2(@hey-api/openapi-ts@0.90.2(typescript@5.9.3))(@sentry/nextjs@10.32.1(@opentelemetry/context-async-hooks@2.10.0(@opentelemetry/api@1.9.1))(@opentelemetry/core@2.10.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-base@2.10.0(@opentelemetry/api@1.9.1))(next@15.5.9(@babel/core@7.29.7)(@opentelemetry/api@1.9.1)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react@19.2.3)(webpack@5.104.1))(@solana/sysvars@5.5.1(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.9.3))(@tanstack/query-core@5.81.5)(bufferutil@4.1.0)(dotenv@17.4.2)(fastestsmallesttextencoderdecoder@1.0.22)(next@15.5.9(@babel/core@7.29.7)(@opentelemetry/api@1.9.1)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react-dom@19.2.3(react@19.2.3))(react-native@0.83.1(@babel/core@7.29.7)(bufferutil@4.1.0)(react@19.2.3)(utf-8-validate@5.0.10))(react@19.2.3)(typescript@5.9.3)(use-sync-external-store@1.4.0(react@19.2.3))(utf-8-validate@5.0.10)(ws@8.20.1(bufferutil@4.1.0)(utf-8-validate@5.0.10))(zod@3.25.76)
       '@ensofinance/sdk': 2.5.0
       '@pythnetwork/hermes-client': 2.0.0(axios@1.19.0)
-      '@vercel/edge-config': 1.4.3(@opentelemetry/api@1.9.1)(next@15.5.9(@babel/core@7.29.7)(@opentelemetry/api@1.9.1)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))
+      '@vercel/edge-config': 1.5.1(@opentelemetry/api@1.9.1)(next@15.5.9(@babel/core@7.29.7)(@opentelemetry/api@1.9.1)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))
       '@wagmi/core': 2.22.1(@tanstack/query-core@5.81.5)(react@19.2.3)(typescript@5.9.3)(use-sync-external-store@1.4.0(react@19.2.3))(viem@2.53.1(bufferutil@4.1.0)(typescript@5.9.3)(utf-8-validate@5.0.10)(zod@3.25.76))
       gray-matter: 4.0.3
       swr: 2.3.3(react@19.2.3)
@@ -6414,7 +6410,7 @@ snapshots:
       dotenv: 17.4.2
       next: 15.5.9(@babel/core@7.29.7)(@opentelemetry/api@1.9.1)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
 
-  '@berachain/config@0.2.2(@sentry/nextjs@10.32.1(@opentelemetry/context-async-hooks@2.10.0(@opentelemetry/api@1.9.1))(@opentelemetry/core@2.10.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-base@2.10.0(@opentelemetry/api@1.9.1))(next@15.5.9(@babel/core@7.29.7)(@opentelemetry/api@1.9.1)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react@19.2.3)(webpack@5.104.1))(dotenv@17.4.2)(next@15.5.9(@babel/core@7.29.7)(@opentelemetry/api@1.9.1)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(viem@2.53.1(bufferutil@4.1.0)(typescript@5.9.3)(utf-8-validate@5.0.10)(zod@3.25.76))':
+  '@berachain/config@0.2.3-beta.1(@sentry/nextjs@10.32.1(@opentelemetry/context-async-hooks@2.10.0(@opentelemetry/api@1.9.1))(@opentelemetry/core@2.10.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-base@2.10.0(@opentelemetry/api@1.9.1))(next@15.5.9(@babel/core@7.29.7)(@opentelemetry/api@1.9.1)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react@19.2.3)(webpack@5.104.1))(dotenv@17.4.2)(next@15.5.9(@babel/core@7.29.7)(@opentelemetry/api@1.9.1)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(viem@2.53.1(bufferutil@4.1.0)(typescript@5.9.3)(utf-8-validate@5.0.10)(zod@3.25.76))':
     optionalDependencies:
       '@sentry/nextjs': 10.32.1(@opentelemetry/context-async-hooks@2.10.0(@opentelemetry/api@1.9.1))(@opentelemetry/core@2.10.0(@opentelemetry/api@1.9.1))(@opentelemetry/sdk-trace-base@2.10.0(@opentelemetry/api@1.9.1))(next@15.5.9(@babel/core@7.29.7)(@opentelemetry/api@1.9.1)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react@19.2.3)(webpack@5.104.1)
       dotenv: 17.4.2
@@ -9556,14 +9552,14 @@ snapshots:
     dependencies:
       '@types/yargs-parser': 21.0.3
 
-  '@vercel/edge-config-fs@0.1.0': {}
-
-  '@vercel/edge-config@1.4.3(@opentelemetry/api@1.9.1)(next@15.5.9(@babel/core@7.29.7)(@opentelemetry/api@1.9.1)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))':
+  '@vercel/edge-config@1.5.1(@opentelemetry/api@1.9.1)(next@15.5.9(@babel/core@7.29.7)(@opentelemetry/api@1.9.1)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))':
     dependencies:
-      '@vercel/edge-config-fs': 0.1.0
+      '@vercel/global-config-fs': 0.1.0
     optionalDependencies:
       '@opentelemetry/api': 1.9.1
       next: 15.5.9(@babel/core@7.29.7)(@opentelemetry/api@1.9.1)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
+
+  '@vercel/global-config-fs@0.1.0': {}
 
   '@wagmi/connectors@6.2.0(gq7mjq5e32sgpxvp4sy5bekdbq)':
     dependencies:
@@ -11526,7 +11522,7 @@ snapshots:
 
   gray-matter@4.0.3:
     dependencies:
-      js-yaml: 3.14.2
+      js-yaml: 3.15.1
       kind-of: 6.0.3
       section-matter: 1.0.0
       strip-bom-string: 1.0.0
@@ -11857,11 +11853,6 @@ snapshots:
   jose@6.2.8: {}
 
   js-tokens@4.0.0: {}
-
-  js-yaml@3.14.2:
-    dependencies:
-      argparse: 1.0.10
-      esprima: 4.0.1
 
   js-yaml@3.15.1:
     dependencies:

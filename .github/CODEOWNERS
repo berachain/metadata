@@ -1,3 +1,2 @@
-*       @codingwithmanny
-scripts @berachain/dapps
-.github @berachain/dapps
+*       @berachain/dapps
+src     @berachain/dapps @codingwithmanny

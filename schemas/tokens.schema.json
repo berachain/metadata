@@ -12,7 +12,7 @@
     },
     "logoURI": {
       "type": "string",
-      "pattern": "^(https://imagedelivery\\.net/qNj7Q3MCke89zoKzav7eDQ/(tokens/(default|0x[0-9a-fA-F]{40})\\.(png|jpg|jpeg)|validators/0x[0-9a-fA-F]{96}\\.(png|jpg|jpeg)|vaults/0x[0-9a-fA-F]{40}\\.(png|jpg|jpeg)|protocols/[a-z0-9-]+\\.(png|jpg|jpeg))/public)$"
+      "pattern": "^(https://imagedelivery\\.net/qNj7Q3MCke89zoKzav7eDQ/(tokens/(default|0x[0-9a-f]{40})\\.(png|jpg|jpeg)|validators/0x[0-9a-f]{96}\\.(png|jpg|jpeg)|vaults/0x[0-9a-f]{40}\\.(png|jpg|jpeg)|protocols/[a-z0-9-]+\\.(png|jpg|jpeg))/public)$"
     },
     "tags": {
       "type": "object",
@@ -55,7 +55,7 @@
           },
           "logoURI": {
             "type": "string",
-            "pattern": "^(https://imagedelivery\\.net/qNj7Q3MCke89zoKzav7eDQ/(tokens/(default|0x[0-9a-fA-F]{40})\\.(png|jpg|jpeg)|validators/0x[0-9a-fA-F]{96}\\.(png|jpg|jpeg)|vaults/0x[0-9a-fA-F]{40}\\.(png|jpg|jpeg)|protocols/[a-z0-9-]+\\.(png|jpg|jpeg))/public)$"
+            "pattern": "^(https://imagedelivery\\.net/qNj7Q3MCke89zoKzav7eDQ/(tokens/(default|0x[0-9a-f]{40})\\.(png|jpg|jpeg)|validators/0x[0-9a-f]{96}\\.(png|jpg|jpeg)|vaults/0x[0-9a-f]{40}\\.(png|jpg|jpeg)|protocols/[a-z0-9-]+\\.(png|jpg|jpeg))/public)$"
           },
           "base64": {
             "type": "string"

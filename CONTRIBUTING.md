@@ -32,11 +32,11 @@ If your PR only edits JSON files (no new images), the `upload-assets` job is ski
 }
 ```
 
-> **NOTE:** If adding an image, give it the same name as the `address`:
+> **NOTE:** If adding an image, give it the same name as the `address`, **in lowercase**:
 
 _Example:_
 ```
-src/assets/tokens/0x688e72142674041f8f6Af4c808a4045cA1D6aC82.png
+src/assets/tokens/0x688e72142674041f8f6af4c808a4045ca1d6ac82.png
 ```
 
 #### Required Fields:
@@ -65,7 +65,7 @@ src/assets/tokens/0x688e72142674041f8f6Af4c808a4045cA1D6aC82.png
 }
 ```
 
-> **NOTE:** If adding an image, give it the same name as the `stakingTokenAddress`:
+> **NOTE:** If adding an image, give it the same name as the `stakingTokenAddress`, **in lowercase**:
 
 _Example:_
 ```
@@ -113,7 +113,7 @@ will be displayed as
 }
 ```
 
-> **NOTE:** If adding an image, give it the same name as the `id`:
+> **NOTE:** If adding an image, give it the same name as the `id`, **in lowercase**:
 
 _Example:_
 ```
@@ -132,6 +132,7 @@ src/assets/validators/0x960052c5509caa280218f3ecf3da7ba5bf4ec20b97e6c52700dd9351
 ### Asset Guidelines
 
 - Upload assets to the `assets/` directory
+- Filenames must be lowercase - Cloudflare image IDs are case-sensitive, so a checksummed filename would produce a different `logoURI` than a lowercase one
 - Use PNG or JPG format with solid background (no transparency) - Other formats are not supported
 - Size needs to be: 1024x1024 pixels
 

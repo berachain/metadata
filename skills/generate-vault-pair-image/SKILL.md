@@ -12,7 +12,7 @@ description: Generate repo-ready split-token vault, pool, or LP images from two 
    - If the source is SVG or transparent PNG, render/flatten it onto a solid background.
    - Do not upscale a blurry forum image when cleaner token assets exist.
 2. Decide output path and naming.
-   - For Berachain metadata vaults, use `src/assets/vaults/<vault-address>.png`.
+   - For Berachain metadata vaults, use `src/assets/vaults/<vault-address>.png` with the address lowercased.
    - Do not name vault images after the staking token/pool address.
 3. Generate a 1024x1024 image.
    - Left token fills the left half.
@@ -32,8 +32,8 @@ Example:
 
 ```bash
 node skills/generate-vault-pair-image/scripts/generate_pair_image.mjs \
-  --left src/assets/tokens/0xbca138DEd469F5063589bFdfdD4BC68EB1c3f252.png \
-  --right src/assets/tokens/0xFCBD14DC51f0A4d49d5E53C2E0950e0bC26d0Dce.png \
+  --left src/assets/tokens/0xbca138ded469f5063589bfdfdd4bc68eb1c3f252.png \
+  --right src/assets/tokens/0xfcbd14dc51f0a4d49d5e53c2e0950e0bc26d0dce.png \
   --out src/assets/vaults/0x181f3b1d55299f3744188f7ecd082c75a97d2d4f.png \
   --border '#ffffff' \
   --background '#ffffff'
@@ -55,7 +55,7 @@ Common options:
 For metadata PRs:
 
 - Set `logoURI` to the expected Cloudflare Images URL before CI uploads it.
-- Use `https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/vaults/<vault-address>.png/public`.
+- Use `https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/vaults/<vault-address>.png/public` with the address lowercased.
 - Commit the generated image under `src/assets/vaults/`.
 - `pnpm validate:images .` should pass after the JSON entry references the image.
 

@@ -33,7 +33,7 @@ Set `logoURI` before CI uploads the asset:
 https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/<type>/<filename>/public
 ```
 
-Use existing asset conventions: tokens by token address, vaults by vault address, validators by validator pubkey, and protocols by protocol slug. New or changed assets require `cloudflare-uploads` approval in CI.
+Use existing asset conventions: tokens by token address, vaults by vault address, validators by validator pubkey, and protocols by protocol slug. Filenames must be lowercase — Cloudflare image ids are case-sensitive, so the `<filename>` in `logoURI` must match the lowercase asset filename, not the checksummed address. New or changed assets require `cloudflare-uploads` approval in CI.
 
 ## Validation
 

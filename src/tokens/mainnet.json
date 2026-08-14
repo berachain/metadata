@@ -1369,7 +1369,7 @@
       "symbol": "avUSD",
       "name": "Avant USD",
       "decimals": 18,
-      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/tokens/0xbca138DEd469F5063589bFdfdD4BC68EB1c3f252.png/public",
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/tokens/0xbca138ded469f5063589bfdfdd4bc68eb1c3f252.png/public",
       "tags": ["stablecoin"]
     },
     {
@@ -1378,7 +1378,7 @@
       "symbol": "sUSN",
       "name": "Staked USN",
       "decimals": 18,
-      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/tokens/0xdA67B4284609d2d48e5d10cfAc411572727dc1eD.png/public",
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/tokens/0xda67b4284609d2d48e5d10cfac411572727dc1ed.png/public",
       "tags": ["stablecoin", "staked"]
     },
     {
@@ -1387,7 +1387,7 @@
       "symbol": "savUSD",
       "name": "Staked avUSD",
       "decimals": 18,
-      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/tokens/0xa744Fe3688291aC3A4a7eC917678783aD9946a1E.png/public",
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/tokens/0xa744fe3688291ac3a4a7ec917678783ad9946a1e.png/public",
       "tags": ["stablecoin", "staked"]
     },
     {
@@ -1396,7 +1396,7 @@
       "symbol": "syzUSD",
       "name": "Staked Yuzu USD",
       "decimals": 18,
-      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/tokens/0x11a292b4a8985bFE4ea19AaD24793b4E1d91bA60.png/public",
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/tokens/0x11a292b4a8985bfe4ea19aad24793b4e1d91ba60.png/public",
       "tags": ["stablecoin", "staked"]
     },
     {

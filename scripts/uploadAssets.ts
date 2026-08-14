@@ -12,9 +12,10 @@
  * The script:
  *   1. Resolves the list of added/modified files under src/assets/** on the PR
  *      via `gh api /repos/{repo}/pulls/{pr}/files --paginate`.
- *   2. Per-file validates path, filename, extension, EIP-55 checksum (where
- *      applicable), 1024x1024 dimensions, PNG non-transparency, and 5 MB cap.
- *   3. Uploads to Cloudflare Images with id = "{type}/{filename}". On a 5409
+ *   2. Per-file validates path, filename, extension, 1024x1024 dimensions,
+ *      PNG non-transparency, and 5 MB cap.
+ *   3. Uploads to Cloudflare Images with id = "{type}/{filename}", filename
+ *      lowercased so ids stay stable across casings. On a 5409
  *      ALREADY_EXISTS error, DELETEs the existing image and retries once.
  *   4. Writes a summary to $GITHUB_STEP_SUMMARY and stdout, then exits non-zero
  *      if any file failed.
@@ -24,11 +25,7 @@ import { execFileSync } from "node:child_process";
 import fs from "node:fs";
 import path from "node:path";
 import chalk from "chalk";
-import {
-  getImageDimensions,
-  hasTransparency,
-  isValidChecksumAddress,
-} from "./utils/_imageChecks";
+import { getImageDimensions, hasTransparency } from "./utils/_imageChecks";
 
 const HEAD_DIR = process.argv[2];
 
@@ -142,7 +139,12 @@ const validatePath = (relPath: string): FileCheckOk | FileCheckErr => {
   }
 
   const type = parts[2];
-  const filename = parts[3];
+  // Cloudflare image ids are case-sensitive, so a checksummed filename and a
+  // lowercase one would upload as two separate images. Force lowercase here so
+  // the id (and therefore the logoURI) is stable no matter how the file is
+  // named in the PR. Repo filenames are separately required to be lowercase by
+  // validateImages.ts.
+  const filename = parts[3].toLowerCase();
   if (!ALLOWED_TYPES.includes(type as AssetType)) {
     return {
       ok: false,
@@ -171,7 +173,7 @@ const validatePath = (relPath: string): FileCheckOk | FileCheckErr => {
 
   if (!isDefault) {
     if (type === "validators") {
-      if (!/^0x[0-9a-f]{96}$/i.test(basename)) {
+      if (!/^0x[0-9a-f]{96}$/.test(basename)) {
         return {
           ok: false,
           reason: "filename must be 0x + 96 hex chars (validator pubkey)",
@@ -179,16 +181,10 @@ const validatePath = (relPath: string): FileCheckOk | FileCheckErr => {
       }
     } else {
       // tokens or vaults
-      if (!/^0x[0-9a-f]{40}$/i.test(basename)) {
+      if (!/^0x[0-9a-f]{40}$/.test(basename)) {
         return {
           ok: false,
           reason: "filename must be 0x + 40 hex chars (address)",
-        };
-      }
-      if (!isValidChecksumAddress(basename)) {
-        return {
-          ok: false,
-          reason: "address is not in EIP-55 checksum format",
         };
       }
     }

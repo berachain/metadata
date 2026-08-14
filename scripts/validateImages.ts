@@ -113,6 +113,16 @@ const validateAssetsImages = async () => {
           const dimensions = getImageDimensions(fullPath);
           const relativePath = path.relative(ASSET_PATH, fullPath);
 
+          // Asset filenames must be lowercase: Cloudflare image ids are
+          // case-sensitive, so a checksummed filename and a lowercase one
+          // would resolve to two different images (and two different logoURIs)
+          // for the same address.
+          if (entry.name !== entry.name.toLowerCase()) {
+            errors.push(
+              `${relativePath}: Invalid file name! Must be lowercase (rename to "${entry.name.toLowerCase()}").`,
+            );
+          }
+
           // Validate file names
           if (relativePath.includes("tokens")) {
             const tokenRegex = /^0x[0-9a-f]{40}$/i;
@@ -123,13 +133,6 @@ const validateAssetsImages = async () => {
               errors.push(
                 `${relativePath}: Invalid file name! Must be a valid token address.`,
               );
-            } else if (!entry.name.includes("default")) {
-              // Validate checksum for token addresses
-              if (!isValidChecksumAddress(address)) {
-                errors.push(
-                  `${relativePath}: Invalid checksum address! Address must be in proper EIP-55 checksum format.`,
-                );
-              }
             }
           } else if (relativePath.includes("validators")) {
             const validatorRegex = /^0x[0-9a-f]{96}$/i;
@@ -151,13 +154,6 @@ const validateAssetsImages = async () => {
               errors.push(
                 `${relativePath}: Invalid file name! Must be a valid vault address.`,
               );
-            } else if (!entry.name.includes("default")) {
-              // Validate checksum for vault addresses
-              if (!isValidChecksumAddress(address)) {
-                errors.push(
-                  `${relativePath}: Invalid checksum address! Address must be in proper EIP-55 checksum format.`,
-                );
-              }
             }
           }
 
@@ -294,7 +290,12 @@ const validateMetadataImages = async () => {
             );
           }
 
-          const filePath = path.join(ASSET_PATH, key, token.address);
+          // Asset filenames are lowercase; metadata addresses are checksummed.
+          const filePath = path.join(
+            ASSET_PATH,
+            key,
+            token.address.toLowerCase(),
+          );
           await validateImageFile(
             filePath,
             token.name,
@@ -312,7 +313,11 @@ const validateMetadataImages = async () => {
         for (const validator of validators) {
           // Note: Validator addresses are 64-byte hashes, not Ethereum addresses, so no EIP-55 checksum validation needed
 
-          const filePath = path.join(ASSET_PATH, key, validator.id);
+          const filePath = path.join(
+            ASSET_PATH,
+            key,
+            validator.id.toLowerCase(),
+          );
           await validateImageFile(
             filePath,
             validator.name,
@@ -333,7 +338,11 @@ const validateMetadataImages = async () => {
             );
           }
 
-          const filePath = path.join(ASSET_PATH, key, vault.vaultAddress);
+          const filePath = path.join(
+            ASSET_PATH,
+            key,
+            vault.vaultAddress.toLowerCase(),
+          );
           await validateImageFile(
             filePath,
             vault.name,

@@ -575,14 +575,14 @@
     {
       "stakingTokenAddress": "0xdE04c469Ad658163e2a5E860a03A86B52f6FA8C8",
       "vaultAddress": "0x6649Bc987a7c0fB0199c523de1b1b330cd0457A8",
-      "name": "BYUSD | HONEY",
+      "name": "BYUSD | BUSD",
       "protocol": "HUB",
       "categories": ["defi/amm"],
       "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/vaults/0x6649bc987a7c0fb0199c523de1b1b330cd0457a8.png/public",
       "url": "https://hub.berachain.com/pools/0xde04c469ad658163e2a5e860a03a86b52f6fa8c8000000000000000000000000/details/",
-      "description": "Acquired by depositing liquidity into the BYUSD | HONEY Pool on Hub",
+      "description": "Acquired by depositing liquidity into the BYUSD | BUSD Pool on Hub",
       "owner": "Foundation",
-      "action": "Stake BYUSD / HONEY"
+      "action": "Stake BYUSD / BUSD"
     },
     {
       "stakingTokenAddress": "0xDd70A5eF7d8CfE5C5134b5f9874b09Fb5Ce812b4",
@@ -623,26 +623,26 @@
     {
       "stakingTokenAddress": "0xF961a8f6d8c69E7321e78d254ecAfBcc3A637621",
       "vaultAddress": "0xF99be47baf0c22B7eB5EAC42c8D91b9942Dc7e84",
-      "name": "USDC.e | HONEY",
+      "name": "USDC.e | BUSD",
       "protocol": "HUB",
       "categories": ["defi/amm"],
       "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/vaults/0xf99be47baf0c22b7eb5eac42c8d91b9942dc7e84.png/public",
       "url": "https://hub.berachain.com/pools/0xf961a8f6d8c69e7321e78d254ecafbcc3a637621000000000000000000000001/details/",
-      "description": "Acquired by depositing liquidity into the USDC.e | HONEY Pool on Hub",
+      "description": "Acquired by depositing liquidity into the USDC.e | BUSD Pool on Hub",
       "owner": "Foundation",
-      "action": "Stake USDC.e / HONEY"
+      "action": "Stake USDC.e / BUSD"
     },
     {
       "stakingTokenAddress": "0x2c4a603A2aA5596287A06886862dc29d56DbC354",
       "vaultAddress": "0xC2BaA8443cDA8EBE51a640905A8E6bc4e1f9872c",
-      "name": "WBERA | HONEY",
+      "name": "WBERA | BUSD",
       "protocol": "HUB",
       "categories": ["defi/amm"],
       "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/vaults/0xc2baa8443cda8ebe51a640905a8e6bc4e1f9872c.png/public",
       "url": "https://hub.berachain.com/pools/0x2c4a603a2aa5596287a06886862dc29d56dbc354000200000000000000000002/details/",
-      "description": "Acquired by depositing liquidity into the WBERA | HONEY Pool on Hub",
+      "description": "Acquired by depositing liquidity into the WBERA | BUSD Pool on Hub",
       "owner": "Foundation",
-      "action": "Stake WBERA / HONEY"
+      "action": "Stake WBERA / BUSD"
     },
     {
       "stakingTokenAddress": "0xE416C064946112c1626D6700D1081a750B1B1Dd7",
@@ -755,14 +755,14 @@
     {
       "stakingTokenAddress": "0x1e1ff653525875bf0f4d41d897fe46f0fa3c2dc7",
       "vaultAddress": "0x51d4dc2fe8ad332dc47a36480c20f9bb0d293f76",
-      "name": "BeraHub - sUSDe | USDe | HONEY",
+      "name": "BeraHub - sUSDe | USDe | BUSD",
       "protocol": "HUB",
       "categories": ["defi/amm"],
       "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/vaults/0x51d4dc2fe8ad332dc47a36480c20f9bb0d293f76.jpg/public",
       "url": "https://hub.berachain.com/pools/0x1e1ff653525875bf0f4d41d897fe46f0fa3c2dc70000000000000000000001be/details/",
-      "description": "Acquired by depositing liquidity into the sUSDe | USDe | HONEY Pool on Hub",
+      "description": "Acquired by depositing liquidity into the sUSDe | USDe | BUSD Pool on Hub",
       "owner": "BeraHub",
-      "action": "Stake sUSDe | USDe | HONEY"
+      "action": "Stake sUSDe | USDe | BUSD"
     },
     {
       "stakingTokenAddress": "0xe98763d61ab493a55963583bcdd854580e084b5b",
@@ -827,49 +827,49 @@
     {
       "stakingTokenAddress": "0x7fd165B73775884a38AA8f2B384A53A3Ca7400E6",
       "vaultAddress": "0x34852C863D266100f573D4D1fD1D0CFE20602Da0",
-      "name": "Reservoir rUSD | HONEY",
+      "name": "Reservoir rUSD | BUSD",
       "protocol": "Kodiak",
       "categories": ["defi/amm"],
       "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/vaults/0x34852c863d266100f573d4d1fd1d0cfe20602da0.png/public",
       "url": "https://app.kodiak.finance/#/liquidity/pools/0x7fd165b73775884a38aa8f2b384a53a3ca7400e6?farm=0x34852c863d266100f573d4d1fd1d0cfe20602da0&chain=berachain_mainnet",
-      "description": "Acquired by depositing liquidity into the Reservoir rUSD | HONEY Pool on Kodiak",
+      "description": "Acquired by depositing liquidity into the Reservoir rUSD | BUSD Pool on Kodiak",
       "owner": "Reservoir",
-      "action": "Stake rUSD / HONEY"
+      "action": "Stake rUSD / BUSD"
     },
     {
       "stakingTokenAddress": "0x98bDEEde9A45C28d229285d9d6e9139e9F505391",
       "vaultAddress": "0x815596fA7C4d983d1Ca5304e5b48978424C1B448",
-      "name": "Olympus - OHM | HONEY",
+      "name": "Olympus - OHM | BUSD",
       "protocol": "Kodiak",
       "categories": ["defi/amm"],
       "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/vaults/0x815596fa7c4d983d1ca5304e5b48978424c1b448.png/public",
       "url": "https://app.kodiak.finance/#/liquidity/pools/0x98bdeede9a45c28d229285d9d6e9139e9f505391?farm=0x815596fa7c4d983d1ca5304e5b48978424c1b448&chain=berachain_mainnet",
-      "description": "Acquired by depositing liquidity into the Olympus - OHM | HONEY Pool on Kodiak",
+      "description": "Acquired by depositing liquidity into the Olympus - OHM | BUSD Pool on Kodiak",
       "owner": "Olympus",
-      "action": "Stake OHM / HONEY"
+      "action": "Stake OHM / BUSD"
     },
     {
       "stakingTokenAddress": "0x083a86797db5B6F738CE9E0599F6bE17d3059275",
       "vaultAddress": "0x63233e055847eD2526d9275a6cD1d01CAAFC09f0",
-      "name": "Beradrome - hiBERO | HONEY",
+      "name": "Beradrome - hiBERO | BUSD",
       "protocol": "Beradrome",
       "categories": ["defi"],
       "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/vaults/0x63233e055847ed2526d9275a6cd1d01caafc09f0.png/public",
       "url": "https://www.beradrome.com/swap",
       "owner": "Beradrome",
-      "action": "Stake hiBERO / HONEY"
+      "action": "Stake hiBERO / BUSD"
     },
     {
       "stakingTokenAddress": "0x4a254B11810B8EBb63C5468E438FC561Cb1bB1da",
       "vaultAddress": "0x45325Df4A6A6ebD268f4693474AaAa1f3f0ce8Ca",
-      "name": "Kodiak - WBERA | HONEY",
+      "name": "Kodiak - WBERA | BUSD",
       "protocol": "Kodiak",
       "categories": ["defi/amm"],
       "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/vaults/0x45325df4a6a6ebd268f4693474aaaa1f3f0ce8ca.png/public",
       "url": "https://app.kodiak.finance/#/liquidity/pools/0x4a254B11810B8EBb63C5468E438FC561Cb1bB1da?chain=berachain_mainnet",
-      "description": "Acquired by depositing liquidity into the Kodiak - WBERA | HONEY Pool on Kodiak",
+      "description": "Acquired by depositing liquidity into the Kodiak - WBERA | BUSD Pool on Kodiak",
       "owner": "Kodiak",
-      "action": "Stake WBERA / HONEY"
+      "action": "Stake WBERA / BUSD"
     },
     {
       "stakingTokenAddress": "0x9659dc8c1565E0bd82627267e3b4eEd1a377ebE6",
@@ -1102,14 +1102,14 @@
     {
       "stakingTokenAddress": "0xb5D46214F4ec7f910CB433E412d32ee817986E90",
       "vaultAddress": "0x2Ee022f42564A6B23231155850Acf185DA298509",
-      "name": "Bulla - BERA | HONEY",
+      "name": "Bulla - BERA | BUSD",
       "protocol": "Bulla Exchange",
       "categories": ["defi/amm"],
       "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/vaults/0x2ee022f42564a6b23231155850acf185da298509.png/public",
       "url": "https://www.bulla.exchange/pools/0x901c19842e400c6a0c214dc0960f84fcfd4ee3d0",
-      "description": "Acquired by depositing liquidity into the Bulla - BERA | HONEY Pool on Bulla Exchange",
+      "description": "Acquired by depositing liquidity into the Bulla - BERA | BUSD Pool on Bulla Exchange",
       "owner": "Bulla Exchange",
-      "action": "Stake BERA / HONEY"
+      "action": "Stake BERA / BUSD"
     },
     {
       "stakingTokenAddress": "0x5fADc07d47D3dC1e81932eaFBE39fdEF9ba11865",
@@ -1126,14 +1126,14 @@
     {
       "stakingTokenAddress": "0x28a54EaeEc63fBb1175d13466a9ada5f3175D577",
       "vaultAddress": "0x31A484F7E09513AE9f481eaf8eeEA76153184c44",
-      "name": "NOME - USDbr | HONEY",
+      "name": "NOME - USDbr | BUSD",
       "protocol": "Kodiak",
       "categories": ["defi/amm"],
       "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/vaults/0x31a484f7e09513ae9f481eaf8eeea76153184c44.png/public",
       "url": "https://app.kodiak.finance/#/liquidity/pools/0x28a54EaeEc63fBb1175d13466a9ada5f3175D577?chain=berachain_mainnet",
-      "description": "Acquired by depositing liquidity into the NOME - USDbr | HONEY Pool on Kodiak",
+      "description": "Acquired by depositing liquidity into the NOME - USDbr | BUSD Pool on Kodiak",
       "owner": "NOME",
-      "action": "Stake USDbr / HONEY"
+      "action": "Stake USDbr / BUSD"
     },
     {
       "stakingTokenAddress": "0xc227C8639A41db8393DD1B4EAc41464a62D64Fb4",
@@ -1150,14 +1150,14 @@
     {
       "stakingTokenAddress": "0xD10E65A5F8cA6f835F2B1832e37cF150fb955f23",
       "vaultAddress": "0x436022B9f853bd6cbC168B45fbf12ffa50b6F79c",
-      "name": "BurrBear - NECT | USDC.e | HONEY",
+      "name": "BurrBear - NECT | USDC.e | BUSD",
       "protocol": "BurrBear",
       "categories": ["defi/amm"],
       "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/vaults/0x436022b9f853bd6cbc168b45fbf12ffa50b6f79c.png/public",
       "url": "https://app.burrbear.io/pools/berachain/v2/0xd10e65a5f8ca6f835f2b1832e37cf150fb955f23000000000000000000000004",
-      "description": "Acquired by depositing liquidity into the NECT | USDC.e | HONEY Pool on BurrBear",
+      "description": "Acquired by depositing liquidity into the NECT | USDC.e | BUSD Pool on BurrBear",
       "owner": "BurrBear",
-      "action": "Stake NECT / USDC.e / HONEY"
+      "action": "Stake NECT / USDC.e / BUSD"
     },
     {
       "stakingTokenAddress": "0xC95AB9Eff8fB48760703c74416764B8f898AFa1b",
@@ -1222,14 +1222,14 @@
     {
       "stakingTokenAddress": "0x26bBc26415c6316890565f5f73017F85EE70B60c",
       "vaultAddress": "0x347106734E7b129DDe92333A0007d64a4B08E266",
-      "name": "D8X - NECT | HONEY",
+      "name": "D8X - NECT | BUSD",
       "protocol": "D8X",
       "categories": ["defi"],
       "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/vaults/0x347106734e7b129dde92333a0007d64a4b08e266.png/public",
       "url": "https://app.madhoney.fi/vault",
-      "description": "Acquired by depositing liquidity into the NECT | HONEY Pool on a D8X powered DEX like MadHoney.fi",
+      "description": "Acquired by depositing liquidity into the NECT | BUSD Pool on a D8X powered DEX like MadHoney.fi",
       "owner": "D8X",
-      "action": "Stake NECT / HONEY"
+      "action": "Stake NECT / BUSD"
     },
     {
       "stakingTokenAddress": "0x561fd767EEC89CFd94048DF7C5402C7194eF4580",
@@ -1702,14 +1702,14 @@
     {
       "stakingTokenAddress": "0x81235952ad93987F74e074994Def2a7e1D6F1Fb0",
       "vaultAddress": "0x41abc5119830bedf86a3c587f50db41400ffee96",
-      "name": "Concrete - HONEY",
+      "name": "Concrete - BUSD",
       "protocol": "Concrete",
       "categories": ["defi"],
       "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/vaults/0x41abc5119830bedf86a3c587f50db41400ffee96.png/public",
       "url": "https://app.concrete.xyz/vault/berachain/stables",
-      "description": "Acquired by depositing HONEY into Concrete's Berachain Stables vault",
+      "description": "Acquired by depositing BUSD into Concrete's Berachain Stables vault",
       "owner": "Concrete",
-      "action": "Stake HONEY"
+      "action": "Stake BUSD"
     },
     {
       "stakingTokenAddress": "0xd08E3652e6b29EBdD58fe93B422513862FB49899",
@@ -1810,14 +1810,14 @@
     {
       "stakingTokenAddress": "0xe49Ff31B2B3Fd346b0d1832d9fE224ee0d1c1F9e",
       "vaultAddress": "0x310532d9d047c5972cd60852c1a4b675edc55fad",
-      "name": "Concrete x Berabaddies - HONEY",
+      "name": "Concrete x Berabaddies - BUSD",
       "protocol": "Concrete",
       "categories": ["defi"],
       "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/vaults/0x310532d9d047c5972cd60852c1a4b675edc55fad.png/public",
       "url": "https://app.concrete.xyz/vault/berabaddies/earn",
-      "description": "Acquired by depositing HONEY into Concrete's Berabaddies Earn Vault",
+      "description": "Acquired by depositing BUSD into Concrete's Berabaddies Earn Vault",
       "owner": "Concrete",
-      "action": "Stake HONEY (Concrete x Berabaddies)"
+      "action": "Stake BUSD (Concrete x Berabaddies)"
     },
     {
       "stakingTokenAddress": "0xA15E1De8a220Ca9C63DB4E8a1E9043fb953B3713",
@@ -1858,14 +1858,14 @@
     {
       "stakingTokenAddress": "0xf6b16E73d3b0e2784AAe8C4cd06099BE65d092Bf",
       "vaultAddress": "0x9Df027Ed06635ecDfe811009f2291d347eA90357",
-      "name": "Kodiak - WBTC | HONEY",
+      "name": "Kodiak - WBTC | BUSD",
       "protocol": "Kodiak",
       "categories": ["defi/amm"],
-      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/vaults/0x9df027ed06635ecdfe811009f2291d347ea90357.jpg/public",
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/vaults/0x9df027ed06635ecdfe811009f2291d347ea90357.png/public",
       "url": "https://app.kodiak.finance/#/liquidity/pools/0xf6b16e73d3b0e2784aae8c4cd06099be65d092bf?farm=0x9df027ed06635ecdfe811009f2291d347ea90357&chain=berachain_mainnet",
-      "description": "Acquired by depositing liquidity into the Kodiak - WBTC | HONEY Island on Kodiak",
+      "description": "Acquired by depositing liquidity into the Kodiak - WBTC | BUSD Island on Kodiak",
       "owner": "Kodiak",
-      "action": "Stake WBTC | HONEY"
+      "action": "Stake WBTC | BUSD"
     },
     {
       "stakingTokenAddress": "0x58FDB6EEbf7df7Ce4137994436fb0e629Bb84b84",
@@ -1930,14 +1930,14 @@
     {
       "stakingTokenAddress": "0xf6c6Be0FF6d6F70A04dBE4F1aDE62cB23053Bd95",
       "vaultAddress": "0xc6506d205c92f9acd69779ed0c547557f3ad4607",
-      "name": "KODI WETH-HONEY",
+      "name": "KODI WETH-BUSD",
       "protocol": "Kodiak",
       "categories": ["defi/amm"],
       "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/vaults/0xc6506d205c92f9acd69779ed0c547557f3ad4607.png/public",
       "url": "https://app.kodiak.finance/#/liquidity/pools/0xf6c6be0ff6d6f70a04dbe4f1ade62cb23053bd95?farm=0xc6506d205c92f9acd69779ed0c547557f3ad4607&chain=berachain_mainnet",
-      "description": "Acquired by depositing liquidity into the WETH-HONEY Pool on Kodiak",
+      "description": "Acquired by depositing liquidity into the WETH-BUSD Pool on Kodiak",
       "owner": "Kodiak",
-      "action": "Stake WETH / HONEY"
+      "action": "Stake WETH / BUSD"
     },
     {
       "stakingTokenAddress": "0x2BDB8C39A3808eB9A03dE69925b6b158A57c57e6",
@@ -1966,14 +1966,14 @@
     {
       "stakingTokenAddress": "0x53f786662FF5fbeC135f913ab93C6B3366e90a46",
       "vaultAddress": "0x1cc12219dada26bd8bb6831b6c3063de17f9d399",
-      "name": "Jiko - ASUGAR | HONEY",
+      "name": "Jiko - ASUGAR | BUSD",
       "protocol": "Jiko",
       "categories": ["gamefi"],
       "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/vaults/0x1cc12219dada26bd8bb6831b6c3063de17f9d399.png/public",
       "url": "https://hub.berachain.com/pools/0x53f786662ff5fbec135f913ab93c6b3366e90a4600020000000000000000014e/details",
-      "description": "Acquired by depositing liquidity into the Jiko - ASUGAR | HONEY Pool on Hub",
+      "description": "Acquired by depositing liquidity into the Jiko - ASUGAR | BUSD Pool on Hub",
       "owner": "Jiko",
-      "action": "Stake ASUGAR / HONEY"
+      "action": "Stake ASUGAR / BUSD"
     },
     {
       "stakingTokenAddress": "0xd6eb8ae479EdF452d264493708c85AA798CCCdFd",
@@ -2110,14 +2110,14 @@
     {
       "stakingTokenAddress": "0x2A9EA10b60Ab02e9B8960a08b4996e6Bf5eA5EAb",
       "vaultAddress": "0xf5049dd5b043e8af5758c03ff0cf80626ffef6df",
-      "name": "Roots - MEAD | HONEY",
+      "name": "Roots - MEAD | BUSD",
       "protocol": "Roots",
       "categories": ["defi/amm"],
       "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/vaults/0xf5049dd5b043e8af5758c03ff0cf80626ffef6df.png/public",
       "url": "https://app.rootsfi.com",
       "description": "Acquired by depositing WBTC, WETH, WBERA or BYUSD, USDCe into the Roots collateral pool.",
       "owner": "Roots",
-      "action": "Stake MEAD / HONEY"
+      "action": "Stake MEAD / BUSD"
     },
     {
       "stakingTokenAddress": "0xf91CfBB6c7203D1D659e3C2FcAF4A0f7dD51B3D8",
@@ -2146,14 +2146,14 @@
     {
       "stakingTokenAddress": "0x595b1EcD5EC42fb5F321D4162b04965eaB8F1388",
       "vaultAddress": "0x9f20cda4ebe746929cdb9e0ffca60e4a335a0b15",
-      "name": "Kodiak - STG | HONEY",
+      "name": "Kodiak - STG | BUSD",
       "protocol": "Kodiak",
       "categories": ["defi/amm"],
       "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/vaults/0x9f20cda4ebe746929cdb9e0ffca60e4a335a0b15.png/public",
       "url": "https://app.kodiak.finance/#/liquidity/pools/0x595b1ecd5ec42fb5f321d4162b04965eab8f1388?farm=0x9f20cda4ebe746929cdb9e0ffca60e4a335a0b15&chain=berachain_mainnet",
-      "description": "Acquired by depositing liquidity into the STG | HONEY Pool on Kodiak",
+      "description": "Acquired by depositing liquidity into the STG | BUSD Pool on Kodiak",
       "owner": "Kodiak",
-      "action": "Stake STG / HONEY"
+      "action": "Stake STG / BUSD"
     },
     {
       "stakingTokenAddress": "0x412c9f79779AE6C3a13a318252b29c559be756Ca",
@@ -2230,62 +2230,62 @@
     {
       "stakingTokenAddress": "0xc5240664229DB09d5327681CB9346412a8e78aB1",
       "vaultAddress": "0xdfc168476bb7c9f483980fc56dd2f822748543d4",
-      "name": "TWIN AAPL-HONEY",
+      "name": "TWIN AAPL-BUSD",
       "protocol": "Kodiak",
       "categories": ["defi/amm"],
       "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/vaults/0xdfc168476bb7c9f483980fc56dd2f822748543d4.png/public",
       "url": "https://app.twinfinance.io/",
-      "description": "Acquired by depositing liquidity into the AAPL-HONEY pool on Kodiak",
+      "description": "Acquired by depositing liquidity into the AAPL-BUSD pool on Kodiak",
       "owner": "TWIN Finance",
-      "action": "Stake AAPL / HONEY"
+      "action": "Stake AAPL / BUSD"
     },
     {
       "stakingTokenAddress": "0x408dF611Cd2CA38b4c692517f64c8960d568F021",
       "vaultAddress": "0x6ead9b6c78f75e8fe1c821cd4276398ae8b4262a",
-      "name": "TWIN iAAPL-HONEY",
+      "name": "TWIN iAAPL-BUSD",
       "protocol": "Kodiak",
       "categories": ["defi/amm"],
       "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/vaults/0x6ead9b6c78f75e8fe1c821cd4276398ae8b4262a.png/public",
       "url": "https://app.twinfinance.io/",
-      "description": "Acquired by depositing liquidity into the iAAPL-HONEY pool on Kodiak",
+      "description": "Acquired by depositing liquidity into the iAAPL-BUSD pool on Kodiak",
       "owner": "TWIN Finance",
-      "action": "Stake iAAPL / HONEY"
+      "action": "Stake iAAPL / BUSD"
     },
     {
       "stakingTokenAddress": "0xE0dA06290f72c16dd7a296751E0fA20706a703A2",
       "vaultAddress": "0xbd89970d226723ce837239614381ede556acaefe",
-      "name": "TWIN MSTR-HONEY",
+      "name": "TWIN MSTR-BUSD",
       "protocol": "Kodiak",
       "categories": ["defi/amm"],
       "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/vaults/0xbd89970d226723ce837239614381ede556acaefe.png/public",
       "url": "https://app.twinfinance.io/",
-      "description": "Acquired by depositing liquidity into the MSTR-HONEY pool on Kodiak",
+      "description": "Acquired by depositing liquidity into the MSTR-BUSD pool on Kodiak",
       "owner": "TWIN Finance",
-      "action": "Stake MSTR / HONEY"
+      "action": "Stake MSTR / BUSD"
     },
     {
       "stakingTokenAddress": "0xf0443861359b059D3d69daa655b878901Da0F930",
       "vaultAddress": "0xab4cb288bcdba9cd79ad9942a161ebe14fe0590d",
-      "name": "TWIN iMSTR-HONEY",
+      "name": "TWIN iMSTR-BUSD",
       "protocol": "Kodiak",
       "categories": ["defi/amm"],
       "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/vaults/0xab4cb288bcdba9cd79ad9942a161ebe14fe0590d.png/public",
       "url": "https://app.twinfinance.io/",
-      "description": "Acquired by depositing liquidity into the iMSTR-HONEY pool on Kodiak",
+      "description": "Acquired by depositing liquidity into the iMSTR-BUSD pool on Kodiak",
       "owner": "TWIN Finance",
-      "action": "Stake iMSTR / HONEY"
+      "action": "Stake iMSTR / BUSD"
     },
     {
       "stakingTokenAddress": "0xB34FCA9739249578D93a22ce02bf7FaD277bAD35",
       "vaultAddress": "0x6fD82191550c53414B1d4cE982a8424CE039697B",
-      "name": "BurrBear - NECT | USDC.e | USD₮0 | HONEY",
+      "name": "BurrBear - NECT | USDC.e | USD₮0 | BUSD",
       "protocol": "BurrBear",
       "categories": ["defi/amm"],
       "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/vaults/0x6fd82191550c53414b1d4ce982a8424ce039697b.png/public",
       "url": "https://app.burrbear.io/pools/berachain/v2/0xb34fca9739249578d93a22ce02bf7fad277bad35000000000000000000000013",
-      "description": "Acquired by depositing liquidity into the NECT | USDC.e | USD₮0 | HONEY Pool on BurrBear",
+      "description": "Acquired by depositing liquidity into the NECT | USDC.e | USD₮0 | BUSD Pool on BurrBear",
       "owner": "BurrBear",
-      "action": "Stake NECT / USDC.e / USD₮0 / HONEY"
+      "action": "Stake NECT / USDC.e / USD₮0 / BUSD"
     },
     {
       "stakingTokenAddress": "0xC4C039178a79e614609e592d7689eCB3107758b1",
@@ -2350,14 +2350,14 @@
     {
       "stakingTokenAddress": "0x2a6f7008a884563df6fbf2d7676e696a44bb8896",
       "vaultAddress": "0x9100078f4c86f78848646Ee0aDC08563213B327d",
-      "name": "hOHM-HONEY LP on Kodiak",
+      "name": "hOHM-BUSD LP on Kodiak",
       "protocol": "Origami Finance",
       "categories": ["defi"],
       "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/vaults/0x9100078f4c86f78848646ee0adc08563213b327d.png/public",
       "url": "https://origami.finance/collections",
-      "description": "hOHM-HONEY LP vault allows staking of liquidity provider tokens from the hOHM and HONEY pair on Kodiak through Origami Finance.",
+      "description": "hOHM-BUSD LP vault allows staking of liquidity provider tokens from the hOHM and BUSD pair on Kodiak through Origami Finance.",
       "owner": "Origami Finance",
-      "action": "Stake hOHM / HONEY"
+      "action": "Stake hOHM / BUSD"
     },
     {
       "stakingTokenAddress": "0x5beBb84E5cBC8f7775f77Ba6ec29500575408CD2",
@@ -2434,14 +2434,14 @@
     {
       "stakingTokenAddress": "0x4d1b02ff3ce55b816bb916ad8f80479434830ea4",
       "vaultAddress": "0x0767038700605b50967EEa1e6440D6FD6c92c237",
-      "name": "Kodiak - SOL | HONEY 0.3% Island",
+      "name": "Kodiak - SOL | BUSD 0.3% Island",
       "protocol": "Kodiak",
       "categories": ["defi/amm"],
       "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/vaults/0x0767038700605b50967eea1e6440d6fd6c92c237.png/public",
       "url": "https://app.kodiak.finance/#/swap",
-      "description": "Kodiak - SOL | HONEY 0.3% Island vault allows staking of liquidity from the SOL and HONEY token pair with 0.3% fee tier on Kodiak.",
+      "description": "Kodiak - SOL | BUSD 0.3% Island vault allows staking of liquidity from the SOL and BUSD token pair with 0.3% fee tier on Kodiak.",
       "owner": "Kodiak",
-      "action": "Stake SOL / HONEY"
+      "action": "Stake SOL / BUSD"
     },
     {
       "stakingTokenAddress": "0x6a924c5900977e167045DBA4A20475D541F86171",
@@ -2554,14 +2554,14 @@
     {
       "stakingTokenAddress": "0x939fb917bf8579c959094364708ef03f17e71f25",
       "vaultAddress": "0x753F2E214aD6954297622b7F8db9B07711EF028F",
-      "name": "xUSD-HONEY",
+      "name": "xUSD-BUSD",
       "protocol": "Stream Protocol",
       "categories": ["defi"],
       "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/vaults/0x753f2e214ad6954297622b7f8db9b07711ef028f.png/public",
       "url": "https://streamprotocol.money/",
-      "description": "xUSD-HONEY vault allows staking of liquidity from the xUSD and HONEY token pair on Stream Protocol.",
+      "description": "xUSD-BUSD vault allows staking of liquidity from the xUSD and BUSD token pair on Stream Protocol.",
       "owner": "Stream Protocol",
-      "action": "Stake xUSD / HONEY"
+      "action": "Stake xUSD / BUSD"
     },
     {
       "stakingTokenAddress": "0x4979AAdE048867196Bc475D085EECB3965A60d1b",
@@ -2578,14 +2578,14 @@
     {
       "stakingTokenAddress": "0xff26f2397ae42915849F514fb567C1400865452d",
       "vaultAddress": "0x9297a5d552b913f3Bc8EaFC52cb4e50047219A71",
-      "name": "BeraPaw-Bulla-LBGT-HONEY",
+      "name": "BeraPaw-Bulla-LBGT-BUSD",
       "protocol": "BeraPaw",
       "categories": ["defi"],
       "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/vaults/0x9297a5d552b913f3bc8eafc52cb4e50047219a71.png/public",
       "url": "https://docs.berapaw.com/audits",
       "description": "100% of the token supply is controlled by BeraPaw's Proof of Liquidity Vault. 35% of the rewards will be used to incentivize the reward vault and 65% will be autocompounded for vault stakers. More information on the design: https://docs.berapaw.com/polStrategyVault",
       "owner": "BeraPaw",
-      "action": "Stake LBGT / HONEY (Bulla)"
+      "action": "Stake LBGT / BUSD (Bulla)"
     },
     {
       "stakingTokenAddress": "0x83599937c2C9bEA0E0E8ac096c6f32e86486b410",
@@ -2614,14 +2614,14 @@
     {
       "stakingTokenAddress": "0xBcc717Bad424C87Acd02f0f30BDB2d95f8F339c3",
       "vaultAddress": "0x2CE83cE94ACDAD46C47A4Fb1232F237909e1dC51",
-      "name": "Sweet Frax - frxUSD/HONEY",
+      "name": "Sweet Frax - frxUSD/BUSD",
       "protocol": "Frax Finance",
       "categories": ["defi"],
       "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/vaults/0x2ce83ce94acdad46c47a4fb1232f237909e1dc51.png/public",
       "url": "https://frax.com",
-      "description": "Sweet Frax - frxUSD/HONEY vault allows staking of liquidity from the frxUSD and HONEY token pair through Frax Finance.",
+      "description": "Sweet Frax - frxUSD/BUSD vault allows staking of liquidity from the frxUSD and BUSD token pair through Frax Finance.",
       "owner": "Frax Finance",
-      "action": "Stake frxUSD / HONEY"
+      "action": "Stake frxUSD / BUSD"
     },
     {
       "stakingTokenAddress": "0x3640587709a387B54B0DF555cD651A95A54fA900",
@@ -2715,7 +2715,7 @@
       "categories": ["gamefi"],
       "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/vaults/0x58b4420c1462fcf00284ac21b75e0ee7eb405de4.png/public",
       "url": "https://app.beraji.com/game",
-      "description": "Earn BGT by spending at least 5 HONEY daily in-game. Eligible activities include creating rooms, joining rooms, or predicting battles. Spending is converted to LP and auto-staked for BGT rewards.",
+      "description": "Earn BGT by spending at least 5 BUSD daily in-game. Eligible activities include creating rooms, joining rooms, or predicting battles. Spending is converted to LP and auto-staked for BGT rewards.",
       "owner": "Jiko",
       "action": "JIKO BET"
     },
@@ -2806,7 +2806,7 @@
     {
       "stakingTokenAddress": "0x0af0aee92cd4f6b65fe22b2ca6a2c8862f3c6b9f",
       "vaultAddress": "0xBDeA4c1950103de7550FC48459405c2132fe72BA",
-      "name": "NECT | BOLD | HONEY on BEX",
+      "name": "NECT | BOLD | BUSD on BEX",
       "protocol": "Beraborrow",
       "categories": ["defi/lending"],
       "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/vaults/0xbdea4c1950103de7550fc48459405c2132fe72ba.png/public",
@@ -2866,14 +2866,14 @@
     {
       "stakingTokenAddress": "0xa5b3ecafbfcc7946c11a28252c6f2bdb73d30388",
       "vaultAddress": "0xe409272355d32a3dfcdde888ca275ac33146b854",
-      "name": "WinnieSwap - NECT | HONEY 0.01%",
+      "name": "WinnieSwap - NECT | BUSD 0.01%",
       "protocol": "WinnieSwap",
       "categories": ["defi"],
       "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/vaults/0xe409272355d32a3dfcdde888ca275ac33146b854.png/public",
       "url": "https://www.winnieswap.com/vaults/0xa5b3ecafbfcc7946c11a28252c6f2bdb73d30388",
-      "description": "Acquired by depositing liquidity into the WinnieSwap - NECT | HONEY Pool on WinnieSwap",
+      "description": "Acquired by depositing liquidity into the WinnieSwap - NECT | BUSD Pool on WinnieSwap",
       "owner": "WinnieSwap",
-      "action": "Stake NECT / HONEY"
+      "action": "Stake NECT / BUSD"
     },
     {
       "stakingTokenAddress": "0xbD9F4417FcC81E6dd33bCa34AbA9fdFb1fE75c0c",
@@ -2914,14 +2914,14 @@
     {
       "stakingTokenAddress": "0xd932c344e21ef6c3a94971bf4d4cc71304e2a66c",
       "vaultAddress": "0x2cb34eeadb1e7ae9cc7bafb84a189e9d921e193a",
-      "name": "BrownFi - BERA | HONEY",
+      "name": "BrownFi - BERA | BUSD",
       "protocol": "BrownFi V2",
       "categories": ["defi"],
       "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/vaults/0x2cb34eeadb1e7ae9cc7bafb84a189e9d921e193a.png/public",
       "url": "https://app.brownfi.io/pool/80094/0xd932c344e21ef6c3a94971bf4d4cc71304e2a66c?v=v2",
-      "description": "Acquired by depositing liquidity into the BERA / HONEY Pool on BrownFi",
+      "description": "Acquired by depositing liquidity into the BERA / BUSD Pool on BrownFi",
       "owner": "BrownFi",
-      "action": "Stake BERA / HONEY"
+      "action": "Stake BERA / BUSD"
     },
     {
       "stakingTokenAddress": "0xd57Da672354905B9E42Df077Df77E554dC5Fd1Cc",
@@ -2950,14 +2950,14 @@
     {
       "stakingTokenAddress": "0x10b1e01511d89b148700df8e370c6bc74814de60",
       "vaultAddress": "0x627bdcb91Eb921705CB2072B3894449aF685e4a9",
-      "name": "NECT:HONEY:USDC:USDT0 Reward Vault",
+      "name": "NECT:BUSD:USDC:USDT0 Reward Vault",
       "protocol": "BurrBear",
       "categories": ["defi"],
       "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/vaults/0x627bdcb91eb921705cb2072b3894449af685e4a9.png/public",
       "url": "https://app.burrbear.io/pools/berachain/v3/0x10b1e01511d89b148700df8e370c6bc74814de60",
-      "description": "Acquired by depositing liquidity into the NECT:HONEY:USDC:USDT0 pool on BurrBear",
+      "description": "Acquired by depositing liquidity into the NECT:BUSD:USDC:USDT0 pool on BurrBear",
       "owner": "BurrBear",
-      "action": "Stake NECT / HONEY / USDC / USDT"
+      "action": "Stake NECT / BUSD / USDC / USDT"
     },
     {
       "stakingTokenAddress": "0xb4e9c6d0a3603e65ae3f187e81052b2a7327721a",
@@ -2998,62 +2998,62 @@
     {
       "stakingTokenAddress": "0xe5a2ab5d2fb268e5ff43a5564e44c3309609aff9",
       "vaultAddress": "0x75da1d58a8d97f7b626224e7e71fa44db13689f2",
-      "name": "Kodiak - USDe | Honey",
+      "name": "Kodiak - USDe | BUSD",
       "protocol": "Kodiak",
       "categories": ["defi/amm"],
-      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/vaults/0x75da1d58a8d97f7b626224e7e71fa44db13689f2.jpg/public",
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/vaults/0x75da1d58a8d97f7b626224e7e71fa44db13689f2.png/public",
       "url": "https://app.kodiak.finance/#/liquidity/pools/0xe5a2ab5d2fb268e5ff43a5564e44c3309609aff9?chain=berachain_mainnet",
-      "description": "Acquired by depositing liquidity into the USDe-Honey pool on Kodiak",
+      "description": "Acquired by depositing liquidity into the USDe-BUSD pool on Kodiak",
       "owner": "Kodiak",
-      "action": "Stake USDe / Honey"
+      "action": "Stake USDe / BUSD"
     },
     {
       "stakingTokenAddress": "0xd5b6ea3544a51bfdda7e6926bdf778339801dfe8",
       "vaultAddress": "0x09b113ae50b5af0988b9a1dc50bfe602e7c24ef7",
-      "name": "Kodiak - sUSDe | Honey",
+      "name": "Kodiak - sUSDe | BUSD",
       "protocol": "Kodiak",
       "categories": ["defi/amm"],
-      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/vaults/0x09b113ae50b5af0988b9a1dc50bfe602e7c24ef7.jpg/public",
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/vaults/0x09b113ae50b5af0988b9a1dc50bfe602e7c24ef7.png/public",
       "url": "https://app.kodiak.finance/#/liquidity/pools/0xd5b6ea3544a51bfdda7e6926bdf778339801dfe8?chain=berachain_mainnet",
-      "description": "Acquired by depositing liquidity into the sUSDe-Honey pool on Kodiak",
+      "description": "Acquired by depositing liquidity into the sUSDe-BUSD pool on Kodiak",
       "owner": "Kodiak",
-      "action": "Stake sUSDe / Honey"
+      "action": "Stake sUSDe / BUSD"
     },
     {
       "stakingTokenAddress": "0xd07F1862AE599697CDcd6Fd36dF3C33af25fd782",
       "vaultAddress": "0x77F4Eaa387Ec3881340ec0796F9b2450406a4d4C",
-      "name": "TermMax - HONEY",
+      "name": "TermMax - BUSD",
       "protocol": "TermMax",
       "categories": ["defi"],
-      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/vaults/0x77f4eaa387ec3881340ec0796f9b2450406a4d4c.jpg/public",
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/vaults/0x77f4eaa387ec3881340ec0796f9b2450406a4d4c.png/public",
       "url": "https://app.termmax.ts.finance/earn/berachain/0xd07f1862ae599697cdcd6fd36df3c33af25fd782?chain=berachain&persistChain=1",
-      "description": "Acquired by depositing HONEY into the HONEY Boost Yield Vault on TermMax",
+      "description": "Acquired by depositing BUSD into the BUSD Boost Yield Vault on TermMax",
       "owner": "TermMax",
-      "action": "Stake HONEY"
+      "action": "Stake BUSD"
     },
     {
       "stakingTokenAddress": "0x0c844d3E259a0259668AbFF3431900b28D780797",
       "vaultAddress": "0xDBeD07712725Ce298D28328cD441e0f057C0090e",
-      "name": "Kodiak - USDC.e | HONEY",
+      "name": "Kodiak - USDC.e | BUSD",
       "protocol": "Kodiak",
       "categories": ["defi/amm"],
-      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/vaults/0xdbed07712725ce298d28328cd441e0f057c0090e.jpg/public",
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/vaults/0xdbed07712725ce298d28328cd441e0f057c0090e.png/public",
       "url": "https://app.kodiak.finance/#/liquidity/pools/0x0c844d3e259a0259668abff3431900b28d780797?farm=0xdbed07712725ce298d28328cd441e0f057c0090e&chain=berachain_mainnet",
-      "description": "Acquired by depositing liquidity into the USDC.e-HONEY pool on Kodiak",
+      "description": "Acquired by depositing liquidity into the USDC.e-BUSD pool on Kodiak",
       "owner": "Kodiak",
-      "action": "Stake USDC.e / HONEY"
+      "action": "Stake USDC.e / BUSD"
     },
     {
       "stakingTokenAddress": "0x5978e23D931b5e51a02E1919be7e7a99e4de2583",
       "vaultAddress": "0x47FffFaD6650e791A5Ed41909C6a8c9E4fb94B99",
-      "name": "Smilee - SMILEE | HONEY",
+      "name": "Smilee - SMILEE | BUSD",
       "protocol": "Kodiak",
       "categories": ["defi/amm"],
       "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/vaults/0x47ffffad6650e791a5ed41909c6a8c9e4fb94b99.png/public",
       "url": "https://app.kodiak.finance/#/liquidity/pools/0x5978e23d931b5e51a02e1919be7e7a99e4de2583?chain=berachain_mainnet",
-      "description": "Acquired by depositing liquidity into the SMILEE-HONEY Pool on Kodiak",
+      "description": "Acquired by depositing liquidity into the SMILEE-BUSD Pool on Kodiak",
       "owner": "Smilee",
-      "action": "Stake SMILEE / HONEY"
+      "action": "Stake SMILEE / BUSD"
     },
     {
       "stakingTokenAddress": "0xcdd866b78f70f8b43fe888259b98cdd81de75e20",
@@ -3142,13 +3142,13 @@
     {
       "stakingTokenAddress": "0xde8819788bb9dbfa7855ab8cd3e761a716d098ff",
       "vaultAddress": "0xe1a6fd249035a3a97eae6b867b694e494b36eb14",
-      "name": "Kodiak Island NECT-HONEY-0.01%",
+      "name": "Kodiak Island NECT-BUSD-0.01%",
       "protocol": "Kodiak",
       "categories": ["defi/amm"],
-      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/vaults/0xe1a6fd249035a3a97eae6b867b694e494b36eb14.jpg/public",
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/vaults/0xe1a6fd249035a3a97eae6b867b694e494b36eb14.png/public",
       "url": "https://app.kodiak.finance/#/liquidity/pools/0xde8819788bb9dbfa7855ab8cd3e761a716d098ff?farm=0xe1a6fd249035a3a97eae6b867b694e494b36eb14&chain=berachain_mainnet",
-      "description": "Acquired by depositing liquidity into the NECT-HONEY Pool on Kodiak",
-      "action": "Stake NECT / HONEY"
+      "description": "Acquired by depositing liquidity into the NECT-BUSD Pool on Kodiak",
+      "action": "Stake NECT / BUSD"
     },
     {
       "stakingTokenAddress": "0x96a941bfdb0802404c8c77c764460ce5910710ce",
@@ -3174,13 +3174,13 @@
     {
       "stakingTokenAddress": "0x939f1b6f513c3d62eb25c7e057ed8bb24021a000",
       "vaultAddress": "0x9145aefd784c58219b18c23372155d18c9bcd7e9",
-      "name": "Kodiak Island BYUSD-HONEY-0.01%",
+      "name": "Kodiak Island BYUSD-BUSD-0.01%",
       "protocol": "Kodiak",
       "categories": ["defi/amm"],
-      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/vaults/0x9145aefd784c58219b18c23372155d18c9bcd7e9.jpg/public",
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/vaults/0x9145aefd784c58219b18c23372155d18c9bcd7e9.png/public",
       "url": "https://app.kodiak.finance/#/liquidity/pools/0x939f1b6f513c3d62eb25c7e057ed8bb24021a000?farm=0x9145aefd784c58219b18c23372155d18c9bcd7e9&chain=berachain_mainnet",
-      "description": "Acquired by depositing liquidity into the BYUSD-HONEY Pool on Kodiak",
-      "action": "Stake BYUSD / HONEY"
+      "description": "Acquired by depositing liquidity into the BYUSD-BUSD Pool on Kodiak",
+      "action": "Stake BYUSD / BUSD"
     },
     {
       "stakingTokenAddress": "0x9ba04ed80a76417bb6b00cca4d9a645bba89386b",
@@ -3367,14 +3367,14 @@
     {
       "stakingTokenAddress": "0xd5Cc2B9035b712929dc06F0A665459d550A385f7",
       "vaultAddress": "0x181f3b1d55299f3744188f7ecd082c75a97d2d4f",
-      "name": "avUSD/HONEY on Kodiak",
+      "name": "avUSD/BUSD on Kodiak",
       "protocol": "Kodiak",
       "categories": ["defi/amm"],
       "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/vaults/0x181f3b1d55299f3744188f7ecd082c75a97d2d4f.png/public",
       "url": "https://app.kodiak.finance/#/liquidity/pools/0xd5cc2b9035b712929dc06f0a665459d550a385f7?farm=0x181f3b1d55299f3744188f7ecd082c75a97d2d4f&chain=berachain_mainnet",
-      "description": "Acquired by depositing liquidity into the avUSD-HONEY Pool on Kodiak",
+      "description": "Acquired by depositing liquidity into the avUSD-BUSD Pool on Kodiak",
       "owner": "Avant Protocol",
-      "action": "Stake avUSD / HONEY"
+      "action": "Stake avUSD / BUSD"
     },
     {
       "stakingTokenAddress": "0x5344c0b81fe363992bb9b3a7ff2562cce5b8e719",
@@ -3427,14 +3427,14 @@
     {
       "stakingTokenAddress": "0x3e0fd2ce4d5b7e5f6c34e26c48a2dbd9f8d7d88c",
       "vaultAddress": "0x3f0cf0c62e5d7617c3f965bfefc656af650e459e",
-      "name": "BrownFi V3 - BERA | HONEY",
+      "name": "BrownFi V3 - BERA | BUSD",
       "protocol": "BrownFi V3",
       "categories": ["defi"],
       "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/vaults/0x3f0cf0c62e5d7617c3f965bfefc656af650e459e.png/public",
       "url": "https://app.brownfi.io/pool/80094/0x3e0fd2ce4d5b7e5f6c34e26c48a2dbd9f8d7d88c?v=v3-official",
-      "description": "Acquired by depositing liquidity into the BERA / HONEY V3 Pool on BrownFi",
+      "description": "Acquired by depositing liquidity into the BERA / BUSD V3 Pool on BrownFi",
       "owner": "BrownFi",
-      "action": "Stake BERA / HONEY"
+      "action": "Stake BERA / BUSD"
     }
   ]
 }

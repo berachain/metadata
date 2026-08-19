@@ -15,8 +15,8 @@ importers:
         specifier: 0.3.4
         version: 0.3.4(w45vcetc2ibqu63efzkmyavooy)
       bignumber.js:
-        specifier: 11.1.4
-        version: 11.1.4
+        specifier: 11.1.5
+        version: 11.1.5
       chalk:
         specifier: ^5.6.2
         version: 5.6.2
@@ -3338,8 +3338,8 @@ packages:
   big.js@6.2.2:
     resolution: {integrity: sha512-y/ie+Faknx7sZA5MfGA2xKlu0GDv8RWrXGsmlteyJQ2lvoKv9GBK/fpRMc2qlSoBAgNxrixICFCBefIq8WCQpQ==}
 
-  bignumber.js@11.1.4:
-    resolution: {integrity: sha512-AJ9dSeaUGj2xu7tEwmdqb51dqdb633xo4njI9K8ZFfcLrNr0XN8/EPkkZUNaF9fkCblGt2zVwZymesUdGynEkQ==}
+  bignumber.js@11.1.5:
+    resolution: {integrity: sha512-6WmzCNtUnfKpbozq+hOgWaZMMzORmYBwF1xZScyoIX3QRYWeKTtxxwDOW5tIz7C9BdjkIYHGTcelCLkXg0mndw==}
 
   binary-extensions@2.3.0:
     resolution: {integrity: sha512-Ceh+7ox5qe7LJuLHoY0feh3pHuUDHAcRUeyL2VYghZwfpkNIy/+8Ocg0a3UuSoYzavmylwuLWQOf3hl0jjMMIw==}
@@ -10800,7 +10800,7 @@ snapshots:
 
   big.js@6.2.2: {}
 
-  bignumber.js@11.1.4: {}
+  bignumber.js@11.1.5: {}
 
   binary-extensions@2.3.0:
     optional: true

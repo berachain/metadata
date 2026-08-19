@@ -611,14 +611,14 @@
     {
       "stakingTokenAddress": "0x30bba9cd9eb8c95824aa42faa1bb397b07545bc1",
       "vaultAddress": "0xdb6e93cd7bddc45ebc411619792fc5f977316c38",
-      "name": "Bend - Re7 Honey",
+      "name": "Bend - Re7 BUSD",
       "protocol": "Bend",
       "categories": ["defi/lending"],
       "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/vaults/0xdb6e93cd7bddc45ebc411619792fc5f977316c38.png/public",
       "url": "https://bend.berachain.com/lend/80094/0x30BbA9CD9Eb8c95824aa42Faa1Bb397b07545bc1/",
-      "description": "Acquired by depositing Honey into the Re7 Honey Pool on Bend",
+      "description": "Acquired by depositing BUSD into the Re7 BUSD Pool on Bend",
       "owner": "Foundation",
-      "action": "Lend Honey on Re7 vault"
+      "action": "Lend BUSD on Re7 vault"
     },
     {
       "stakingTokenAddress": "0xF961a8f6d8c69E7321e78d254ecAfBcc3A637621",
@@ -3391,14 +3391,14 @@
     {
       "stakingTokenAddress": "0xB5f473c4b7F402d8f7bED42b6D516f5ff3306B01",
       "vaultAddress": "0xA2CBAac782bDeCC103b2d2F746b6330525025098",
-      "name": "Bend - Clearstar Reactor Honey",
+      "name": "Bend - Clearstar Reactor BUSD",
       "protocol": "Bend",
       "categories": ["defi/lending"],
       "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/vaults/0xa2cbaac782bdecc103b2d2f746b6330525025098.png/public",
       "url": "https://bend.berachain.com/lend/80094/0xB5f473c4b7F402d8f7bED42b6D516f5ff3306B01/",
-      "description": "Acquired by depositing Honey into the Clearstar Reactor Honey Pool on Bend",
+      "description": "Acquired by depositing BUSD into the Clearstar Reactor BUSD Pool on Bend",
       "owner": "Clearstar",
-      "action": "Lend Honey on Clearstar Reactor vault"
+      "action": "Lend BUSD on Clearstar Reactor vault"
     },
     {
       "stakingTokenAddress": "0xc123bc9259d1a99add5a2c512498ac146dd2bade",

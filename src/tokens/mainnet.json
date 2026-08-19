@@ -81,8 +81,8 @@
     {
       "chainId": 80094,
       "address": "0xFCBD14DC51f0A4d49d5E53C2E0950e0bC26d0Dce",
-      "symbol": "HONEY",
-      "name": "Honey",
+      "symbol": "BUSD",
+      "name": "Bera USD",
       "decimals": 18,
       "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/tokens/0xfcbd14dc51f0a4d49d5e53c2e0950e0bc26d0dce.png/public",
       "tags": ["stablecoin", "featured"],
@@ -104,7 +104,7 @@
       "address": "0xB5f473c4b7F402d8f7bED42b6D516f5ff3306B01",
       "symbol": "csRHONEY",
       "name": "Clearstar Reactor HONEY",
-      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/tokens/0xfcbd14dc51f0a4d49d5e53c2e0950e0bc26d0dce.png/public",
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/tokens/0xb5f473c4b7f402d8f7bed42b6d516f5ff3306b01.png/public",
       "decimals": 18
     },
     {
@@ -1336,8 +1336,8 @@
     {
       "chainId": 80094,
       "address": "0xa5b3ecafbfcc7946c11a28252c6f2bdb73d30388",
-      "symbol": "STICKY NECT-HONEY",
-      "name": "Sticky Vault NECT-HONEY-0.01%",
+      "symbol": "STICKY NECT-BUSD",
+      "name": "Sticky Vault NECT-BUSD-0.01%",
       "decimals": 18,
       "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/tokens/0xa5b3ecafbfcc7946c11a28252c6f2bdb73d30388.png/public",
       "tags": []
@@ -1402,8 +1402,8 @@
     {
       "chainId": 80094,
       "address": "0xd5cc2b9035b712929dc06f0a665459d550a385f7",
-      "symbol": "KODI avUSD-HONEY",
-      "name": "Kodiak Island avUSD-HONEY-0.05%",
+      "symbol": "KODI avUSD-BUSD",
+      "name": "Kodiak Island avUSD-BUSD-0.05%",
       "decimals": 18,
       "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/tokens/0xd5cc2b9035b712929dc06f0a665459d550a385f7.png/public",
       "tags": ["staked"]

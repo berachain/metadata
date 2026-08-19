@@ -28,7 +28,7 @@
   "type": "module",
   "devDependencies": {
     "@biomejs/biome": "2.5.0",
-    "@types/node": "22.13.13",
+    "@types/node": "22.20.1",
     "ajv": "8.18.0",
     "ajv-formats": "^3.0.1",
     "cloudinary": "2.10.0",

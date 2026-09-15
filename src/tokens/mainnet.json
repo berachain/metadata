@@ -1424,8 +1424,7 @@
       "name": "ether.fi BTC",
       "decimals": 8,
       "extensions": {
-        "coingeckoId": "ether-fi-staked-btc",
-        "pythPriceId": "0xbe3dd0cf4a168f82e4912952b24420211ad52641b7365d49866d59e20c948288"
+        "coingeckoId": "ether-fi-staked-btc"
       }
     },
     {
@@ -1435,8 +1434,7 @@
       "name": "StargateToken",
       "decimals": 18,
       "extensions": {
-        "coingeckoId": "stargate-finance",
-        "pythPriceId": "0x008546b175392b878c5c7ff0b6327b1cb12669be012fc2935c09a16fc8f6c58f"
+        "coingeckoId": "stargate-finance"
       }
     }
   ]

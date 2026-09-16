@@ -1,4 +1,4 @@
-import core from "@actions/core";
+import { error, warning } from "@actions/core";
 import { findNodeAtLocation, parseTree } from "jsonc-parser";
 
 function offsetToLineCol(text: string, offset: number) {
@@ -50,7 +50,8 @@ export function formatAnnotation({
     const { line, col } = offsetToLineCol(normalizedContent, node.offset);
 
     if (process.env.CI || process.env.GITHUB_ACTIONS) {
-      core[level](message, {
+      const annotate = level === "error" ? error : warning;
+      annotate(message, {
         // This is needed to make it work with the checkout action
         file: file.replace(process.argv[2], ""),
         startLine: line,

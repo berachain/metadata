@@ -77,7 +77,7 @@ async function fetchMissingVaults() {
       },
     });
 
-    return vaults.gaugeList.filter((vault) => !vault.metadata);
+    return vaults.rewardVaultList.filter((vault) => !vault.metadata);
   } catch (error) {
     // Network errors should not fail validation, just warn
     console.warn(

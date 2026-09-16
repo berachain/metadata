@@ -129,6 +129,7 @@
           "stakingTokenAddress",
           "vaultAddress",
           "name",
+          "action",
           "protocol",
           "url",
           "categories"

@@ -1,5 +1,6 @@
 /**
- * Uploads contributor-added images under src/assets/{tokens,vaults,validators}
+ * Uploads contributor-added images under
+ * src/assets/{tokens,vaults,validators,protocols}
  * to Cloudflare Images. Intended to run inside the `upload-assets` CI job after
  * a maintainer has approved the `cloudflare-uploads` environment deployment.
  *
@@ -51,7 +52,7 @@ if (
   process.exit(1);
 }
 
-const ALLOWED_TYPES = ["tokens", "vaults", "validators"] as const;
+const ALLOWED_TYPES = ["tokens", "vaults", "validators", "protocols"] as const;
 type AssetType = (typeof ALLOWED_TYPES)[number];
 
 const ALLOWED_EXTENSIONS = [".png", ".jpg", ".jpeg"] as const;
@@ -177,6 +178,14 @@ const validatePath = (relPath: string): FileCheckOk | FileCheckErr => {
         return {
           ok: false,
           reason: "filename must be 0x + 96 hex chars (validator pubkey)",
+        };
+      }
+    } else if (type === "protocols") {
+      if (!/^[a-z0-9-]+$/.test(basename)) {
+        return {
+          ok: false,
+          reason:
+            "filename must be a lowercase protocol slug (letters, numbers, and hyphens)",
         };
       }
     } else {

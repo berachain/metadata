@@ -37,7 +37,7 @@
     "viem": "2.56.5"
   },
   "engines": {
-    "node": ">=22"
+    "node": "v26.9.0"
   },
   "packageManager": "pnpm@12.4.2",
   "dependencies": {

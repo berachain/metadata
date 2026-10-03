@@ -27,7 +27,7 @@
   "license": "ISC",
   "type": "module",
   "devDependencies": {
-    "@biomejs/biome": "2.5.13",
+    "@biomejs/biome": "2.5.15",
     "@types/node": "22.20.3",
     "ajv": "8.20.0",
     "ajv-formats": "3.0.1",

@@ -170,8 +170,8 @@ importers:
         specifier: 3.0.1
         version: 3.0.1
       '@berachain/berajs':
-        specifier: 0.4.0
-        version: 0.4.0(bab3d29c2f16654c2014a7bbe3f70d88)
+        specifier: 0.5.2
+        version: 0.5.2(aeda43e622006c18ef9a28c48dcd3b34)
       bignumber.js:
         specifier: 11.1.5
         version: 11.1.5
@@ -303,68 +303,57 @@ packages:
     peerDependencies:
       viem: '>2.24.3'
 
-  '@berachain/abis@0.1.3':
-    resolution: {integrity: sha512-WkG6uaqgHv7UPocLAiYuURCk3LVv3laAxNRePZmr6FAIHNrwp64LOLRlAVZ7OE6gbXBif+wgty3z2HMB8PbEsQ==}
+  '@berachain/abis@0.1.4':
+    resolution: {integrity: sha512-CeVdMQxigGI4B4D/oxXYlrsM65eKmRUVeXkSCnUrNWkk0T0N9iwNZt3sEILMamW0J+0LmQsMUXBgBxsxgtWlfA==}
 
-  '@berachain/berajs@0.4.0':
-    resolution: {integrity: sha512-oa8SNbQ5wxS09+3nRcaJZRNdU1Jz5xY76V55yjwGimqgp4Jb7BSe1dXqxcNAGiao92hJa95c5KFgY4Lr0+OI4Q==}
+  '@berachain/berajs@0.5.2':
+    resolution: {integrity: sha512-SGGNTQWDEfChl5jVSUL4B+5d4By6jSt8TdKN1vue1XzGymFlLQQzsQRvQScNV+3uuDyFCDu2yrM5hcDjIT+b+g==}
     peerDependencies:
-      '@berachain/wagmi': 0.4.2-beta.6
+      '@berachain/wagmi': 0.4.3
       react: ^19.1
       react-dom: ^19.1
       swr: ^2.4.1
-      viem: 2.55.2
+      viem: ^2.57.4
     peerDependenciesMeta:
       react:
         optional: true
       react-dom:
         optional: true
 
-  '@berachain/config@0.2.3':
-    resolution: {integrity: sha512-tlk3R9pwFQoqT0sF1YI9q6sAJQ+pAT7hD7Ae0l0gmiaRYn/653SBd5rKaQzQ5Mdec7r5BHQc2aBoJ4JbNlzzAw==}
+  '@berachain/config@0.4.0-rc.2':
+    resolution: {integrity: sha512-OEjk1awKnf55mLXIP8wOly/nliufwInh6NbPYkSdptHAbqsdlGJXh3iGcXIhNFSrwQoptkQ2Ar0msvequBkeuA==}
     peerDependencies:
       '@sentry/nextjs': ^10.16
-      '@tailwindcss/aspect-ratio': ~0.4.2
-      '@tailwindcss/container-queries': ~0.4.1
-      '@tailwindcss/typography': ~0.5.15
       dotenv: 16.6.1
       next: ^16.1
-      tailwindcss-animate: 1.0.7
       tsup: ^8.4.0
-      viem: 2.55.2
+      viem: ^2.57.4
     peerDependenciesMeta:
       '@sentry/nextjs':
-        optional: true
-      '@tailwindcss/aspect-ratio':
-        optional: true
-      '@tailwindcss/container-queries':
-        optional: true
-      '@tailwindcss/typography':
         optional: true
       dotenv:
         optional: true
       next:
-        optional: true
-      tailwindcss-animate:
         optional: true
       tsup:
         optional: true
       viem:
         optional: true
 
-  '@berachain/graphql@0.8.3':
-    resolution: {integrity: sha512-8LKlhe3DwFEGVfoLLR0NFwzLFy0ErB5ejSHYfA6366VQBoa1MCG1qI8OcIVuE9R/H2UOO4fJirfCt+ib+QbrNA==}
+  '@berachain/graphql@0.8.11':
+    resolution: {integrity: sha512-BmOwYqOsCnGMA1vchGvCV3UQVcDp4XJJ4MO1HYHAWiI462dAemPatjd7Cq1CfSHQMbvvoTqmm85z9/bgvqN9TQ==}
     peerDependencies:
       '@apollo/client': ^4.0
       graphql: ^16.8
 
-  '@berachain/wagmi@0.4.2-beta.6':
-    resolution: {integrity: sha512-MngL2JARx6aiYWXCKNjdJXU+RW4qfgSeiMDZc79+QOo4tkMmAibAosiotjP6asiKzurpbFoZvz9NHCffXpfeew==}
+  '@berachain/wagmi@0.4.3':
+    resolution: {integrity: sha512-zYVenRMLK7+9b/hzXKKKbu2kghoiNOpVGKT2kNfGNZqTVbdabA7srRhQjZmoIr5yejS+ux5z0xApKYUBjnSSbQ==}
     peerDependencies:
       '@tanstack/react-query': ^5.59.0
       react: ^19.1
       react-dom: ^19.1
-      viem: ^2.41.2
+      swr: ^2.4.1
+      viem: 2.55.2
       wagmi: ^2.19.5
 
   '@biomejs/biome@2.5.13':
@@ -513,8 +502,8 @@ packages:
   '@emotion/weak-memoize@0.4.0':
     resolution: {integrity: sha512-snKqtPW01tN0ui7yu9rGv69aJXr/a/Ywvl11sUjNtEcRc+ng/mQriFL0wLXMef74iHa/EkftbDzU9F8iFbH+zg==}
 
-  '@ensofinance/sdk@2.5.0':
-    resolution: {integrity: sha512-Jtg1r11E6jm5ECwV5jjfSIbqZZb6m4F8UN5xJsxX7srY9fIbBKOC9gSCl/D2apqbKrjLMW/erGMWVyTp6OvmXg==}
+  '@ensofinance/sdk@2.6.0':
+    resolution: {integrity: sha512-slQj79VfTBGFoL6y4IVIBEcwd0L9xQpkO8l7wrHlSxu3rRjjk0aE6x0ujSNOaymCcZMlTie39o6msMHQiOD3cA==}
 
   '@esbuild/aix-ppc64@0.28.2':
     resolution: {integrity: sha512-XExcO+dvLKvVtNTibSTBej1NCAbaGhWn9Ww1ZPx80qsahhPFe/8jgWP0IchNe0F3HwkU7n8ejhH8bjonqht8mQ==}
@@ -1090,8 +1079,9 @@ packages:
     resolution: {integrity: sha512-IHnV6A+zxU7XwmKFinmYjUcwlyK9+xkG3/s9KcQhI9BjQKycrJ1JRO+FbNYPwZiPKW3je/DR0k7w8/gLa5eaxQ==}
     deprecated: 'Switch to "qr" (new package name) for security updates: npm install qr'
 
-  '@pythnetwork/hermes-client@2.0.0':
-    resolution: {integrity: sha512-8ZbCrO5NSlsu1zauIJjZv0sPR3qF9uzgCpBpAPSBGBjwKP0T3TdIRfuSzf9mpzrqf+b7QUqNVNLWZqgN7nlREw==}
+  '@pythnetwork/hermes-client@2.1.0':
+    resolution: {integrity: sha512-XOtP5dvHfKNl+uvFzXCMI9OL7VdJ8eXsv5ahy6ZB3ArZ+UMM4U4OrPYQPwLvJwlpkBXpEqsJKlMawcoyCB+yMA==}
+    engines: {node: '>=22.14.0'}
 
   '@radix-ui/primitive@1.1.2':
     resolution: {integrity: sha512-XnbHrrprsNqZKQhStrSwgRUQzoCI1glLzdw79xiZPoofhGICeZRSQ3dIxAKH1gb3OHfNf4d6f+vAv3kil2eggA==}
@@ -2035,8 +2025,8 @@ packages:
       typescript:
         optional: true
 
-  '@thirdweb-dev/wagmi-adapter@0.2.207':
-    resolution: {integrity: sha512-W6QiYjsd0fmoaOv8NIc1XnOq4405/Z8pmbZFA1FfRzTQP9WfQDsxTwcQ4Pce3wA1FiUEckzpUI7O/WFZvPvsmg==}
+  '@thirdweb-dev/wagmi-adapter@0.2.213':
+    resolution: {integrity: sha512-+c9p0bY5OF/LhrclFyrgppXC32ZkQ/fyR7Bm4DrZVS35qPu1jOZeE2OeYtY9RprbHGdYb43BeEtS2UnX9aeeOQ==}
     engines: {node: '>=18'}
     peerDependencies:
       '@wagmi/core': ^2.16.0
@@ -3731,18 +3721,13 @@ packages:
     resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==}
     engines: {node: '>= 0.4'}
 
-  swr@2.4.1:
-    resolution: {integrity: sha512-2CC6CiKQtEwaEeNiqWTAw9PGykW8SR5zZX8MZk6TeAvEAnVS7Visz8WzphqgtQ8v2xz/4Q5K+j+SeMaKXeeQIA==}
-    peerDependencies:
-      react: ^16.11.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
-
   swr@2.5.1:
     resolution: {integrity: sha512-BRw55e8r0B7SpDN20CAzoQAHl7y1yP7/Zt7oqUjMv0vSt2u2Xnkm88Ws+VypbV9BXHQVuSuyVq7zMjO16wSExw==}
     peerDependencies:
       react: ^16.11.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
 
-  thirdweb@5.119.0:
-    resolution: {integrity: sha512-3BX9kkhyEtgMw+sBquKE0/rnCeV3/LG3dHmccpz9acutuORbYFmKrDK6epI2+Clr+pA3gyGoI5ILML3j8dInVA==}
+  thirdweb@5.120.1:
+    resolution: {integrity: sha512-AVAi0HBjIs58Tn9E/RDHO/E3MPlkcV0Xaf8tc3sZ8NO+vDOuOoub+6ZHW14K9piD1uELFvB52BoKgkYYof5Mzg==}
     engines: {node: '>=18'}
     hasBin: true
     peerDependencies:
@@ -4377,18 +4362,18 @@ snapshots:
       decimal.js-light: 2.5.1
       viem: 2.56.5(bufferutil@4.1.0)(typescript@7.0.2)(utf-8-validate@5.0.10)(zod@3.25.76)
 
-  '@berachain/abis@0.1.3': {}
+  '@berachain/abis@0.1.4': {}
 
-  '@berachain/berajs@0.4.0(bab3d29c2f16654c2014a7bbe3f70d88)':
+  '@berachain/berajs@0.5.2(aeda43e622006c18ef9a28c48dcd3b34)':
     dependencies:
       '@apollo/client': 4.1.6(graphql@16.14.2)(react-dom@19.3.0)(rxjs@7.8.2)
       '@berachain-foundation/berancer-sdk': 1.1.7(viem@2.56.5(bufferutil@4.1.0)(typescript@7.0.2)(utf-8-validate@5.0.10)(zod@3.25.76))
-      '@berachain/abis': 0.1.3
-      '@berachain/config': 0.2.3(dotenv@17.4.2)(viem@2.56.5(bufferutil@4.1.0)(typescript@7.0.2)(utf-8-validate@5.0.10)(zod@3.25.76))
-      '@berachain/graphql': 0.8.3(@apollo/client@4.1.6(graphql@16.14.2)(react-dom@19.3.0)(rxjs@7.8.2))(graphql@16.14.2)
-      '@berachain/wagmi': 0.4.2-beta.6(@hey-api/openapi-ts@0.99.0(typescript@7.0.2))(@solana/sysvars@2.3.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@7.0.2))(@tanstack/query-core@5.81.5)(@tanstack/react-query@5.81.5)(bufferutil@4.1.0)(debug@4.4.3)(fastestsmallesttextencoderdecoder@1.0.22)(react-dom@19.3.0)(typescript@7.0.2)(use-sync-external-store@1.4.0)(utf-8-validate@5.0.10)(viem@2.56.5(bufferutil@4.1.0)(typescript@7.0.2)(utf-8-validate@5.0.10)(zod@3.25.76))(wagmi@2.19.5(@tanstack/query-core@5.81.5)(@tanstack/react-query@5.81.5)(bufferutil@4.1.0)(debug@4.4.3)(fastestsmallesttextencoderdecoder@1.0.22)(typescript@7.0.2)(utf-8-validate@5.0.10)(viem@2.56.5(bufferutil@4.1.0)(typescript@7.0.2)(utf-8-validate@5.0.10)(zod@3.25.76))(zod@3.25.76))(ws@8.21.0(bufferutil@4.1.0)(utf-8-validate@5.0.10))
-      '@ensofinance/sdk': 2.5.0(debug@4.4.3)
-      '@pythnetwork/hermes-client': 2.0.0(axios@1.20.0(debug@4.4.3))
+      '@berachain/abis': 0.1.4
+      '@berachain/config': 0.4.0-rc.2(dotenv@17.4.2)(viem@2.56.5(bufferutil@4.1.0)(typescript@7.0.2)(utf-8-validate@5.0.10)(zod@3.25.76))
+      '@berachain/graphql': 0.8.11(@apollo/client@4.1.6(graphql@16.14.2)(react-dom@19.3.0)(rxjs@7.8.2))(graphql@16.14.2)
+      '@berachain/wagmi': 0.4.3(@hey-api/openapi-ts@0.99.0(typescript@7.0.2))(@solana/sysvars@2.3.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@7.0.2))(@tanstack/query-core@5.81.5)(@tanstack/react-query@5.81.5)(bufferutil@4.1.0)(debug@4.4.3)(fastestsmallesttextencoderdecoder@1.0.22)(react-dom@19.3.0)(swr@2.5.1)(typescript@7.0.2)(use-sync-external-store@1.4.0)(utf-8-validate@5.0.10)(viem@2.56.5(bufferutil@4.1.0)(typescript@7.0.2)(utf-8-validate@5.0.10)(zod@3.25.76))(wagmi@2.19.5(@tanstack/query-core@5.81.5)(@tanstack/react-query@5.81.5)(bufferutil@4.1.0)(debug@4.4.3)(fastestsmallesttextencoderdecoder@1.0.22)(typescript@7.0.2)(utf-8-validate@5.0.10)(viem@2.56.5(bufferutil@4.1.0)(typescript@7.0.2)(utf-8-validate@5.0.10)(zod@3.25.76))(zod@3.25.76))(ws@8.21.0(bufferutil@4.1.0)(utf-8-validate@5.0.10))
+      '@ensofinance/sdk': 2.6.0(debug@4.4.3)
+      '@pythnetwork/hermes-client': 2.1.0(axios@1.20.0(debug@4.4.3))
       '@wagmi/core': 2.22.1(@tanstack/query-core@5.81.5)(typescript@7.0.2)(use-sync-external-store@1.4.0)(viem@2.56.5(bufferutil@4.1.0)(typescript@7.0.2)(utf-8-validate@5.0.10)(zod@3.25.76))
       gray-matter: 4.0.3
       swr: 2.5.1
@@ -4397,9 +4382,6 @@ snapshots:
       react-dom: 19.3.0
     transitivePeerDependencies:
       - '@sentry/nextjs'
-      - '@tailwindcss/aspect-ratio'
-      - '@tailwindcss/container-queries'
-      - '@tailwindcss/typography'
       - '@tanstack/query-core'
       - '@types/react'
       - axios
@@ -4412,29 +4394,28 @@ snapshots:
       - rxjs
       - subscriptions-transport-ws
       - supports-color
-      - tailwindcss-animate
       - tsup
       - typescript
       - use-sync-external-store
 
-  '@berachain/config@0.2.3(dotenv@17.4.2)(viem@2.56.5(bufferutil@4.1.0)(typescript@7.0.2)(utf-8-validate@5.0.10)(zod@3.25.76))':
+  '@berachain/config@0.4.0-rc.2(dotenv@17.4.2)(viem@2.56.5(bufferutil@4.1.0)(typescript@7.0.2)(utf-8-validate@5.0.10)(zod@3.25.76))':
     optionalDependencies:
       dotenv: 17.4.2
       viem: 2.56.5(bufferutil@4.1.0)(typescript@7.0.2)(utf-8-validate@5.0.10)(zod@3.25.76)
 
-  '@berachain/graphql@0.8.3(@apollo/client@4.1.6(graphql@16.14.2)(react-dom@19.3.0)(rxjs@7.8.2))(graphql@16.14.2)':
+  '@berachain/graphql@0.8.11(@apollo/client@4.1.6(graphql@16.14.2)(react-dom@19.3.0)(rxjs@7.8.2))(graphql@16.14.2)':
     dependencies:
       '@apollo/client': 4.1.6(graphql@16.14.2)(react-dom@19.3.0)(rxjs@7.8.2)
       graphql: 16.14.2
 
-  '@berachain/wagmi@0.4.2-beta.6(@hey-api/openapi-ts@0.99.0(typescript@7.0.2))(@solana/sysvars@2.3.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@7.0.2))(@tanstack/query-core@5.81.5)(@tanstack/react-query@5.81.5)(bufferutil@4.1.0)(debug@4.4.3)(fastestsmallesttextencoderdecoder@1.0.22)(react-dom@19.3.0)(typescript@7.0.2)(use-sync-external-store@1.4.0)(utf-8-validate@5.0.10)(viem@2.56.5(bufferutil@4.1.0)(typescript@7.0.2)(utf-8-validate@5.0.10)(zod@3.25.76))(wagmi@2.19.5(@tanstack/query-core@5.81.5)(@tanstack/react-query@5.81.5)(bufferutil@4.1.0)(debug@4.4.3)(fastestsmallesttextencoderdecoder@1.0.22)(typescript@7.0.2)(utf-8-validate@5.0.10)(viem@2.56.5(bufferutil@4.1.0)(typescript@7.0.2)(utf-8-validate@5.0.10)(zod@3.25.76))(zod@3.25.76))(ws@8.21.0(bufferutil@4.1.0)(utf-8-validate@5.0.10))':
+  '@berachain/wagmi@0.4.3(@hey-api/openapi-ts@0.99.0(typescript@7.0.2))(@solana/sysvars@2.3.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@7.0.2))(@tanstack/query-core@5.81.5)(@tanstack/react-query@5.81.5)(bufferutil@4.1.0)(debug@4.4.3)(fastestsmallesttextencoderdecoder@1.0.22)(react-dom@19.3.0)(swr@2.5.1)(typescript@7.0.2)(use-sync-external-store@1.4.0)(utf-8-validate@5.0.10)(viem@2.56.5(bufferutil@4.1.0)(typescript@7.0.2)(utf-8-validate@5.0.10)(zod@3.25.76))(wagmi@2.19.5(@tanstack/query-core@5.81.5)(@tanstack/react-query@5.81.5)(bufferutil@4.1.0)(debug@4.4.3)(fastestsmallesttextencoderdecoder@1.0.22)(typescript@7.0.2)(utf-8-validate@5.0.10)(viem@2.56.5(bufferutil@4.1.0)(typescript@7.0.2)(utf-8-validate@5.0.10)(zod@3.25.76))(zod@3.25.76))(ws@8.21.0(bufferutil@4.1.0)(utf-8-validate@5.0.10))':
     dependencies:
       '@tanstack/react-query': 5.81.5
-      '@thirdweb-dev/wagmi-adapter': 0.2.207(@wagmi/core@2.22.1(@tanstack/query-core@5.81.5)(typescript@7.0.2)(use-sync-external-store@1.4.0)(viem@2.56.5(bufferutil@4.1.0)(typescript@7.0.2)(utf-8-validate@5.0.10)(zod@3.25.76)))(thirdweb@5.119.0(@hey-api/openapi-ts@0.99.0(typescript@7.0.2))(@solana/sysvars@2.3.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@7.0.2))(@tanstack/query-core@5.81.5)(bufferutil@4.1.0)(debug@4.4.3)(fastestsmallesttextencoderdecoder@1.0.22)(react-dom@19.3.0)(typescript@7.0.2)(use-sync-external-store@1.4.0)(utf-8-validate@5.0.10)(ws@8.21.0(bufferutil@4.1.0)(utf-8-validate@5.0.10)))(typescript@7.0.2)
+      '@thirdweb-dev/wagmi-adapter': 0.2.213(@wagmi/core@2.22.1(@tanstack/query-core@5.81.5)(typescript@7.0.2)(use-sync-external-store@1.4.0)(viem@2.56.5(bufferutil@4.1.0)(typescript@7.0.2)(utf-8-validate@5.0.10)(zod@3.25.76)))(thirdweb@5.120.1(@hey-api/openapi-ts@0.99.0(typescript@7.0.2))(@solana/sysvars@2.3.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@7.0.2))(@tanstack/query-core@5.81.5)(bufferutil@4.1.0)(debug@4.4.3)(fastestsmallesttextencoderdecoder@1.0.22)(react-dom@19.3.0)(typescript@7.0.2)(use-sync-external-store@1.4.0)(utf-8-validate@5.0.10)(ws@8.21.0(bufferutil@4.1.0)(utf-8-validate@5.0.10)))(typescript@7.0.2)
       '@wagmi/core': 2.22.1(@tanstack/query-core@5.81.5)(typescript@7.0.2)(use-sync-external-store@1.4.0)(viem@2.56.5(bufferutil@4.1.0)(typescript@7.0.2)(utf-8-validate@5.0.10)(zod@3.25.76))
       react-dom: 19.3.0
-      swr: 2.4.1
-      thirdweb: 5.119.0(@hey-api/openapi-ts@0.99.0(typescript@7.0.2))(@solana/sysvars@2.3.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@7.0.2))(@tanstack/query-core@5.81.5)(bufferutil@4.1.0)(debug@4.4.3)(fastestsmallesttextencoderdecoder@1.0.22)(react-dom@19.3.0)(typescript@7.0.2)(use-sync-external-store@1.4.0)(utf-8-validate@5.0.10)(ws@8.21.0(bufferutil@4.1.0)(utf-8-validate@5.0.10))
+      swr: 2.5.1
+      thirdweb: 5.120.1(@hey-api/openapi-ts@0.99.0(typescript@7.0.2))(@solana/sysvars@2.3.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@7.0.2))(@tanstack/query-core@5.81.5)(bufferutil@4.1.0)(debug@4.4.3)(fastestsmallesttextencoderdecoder@1.0.22)(react-dom@19.3.0)(typescript@7.0.2)(use-sync-external-store@1.4.0)(utf-8-validate@5.0.10)(ws@8.21.0(bufferutil@4.1.0)(utf-8-validate@5.0.10))
       viem: 2.56.5(bufferutil@4.1.0)(typescript@7.0.2)(utf-8-validate@5.0.10)(zod@3.25.76)
       wagmi: 2.19.5(@tanstack/query-core@5.81.5)(@tanstack/react-query@5.81.5)(bufferutil@4.1.0)(debug@4.4.3)(fastestsmallesttextencoderdecoder@1.0.22)(typescript@7.0.2)(utf-8-validate@5.0.10)(viem@2.56.5(bufferutil@4.1.0)(typescript@7.0.2)(utf-8-validate@5.0.10)(zod@3.25.76))(zod@3.25.76)
     transitivePeerDependencies:
@@ -4678,7 +4659,7 @@ snapshots:
 
   '@emotion/weak-memoize@0.4.0': {}
 
-  '@ensofinance/sdk@2.5.0(debug@4.4.3)':
+  '@ensofinance/sdk@2.6.0(debug@4.4.3)':
     dependencies:
       axios: 1.20.0(debug@4.4.3)
     transitivePeerDependencies:
@@ -5236,7 +5217,7 @@ snapshots:
 
   '@paulmillr/qr@0.2.1': {}
 
-  '@pythnetwork/hermes-client@2.0.0(axios@1.20.0(debug@4.4.3))':
+  '@pythnetwork/hermes-client@2.1.0(axios@1.20.0(debug@4.4.3))':
     dependencies:
       '@zodios/core': 10.9.6(axios@1.20.0(debug@4.4.3))(zod@3.25.76)
       eventsource: 3.0.7
@@ -6518,10 +6499,10 @@ snapshots:
     optionalDependencies:
       typescript: 7.0.2
 
-  '@thirdweb-dev/wagmi-adapter@0.2.207(@wagmi/core@2.22.1(@tanstack/query-core@5.81.5)(typescript@7.0.2)(use-sync-external-store@1.4.0)(viem@2.56.5(bufferutil@4.1.0)(typescript@7.0.2)(utf-8-validate@5.0.10)(zod@3.25.76)))(thirdweb@5.119.0(@hey-api/openapi-ts@0.99.0(typescript@7.0.2))(@solana/sysvars@2.3.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@7.0.2))(@tanstack/query-core@5.81.5)(bufferutil@4.1.0)(debug@4.4.3)(fastestsmallesttextencoderdecoder@1.0.22)(react-dom@19.3.0)(typescript@7.0.2)(use-sync-external-store@1.4.0)(utf-8-validate@5.0.10)(ws@8.21.0(bufferutil@4.1.0)(utf-8-validate@5.0.10)))(typescript@7.0.2)':
+  '@thirdweb-dev/wagmi-adapter@0.2.213(@wagmi/core@2.22.1(@tanstack/query-core@5.81.5)(typescript@7.0.2)(use-sync-external-store@1.4.0)(viem@2.56.5(bufferutil@4.1.0)(typescript@7.0.2)(utf-8-validate@5.0.10)(zod@3.25.76)))(thirdweb@5.120.1(@hey-api/openapi-ts@0.99.0(typescript@7.0.2))(@solana/sysvars@2.3.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@7.0.2))(@tanstack/query-core@5.81.5)(bufferutil@4.1.0)(debug@4.4.3)(fastestsmallesttextencoderdecoder@1.0.22)(react-dom@19.3.0)(typescript@7.0.2)(use-sync-external-store@1.4.0)(utf-8-validate@5.0.10)(ws@8.21.0(bufferutil@4.1.0)(utf-8-validate@5.0.10)))(typescript@7.0.2)':
     dependencies:
       '@wagmi/core': 2.22.1(@tanstack/query-core@5.81.5)(typescript@7.0.2)(use-sync-external-store@1.4.0)(viem@2.56.5(bufferutil@4.1.0)(typescript@7.0.2)(utf-8-validate@5.0.10)(zod@3.25.76))
-      thirdweb: 5.119.0(@hey-api/openapi-ts@0.99.0(typescript@7.0.2))(@solana/sysvars@2.3.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@7.0.2))(@tanstack/query-core@5.81.5)(bufferutil@4.1.0)(debug@4.4.3)(fastestsmallesttextencoderdecoder@1.0.22)(react-dom@19.3.0)(typescript@7.0.2)(use-sync-external-store@1.4.0)(utf-8-validate@5.0.10)(ws@8.21.0(bufferutil@4.1.0)(utf-8-validate@5.0.10))
+      thirdweb: 5.120.1(@hey-api/openapi-ts@0.99.0(typescript@7.0.2))(@solana/sysvars@2.3.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@7.0.2))(@tanstack/query-core@5.81.5)(bufferutil@4.1.0)(debug@4.4.3)(fastestsmallesttextencoderdecoder@1.0.22)(react-dom@19.3.0)(typescript@7.0.2)(use-sync-external-store@1.4.0)(utf-8-validate@5.0.10)(ws@8.21.0(bufferutil@4.1.0)(utf-8-validate@5.0.10))
     optionalDependencies:
       typescript: 7.0.2
 
@@ -8853,17 +8834,12 @@ snapshots:
 
   supports-preserve-symlinks-flag@1.0.0: {}
 
-  swr@2.4.1:
-    dependencies:
-      dequal: 2.0.3
-      use-sync-external-store: 1.7.0
-
   swr@2.5.1:
     dependencies:
       dequal: 2.0.3
       use-sync-external-store: 1.7.0
 
-  thirdweb@5.119.0(@hey-api/openapi-ts@0.99.0(typescript@7.0.2))(@solana/sysvars@2.3.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@7.0.2))(@tanstack/query-core@5.81.5)(bufferutil@4.1.0)(debug@4.4.3)(fastestsmallesttextencoderdecoder@1.0.22)(react-dom@19.3.0)(typescript@7.0.2)(use-sync-external-store@1.4.0)(utf-8-validate@5.0.10)(ws@8.21.0(bufferutil@4.1.0)(utf-8-validate@5.0.10)):
+  thirdweb@5.120.1(@hey-api/openapi-ts@0.99.0(typescript@7.0.2))(@solana/sysvars@2.3.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@7.0.2))(@tanstack/query-core@5.81.5)(bufferutil@4.1.0)(debug@4.4.3)(fastestsmallesttextencoderdecoder@1.0.22)(react-dom@19.3.0)(typescript@7.0.2)(use-sync-external-store@1.4.0)(utf-8-validate@5.0.10)(ws@8.21.0(bufferutil@4.1.0)(utf-8-validate@5.0.10)):
     dependencies:
       '@base-org/account': 2.5.0(bufferutil@4.1.0)(debug@4.4.3)(fastestsmallesttextencoderdecoder@1.0.22)(typescript@7.0.2)(use-sync-external-store@1.4.0)(utf-8-validate@5.0.10)(zod@3.25.75)
       '@coinbase/wallet-sdk': 4.3.0

@@ -1,5 +1,6 @@
 <svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+<title>3-token lower-right background</title>
 <g>
-<path d="M64 64H32V31.9736L63.6514 13.7002H64V64Z" fill="#FF5600"/>
+<path d="M64 64H32V31.9736L63.6514 13.7002H64V64Z" fill="#FFFFFF"/>
 </g>
 </svg>

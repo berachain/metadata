@@ -567,7 +567,8 @@
       "name": "BeraFarm",
       "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/protocols/berafarm.png/public",
       "url": "https://berafarm.com",
-      "description": "BeraFarm offers the Stable Yield Farm for BUSD deposits."
+      "description": "BeraFarm offers the Stable Yield Farm for BUSD deposits.",
+      "tags": ["platform"]
     }
   ],
   "vaults": [

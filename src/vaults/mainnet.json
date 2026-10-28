@@ -562,6 +562,12 @@
       "url": "https://www.apiary.fi",
       "description": "Treasury-backed protocol designed to perpetually accumulate $BGT",
       "tags": [""]
+    },
+    {
+      "name": "BeraFarm",
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/protocols/berafarm.png/public",
+      "url": "https://berafarm.com",
+      "description": "BeraFarm offers the Stable Yield Farm for BUSD deposits."
     }
   ],
   "vaults": [
@@ -3413,6 +3419,18 @@
       "description": "Acquired by depositing liquidity into the BERA / BUSD V3 Pool on BrownFi",
       "owner": "BrownFi",
       "action": "Stake BERA / BUSD"
+    },
+    {
+      "stakingTokenAddress": "0xE2e29B2bAED64edd904B12cDDc16Ad1C5bae60B3",
+      "vaultAddress": "0xb013df20a14a0fd1ee5f557dc19f22e6bd0f254c",
+      "name": "BeraFarm - Stable Yield BUSD",
+      "protocol": "BeraFarm",
+      "categories": ["defi/yield"],
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/vaults/0xb013df20a14a0fd1ee5f557dc19f22e6bd0f254c.png/public",
+      "url": "https://berafarm.com",
+      "description": "Acquired by depositing BUSD into the Stable Yield Farm on BeraFarm",
+      "owner": "BeraFarm",
+      "action": "Stake BF-sBUSD"
     }
   ]
 }

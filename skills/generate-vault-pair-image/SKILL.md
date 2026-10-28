@@ -1,62 +1,48 @@
 ---
 name: generate-vault-pair-image
-description: Generate repo-ready split-token vault, pool, or LP images from two underlying token logos. Use when a user needs a 1024x1024 paired-token vault image, half-and-half token icon, LP pair logo, Berachain metadata vault asset, Cloudflare-ready token pair image, or asks to recreate a blurry forum vault image from cleaner underlying token assets.
+description: Generate deterministic Berachain vault, pool, or LP icons from one to four token logos using the Bera Design System layouts. Use for repo-ready 1024x1024 vault assets or rebuilding blurry request icons from clean token images.
 ---
 
-# Generate Vault Pair Image
+# Generate Vault / LP Icons
 
-## Workflow
+Use the bundled Sharp script, not generative image AI. Run it from a repository with `sharp` installed. Preserve original token artwork and use official or existing repository assets instead of upscaling blurry request images.
 
-1. Identify the two underlying token images.
-   - Prefer official brand-kit assets or existing repository token assets.
-   - If the source is SVG or transparent PNG, render/flatten it onto a solid background.
-   - Do not upscale a blurry forum image when cleaner token assets exist.
-2. Decide output path and naming.
-   - For Berachain metadata vaults, use `src/assets/vaults/<vault-address>.png` with the address lowercased.
-   - Do not name vault images after the staking token/pool address.
-3. Generate a 1024x1024 image.
-   - Left token fills the left half.
-   - Right token fills the right half.
-   - Apply an outer circle border and center divider.
-   - Flatten onto a solid background so PNG transparency checks pass.
-4. Validate:
-   - Dimensions must be `1024x1024`.
-   - PNG must have no transparent pixels.
-   - File should be under 5 MB.
+## Layout and inputs
 
-## Script
+The bundled SVG masks define 64px layouts and are scaled to 1024px. Each logo fills the entire canvas before masking; do not shrink whole logos into individual segments. No outer ring or divider is added.
 
-Use `scripts/generate_pair_image.mjs` for deterministic generation. It uses this repo's `sharp` dependency, so run it from the repository root.
+| Count | Input order |
+| --- | --- |
+| 1 | Full icon |
+| 2 | Upper-left/base, lower-right/side (diagonal split) |
+| 3 | Lower-right, top, lower-left |
+| 4 | Bottom-right, top-right, top-left, bottom-left |
 
-Example:
+Choose and document token ordering from the request; do not silently sort addresses. The table defines the three- and four-token input order.
+
+The design uses circular clipping. Repository outputs deliberately use opaque square backgrounds extending each segment to the canvas edges; the consuming UI can crop them to a circle. The bundled circular logo masks and square background shapes preserve the design inside that circle.
+
+Supply a brand background for each token, especially for transparent or circular source images. Use official colors or verified source backgrounds; do not apply the reference BERA/BGT colors to unrelated tokens. If colors are unavailable, the explicit fallback is white. `--fit cover` matches Figma; `contain` avoids cropping non-square source artwork when needed.
+
+## Generate
 
 ```bash
 node skills/generate-vault-pair-image/scripts/generate_pair_image.mjs \
-  --left src/assets/tokens/0xbca138ded469f5063589bfdfdd4bc68eb1c3f252.png \
-  --right src/assets/tokens/0xfcbd14dc51f0a4d49d5e53c2e0950e0bc26d0dce.png \
-  --out src/assets/vaults/0x181f3b1d55299f3744188f7ecd082c75a97d2d4f.png \
-  --border '#ffffff' \
-  --background '#ffffff'
+  --token src/assets/tokens/0xbca138ded469f5063589bfdfdd4bc68eb1c3f252.png \
+  --token src/assets/tokens/0xfcbd14dc51f0a4d49d5e53c2e0950e0bc26d0dce.png \
+  --out src/assets/vaults/0x181f3b1d55299f3744188f7ecd082c75a97d2d4f.png
 ```
 
-Common options:
+- Repeat `--token` one to four times; PNG, SVG, JPG and WebP inputs are supported by Sharp.
+- Optionally repeat `--token-background '#RRGGBB'` once per token, in the same order.
+- `--background '#ffffff'` supplies the fallback color; `--fit cover|contain` defaults to `cover`.
+- Legacy `--left` and `--right` are accepted together instead of `--token`; they now produce the diagonal design.
+- Old border/divider/size flags are rejected. Output is always 1024x1024 opaque PNG.
 
-- `--left`: left token image, including SVG/PNG/JPG/WebP supported by `sharp`
-- `--right`: right token image
-- `--out`: output PNG path
-- `--border`: outer circle and center divider color, default `#ffffff`
-- `--background`: flattened background color, default `#ffffff`
-- `--border-width`: outer border width, default `52`
-- `--divider-width`: center divider width, default `46`
-- `--fit`: token resize mode, default `cover`; use `contain` for logos that should not crop
+## Verify and deliver
 
-## Berachain Metadata Notes
+Inspect the output both square and circularly cropped at small UI sizes. Verify token order, logo alignment, colors, and absence of seams. Check dimensions, no transparent pixels, and size under 5 MB.
 
-For metadata PRs:
+For metadata assets, use `src/assets/vaults/<lowercase-vault-address>.png`, not the pool/staking-token address. Set `logoURI` to `https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/vaults/<lowercase-vault-address>.png/public` before upload. Run focused Biome checks on changed JSON, `pnpm validate:json .`, and `pnpm validate:images .`; report network failures separately. New/changed production assets need `cloudflare-uploads` approval in CI.
 
-- Set `logoURI` to the expected Cloudflare Images URL before CI uploads it.
-- Use `https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/vaults/<vault-address>.png/public` with the address lowercased.
-- Commit the generated image under `src/assets/vaults/`.
-- `pnpm validate:images .` should pass after the JSON entry references the image.
-
-If the pair image is based on a forum/request asset, verify the request name and addresses from the forum, but generate the image from official token assets when the attached image is low quality.
+Generate previews outside `src/assets` so tests do not become production metadata. When a forum request supplies the pair, verify its token and vault addresses separately.

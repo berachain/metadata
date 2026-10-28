@@ -2,111 +2,137 @@
 import fs from "node:fs";
 import { createRequire } from "node:module";
 import path from "node:path";
+import { fileURLToPath } from "node:url";
 
-const requireFromCwd = createRequire(path.join(process.cwd(), "package.json"));
-const sharp = requireFromCwd("sharp");
+const sharp = createRequire(path.join(process.cwd(), "package.json"))("sharp");
+const assets = fileURLToPath(new URL("../assets/", import.meta.url));
+const tokens = [];
+const colors = [];
+const options = new Map();
+const allowed = new Set([
+  "token",
+  "token-background",
+  "out",
+  "background",
+  "fit",
+  "left",
+  "right",
+]);
 
-const args = new Map();
-for (let i = 2; i < process.argv.length; i += 1) {
-  const arg = process.argv[i];
-  if (!arg.startsWith("--")) continue;
-  const key = arg.slice(2);
-  const next = process.argv[i + 1];
-  if (!next || next.startsWith("--")) {
-    args.set(key, "true");
-  } else {
-    args.set(key, next);
-    i += 1;
+async function main() {
+  for (let i = 2; i < process.argv.length; i += 2) {
+    const key = process.argv[i].replace(/^--/, "");
+    const value = process.argv[i + 1];
+    if (!allowed.has(key) || !value || value.startsWith("--")) {
+      throw new Error(`Invalid option or missing value: ${process.argv[i]}`);
+    }
+    if (key === "token") tokens.push(value);
+    else if (key === "token-background") colors.push(value);
+    else options.set(key, value);
   }
-}
-
-const required = ["left", "right", "out"];
-for (const key of required) {
-  if (!args.get(key)) {
-    console.error(`Missing --${key}`);
-    process.exit(1);
+  if (options.has("left") || options.has("right")) {
+    if (tokens.length || !options.has("left") || !options.has("right")) {
+      throw new Error("Use --token inputs OR both --left and --right.");
+    }
+    tokens.push(options.get("left"), options.get("right"));
   }
-}
-
-const size = Number(args.get("size") ?? 1024);
-const border = args.get("border") ?? "#ffffff";
-const background = args.get("background") ?? "#ffffff";
-const borderWidth = Number(args.get("border-width") ?? 52);
-const dividerWidth = Number(args.get("divider-width") ?? 46);
-const fit = args.get("fit") ?? "cover";
-
-const leftPath = args.get("left");
-const rightPath = args.get("right");
-const outPath = args.get("out");
-
-for (const input of [leftPath, rightPath]) {
-  if (!fs.existsSync(input)) {
-    console.error(`Input not found: ${input}`);
-    process.exit(1);
+  if (tokens.length < 1 || tokens.length > 4 || !options.has("out")) {
+    throw new Error("Supply 1–4 --token inputs and --out output.png.");
   }
-}
-
-if (!["cover", "contain", "fill", "inside", "outside"].includes(fit)) {
-  console.error(`Invalid --fit value: ${fit}`);
-  process.exit(1);
-}
-
-const renderToken = async (input) =>
-  sharp(input, { density: 2048 })
-    .resize(size, size, { fit, background })
-    .flatten({ background })
-    .png()
-    .toBuffer();
-
-const halfMask = (side) => {
-  const x = side === "left" ? 0 : size / 2;
-  return Buffer.from(
-    `<svg width="${size}" height="${size}" viewBox="0 0 ${size} ${size}"><rect x="${x}" y="0" width="${size / 2}" height="${size}" fill="white"/></svg>`,
-  );
-};
-
-const borderSvg = Buffer.from(`
-<svg width="${size}" height="${size}" viewBox="0 0 ${size} ${size}" xmlns="http://www.w3.org/2000/svg">
-  <circle cx="${size / 2}" cy="${size / 2}" r="${size / 2 - borderWidth / 2}" fill="none" stroke="${border}" stroke-width="${borderWidth}"/>
-  <line x1="${size / 2}" y1="${borderWidth / 2}" x2="${size / 2}" y2="${size - borderWidth / 2}" stroke="${border}" stroke-width="${dividerWidth}" stroke-linecap="round"/>
-</svg>`);
-
-const main = async () => {
-  const left = await sharp(await renderToken(leftPath))
-    .composite([{ input: halfMask("left"), blend: "dest-in" }])
-    .png()
-    .toBuffer();
-  const right = await sharp(await renderToken(rightPath))
-    .composite([{ input: halfMask("right"), blend: "dest-in" }])
-    .png()
-    .toBuffer();
-
-  fs.mkdirSync(path.dirname(outPath), { recursive: true });
-
+  if (colors.length && colors.length !== tokens.length) {
+    throw new Error("Supply one --token-background per token, or omit all.");
+  }
+  const fallback = options.get("background") ?? "#ffffff";
+  for (const color of [fallback, ...colors]) {
+    if (!/^#[0-9a-f]{6}$/i.test(color))
+      throw new Error("Colors must be opaque #RRGGBB values.");
+  }
+  const fit = options.get("fit") ?? "cover";
+  if (!["cover", "contain"].includes(fit))
+    throw new Error("--fit must be cover or contain.");
+  const out = options.get("out");
+  if (path.extname(out).toLowerCase() !== ".png")
+    throw new Error("Output must be a PNG.");
+  if (tokens.some((input) => path.resolve(input) === path.resolve(out))) {
+    throw new Error("Output must not overwrite an input.");
+  }
+  const size = 1024;
+  const n = tokens.length;
+  // Figma's 64px masks retain their intrinsic dimensions and placement.
+  const placements = {
+    2: [
+      [0, 0],
+      [16, 4.2872],
+    ],
+    3: [
+      [32, 16],
+      [4.2872, 0],
+      [0, 16],
+    ],
+    4: [
+      [32, 32],
+      [32, 0],
+      [0, 0],
+      [0, 32],
+    ],
+  };
+  const backgroundFiles = {
+    2: ["2-bg-b.svg", "2-bg-a.svg"],
+    3: ["3-bg-c.svg", "3-bg-b.svg", "3-bg-a.svg"],
+  };
+  const raster = (svg) =>
+    sharp(Buffer.from(svg), { density: 1152 })
+      .resize(size, size)
+      .png()
+      .toBuffer();
+  const backgrounds = [];
+  const logos = [];
+  for (let i = 0; i < n; i++) {
+    const color = colors[i] ?? fallback;
+    let bg;
+    if (n === 2 || n === 3) {
+      bg = fs
+        .readFileSync(path.join(assets, backgroundFiles[n][i]), "utf8")
+        .replace(/#[0-9a-f]{6}/gi, color);
+    } else {
+      const [x, y] = n === 1 ? [0, 0] : placements[n][i];
+      bg = `<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64"><rect x="${x}" y="${y}" width="${n === 1 ? 64 : 32}" height="${n === 1 ? 64 : 32}" fill="${color}"/></svg>`;
+    }
+    backgrounds.push({ input: await raster(bg) });
+    let logo = await sharp(tokens[i])
+      .resize(size, size, { fit, background: color })
+      .flatten({ background: color })
+      .png()
+      .toBuffer();
+    if (n > 1) {
+      const [x, y] = placements[n][i];
+      const source = fs.readFileSync(
+        path.join(assets, `${n}-${i + 1}.svg`),
+        "utf8",
+      );
+      const nested = source.replace("<svg ", `<svg x="${x}" y="${y}" `);
+      const mask = await raster(
+        `<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">${nested}</svg>`,
+      );
+      logo = await sharp(logo)
+        .composite([{ input: mask, blend: "dest-in" }])
+        .png()
+        .toBuffer();
+    }
+    logos.push({ input: logo });
+  }
+  fs.mkdirSync(path.dirname(out), { recursive: true });
   await sharp({
-    create: {
-      width: size,
-      height: size,
-      channels: 4,
-      background,
-    },
+    create: { width: size, height: size, channels: 3, background: fallback },
   })
-    .composite([
-      { input: left, left: 0, top: 0 },
-      { input: right, left: 0, top: 0 },
-      { input: borderSvg, left: 0, top: 0 },
-    ])
-    .flatten({ background })
+    .composite([...backgrounds, ...logos])
+    .flatten({ background: fallback })
+    .removeAlpha()
     .png()
-    .toFile(outPath);
-
-  const meta = await sharp(outPath).metadata();
-  const stat = fs.statSync(outPath);
-  console.log(`${outPath}`);
-  console.log(`${meta.width}x${meta.height}, ${stat.size} bytes`);
-};
-
-main().catch((err) => {
-  console.error(err);
-  process.exit(1);
+    .toFile(out);
+  console.log(`${out}: 1024x1024, ${fs.statSync(out).size} bytes`);
+}
+main().catch((error) => {
+  console.error(error.message);
+  process.exitCode = 1;
 });

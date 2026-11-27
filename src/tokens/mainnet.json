@@ -1436,6 +1436,14 @@
       "extensions": {
         "coingeckoId": "stargate-finance"
       }
+    },
+    {
+      "chainId": 80094,
+      "address": "0xB8CD0b8E056A91c00FD388EdDb37E6E445844B21",
+      "symbol": "COMPUTE.r",
+      "name": "Compute Royalty",
+      "decimals": 18,
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/tokens/0xb8cd0b8e056a91c00fd388eddb37e6e445844b21.png/public"
     }
   ]
 }

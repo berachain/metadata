@@ -1443,7 +1443,10 @@
       "symbol": "COMPUTE.r",
       "name": "Compute Royalty",
       "decimals": 18,
-      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/tokens/0xb8cd0b8e056a91c00fd388eddb37e6e445844b21.png/public"
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/tokens/0xb8cd0b8e056a91c00fd388eddb37e6e445844b21.png/public",
+      "extensions": {
+        "coingeckoId": "compute-r"
+      }
     }
   ]
 }

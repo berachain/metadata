@@ -3432,6 +3432,28 @@
       "description": "Acquired by depositing BUSD into the Stable Yield Farm on BeraFarm",
       "owner": "BeraFarm",
       "action": "Stake BF-sBUSD"
+    },
+    {
+      "stakingTokenAddress": "0x40E8Fa74792274d9d9A328D41324E9d5199C0A16",
+      "vaultAddress": "0xdcc265bb622d947daf3ff1dfad9b0a4204c103d7",
+      "name": "Kodiak Island USDe-COMPUTE.r-0.3%",
+      "protocol": "Kodiak",
+      "categories": ["defi/amm"],
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/vaults/0xdcc265bb622d947daf3ff1dfad9b0a4204c103d7.png/public",
+      "url": "https://app.kodiak.finance/#/liquidity/pools/0x40E8Fa74792274d9d9A328D41324E9d5199C0A16?farm=0xdcc265bb622d947daf3ff1dfad9b0a4204c103d7&chain=berachain_mainnet",
+      "description": "Acquired by depositing liquidity into the USDe-COMPUTE.r Pool on Kodiak",
+      "action": "Stake USDe-COMPUTE.r"
+    },
+    {
+      "stakingTokenAddress": "0xBDCad43f45638ab0FD99Dd2a70c4EEe33f82bc55",
+      "vaultAddress": "0x9d0b2fa72cd284e302a8c64aa0094f7d0e2bbb59",
+      "name": "LiquidRoyalty - ALAR Vault Master",
+      "protocol": "LiquidRoyalty",
+      "categories": ["defi/yield"],
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/vaults/0x9d0b2fa72cd284e302a8c64aa0094f7d0e2bbb59.png/public",
+      "url": "https://liquidroyalty.com",
+      "description": "Stake USDe in ALAR",
+      "action": "Stake USDe in ALAR"
     }
   ]
 }

@@ -294,10 +294,7 @@
       "name": "stBGT",
       "decimals": 18,
       "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/tokens/0x2cec7f1ac87f5345ced3d6c74bbb61bfae231ffb.png/public",
-      "tags": [],
-      "extensions": {
-        "coingeckoId": "stbgt"
-      }
+      "tags": []
     },
     {
       "chainId": 80094,
@@ -733,10 +730,7 @@
       "symbol": "NAV",
       "decimals": 18,
       "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/tokens/0x6536cead649249cae42fc9bfb1f999429b3ec755.png/public",
-      "tags": [],
-      "extensions": {
-        "coingeckoId": "nav"
-      }
+      "tags": []
     },
     {
       "chainId": 80094,
@@ -757,10 +751,7 @@
       "symbol": "BERAMO",
       "decimals": 18,
       "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/tokens/0x1f7210257fa157227d09449229a9266b0d581337.png/public",
-      "tags": [],
-      "extensions": {
-        "coingeckoId": "beramoniumcoin"
-      }
+      "tags": []
     },
     {
       "chainId": 80094,
@@ -1082,10 +1073,7 @@
       "name": "aSugar",
       "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/tokens/0x804cf700de1e18f2411bd05aad5fa10d60e1900f.png/public",
       "decimals": 18,
-      "tags": [],
-      "extensions": {
-        "coingeckoId": "asugar"
-      }
+      "tags": []
     },
     {
       "chainId": 80094,
@@ -1169,10 +1157,7 @@
       "name": "brBTC",
       "decimals": 8,
       "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/tokens/0x93919784c523f39cacaa98ee0a9d96c3f32b593e.jpg/public",
-      "tags": [],
-      "extensions": {
-        "coingeckoId": "bedrock-btc"
-      }
+      "tags": []
     },
     {
       "chainId": 80094,
@@ -1247,10 +1232,7 @@
       "name": "Bread",
       "decimals": 18,
       "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/tokens/0x0003eedfdd020bf60d10cf684abac7c4534b7ead.png/public",
-      "tags": [],
-      "extensions": {
-        "coingeckoId": "bread-2"
-      }
+      "tags": []
     },
     {
       "chainId": 80094,
@@ -1435,6 +1417,17 @@
       "decimals": 18,
       "extensions": {
         "coingeckoId": "stargate-finance"
+      }
+    },
+    {
+      "chainId": 80094,
+      "address": "0xB8CD0b8E056A91c00FD388EdDb37E6E445844B21",
+      "symbol": "COMPUTE.r",
+      "name": "Compute Royalty",
+      "decimals": 18,
+      "logoURI": "https://imagedelivery.net/qNj7Q3MCke89zoKzav7eDQ/tokens/0xb8cd0b8e056a91c00fd388eddb37e6e445844b21.png/public",
+      "extensions": {
+        "coingeckoId": "compute-r"
       }
     }
   ]
